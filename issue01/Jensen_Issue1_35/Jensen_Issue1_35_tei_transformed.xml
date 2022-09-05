@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16,11 +19,11 @@
    <text>
       <body>
          <pb n="1"/>
-         <p>Songs from a Free Space*
-			</p>
-         <p>Ten Ways of Looking at Prison Lunch
-				Gloria Jensen
-				(With apologies to Wallace Stevens)
+         <head>Songs from a Free Space*
+			<lb/>
+         Ten Ways of Looking at Prison Lunch
+				<persName>Gloria Jensen</persName></head>
+				<p>(With apologies to Wallace Stevens)
 			</p>
          <p>1. With both hands over your eyes, releasing
 				one hand slowly to peep.
@@ -31,7 +34,7 @@
 				there and sleep.
 				4. From across the steam line, where people
 				marvel at your petite body (if only they knew
-				it's not by <hi rend="italic:true; fontSize:0.0; kerning:0;">choice</hi> you prefer to remain frail and
+				it's not by <emph>choice</emph> you prefer to remain frail and
 				cautious).
 				5. From a prison visitor's point of view — when
 				suddenly, miraculously, all one sees is steak,

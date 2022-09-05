@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16,10 +19,11 @@
    <text>
       <body>
          <pb n="1"/>
-         <p>"Female Experience in Art":
-				The Impact of Women's Art in a Work Environment
-				Ruth E. Iskin
-				In early summer of 1975 I was asked by the
+        <head><title>"Female Experience in Art":
+				The Impact of Women's Art in a Work Environment</title>
+        	<lb/>
+				<persName>Ruth E. Iskin</persName></head>
+				<p>In early summer of 1975 I was asked by the
 				tarial positions; only a few rank among the eng¬
 				Women's Committee and the Office of Equal
 				neers, scientists, or chief administrators. The
