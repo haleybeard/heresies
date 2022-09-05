@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,14 +11,17 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
       <body>
+		<div type="article">
          <pb n="1"/>
-         <p>Juggling Contradictions:
-				Feminism, the Individual and What's Left
-				Joan Braderman
-			</p>
+         <head><title>Juggling Contradictions:
+				Feminism, the Individual and What's Left</title>
+				<lb/>
+				<persName>Joan Braderman</persName>
+</head>				
+			
          <p>In this essay, I would like to suggest where
 				feminism can lead us and what myths must
 				finally be left behind to get there. The nature of
@@ -28,8 +30,7 @@
 				write our humanist heritage, account for the
 				weakest elements of feminist ideology. The
 				recognition that feminism is an ideology, like
-				Marx's recognition that humanism is an ideolo-
-				gy (i.e., not a discourse whose "truth" was in-
+				Marx's recognition that humanism is an ideology (i.e., not a discourse whose "truth" was in-
 				separable from the world it described) is a nec-
 				essary step in re-examining what feminism is
 				and what it can do.
@@ -620,6 +621,7 @@
 				to sing.
 			</p>
          <p/>
+		 </div>
       </body>
    </text>
 </TEI>

@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16,10 +19,10 @@
    <text>
       <body>
          <pb n="1"/>
-         <p>Wages For Housework: The Strategy for Women's Liberation
-			</p>
-         <p>Pat Sweeney
-			</p>
+         <head><title>Wages For Housework: The Strategy for Women's Liberation
+			</title>
+         <persName>Pat Sweeney
+			</persName></head>
          <p>Many "feminist" writers have contributed to
 				the ideology of housework. Radical-feminists,
 				while recognizing the identification of house¬

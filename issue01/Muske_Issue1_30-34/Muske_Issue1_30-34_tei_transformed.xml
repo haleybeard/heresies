@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16,12 +19,12 @@
    <text>
       <body>
          <pb n="1"/>
-         <p>The Art of Not Bowing: Writing by Women in Prison
-				Carol Muske
+         <head><title>The Art of Not Bowing: Writing by Women in Prison</title>
+				<persName>Carol Muske</persName>
 				Who the hell am l anyway
 				Not to bow?
 				(Assata Shakur/Joanne Chesimard)
-			</p>
+			</head>
          <p>In July 1973 I wrote an article for The Village
 				Voice about a hunger strike then taking place at
 				the Women's House of Detention (New York
