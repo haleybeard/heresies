@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16,11 +19,11 @@
    <text>
       <body>
          <pb n="1"/>
-         <p>Songs from a Free Space“
-			</p>
-         <p>Astrology Hype
-				Corole Ramer
-			</p>
+         <head><title>Songs from a Free Space“</title>
+
+Astrology Hype
+				<persName>Corole Ramer</persName>
+			</head>
          <p>While in prison six months
 				my horoscope predicted:
 				"Travel to exciting places.
