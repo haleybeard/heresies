@@ -12,13 +12,90 @@
 			</sourceDesc>
 		</fileDesc>
 		
-	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/Ehrenreich/ehrenreich.xml?note_annotation_20220907103356924",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-07T14:33:56.924Z",
+	"dcterms:modified": "2022-09-07T14:33:56.924Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/Ehrenreich/ehrenreich.xml?note_annotation_20220907103356924#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/Ehrenreich/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/Ehrenreich/ehrenreich.xml?note_annotation_20220907103356924#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/head/title/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Versions of this article have been presented at the Socialist Feminist Conference, Yellow Springs, Ohio, July 1975; at Women's Week, Brown University, April, 1976; and in WIN (June 3, 1976) as \"What is Socialist Feminism?“"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="6"/>
 			<head>
-				<title> Toward Socialist Feminism* </title>
-				<lb/>
+				<title> Toward Socialist Feminism <note type="scholarNote">Versions of this article have been presented at the Socialist Feminist Conference, Yellow Springs, Ohio, July 1975; at Women's Week, Brown University, April, 1976; and in WIN (June 3, 1976) as "What is Socialist Feminism?“</note></title><lb/>
 				<persName>Barbara Ehrenreich</persName>
 			</head>
 			<p> At some level, perhaps not too well articulated, socialist feminism has been around for a long time. You are a woman in a capitalist society. You get pissed off: about the job, about
@@ -145,8 +222,7 @@
 				The cap- sule summaries I gave earlier retain their "ultimate" truth: there are crucial aspects of capital- ist domination (such as racial oppression) which a purely feminist
 				perspective simply cannot account for or deal with—without bizarre distor- tions, that is. There are crucial aspects of sex oppression (such as male violence within the family) into
 				which socialist thought has little insight—again without a lot of stretching and distortion. Hence the need to continue to be socialists and feminists. But there is enough of a
-				synthesis, both in what we think and what we do, for us to begin to develop a self-confident identity as socialist feminists. </p><p>*Versions of this article have been presented at the
-				Socialist Feminist Conference, Yellow Springs, Ohio, July 1975; at Women's Week, Brown University, April, 1976; and in WIN (June 3, 1976) as "What is Socialist Feminism?“ </p><p>Barbara
+				synthesis, both in what we think and what we do, for us to begin to develop a self-confident identity as socialist feminists. </p><p>Barbara
 				Ehrenreich is the co-author, with Deirdre English, of Witches, Midwives and Nurses: A History of Women Healers, and Complaints and Disorders: The Sexual Politics of Sickness (Feminist
 				Press, New York). She is a member of HealthRight (a New York women's health collective), Action for Women in Chile, and New American Movement. </p>
 		</body>
