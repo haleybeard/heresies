@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -12,19 +11,554 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				xmlns:fabio="https://purl.org/spar/fabio#"
-				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-				xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-	</teiHeader>
+		
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908165939181",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:59:39.181Z",
+	"dcterms:modified": "2022-09-08T20:59:39.181Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908165939181#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908165939181#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[8]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Mitchell, Juliet, \"Women and Equality,\" in Partisan Review (Summer, 1975)"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170027670",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:00:27.670Z",
+	"dcterms:modified": "2022-09-08T21:00:27.670Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170027670#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170027670#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[14]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Rowbotham, Sheila, Women, Resistance and Revolution, Vintage Books (New York, 1974)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170059570",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:00:59.570Z",
+	"dcterms:modified": "2022-09-08T21:00:59.570Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170059570#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170059570#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[14]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "lbid., p. 51"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170143599",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:01:43.599Z",
+	"dcterms:modified": "2022-09-08T21:01:43.599Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170143599#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170143599#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Schneir, Miriam, ed., Feminism: The Essential Historical Writings, Vintage Books (New York, 1972), p. xviii."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170214603",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:02:14.603Z",
+	"dcterms:modified": "2022-09-08T21:02:14.603Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170214603#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170214603#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Ibid., p. XV."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170253476",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:02:53.476Z",
+	"dcterms:modified": "2022-09-08T21:02:53.476Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170253476#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170253476#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[28]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Guettel, Charnie, Marxism and Feminism, Women's Educational Press (Ontario, Canada, 1974), p. 2"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170337016",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T21:03:37.016Z",
+	"dcterms:modified": "2022-09-08T21:03:37.016Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170337016#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Braderman_Issue1_88-93/Braderman_Issue1_88-93_tei_transformed.xml?note_annotation_20220908170337016#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[29]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "In Film Culture Reader, ed., P. Adams Sitney, Praeger (New York, 1970)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="article">
@@ -98,7 +632,7 @@
 				<p> Our psycho-sexual behavior, like our eco- nomic roles, is wholly determined by
 					an in- herited system of power relations, not only in the public sector, but at
 					deeper levels, in the formation—within the family—of the psyche itself. Hence,
-					as Juliet Mitchell so carefully <pb n="2"/> describes, (1) it is the concept of
+					as Juliet Mitchell so carefully <pb n="2"/> describes, <note type="researchNote">Mitchell, Juliet, "Women and Equality," in Partisan Review (Summer, 1975)</note> it is the concept of
 					equality which is invalid within our system. The abstract ideal of equality, she
 					demonstrates, provides the philosophical basis for our laws. Our legal sys- tem,
 					at its best, functions as if each of its in- dividual constituents were equal.
@@ -160,10 +694,10 @@
 				<p> It is the belief in the illusion that such social contracts can be fulfilled
 					that has hung femi- nists on the horns of contradiction. Feminism was born in
 					the 17th century along with the concept of equality of individuals. It was as
-					Sheila Rowbotham has documented, (2) heated in the cauldron of bourgeois revolution
+					Sheila Rowbotham has documented, <note type="researchNote">Rowbotham, Sheila, Women, Resistance and Revolution, Vintage Books (New York, 1974).</note> heated in the cauldron of bourgeois revolution
 					and sim- mered in the idealism of 19th-century Utopian- ism à la Fourier who
 					claimed that "the change in historical epoch can always be determined by the
-					progress of women toward freedom." (3) </p>
+					progress of women toward freedom." <note type="researchNote">lbid., p. 51</note></p>
 				<p>Bourgeois feminism has begun, then, in its history of leaps and starts to
 					identify and attack its sexist enemy, and taken a few long strides away from
 					female feudalism for the benefit of some bourgeois women. But the heart of the
@@ -171,9 +705,9 @@
 					high in locating it. "At the ballot box is not where the shoe pinches .It is at
 					home where the hus- band is the supreme ruler that the little difficul- ty
 					arises; he will not surrender this absolute power unless he is compelled," wrote
-					Claflin in 1871. (4) Duncan, in her 1927 autobiography said, "Any intelligent woman
+					Claflin in 1871. <note type="researchNote">Schneir, Miriam, ed., Feminism: The Essential Historical Writings, Vintage Books (New York, 1972), p. xviii.</note> Duncan, in her 1927 autobiography said, "Any intelligent woman
 					who reads the marriage contract and then goes into it, deserves all the
-					consequences." (5) Here is the confounding point. Monogamy asserts a situation in
+					consequences." <note type="researchNote">Ibid., p. XV.</note> Here is the confounding point. Monogamy asserts a situation in
 					which one individual "owns" another. It is not ownership <pb n="3"/> per se that
 					is in question now, but again, the mystification of what the individual is and
 					can control. In participating in the compromised "equality" of marriage, each
@@ -320,7 +854,7 @@
 					culture. The feminist filmmaker for example, has had to confront this issue head
 					on. Film, more than any other artform, requires the mas- tery of machine
 					technology. For women, that technology and the authority it connotes has been
-					historically taboo. There are exceptions in the history of film (7) but the
+					historically taboo. There are exceptions in the history of film <note type="researchNote">Guettel, Charnie, Marxism and Feminism, Women's Educational Press (Ontario, Canada, 1974), p. 2</note> but the
 					percentage of wom- en filmmakers is dramatically low for a 20th- century art.
 					Feminists with the energy and support of their sisters in the movement have
 					begun to break that taboo. But in doing so, they have been thrown against a
@@ -329,7 +863,7 @@
 					controlled by the ruling classes, middle-class liberals included.</p>
 				<p> Advocates of independent filmmaking from Maya Deren in the 1940s (implicitly) to
 					Annette Michelson in the 1960s (explicitly in her article "Film and the Radical
-					Aspiration") (8) have proposed that a stance outside of the commercial market is
+					Aspiration") <note type="researchNote">In Film Culture Reader, ed., P. Adams Sitney, Praeger (New York, 1970).</note> have proposed that a stance outside of the commercial market is
 					itself a "political" gesture. It is—to the <pb n="5"/> extent that money can be
 					garnered from liberals to make "art" as long as it is not fundamentally
 					dangerous. But can any political art which attempts to attack the assumptions of
@@ -378,20 +912,12 @@
 					myths and false hopes of liberal idealism is to contribute to the systematic
 					liquidation of its potential power.</p>
 
-				<ab>1. Mitchell, Juliet, "Women and Equality," in Partisan Review (Summer, 1975) 2.
-					Rowbotham, Sheila, Women, Resistance and Revolu- tion, Vintage Books (New York,
-					1974). 3. lbid., p. 51. 4. Schneir, Miriam, ed., Feminism: The Essential
-					Historical Writings, Vintage Books (New York, 1972), p. xviii. 5. Ibid., p. XV.
-					6. Guettel, Charnie, Marxism and Feminism, Women's Educational Press (Ontario,
-					Canada, 1974), p. 2 7 l and others have written elsewhere about the history of
-					women directors. See my article in Artforum (Sept. 1972) and Sharon Smith's
-					Women Who Make Movies, Hopkin- son and Blake (New York, 1975). 8. In Film
-					Culture Reader, ed., P. Adams Sitney, Praeger (New York, 1970).</ab>
+				
 				<p>Joan Braderman is completing her doctorate in film and political theory at
 					N.Y.U., writes theory and criticism and makes 16mm films. She teaches film at
 					The School of Visual Arts in New York City, is a political activist and likes to
 					sing. </p>
-				<p/>
+				
 			</div>
 		</body>
 	</text>
