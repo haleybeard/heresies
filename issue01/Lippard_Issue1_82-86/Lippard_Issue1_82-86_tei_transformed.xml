@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -15,7 +11,553 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162537523",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:25:37.523Z",
+	"dcterms:modified": "2022-09-08T20:25:37.523Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162537523#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162537523#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Class and Feminism, ed. Charlotte Bunch and Nancy Myron (Baltimore, 1974). This book contains some excrutiating insights for the middle-class feminist; it raised my consciousness and inspired this essay (along with other recent experiences and conversations)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162629156",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:26:29.156Z",
+	"dcterms:modified": "2022-09-08T20:26:29.156Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162629156#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162629156#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Actually nothing new; the history of modern art demonstrates a constant longing for the primitive, the simple, the clear, the \"poor,\" the noble naif, etc."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162724258",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:27:24.258Z",
+	"dcterms:modified": "2022-09-08T20:27:24.258Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162724258#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162724258#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Michele Russell, \"Woman and Third World,\" New American Movement (June, 1973)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162800122",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:28:00.122Z",
+	"dcterms:modified": "2022-09-08T20:28:00.122Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162800122#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162800122#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Opinions of Working People Concerning the Arts, ed. Don Celender (New York, 1975)"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162911251",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:29:11.251Z",
+	"dcterms:modified": "2022-09-08T20:29:11.251Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162911251#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162911251#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Bernard Kirchenbaum, in correspondence. Celender, op. cit., offers proof of this need and of the huge (and amazing) interest in art expressed by the working class, though it should be said that much of what is called art would not be agreed upon by the taste dictators."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163003751",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:30:03.751Z",
+	"dcterms:modified": "2022-09-08T20:30:03.751Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163003751#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163003751#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[25]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "This despite their publication of and apparent endorsement of Carolee Schneemann's \"The Prounoun Tyranny\" in the Fox, 3(1976)"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163034520",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:30:34.520Z",
+	"dcterms:modified": "2022-09-08T20:30:34.520Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163034520#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163034520#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[26]/quote/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Sheila Rowbotham, Women: Resistance and Revolution (London, 1972)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="1"/>
@@ -99,7 +641,7 @@
 				for nice clothes must drop into frayed jeans to make it into the art middle ciass,
 				which in turn considers itself both upper and lower class. Choosing poverty is a
 				confusing experence for a child whose parents (or more likely mother) have tried des
-				- perately against great odds to keep a clean and pleasant home. 1</p>
+				- perately against great odds to keep a clean and pleasant home. <note type="researchNote">Class and Feminism, ed. Charlotte Bunch and Nancy Myron (Baltimore, 1974). This book contains some excrutiating insights for the middle-class feminist; it raised my consciousness and inspired this essay (along with other recent experiences and conversations).</note> </p>
 			<p> The artist who feels superior to the rich be - cause s/he is disguised as someone
 				who is poor provides a puzzle for the truly deprived. A par- allel notion, rarely
 				admitted but pervasive, is that a person can't understand "art" if their house is
@@ -113,13 +655,13 @@
 				really were poor and proud of being poor because their art, the argument went, must
 				be good if the bad guys - the rich and the masses- didn't like it.</p>
 			<p> In the 1960s the choice of poverty, often excused as anti-consumerism, even
-				infiltrated the esthetics of art. 2 First there was Pop Art, modeled on kitsch, on
+				infiltrated the esthetics of art. <note type="researchNote">Actually nothing new; the history of modern art demonstrates a constant longing for the primitive, the simple, the clear, the "poor," the noble naif, etc.</note> First there was Pop Art, modeled on kitsch, on
 				advertising and consu - merism, and equally successful on its own level. (Women,
 				incidentally, participated little in Pop Art, partly because of its blatant sexism,
 				some - times presented as a parody of the image of woman in the media - and partly
 				because the subject matter was often "women's work," ennobled and acceptable only
 				when the artists were men.) Then came Process Art-a rebellion against the "precious
-				object" traditionally de - sired and bought by the rich. Here another kind of
+				object" traditionally desired and bought by the rich. Here another kind of
 				co-optation took place, when temporary piles of dirt, oil, rags and filthy rubber
 				began to grace carpeted living rooms. The Italian branch was even called Arte
 				Povera. Then came the rise of a third-stream medium called "conceptual art" which
@@ -180,7 +722,7 @@
 				radical feminists hoping to "reach out" across the classes can easily espouse. Here,
 				in the realm of aspirations, is where upward and downward mobility and status quo
 				clash, where the economic class barriers are established. As Michele Russell has
-				noted, 3 the Third-World woman is not attracted to the "Utopian experi - mentation"
+				noted, <note type="researchNote">Michele Russell, "Woman and Third World," New American Movement (June, 1973).</note> the Third-World woman is not attracted to the "Utopian experi - mentation"
 				of the left (in the art world, the would-be Marxist avant-garde) or to the "prag-
 				matic opportunism" of the right (in the art world, those who reform and co-opt the
 				"radicals").</p>
@@ -193,7 +735,7 @@
 				would like to think she has)-may be "above" or inacces - sible to a welfare mother.
 				The phrase "to dictate taste" has its own political connotations. Minneapolis worker
 				Interviewed by students of artist Don Celender said he liked "old art works because
-				they're more classy," 4 and class does seem to be what the traditional notion of art
+				they're more classy," <note type="researchNote">Opinions of Working People Concerning the Arts, ed. Don Celender (New York, 1975)</note> and class does seem to be what the traditional notion of art
 				is all about. Yet contemporary avant-garde art, for all its attempts to break out of
 				that gold frame, is equally class-bound, and even the artist aware of these
 				contradictions in her/his own life and work is hard-put to resolve them. It's a
@@ -260,8 +802,7 @@
 				communicates. If it doesn't communicate it may just not be very good art from
 				anyone's point of view; or it may be that the artist is not even aware of the needs
 				of others, or simply doesn't care.</p>
-			<p> For there is a need out there, a need vaguely satisfied at the moment by "schlock."
-				5 And it seems that one of the basic tenets of the femin - ist arts should be a
+			<p> For there is a need out there, a need vaguely satisfied at the moment by "schlock." <note type="researchNote">Bernard Kirchenbaum, in correspondence. Celender, op. cit., offers proof of this need and of the huge (and amazing) interest in art expressed by the working class, though it should be said that much of what is called art would not be agreed upon by the taste dictators.</note> And it seems that one of the basic tenets of the femin - ist arts should be a
 				reaching out from the private sphere to transform that "artificial art" and to more
 				fully satisfy that need. For the art-world artist has come to consider her/his
 				private needs paramount, and has too often forgotten about those of the audience,
@@ -347,7 +888,7 @@
 				not withstanding. And in the art world, as in the real world, political commitment
 				frequently means total disregard for feminist priorities. Even the increasingly
 				Marxist group ironically calling itself Art- Language is unwilling to stop the
-				exclusive use of the male pronoun in its theoretical publica - tions. 6</p>
+				exclusive use of the male pronoun in its theoretical publica - tions. <note type="researchNote">This despite their publication of and apparent endorsement of Carolee Schneemann's "The Prounoun Tyranny" in the Fox, 3(1976)</note></p>
 			<p> Experiences like this one and dissatisfaction with Marxism's lack of interest in
 				"the woman question" make me wary of merging Marxism and feminism. The notion of the
 				non-economic or "vertical" class is anathema to Marxists and confusion is rampant
@@ -358,8 +899,7 @@
 					another. As a feminist and a Marxist I carry their contradictions within me and
 					it is tempting to opt for one or the other in an effort to produce a tidy
 					resolution of the commotion generated by the antagonism between them. But to do
-					that would mean evading the social reality which gives rise to the antagonism.
-					7</quote></p>
+					that would mean evading the social reality which gives rise to the antagonism. <note type="researchNote">Sheila Rowbotham, Women: Resistance and Revolution (London, 1972).</note></quote></p>
 			<p>As women, therefore, we need to establish far more strongly our own sense of
 				community, so that all our arts will be enjoyed by all women in all economic
 				circumstances. This will happen only when women artists make conscious ef - forts to
