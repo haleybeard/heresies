@@ -561,6 +561,240 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160411649",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-22T20:04:11.649Z",
+	"dcterms:modified": "2022-09-22T20:04:11.649Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160411649#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160411649#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[6]/head/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Lucy Lippard, \"Warum separierte Frauenkunst?\" in Feminismus: Kunst und Kreativitat."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160523884",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-22T20:05:23.884Z",
+	"dcterms:modified": "2022-09-22T20:05:23.884Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160523884#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160523884#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[7]/head/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Frieda Grafe, \"Ein anderer Eindruck vom Begriff meines Korpers,\" in Filkritik (March, 1976)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160639247",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-22T20:06:39.247Z",
+	"dcterms:modified": "2022-09-22T20:06:39.247Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160639247#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160639247#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[9]/head/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Sylvia Plath, The Bell Jar (London, 1963), p. 88."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -740,20 +974,20 @@
 					direction.</p>
 			</div>
 			<div>
-				<head>Lucy Lippard: "Why a separate women's art?"</head>
+				<head>Lucy Lippard: "Why a separate women's art?"<note type="scholarNote">Lucy Lippard, "Warum separierte Frauenkunst?" in Feminismus: Kunst und Kreativitat.</note></head>
 				<quote>What seems to be most important in this whole matter is that we focus our
 					eyes and our feelings upon the flashes of insight which our feminine sensitivity
 					affords us.</quote>
 			</div>
 			<div>
-				<head>Frieda Grafe, in Filmkritik:</head>
+				<head>Frieda Grafe, in Filmkritik:<note type="scholarNote">Frieda Grafe, "Ein anderer Eindruck vom Begriff meines Korpers," in Filkritik (March, 1976).</note></head>
 				<quote>Language, the medium of my work, is for me already so generalized and mute
 					that I cannot strive for even further generalities. Instead, I direct all my
 					energies toward making the wall of generalities so thin that something will be
 					able to break through the barrier, something can come from within my body and
 					enter the overarticulated linguistic sphere. want to show the generative base of
 					language before it atrophies in communicable form.</quote>
-				<p>We ought to rid ourselves of the notion of a historically ever- present female
+				<p>We ought to rid ourselves of the notion of a historically ever-present female
 					counterculture. And yet, on the other hand, the very different way in which
 					women experience things, their very different experiences themselves, enable us
 					to anticipate different imaginations and means of expression.</p>
@@ -764,7 +998,7 @@
 				<head>The pre-aesthetie realms</head>
 				<p>Even in the past, I contend, the exclusion of women from the ar- tistic realm
 					could not extinguish all their aesthetic needs. These creative impulses,
-					however, were shunted off into the "pre- aesthetic' realms, where they
+					however, were shunted off into the "pre-aesthetic' realms, where they
 					evaporated under the strain of women's daily routine. Women furnished the living
 					quarters, set the tables, arranged, decorated and adorned their clothing and
 					above all themselves.</p>
@@ -772,14 +1006,14 @@
 					activities quickly corrupted women. They set the table for the man, they dressed
 					and adorned themselves for the man—not for themselves or for each other, but
 					rather in compe- tition with each other. They busied themselves weaving and
-					knit- ting, but such functional artworks, handicrafts and decorations have
+					knitting, but such functional artworks, handicrafts and decorations have
 					always been considered inferior, commonplace. This verdict is of course not
 					entirely unfair, especially in those cases where even these most timid efforts
 					were channeled into subservient obsequi- ousness and excessive
 					affection-seeking.</p>
 			</div>
 			<div>
-				<head>Sylvia Plath, in The Bell Jar:9</head>
+				<head>Sylvia Plath, in The Bell Jar:<note type="scholarNote">Sylvia Plath, The Bell Jar (London, 1963), p. 88.</note></head>
 				<quote>Once when I visited Buddy I found Mrs. Willard braiding a rug out of strips
 					of wool from Mr. Willard's old suits. She'd spent a week on that rug, and I had
 					admired the tweedy browns and greens and blues patterning the braid, but after
