@@ -795,6 +795,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922161406905",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-22T20:14:06.905Z",
+	"dcterms:modified": "2022-09-22T20:14:06.905Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922161406905#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922161406905#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[11]/head/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Virginia Woolf, \"Romance and the Heart\" in Contemporary Writers. p. 124f."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1038,40 +1116,49 @@
 			</div>
 			<div>
 				<head>Ann Anders: "On Unravelling and Reknitting a Sweater":</head>
-				<quote>The old one was the first self-made Grown too large. The wound up time of
-					urgent experience Still fills it out. Weeks of work and sensuality Not divided
-					into days and nights Alone or entwined with many others. The increase and
-					decrease of tension Attests to density in memory. <pb n="12"/> Fetched forth
-					again the largeness appears, tucks bear witness: from the beginning. Grown
-					thinner, experience more fragmented The smooth stitches turn into difficult
-					cable, Growing upward, lending strength. Though I knitted narrow strips of blue
-					into the grey, There was hardly enough wool. [3/9/76]</quote>
+				<quote>
+					<lg>
+						<l>The old one was the first self-made</l> 
+						<l>Grown too large.</l> 
+						<l>The wound up time of urgent experience</l> 
+						<l>Still fills it out.</l> 
+						<l>Weeks of work and sensuality</l> 
+						<l>Not divided into days and nights</l> 
+						<l>Alone or entwined with many others.</l> 
+						<l>The increase and decrease of tension</l> 
+						<l>Attests to density in memory.</l> <pb n="12"/> 
+						<l>Fetched forth again the largeness appears, tucks bear witness: from the beginning.</l> 
+						<l>Grown thinner, experience more fragmented</l> 
+						<l>The smooth stitches turn into difficult cable,</l> 
+						<l>Growing upward, lending strength.</l> 
+						<l>Though I knitted narrow strips of blue into the grey,</l> 
+						<l>There was hardly enough wool.</l></lg> [3/9/76]</quote>
 				<p>Perhaps that is all too simple, too superficial. Attempting to knit the gap
 					between the artistic realm and social reality is problematic in that this gap is
 					not simply the result of foolish blunder, but is rather the result of particular
 					preconditions.</p>
 				<p>Women succeeded in entering the artistic realm when they gained access to it via
-					the adjoining pre-aesthetic' realms. In the eighteenth century women were able
-					to enter the realm of lit- erature by means of letters (the epistolary novel),
+					the adjoining "pre-aesthetic" realms. In the eighteenth century women were able
+					to enter the realm of literature by means of letters (the epistolary novel),
 					since this was an age in which letters and novels were gaining dignity and the
-					dissolution of rigid formal rules allowed greater flexibility. Ex- perience
+					dissolution of rigid formal rules allowed greater flexibility. Experience
 					could be gained in writing private letters. Since letters and diaries have no
 					clearly defined literary niche, it was all right for women to practice on them.
 					Only the Romantics considered conversation—another feminine domain in
-					literature—to be aes- thetic activity. Men were amazed by the new tenor, the new
+					literature—to be aesthetic activity. Men were amazed by the new tenor, the new
 					tone, the irreverence and more sensual descriptions unique to women's letters,
 					and on occasion they even showed open admiration. It did not take long for this
 					medium to be included in the literary canon.</p>
-				<p>But it is difficult to merely reach back and link up to these feminine"
+				<p>But it is difficult to merely reach back and link up to these "feminine"
 					media—letters, weaving. It is, in fact, almost more difficult to do this than to
-					work with the unfeminine' technica. media such as film, since these need not
-					contend with being tra- ditionally relegated to the domain of the housewife. We
+					work with the "unfeminine" technical media such as film, since these need not
+					contend with being traditionally relegated to the domain of the housewife. We
 					should not foster the false assumptions that our sewing teachers indeed pointed
 					us in the right direction. There is no direct path from the decorative potholder
 					to the tapestries of Abakanovicz. Besides, I am still horrified by the whole
 					ruffles-and-sewing basket business we were subjected to as young girls.</p>
 				<p>I believe that feminine artistic production takes place by means of a complicated
-					process involving conquering and reclaiming, ap- propriating and formulating, as
+					process involving conquering and reclaiming, appropriating and formulating, as
 					well as forgetting and subverting. In the works of those female artists who are
 					concerned with the women’s movement, one finds artistic tradition as well as the
 					break with it. It is good—in two respects—that no formal criteria for feminist
@@ -1081,10 +1168,9 @@
 				<p>If, however, women have different assumptions with regard to their sensory
 					approach, their relationship to matter and material, their perception, their
 					experience, their means of processing tac- tile, visual and acoustic stimuli,
-					their spatial orientation and tem- poral rhythm—and all these things are what
+					their spatial orientation and temporal rhythm—and all these things are what
 					aesthetics meant at one time, according to its original definition as a theory
-					of sensory perception—then one could logically expect to find these things ex-
-					pressed in special forms of mimetic transformation. Put em phatically, this
+					of sensory perception—then one could logically expect to find these things expressed in special forms of mimetic transformation. Put em phatically, this
 					would mean that within the framework of a female cosmology there would be a
 					changed relationship between the sub- jective artistic appropriation of reality
 					on the one hand, and formal suggestiveness and receptive perception on the
@@ -1098,30 +1184,30 @@
 					Richardson's writing.</p>
 			</div>
 			<div>
-				<head>Virginia Woolf on the language of Dorothy Richardson:10</head>
+				<head>Virginia Woolf on the language of Dorothy Richardson:<note type="scholarNote">Virginia Woolf, "Romance and the Heart" in Contemporary Writers. p. 124f.</note></head>
 				<quote>She has invented, or, if she has not invented, developed and applied to her
 					own uses, a sentence which we might call the psychological sentence of the
 					feminine gender. It is of a more elastic fibre than the old, capable of
-					stretching to the ex- treme, of suspending the frailest particles, of enveloping
+					stretching to the extreme, of suspending the frailest particles, of enveloping
 					the vaguest shapes. Other writers of the opposite sex have used sentences of
-					this description and stretched them to the ex- treme. But there is a difference.
+					this description and stretched them to the extreme. But there is a difference.
 					Miss Richardson has fashioned her sentence consciously, in order that it may
-					des- cend to the depths and investigate the crannies of Miriam Henderson's
-					consciousness. It is a woman's sentence, but on- ly in the sense that it is used
+					descend to the depths and investigate the crannies of Miriam Henderson's
+					consciousness. It is a woman's sentence, but only in the sense that it is used
 					to describe a woman's mind by a writer who is neither proud nor afraid of
 					anything that she may discover in the psychology of her sex. Dorothy Richardson
 					on the masculine manner of writing: The self-satisfied, complacent, know-all
-					condescendingness of their handling of their material. . .. The torment of all
+					condescendingness of their handling of their material. . . . The torment of all
 					novels is what is left out. The moment you are aware of it there is torment in
 					them. Bang, bang, bang, on they go, these men's books, like an L.L.C. tram, yet
 					unable to make you forget them, the authors, for a moment.</quote>
 				<p>The exclusion of women from vast areas of production and the public sphere and
 					the fact that most women have been responsible for the biological and social
 					reproduction of the species, as well as the economic, if they are working, has
-					directed women's imagina- tion along other lines. Moreover, the much touted
+					directed women's imagination along other lines. Moreover, the much touted
 					"ahistoricity" of women kept the polarity between intellectual labor and manual
 					labor from becoming too traumatic. The disparate development of the sexes,
-					though origin of so much of women's suffering, for- tunately has not yet allowed
+					though origin of so much of women's suffering, fortunately has not yet allowed
 					women's behavior and needs to become reified to the degree found in advanced
 					capitalism. But generations of women paid for this with their banishment into
 					the marital ghetto.</p>
@@ -1129,12 +1215,12 @@
 					aesthetic awareness and modes of sensory perception. Cer- tainly not, if one is
 					talking about an unusual variant of artistic pro- duction or about a
 					painstakingly constructed theory of art. Women's break with the formal,
-					intrinsic laws of a given medium, the release of their imagination -- these are
+					intrinsic laws of a given medium, the release of their imagination—these are
 					unpredictable for an art with feminist intentions. There is, thank heavens, no
-					premed- iated strategy which can predict what happens when femail sen- suality
+					premediated strategy which can predict what happens when femail sensuality
 					is freed. Because it is a process and historically tentative, we cannot verbally
 					anticipate this freeing of feminine sensuality either at its traditional erotic
-					center (even though there's a lot go- ing on there every month) or in the
+					center (even though there's a lot going on there every month) or in the
 					context of individual choice. We can do it only on the basis of a movement by
 					women for women.</p>
 				<p>The important thing is that women artists will not let themselves be kept back
