@@ -4,7 +4,7 @@
 			<titleStmt>
 				<title>Is There a Feminine Aesthetic?</title>
 				<author>Silvia Bovenschen</author>
-				<respStmt>s
+				<respStmt>
 					<persName>Haley Beardsley</persName>
 					<resp>Editor, encoder</resp>
 				</respStmt>
@@ -873,6 +873,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922161838313",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-22T20:18:38.313Z",
+	"dcterms:modified": "2022-09-22T20:18:38.313Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922161838313#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922161838313#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[12]/head/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Dorothy Richardson, Dawn's Left Hand, p. 202f."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1195,8 +1273,9 @@
 					descend to the depths and investigate the crannies of Miriam Henderson's
 					consciousness. It is a woman's sentence, but only in the sense that it is used
 					to describe a woman's mind by a writer who is neither proud nor afraid of
-					anything that she may discover in the psychology of her sex. Dorothy Richardson
-					on the masculine manner of writing: The self-satisfied, complacent, know-all
+					anything that she may discover in the psychology of her sex.</quote> </div>
+					<div><head>Dorothy Richardson on the masculine manner of writing:<note type="scholarNote">Dorothy Richardson, Dawn's Left Hand, p. 202f.</note></head> 
+					<quote>The self-satisfied, complacent, know-all
 					condescendingness of their handling of their material. . . . The torment of all
 					novels is what is left out. The moment you are aware of it there is torment in
 					them. Bang, bang, bang, on they go, these men's books, like an L.L.C. tram, yet
@@ -1212,8 +1291,8 @@
 					capitalism. But generations of women paid for this with their banishment into
 					the marital ghetto.</p>
 				<p>Is there a feminine aesthetic? Certainly there is, if one is talking about
-					aesthetic awareness and modes of sensory perception. Cer- tainly not, if one is
-					talking about an unusual variant of artistic pro- duction or about a
+					<emph>aesthetic awareness</emph> and <emph>modes of sensory perception</emph>. Certainly not, if one is
+					talking about an unusual variant of artistic production or about a
 					painstakingly constructed theory of art. Women's break with the formal,
 					intrinsic laws of a given medium, the release of their imagination—these are
 					unpredictable for an art with feminist intentions. There is, thank heavens, no
@@ -1229,19 +1308,12 @@
 					a look at what they are doing. </p>
 			</div>
 			<div>
-				<p>-ilm, 7 (March, 19761. 5. Firestone, Dialectic of Sex, p. 159. 6. Verena Stefan,
-					Hautungen (1975), English translation under the title Shedding (translation by
-					Johanna Moore and Beth Weckmueller to be ublished in Spring, 1978 by Daughters,
-					Inc., New York. 7. Lucy Lippard, Warum separierte Frauenkunst? in Feminismus:
-					Kunst und Kreativitat. 8. Frieda Grafe.Ein anderer Eindruck vom Begriff meines
-					Korpers, in Filmkritik (March, 1976). 9. Sylvia Plath, The Bell Jar (London,
-					1963), p. 88. 0. Virginia Woolf, Romance and the Heart in Contemporary Writers.
-					p. 124f. 11. Dorothy Richardson, Dawn s Lest Hand, p. 202f.</p>
+				
 
 				<p>Silvia Bovenschen is finishing her dissertation at the University of Frankfurt on
 					a related subject: it will be published by Suhrkamp. She is the only moman on
 					the oditorial staff of Aesthetik Und Kommunikation. an independent left journal
-					and was editor for their seminist issue. </p>
+					and was editor for their feminist issue. </p>
 			</div>
 		</body>
 	</text>
