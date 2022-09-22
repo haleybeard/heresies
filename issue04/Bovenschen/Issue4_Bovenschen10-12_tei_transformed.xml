@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -97,12 +93,12 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="10"/>
-			<head><title>Is There a Feminine Aesthetic?</title></head>
-			<byline>Silvia Bovenschen</byline>
+			<div><head>Is There a Feminine Aesthetic?</head>
+			<byline>Silvia Bovenschen</byline></div>
 			<div>
 				<p>This article was first published in German in Aesthetik und Kommunika- tion, No.
 					25, September 1976. We are reprinting excerpts from the article transtated into
@@ -121,11 +117,10 @@
 					artistic realm seems almost pointless. But this need not necessarily be the
 					case. As can be seen on closer examination, it is the tone of the lament that
 					makes it seem inadequate. The form the lament takes still acknowledges its
-					addressee. Traditionally it was women—profes- sional mourners—who rendered grief
+					addressee. Traditionally it was women—professional mourners—who rendered grief
 					public, be it in regard to death, to suffering or to the victims of massacres;
 					this was one of their rare opportunities to assume a public function. But
-					precisely for this reason it was not at all startling, indeed, no one particu-
-					larly noticed, when women began publicizing and decrying their own lot, that of
+					precisely for this reason it was not at all startling, indeed, no one particularly noticed, when women began publicizing and decrying their own lot, that of
 					their sisters, their female ancestors and, should women’s fate not improve, the
 					lot of future women. Clearly, Cassandra was not a false prophet. She was simply
 					not heard. No one paid attention to her.</p>
