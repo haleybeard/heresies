@@ -249,6 +249,318 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922155351460",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-22T19:53:51.460Z",
+	"dcterms:modified": "2022-09-22T19:53:51.460Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922155351460#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922155351460#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Karl Scheffler, Die Frau und die Kunst (Berlin, 1908), p. 29."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922155507751",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-22T19:55:07.751Z",
+	"dcterms:modified": "2022-09-22T19:55:07.751Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922155507751#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922155507751#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[5]/head/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Chantal Akerman, interview with Claudia Aleman in Frauen und Film, 7 (March, 1976)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922155606979",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-22T19:56:06.979Z",
+	"dcterms:modified": "2022-09-22T19:56:06.979Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922155606979#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922155606979#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[5]/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Firestone, Dialectic of Sec, p. 159."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160325396",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-22T20:03:25.396Z",
+	"dcterms:modified": "2022-09-22T20:03:25.396Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160325396#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue04/Bovenschen/Issue4_Bovenschen10-12_tei_transformed.xml?note_annotation_20220922160325396#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[5]/p[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Verena Stefan, Hautungen (1975), English translation under teh title Shedding (translation by Johanna Moore and Beth Weckmueller) to be published in Spring, 1978 by Daughters, Inc., New York."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -320,11 +632,11 @@
 					slamming the door shut in his face, "follow your advice yourself, as well as you
 					can!"</quote>
 				<p>The classic notions about women's artistic competence are all too familiar.
-					Though she is the great theme of art, woman as em- pirical being is acceptable
-					only by virtue of her supposed inspir- ational powers. In an Amazon society
+					Though she is the great theme of art, woman as empirical being is acceptable
+					only by virtue of her supposed inspirational powers. In an Amazon society
 					there could be neither culture nor history nor art, since art is not essential
-					to woman. We know today, though only because we bothered to look into the matter
-					ourselves, that it is not difficult to prove that such state- ments are
+					to woman.<note type="scholarNote">Karl Scheffler, Die Frau und die Kunst (Berlin, 1908), p. 29.</note> We know today, though only because we bothered to look into the matter
+					ourselves, that it is not difficult to prove that such statements are
 					historically incorrect. They show (and help justify) that the masculine realm of
 					artistic production, and often the artistic products themselves, are not only
 					inaccessible to women, but are also fundamentally foreign to us.</p>
@@ -344,9 +656,9 @@
 					quelled.)</p>
 				<p>But now there is a threat from the other front: the theoretician of equality.
 					Today the line of argument emphasizing equality belongs to the repertoire of the
-					man who moves in progressive' circles. He says that since they can no longer be
+					man who moves in "progressive" circles. He says that since they can no longer be
 					kept completely ignorant, women should at least turn out to be what men already
-					are. One need only open the floodgates, and women will stream in- to the spheres
+					are. One need only open the floodgates, and women will stream into the spheres
 					dominated by men. But what if we no longer view the difference as deficiency,
 					loss, self-effacement and deprivation, but rather as opportunity? Around the
 					turn of the century, the statement " We women can do just as much as men' served
@@ -355,14 +667,14 @@
 					the same thing as men? Here we have come full circle. So it would seem.</p>
 			</div>
 			<div>
-				<head>Chantal Akerman, Interview in Frauen und Film (Women and Film):</head>
+				<head>Chantal Akerman, Interview in Frauen und Film (Women and Film):<note type="scholarNote">Chantal Akerman, interview with Claudia Aleman in Frauen und Film, 7 (March, 1976).</note></head>
 				<quote>If women imitate men's battles they will become weaker and weaker. They must
 					find new forms of struggle. This became evident in Hendave where women
 					demonstrated against the death sentence in Spain. Some women shouted and
-					clenched their fists, while others just hummed. They went "mmmm- mmm" with their
+					clenched their fists, while others just hummed. They went "mmmmmmm" with their
 					lips pressed together, and moved forward in a row. That is a new way of
 					demonstrating which can be a hundred times stronger than fists. We have had a
-					virtual in- flation of shouting with raised fists, and I, for one, simply walk
+					virtual inflation of shouting with raised fists, and I, for one, simply walk
 					by when I hear it. In film and in the arts we must also find a language which is
 					appropriate to us, one which is neither black nor white.</quote>
 				<p>Art has been primarily produced by men. Men have dominated the neatly segregated
@@ -370,26 +682,25 @@
 					evaluation. Moreover, insofar as they came into contact with this sector at all,
 					women have for the most part acquiesced to its value system. These realizations
 					led Firestone to the conclusion that "It would take a denial of all cultural
-					tradition for women to produce even a true female' art.''5 Such a statement is
+					tradition for women to produce even a true 'female' art.<note type="scholarNote">Firestone, Dialectic of Sec, p. 159.</note> Such a statement is
 					easily made. Indeed, aesthetic norms and cultural standards have meaning only in
 					their sublation. But those standards and those norms were not even our own. What
 					is the ground that we are working? From where does a feminine' art get its
 					identity? Or does it not need to do that? Is art, then, still art <pb n="11"/>
-					in the traditional sense, no matter how far it has gone to the dogs? Isfeminine'
-					a criterion of substance, an ontological entity? Let us then radically negate
-					all the masculine cultural achieve- ments and begin anew at the point where we
+					in the traditional sense, no matter how far it has gone to the dogs? Is "feminine" a criterion of substance, an ontological entity? </p><p>Let us then radically negate
+					all the masculine cultural achievements and begin anew at the point where we
 					once left off, tilling the soil as our female ancestors did before the great
 					male putsch. That is not very funny, even as a powder room joke. Perhaps we
 					would enjoy that—linking ourselves directly to bygone power, but we should be
 					wary of construing a direct connection where none exists. Making such a
 					connection can raise false hopes of finding help.</p>
-				<p>Call as often as we might to the old mother goddesses—Aphro- dite, Demeter, Diana
+				<p>Call as often as we might to the old mother goddesses—Aphrodite, Demeter, Diana
 					and all the rest of those Amazons of long lost female empires—their power cannot
-					reach this far, for their em- pires have been extinguished. Only the important
+					reach this far, for their empires have been extinguished. Only the important
 					consciousness that things were once different eases our burden a bit. To be
 					sure, it is very important that we reappropriate moments of female potential
 					from past cultures which have been silenced in organized fashion by male
-					history. And the work to be done in this area is im- mense. (I emphasize this to
+					history. And the work to be done in this area is immense. (I emphasize this to
 					avoid any misunderstanding.) But any attempt to link them directly to our
 					experiences in the twentieth century will be unsuccessful. And if we nonetheless
 					force a direct connection, the results will be downright pitiful. We will be
@@ -402,7 +713,7 @@
 					archeology in search of women past and forgotten, their obscured activities,
 					living condi- tions and forms of resistance, is not just nostalgia. The hidden
 					story of women, which reveals itself to us as primarily one of suf- fering and
-					subjugation (now here is continuity!), is the dark side of cultural history—or
+					subjugation (now <emph>here</emph> is continuity!), is the dark side of cultural history—or
 					better: the dark side of its idealized version. Women artists waît through
 					history as mere shadows, separated from each other. Since their deeds remained
 					for the most part without effect and their creations were, with rare exception,
@@ -423,13 +734,13 @@
 					doubt, we have always done these things differently than men. (We are dealing
 					with a sort of double exposure here.) But the means of expression most readily
 					available to us for communica- ting our perceptions, our thought
-					processes—language, forms, im- ages—are for the most part not originally our
+					processes—language, forms, images—are for the most part not originally our
 					own, not of our own choosing. Here we are still at the beginning. Sensitivity to
-					the patriarchal structures common to language usage“ is certainly a step in this
+					the patriarchal structures common to language usage<note type="scholarNote">Verena Stefan, Hautungen (1975), English translation under teh title Shedding (translation by Johanna Moore and Beth Weckmueller) to be published in Spring, 1978 by Daughters, Inc., New York.</note> is certainly a step in this
 					direction.</p>
 			</div>
 			<div>
-				<head>Lucy Lippard: "Why a separate women's art?"7</head>
+				<head>Lucy Lippard: "Why a separate women's art?"</head>
 				<quote>What seems to be most important in this whole matter is that we focus our
 					eyes and our feelings upon the flashes of insight which our feminine sensitivity
 					affords us.</quote>
