@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+		<fileDesc>
+			<titleStmt>
+				<title>Zucchini Poem</title>
+				<author>Elizabeth Zelvin</author>
+				
+				<respStmt>
+					<persName>Haley Beardsley</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Erica Delsandro</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Margaret Hunter</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Diane Jakacki</persName>
+					<resp>Invesigator, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Sophie McQuaide</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Martin</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bri Perea</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Roger Rothman</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kaitlyn Segreti</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maggie Smith</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maya Wadhwa</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<funder>Bucknell University Humanities Center</funder>
+				<funder>Bucknell University Office of Undergraduate Research</funder>
+				<funder>The Mellon Foundation</funder>
+				<funder>National Endowment for the Humanities</funder>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>
+					<name>Bucknell University</name>
+					<address>
+						<street>One Dent Drive</street>
+						<settlement>Lewisburg</settlement>
+						<region>Pennsylvania</region>
+						<postCode>17837</postCode>
+					</address>
+				</distributor>
+				<availability>
+					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+					<licence>Heresies journal: © Heresies Collective</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic><title>Heresies: Issue 1</title></analytic>
+					<monogr>
+						<imprint>
+							<publisher>HERESIES: A Feminist Publication on Art and Politics</publisher>
+							<pubPlace>
+								<address>
+									<name>Heresies</name>
+									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
+									<settlement>New York</settlement>
+									<region>New York</region>
+									<postCode>10013</postCode>
+								</address>
+							</pubPlace>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="27"/>
+      	<head><title>Zucchini Poem</title></head>
+      	<byline><persName>Elizabeth Zelvin</persName></byline>
+         <lg>
+				<l>the zucchini crouches</l>
+				<l>behind a broad green leaf</l>
+				<l>patient in her camouflage</l>
+				</lg>
+      	
+				<lg>
+					<l>imperialist tentacles of vine</l>
+				<l>are taking over the garden</l>
+				<l>shouting mine mine</l>
+				</lg>
+      	<lg>
+				<l>like a woman waiting</l>
+				<l>for the revolution</l>
+				<l>the zucchini bides her time</l>
+				</lg>
+      	<lg>
+				<l>rain falls in the night</l>
+				<l>first stealthy</l>
+				<l>then triumphant like a coup d'état</l>
+				</lg>
+      	<lg>
+				<l>come morning</l>
+				<l>the zucchini squats</l>
+				<l>swollen in the sunlight</l>
+				</lg>
+      	<lg>
+				<l>proud of her belly</l>
+				<l>covering the earth</l>
+				<l>with a yellow flower behind her ear</l>
+			</lg>
+      </body>
+         <back>
+         	<p>Elizabeth Zelvin is a writer living in New York who has
+				poems appearing in Womanspirit and 13th Moon. She has
+				recently completed a book about an alternative marriage,
+				and among her other interests are "singing and song-writ-
+				ing, teaching creative movement, and trying to understand
+				the synthesis of anarchism and feminism."
+			</p>
+         </back>
+
+   </text>
+</TEI>
