@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p>Four score and seven years ago <orgName>our fathers</orgName> brought forth on this continent, a new
+               <orgName>nation</orgName>, conceived in Liberty, and dedicated to the proposition that all men are
+               created equal. </p>
+            <p> Now we are engaged in a great civil war, testing whether that <orgName>nation</orgName>, or any nation
+               so conceived and so dedicated, can long endure. We are met on a <placeName>great battle-field</placeName> of
+               that war. We have come to dedicate a portion of that <placeName>field</placeName>, as a final resting place
+               for those who here gave their lives that that nation might live. It is altogether
+               fitting and proper that we should do this. </p>
+            <p> But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not
+               hallow -- this ground. The brave men, living and dead, who struggled here, have
+               consecrated it, far above our poor power to add or detract. The world will little
+               note, nor long remember what we say here, but it can never forget what they did here.
+               It is for us the living, rather, to be dedicated here to the unfinished work which
+               they who fought here have thus far so nobly advanced. It is rather for us to be here
+               dedicated to the great task remaining before us -- that from these honored dead we
+               take increased devotion to that cause for which they gave the last full measure of
+               devotion -- that we here highly resolve that these dead shall not have died in vain
+               -- that this nation, under <placeName>God</placeName>, shall have a new birth of freedom -- and that
+               government of the people, by the people, for the people, shall not perish from the
+               earth. </p>
+            <closer><persName>Abraham Lincoln</persName> <date>November 19, 1863</date></closer>
+         </div>
+      </body>
+   </text>
+</TEI>
