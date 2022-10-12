@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -12,16 +11,91 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> </rdf:RDF></xenoData>
-	</teiHeader>
+		
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/Ehrenreich/ehrenreich.xml?note_annotation_20220907103356924",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-07T14:33:56.924Z",
+	"dcterms:modified": "2022-09-07T14:33:56.924Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/Ehrenreich/ehrenreich.xml?note_annotation_20220907103356924#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/Ehrenreich/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/Ehrenreich/ehrenreich.xml?note_annotation_20220907103356924#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/head/title/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Versions of this article have been presented at the Socialist Feminist Conference, Yellow Springs, Ohio, July 1975; at Women's Week, Brown University, April, 1976; and in WIN (June 3, 1976) as \"What is Socialist Feminism?“"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<pb n="6" />
+			<pb n="6"/>
 			<head>
-				<title> Toward Socialist Feminism* </title>
-				<lb />
+				<title> Toward Socialist Feminism <note type="scholarNote">Versions of this article have been presented at the Socialist Feminist Conference, Yellow Springs, Ohio, July 1975; at Women's Week, Brown University, April, 1976; and in WIN (June 3, 1976) as "What is Socialist Feminism?“</note></title><lb/>
 				<persName>Barbara Ehrenreich</persName>
 			</head>
 			<p> At some level, perhaps not too well articulated, socialist feminism has been around for a long time. You are a woman in a capitalist society. You get pissed off: about the job, about
@@ -54,7 +128,7 @@
 				maintains this system of class rule is, in the last analysis, force. The capitalist class controls (directly or in- directiy) the means of organized violence rep- resented by the
 				state—policemen, jails, etc. Only by waging a revolutionary struggle aimed at the seizure of state power can the working class free itself, and, ultimately, all people.</p>
 			<p>Feminism addresses itself to another familiar inequality. All human societies are marked by some degree of inequality between the sexes. If we survey human societies at a glance, sweep-
-				ing through history and across continents, we see that they have commonly been character- <pb n="7" /> ized by: the subjugation of women to male authority, both within the family and
+				ing through history and across continents, we see that they have commonly been character- <pb n="7"/> ized by: the subjugation of women to male authority, both within the family and
 				in the community in general; the objectification of women as a form of property; a sexual division of labor in which women are confined to such activities as childraising, performing
 				personal services for adult males and specified (usually low-prestige) forms of productive labor. Feminists, struck by the near-universality of these things have looked for
 				explanations in the biological "givens“ which underlie all hu- man social existence: men are physically stronger than women on the average, especially compared to pregnant women or
@@ -89,7 +163,7 @@
 				capi- talism. This is no academic issue. The social system which industrial capitalism replaced was in fact a patriarchal one, and I am using that term now in its original sense to
 				mean a system in which production is centered in the house- hold and is presided over by the oldest male. The fact is that industrial capitalism came along and tore the rug out from
 				under that system: production went into the factories; individuals broke off from the family to become "free" wage earners. To say that capitalism disrupted the patriarchal
-				organization of production and family life is not, of course, to say that capital- ism abolished male supremacy! But the particu- <pb n="8" /> lar forms of sex oppression we experience
+				organization of production and family life is not, of course, to say that capital- ism abolished male supremacy! But the particu- <pb n="8"/> lar forms of sex oppression we experience
 				today are, to a significant degree, recent develop- ments. A huge historical discontinuity lies between us and true patriarchy. If we are to understand our experience as women today,
 				we must move beyond the biological invariants of human experience to a consideration of capital- ism as a system. </p>
 			<p>There are other ways ! could have gotten to the same point. I could have said simply that as feminists we are most interested in the most oppressed women—poor and working-class women,
@@ -124,7 +198,7 @@
 				than we were a few years ago. Here l will indicate very sketchily one such line of thought:</p>
 			<list>
 				<item>1. The Marxist/feminist understanding that class and sex domination rest "ultimately" on force is correct, and this remains the most devastating critique of sexist/capitalist
-					society. But there is a lot to that "ultimately." In a <pb n="9" /> day-to-day sense, most people acquiesce to sex and class domination without being held in line by the threat of
+					society. But there is a lot to that "ultimately." In a <pb n="9"/> day-to-day sense, most people acquiesce to sex and class domination without being held in line by the threat of
 					violence, and often without even the threat of material deprivation. </item>
 				<item>2. It is very important, then, to figure out what, if not the direct application of force, keéps things going. In the case of class a great deal has been written already about
 					why the American working class lacks militant class consciousness. Certainly ethnic divisions es- pecially the Black/white division, are a key to the answer. But, I would argue, in
@@ -148,8 +222,7 @@
 				The cap- sule summaries I gave earlier retain their "ultimate" truth: there are crucial aspects of capital- ist domination (such as racial oppression) which a purely feminist
 				perspective simply cannot account for or deal with—without bizarre distor- tions, that is. There are crucial aspects of sex oppression (such as male violence within the family) into
 				which socialist thought has little insight—again without a lot of stretching and distortion. Hence the need to continue to be socialists and feminists. But there is enough of a
-				synthesis, both in what we think and what we do, for us to begin to develop a self-confident identity as socialist feminists. "Versions of this article have been presented at the
-				Socialist Feminist Conference, Yellow Springs, Ohio, July 1975; at Women's Week, Brown University, April, 1976; and in WIN (June 3, 1976) as "What is Socialist Feminism?“ Barbara
+				synthesis, both in what we think and what we do, for us to begin to develop a self-confident identity as socialist feminists. </p><p>Barbara
 				Ehrenreich is the co-author, with Deirdre English, of Witches, Midwives and Nurses: A History of Women Healers, and Complaints and Disorders: The Sexual Politics of Sickness (Feminist
 				Press, New York). She is a member of HealthRight (a New York women's health collective), Action for Women in Chile, and New American Movement. </p>
 		</body>
