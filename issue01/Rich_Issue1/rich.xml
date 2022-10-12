@@ -3,29 +3,103 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
-				<title>Title</title>
+				<title>[ESSAY TITLE]</title>
+				<author>[ESSAY AUTHOR]</author>
+				
+				<respStmt>
+					<persName>Haley Beardsley</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Erica Delsandro</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Margaret Hunter</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Diane Jakacki</persName>
+					<resp>Invesigator, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Sophie McQuaide</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Martin</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bri Perea</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Roger Rothman</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kaitlyn Segreti</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maggie Smith</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maya Wadhwa</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<funder>Bucknell University Humanities Center</funder>
+				<funder>Bucknell University Office of Undergraduate Research</funder>
+				<funder>The Mellon Foundation</funder>
+				<funder>National Endowment for the Humanities</funder>
 			</titleStmt>
 			<publicationStmt>
-				<p>Publication Information</p>
+				<distributor>
+					<name>Bucknell University</name>
+					<address>
+						<street>One Dent Drive</street>
+						<settlement>Lewisburg</settlement>
+						<region>Pennsylvania</region>
+						<postCode>17837</postCode>
+					</address>
+				</distributor>
+				<availability>
+					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+					<licence>Heresies journal: © Heresies Collective</licence>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<p>Information about the source</p>
+				<biblStruct>
+					<analytic><title>[ISSUE TITLE]</title></analytic>
+					<monogr>
+						<imprint>
+							<publisher>HERESIES: A Feminist Publication on Art and Politics</publisher>
+							<pubPlace>
+								<address>
+									<name>Heresies</name>
+									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
+									<settlement>New York</settlement>
+									<region>New York</region>
+									<postCode>10013</postCode>
+								</address>
+							</pubPlace>
+						</imprint>
+					</monogr>
+				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<pb n="25" />
-			<div type="title">
-				<bibl>
-					<title>Women and Honor: Some Notes on Lying</title>
-					<author>Adrienne Rich</author>
-				</bibl>
-			</div>
-			<div type="essay">
+			<pb n="23" />
+					<head><title>Women and Honor: Some Notes on Lying</title></head>
+					<byline><persName>Adrienne Rich</persName></byline>
+
 				<p>(These notes are concerned with relationships between and among women. When "personal relationship" is referred to I mean a relationship between two women, it will be clear in what
 					follows when I am talking about women's relationships with men.)</p>
 				<p>The old, male idea of honor. A man’s “word" sufficed —to other men — without guarantee.</p>
@@ -59,7 +133,8 @@
 					truth. It ceases to speak to those who want something else more than truth.</p>
 				<p>In speaking of lies we come inevitably to the subject of truth. There is nothing simple or easy about this idea. There is no “the truth,” "a truth" — truth is not one thing, or even
 					a system. It is an increasing complexity. The pattern of the carpet is a surface. When we look ciosely or when we become weavers, we learn of the tiny multiple threads unseen in
-					the overall pattern, the knots on the underside of the carpet. This is why the effort to speak honestly is so important, Lies are usually attempts to make <pb n="26" /> everything
+					the overall pattern, the knots on the underside of the carpet.</p> 
+			<p>This is why the effort to speak honestly is so important, Lies are usually attempts to make <pb n="24" /> everything
 					simpler — for the liar — than it really is, or ought to be.</p>
 				<p>In lying to others we end up lying to ourselves. We deny the importance of an event, or a person, and thus deprive ourselves of a part of our lives. Or we use one piece of the past
 					or present to screen out another. Thus we lose faith even with our own lives.</p>
@@ -97,7 +172,7 @@
 					power.</p>
 				<p>Women have to think whether we want, in our relationships with each other, the kind of power that can be obtained through lying.</p>
 				<p>Women have been driven mad, “gaslighted," for centuries by the refutation of our experience and our instincts in a culture which validates only male experience. The truth of our
-					bodies and our minds has been mystified to us. We therefore have a primary obligation to each other: not to undermine each other’s sense of <pb n="27" /> reality for the sake of
+					bodies and our minds has been mystified to us. We therefore have a primary obligation to each other: not to undermine each other’s sense of <pb n="25" /> reality for the sake of
 					expediency; not to gaslight each other.</p>
 				<figure/>
 				<p>Women have often felt insane when cleaving to the truth of our experience. Our future depends on the sanity of each of us and we have a profound stake beyond the personal in the
@@ -135,7 +210,7 @@
 					the mosaic of my worid. I allow my universe to change in minute, significant ways, on the basis of things you have said to me, of my trust in you.</p>
 				<p>I also have faith that you are teiling me things it is important I should know; that you do not conceal facts from me in an effort to spare me, or yourself, pain.</p>
 				<p>Or, at the very least, that you wili say, “There are things l am not telling you."</p>
-				<p>When we discover that someone we trusted can <pb n="28" /> be trusted no longer it forces us to re-examine the universe, to question the whole instinct and concept of trust. For
+				<p>When we discover that someone we trusted can <pb n="26" /> be trusted no longer it forces us to re-examine the universe, to question the whole instinct and concept of trust. For
 					awhile, we are thrust back onto some bleak, jutting ledge, in a dark pierced by sheets of fire, swept by sheets of rain in a world before kinship, or naming, or tenderness exist;
 					we are brought close to formlessness.</p>
 				<figure/>
@@ -164,12 +239,12 @@
 					enough to hear your tentative and groping words. That we both know we are trying, ail the time, to extend the possibilities of truth between us.</p>
 				<p>The possibility of life between us.</p>
 				<figure/>
-			</div>
-			<div type="publisher_note">
+		</body>
+			
+			<back>
 				<p> Adrienne Rich is a well-known poet and feminist who has published 9 books. The most recent one, Of Woman Born: Motherhood as Experience and Institution (W.W. Norton &amp; Company),
 					she described as coming “from the double need to survive and to work; and I wrote it in part for the young woman I once was, divided between body and mind, wanting to give her the
 					book she was seeking...." </p>
-			</div>
-		</body>
+			</back>
 	</text>
 </TEI>
