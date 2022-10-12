@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+		<fileDesc>
+			<titleStmt>
+				<title>Toward Socialist Feminism</title>
+				<author>Barbara Ehrenreich</author>
+
+				<respStmt>
+					<persName>Haley Beardsley</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Erica Delsandro</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Margaret Hunter</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Diane Jakacki</persName>
+					<resp>Invesigator, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Sophie McQuaide</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Martin</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bri Perea</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Roger Rothman</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kaitlyn Segreti</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maggie Smith</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maya Wadhwa</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<funder>Bucknell University Humanities Center</funder>
+				<funder>Bucknell University Office of Undergraduate Research</funder>
+				<funder>The Mellon Foundation</funder>
+				<funder>National Endowment for the Humanities</funder>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>
+					<name>Bucknell University</name>
+					<address>
+						<street>One Dent Drive</street>
+						<settlement>Lewisburg</settlement>
+						<region>Pennsylvania</region>
+						<postCode>17837</postCode>
+					</address>
+				</distributor>
+				<availability>
+					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial
+						4.0 International (CC BY-NC 4.0)</licence>
+					<licence>Heresies journal: © Heresies Collective</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>[ISSUE TITLE]</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>HERESIES: A Feminist Publication on Art and
+								Politics</publisher>
+							<pubPlace>
+								<address>
+									<name>Heresies</name>
+									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
+									<settlement>New York</settlement>
+									<region>New York</region>
+									<postCode>10013</postCode>
+								</address>
+							</pubPlace>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20221011133221849",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-11T17:32:21.849Z",
+	"dcterms:modified": "2022-10-11T17:32:29.506Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20221011133221849#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20221011133221849#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/head/title/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Versions of this article\n\t\t\t\t\t\thave been presented at the Socialst Feminist Conference, Yellow Springs,\n\t\t\t\t\t\tOhio, July 1975; at Women's Week, Brown University, April, 1976; and in WIN\n\t\t\t\t\t\t(June 3, 1976) as \"What is Socialist Feminism?\""
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?person_annotation_20221011134053354",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-11T17:40:53.354Z",
+	"dcterms:modified": "2022-10-11T17:41:03.657Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?person_annotation_20221011134053354#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?person_annotation_20221011134053354#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q283659",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+	<text>
+		<body>
+			<pb n="4"/>
+			<head>
+				<title> Toward Socialist Feminism* <note type="researchNote">Versions of this article
+						have been presented at the Socialst Feminist Conference, Yellow Springs,
+						Ohio, July 1975; at Women's Week, Brown University, April, 1976; and in WIN
+						(June 3, 1976) as "What is Socialist Feminism?"</note></title></head>
+			<byline><persName key="Barbara Ehrenreich" ref="http://www.wikidata.org/entity/Q283659">Barbara Ehrenreich</persName></byline>
+			<p> At some level, perhaps not too well articulated, socialist feminism has been around
+				for a long time. You are a woman in a capitalist society. You get pissed off: about
+				the job, about the bills, about your husband (or ex), about the kids' school, the
+				housework, being pretty, not being pretty, being looked at, not being looked at (and
+				either way, not listened to), etc. If you think about all these things and how they
+				fit together and what has to be changed, and then you look around for some words to
+				hold all these thoughts together in abbreviated form, you'd almost have to come up
+				with something like "socialist feminism." </p>
+			<p>A lot of us came to socialist feminism in just that way: we were reaching for a
+				word/term/ phrase that would begin to express all of our concerns, all of our
+				principles in a way that neither "socialist" nor "feminist" seemed to. I have to
+				admit that most socialist feminists know are not too happy with the term "socialist
+				feminist" either. On the one hand it is too long (l have no hopes for a hyphenated
+				mass movement); on the other hand it is much too short for what is, after all,
+				really socialist internation= alist anti-racist anti-heterosexist feminism.</p>
+			<p>The trouble with taking a new label of any kind is that it creates an instant aura of
+				sectarianism. "Socialist feminism" becomes a challenge, a mystery, an issue in and
+				of itself. We have speakers, conferences articles on "socialist feminism"—though we
+				know perfectly well that either"socialism" or "feminism" is too huge and too
+				inclusive to be a subject for any sensible speech, conference, or article. People,
+				includ- ing avowed socialist feminists, ask themselves anxiously, "What is socialist
+				feminism?" There is a kind of expectation that it is (or is about to be at any
+				moment, maybe in the next speech, conference or article) a brilliant synthesis of
+				world historical proportions—an evolutionary leap beyond Marx, Freud and
+				Wollstonecraft. Or that it will turn out to be nothing, a fad seized on by a few
+				disgruntied feminists and female socialists, a temporary distraction.</p>
+			<p>I want to try to cut through some of the mystery which has grown up around socialist
+				feminism. Here I am going to focus on our "theory"—the way we look at and analyze
+				the world. I am not going to deal with our total outlook as socialist feminists
+				because I want to stick as closely as possible to the interface of the two main
+				traditions we grow out of—socialism and feminism. </p>
+			<p> A logical way to start is to look at socialism and feminism separately. How does a
+				socialist—more precisely a Marxist—look at the world? How does a feminist look at
+				the world? To begin with, Marxism and feminism have something important in common:
+				they are critical ways of looking at the world. Both rip away popular mythology and
+				"common-sense wisdom“ and force us to look at experience in a new way. Both seek to
+				understand the world—not in terms of static balances and symmetries (as in
+				conventional social science), but in terms of antagonisms. So they lead to
+				conclusions which are jarring and disturbing at the same time that they are
+				liberating. There is no way to have a Marxist or a feminist outlook and remain a
+				spectator. To understand the reality laid bare by these analyses is to move into
+				action to change it.</p>
+			<p>Here I am going to restrict myself to what I see as the core insights of Marxism and
+				feminism, and state these as briefly and starkly as possible: Marxism (in 20 words
+				or less) addresses itself to the class dynamics of capitalist society. Every social
+				scientist knows that capitalist societies are characterized by more or less severe,
+				systemic inequality. Marxism understands this inequality to arise from processes
+				which are intrinsic to capitalism as an economic system. A minority of people (the
+				capitalist class) own all the factories/ energy sources/resources on which every-
+				one else depends in order to live. The great majority (the working class) must, out
+				of sheer necessity work, under conditions set by the capitalists, for the wages the
+				capitalists pay. Since the capitalists make their profits by paying less in wages
+				than the value of what the workers actually produce, the relationship between
+				these two classes is necessarily one of irreconcilable antagonism: the capitalist
+				class owes its very existence to the continued exploit- ation of the working class.
+				What maintains this system of class rule is, in the last analysis, force. The
+				capitalist class controls (directly or indirectiy) the means of organized violence
+				rep- resented by the state—policemen, jails, etc. Only by waging a revolutionary
+				struggle aimed at the seizure of state power can the working class free itself, and,
+				ultimately, all people.</p>
+			<p>Feminism addresses itself to another familiar inequality. All human societies are
+				marked by some degree of inequality between the sexes. If we survey human societies
+				at a glance, sweep- ing through history and across continents, we see that they have
+				commonly been character<pb n="5"/>ized by: the subjugation of women to male
+				authority, both within the family and in the community in general; the
+				objectification of women as a form of property; a sexual division of labor in which
+				women are confined to such activities as childraising, performing personal services
+				for adult males and specified (usually low-prestige) forms of productive labor.
+				Feminists, struck by the near-universality of these things have looked for
+				explanations in the biological "givens“ which underlie all human social existence:
+				men are physically stronger than women on the average, especially compared to
+				pregnant women or women who are nursing babies. Furthermore, men have the power to
+				make women pregnant. Thus the forms that sexual inequality takes—however various
+				they may be from culture to culture—rest, in the last analysis, on what is clearly a
+				physical advantage males hold over females. That is to say, they rest on violence,
+				or the threat of violence.</p>
+			<p>The ancient, biological roots of male supremacy—the fact of male violence—are
+				commonly obscured by the laws and conventions which regulate the relations between
+				the sexes in any particular culture. But they are there, according to a feminist
+				analysis. The possibility of male assault stands as a constant warning to "bad"
+				(rebellious aggressive) women, and drives "good" women into complicity with male
+				supremacy. The reward for being "good" ("pretty," submissive) is protection from
+				random male violence and, in some cases, econ- omic security.</p>
+			<p>I hope I have written these capsule sum- maries of Marxism and feminism in such a way
+				that some similarities of approach show through. Marxism rips away the myths about
+				democracy" and "pluralism" to reveal a system of class rule that rests on forcible
+				exploitation. Feminism cuts through myths about "instinct" and romantic love to
+				expose male rule as a rule of force. Both analyses compel us to look at a
+				fundamental injustice. If either, or both, make you uncomfortable, they were meant
+				to! The choice is to reach for the comfort of the myths or as Marx put it, to work
+				for a social order which does not require myths to sustain it. Having gone to the
+				trouble to provide these thumbnail sketches of Marxism and feminism, the obvious
+				thing to do would be just to add them up and call the sum "socialist feminism." In
+				fact, this is probably how most socialist feminists operate most of the time—as a
+				kind of hybrid, pushing feminism in socialist circles, socialism in feminist
+				circles. Practically speaking, Ithink this is a perfectly reasonable way to
+				operate a lot of the time. One trouble with leaving things like that, though, is
+				that it keeps people wondering "Well, what is she really?" or demanding of us "What
+				is the principal contradiction?" Such questions often stop us in our tracks: It
+				sounds so compelling and authoritative and logical: "Make a choice! Be one or
+				another!" Yet we know that there is a political consistency to socialist feminism.
+				We are not hybrids or fence-sitters.</p>
+			<p>To get to that political consistency we have to go beyond the capsule versions of
+				Marxism and feminism I laid out. We have to differentiate ourselves, as feminists
+				from other kinds of feminists, and as Marxists from other kinds of Marxists. We have
+				to stake out a socialist feminist kind of feminism and a socialist feminist kind
+				of socialism. Only then is there a possibility that things will "add up" to
+				something more than an uneasy juxtaposition. </p>
+			<p> First, what is our outlook as feminists and how is it different from that of other
+				feminists? I think most radical feminists and socialist feminists would agree with
+				my capsule characteriza- tion of feminism as far as it goes. The trouble with
+				radical feminism. from a socialist feminist point of view, is that it doesn’t go any
+				farther: it remains transfixed by the universality of male supremacy: things have
+				never really changed; all social systems are "patriarchies“; imperialism,
+				militarism and capitalism are all simply expressions of innate male aggressiveness.
+				And so on. </p>
+			<p>The problem with this is not only that it leaves out men (and the possibility of
+				reconciliation with them on a truly human and egalitarian basis) but that it leaves
+				out an awful lot about women. For example to discount a socialist country such as
+				China as a "patriarchy"—as have heard some radical feminists do—is to ignore the
+				real struggles and achievements of millions of women. Socialist feminists while
+				agreeing that there is something timeless and universal about women's oppression,
+				have insisted that it takes different forms in different settings, and that the
+				differences are of vital importance. There is a difference between a society in
+				which sexism is expressed by female infanticide and a society in which sexism takes
+				the form of unequal representation on the Central Committee. And the difference is
+				worth dying for. </p>
+			<p>One of the historical variations on the theme of sexism which ought to concern all
+				feminists is the set of changes that came with the transition from an agrarian
+				society to industrial capitalism. This is no academic issue. The social system
+				which industrial capitalism replaced was in fact a patriarchal one, and I am using
+				that term now in its original sense to mean a system in which production is centered
+				in the household and is presided over by the oldest male. The fact is that
+				industrial capitalism came along and tore the rug out from under that system:
+				production went into the factories; individuals broke off from the family to become
+				"free" wage earners. To say that capitalism disrupted the patriarchal organization
+				of production and family life is not, of course, to say that capital- ism abolished
+				male supremacy! But the particu<pb n="6"/>lar forms of sex oppression we
+				experience today are, to a significant degree, recent developments. A huge
+				historical discontinuity lies between us and true patriarchy. If we are to
+				understand our experience as women today, we must move beyond the biological
+				invariants of human experience to a consideration of capitalism as a system. </p>
+			<p>There are other ways ! could have gotten to the same point. I could have said simply
+				that as feminists we are most interested in the most oppressed women—poor and
+				working-class women, third-world women—and for that reason we are led to a need
+				to comprehend and confront captialism. I could have said that we need to address
+				ourselves to the class system simply because women are members of classes But I am
+				trying to bring out something else about our perspective: that there is no way to
+				understand sexism as it acts on our lives—never mind class oppression for a
+				minute—without putting it in the historical context of capitalism. </p>
+			<p>Now let's go on to our outlook as Marxists. Again, I think most socialist feminists
+				would agree with my capsule summary as far as it goes. And the trouble again is that
+				there are a lot of people (I'll call them "mechanical Marxists") who do not go any
+				further. To these people, the only "real" and important things that go on in
+				capitalist society are those that relate to the productive process or the conventional political sphere. From such a point of view, every other part of experience
+				and social existence—education, sexuality, recreation, the family, art, music,
+				housework (you name it)—is peripheral to the central dynamics of social change; it
+				is part of the "superstructure" or "culture."</p>
+			<p>Socialist feminists are in a very different camp. We (along with many Marxists who
+				are not feminists) see capitalism as a social and cultural totality. We understand
+				that, in its search for markets, capitalism is driven to penetrate every nook and
+				cranny of social existence. Especially in the monopoly capitalism phase, the realm
+				of consumption is every bit as important, just from an economic point of view as the
+				realm of production. So we cannot understand class struggle as something confined
+				to issues of wages and hours, or confined only to workplace issues. Class struggle
+				occurs in every arena where the interests of the classes conflict, and that includes
+				education, health, the arts, etc. We aim to transform not only the ownership of
+				the means of production, but the totality of social existence.</p>
+			<p>So, as Marxists, we come to feminism from a completely different place than the
+				"mechani- cal Marxists." Because we see monopoly capi- talism as a
+				political/economic/cultural totality, we have room within our Marxist framework for
+				feminist issues which have nothing ostensibly to do with production or "politics "
+				issues that have to do with "private" life. </p>
+			<p> Furthermore, in our brand of Marxism, there is no "woman question," no big mystery
+				about women—because we never compartmentalized women off to the "superstructure“ in
+				the first place. Marxists of a mechanical bent continually ponder the issue of the
+				unwaged woman (the housewife): is she really a member of the working class? That
+				is, does she really produce surplus value? We say, of course housewives are
+				members of the working class—not because we have some elaborate proof that they
+				really do produce surplus value–but because we under- stand a class as being
+				composed of people, and as having a social existence quite apart from the
+				capitalist-dominated realm of production. When we think of class in this way, then
+				we see that in fact the women who seemed most peripheral the housewives are at the
+				very heart of their class—raising children, holding together families, maintaining
+				the culture and social networks of the community. So we are coming out of a kind of
+				feminism and a kind of Marxism whose interests quite naturally flow together. I
+				think we are in a position now to see why it is that socialist feminism has been
+				such a great mystery. It is a paradox only as long as what you mean by socialism is
+				really "mechanical Marxism" and what you mean by feminism is an ahistorical kind of
+				radical feminism. These things don’t add up; they have nothing in common. But if
+				you put together another kind of socialism and another kind of feminism, as I have
+				tried to define them, you do get some common ground. And that is one of the most
+				important things about socialist feminism today: that it is a space—free from the
+				constrictions of a truncated kind of feminism and a truncated version of Marxism—a
+				space in which we can develop the kind of politics that address the political/
+				economic/cultural totality of monopoly capitalist society. We could go only so far
+				with the available feminisms, the conventional Marxism, and then we had to break out
+				to something that is not so restrictive and so incomplete in its view of the world.
+				We had to take a new name, socialist feminism," in order to assert our determination to comprehend the whole of our experience and to forge a politics that
+				reflects the totality of that comprehension. At that I may have fulfilled my mission
+				of demystifying socialist feminism, but I don't want to leave this theory as a
+				"space" or a common ground. Things are beginning to grow in that ground. We are
+				closer to a synthesis in our understanding of sex and class capitalism and male
+				domination, than we were a few years ago. Here l will indicate very sketchily one
+				such line of thought:</p>
+			<list>
+				<item>1. The Marxist/feminist understanding that class and sex domination rest
+					"ultimately" on force is correct, and this remains the most devastating critique
+					of sexist/capitalist society. But there is a lot to that "ultimately." In a <pb n="7"/> day-to-day sense, most people acquiesce to sex and class domination
+					without being held in line by the threat of violence, and often without even the
+					threat of material deprivation. </item>
+				<item>2. It is very important, then, to figure out what, if not the direct
+					application of force, keeps things going. In the case of class a great deal has
+					been written already about why the American working class lacks militant class
+					consciousness. Certainly ethnic divisions especially the Black/white division,
+					are a key to the answer. But, I would argue, in addition to being divided, the
+					working class has been socially atomized: working-class neighborhoods have been
+					destroyed and allowed to decay; life has become increasingly privatized and
+					inward-looking; skills once possessed by the working class have been
+					expropriated by the capitalist class; capitalist-controlled "mass culture“ has
+					edged out almost all indigenous working-class culture and institutions. Instead
+					of collectivity and self-reliance as a class there is mutual isolation and
+					collective dependency on the capitalist class. </item>
+				<item>3. The subjugation of women, in ways characteristic of late capitalist
+					society, has been a key to this process of class atomization. To put it another
+					way: the forces which have atomized working-class life and promoted cultural/
+					material dependency on the capitalist class are the same forces which have
+					served to perpetuate the subjugation of women. It is women who are most
+					isolated in what has become an in- creasingly privatized family existence (even
+					when they work outside the home too). It is, in many instances women's skills
+					(productive skills, healing, midwifery) which have been discredited or banned
+					to make way for commodities. It is, above all, women who are required to be
+					utterly passive/uncritical/dependent (i.e. "feminine") in the face of the
+					pervasive capitalist penetration of private life. Historically, late capitalist
+					penetration of working-class life has singled out women as prime targets of
+					pacification (or "feminization") because women are the culture-bearers of their
+					class. </item>
+				<item>4. It follows that there is a fundamental interconnectedness between women's
+					struggle and what is traditionally conceived as class struggle. Not all women's
+					struggles have an inherently anti-capitalist thrust (particularly not those
+					which seek only to advance the power and wealth of special groups of women), but
+					all those which build collectivity and collective confidence among women are
+					vitally important to the building of class consciousness. Conversely, not all
+					class struggles have an inherently anti-sexist thrust (especially not those
+					which cling to pre-industrial patriarchal values) but all those which seek to
+					build the social and cultural autonomy of the working class are necessarily
+					linked to the struggle for women's liberation.</item>
+			</list>
+			<p>This is one direction which socialist feminist analysis is taking. No one is
+				expecting a synthesis to emerge which will collapse socialist and feminist struggles
+				into the same thing. The capsule summaries I gave earlier retain their "ultimate"
+				truth: there are crucial aspects of capitalist domination (such as racial
+				oppression) which a purely feminist perspective simply cannot account for or deal
+				with—without bizarre distor- tions, that is. There are crucial aspects of sex
+				oppression (such as male violence within the family) into which socialist thought
+				has little insight—again without a lot of stretching and distortion. Hence the need
+				to continue to be socialists and feminists. But there is enough of a synthesis, both
+				in what we think and what we do, for us to begin to develop a self-confident
+				identity as socialist feminists. </p>
+		</body>
+		<back>
+			<p>Barbara Ehrenreich is the co-author, with Deirdre English, of <title>Witches, Midwives and
+				Nurses: A History of Women Healers</title>, and <title>Complaints and Disorders: The Sexual
+				Politics of Sickness</title> (Feminist Press, New York). She is a member of HealthRight (a
+				New York women's health collective), Action for Women in Chile, and New American
+				Movement.</p>
+		</back>
+	</text>
+</TEI>
