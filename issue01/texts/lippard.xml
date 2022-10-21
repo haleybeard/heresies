@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+		<fileDesc>
+			<titleStmt>
+				<title>The Pink Glass Swan: Upward and Downward Mobility in the Art World</title>
+				<author>Lucy R. Lippard</author>
+
+				<respStmt>
+					<persName>Haley Beardsley</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Erica Delsandro</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Margaret Hunter</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Diane Jakacki</persName>
+					<resp>Invesigator, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Sophie McQuaide</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Martin</persName>
+					<resp>Editor, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bri Perea</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Roger Rothman</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kaitlyn Segreti</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maggie Smith</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maya Wadhwa</persName>
+					<resp>Editor</resp>
+				</respStmt>
+				<funder>Bucknell University Humanities Center</funder>
+				<funder>Bucknell University Office of Undergraduate Research</funder>
+				<funder>The Mellon Foundation</funder>
+				<funder>National Endowment for the Humanities</funder>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>
+					<name>Bucknell University</name>
+					<address>
+						<street>One Dent Drive</street>
+						<settlement>Lewisburg</settlement>
+						<region>Pennsylvania</region>
+						<postCode>17837</postCode>
+					</address>
+				</distributor>
+				<availability>
+					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial
+						4.0 International (CC BY-NC 4.0)</licence>
+					<licence>Heresies journal: © Heresies Collective</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Heresies: Issue 1</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>HERESIES: A Feminist Publication on Art and
+								Politics</publisher>
+							<pubPlace>
+								<address>
+									<name>Heresies</name>
+									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
+									<settlement>New York</settlement>
+									<region>New York</region>
+									<postCode>10013</postCode>
+								</address>
+							</pubPlace>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+				xmlns:as="http://www.w3.org/ns/activitystreams#"
+				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+				xmlns:fabio="https://purl.org/spar/fabio#"
+				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+				xmlns:org="http://www.w3.org/ns/org#">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162537523",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:25:37.523Z",
+	"dcterms:modified": "2022-09-08T20:25:37.523Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162537523#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162537523#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Class and Feminism, ed. Charlotte Bunch and Nancy Myron (Baltimore, 1974). This book contains some excrutiating insights for the middle-class feminist; it raised my consciousness and inspired this essay (along with other recent experiences and conversations)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162629156",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:26:29.156Z",
+	"dcterms:modified": "2022-09-08T20:26:29.156Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162629156#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162629156#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Actually nothing new; the history of modern art demonstrates a constant longing for the primitive, the simple, the clear, the \"poor,\" the noble naif, etc."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162724258",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:27:24.258Z",
+	"dcterms:modified": "2022-09-08T20:27:24.258Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162724258#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162724258#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Michele Russell, \"Woman and Third World,\" New American Movement (June, 1973)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162800122",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:28:00.122Z",
+	"dcterms:modified": "2022-09-08T20:28:00.122Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162800122#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162800122#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Opinions of Working People Concerning the Arts, ed. Don Celender (New York, 1975)"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162911251",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:29:11.251Z",
+	"dcterms:modified": "2022-09-08T20:29:11.251Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162911251#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162911251#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Bernard Kirchenbaum, in correspondence. Celender, op. cit., offers proof of this need and of the huge (and amazing) interest in art expressed by the working class, though it should be said that much of what is called art would not be agreed upon by the taste dictators."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163003751",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:30:03.751Z",
+	"dcterms:modified": "2022-09-08T20:30:03.751Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163003751#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163003751#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[25]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "This despite their publication of and apparent endorsement of Carolee Schneemann's \"The Prounoun Tyranny\" in the Fox, 3(1976)"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163034520",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-08T20:30:34.520Z",
+	"dcterms:modified": "2022-09-08T20:30:34.520Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163034520#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.6.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163034520#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[26]/quote/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Sheila Rowbotham, Women: Resistance and Revolution (London, 1972)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.6.2"
+	}
+}]]>
+				</rdf:Description>
+			</rdf:RDF></xenoData>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="82"/>
+			<head><title>The Pink Glass Swan: Upward ond Downward Mobility in the Art
+				World</title></head>
+			<byline><persName>Lucy R.Lippard</persName></byline>
+			<p>The general alienation of contemporary avant-garde art from any broad audience has
+				been crystallized in the women's movement. From the beginning, both liberal
+				feminists con- cerned with changing women's personal lives and socialist feminists
+				concerned with over- throwing the classist/racist/sexist foundations of society have
+				agreed that "fine" art is more or less irrelevant, though holding out the hope that
+				feminist art could and should be different. The American women artists' movement has
+				concentrated its efforts on gaining power within its own interest group-the art
+				world, in itself an incestuous network of relationships between artists and art on
+				the one hand and dealers publishers, buyers on the other. The "public," the
+				"masses," or the "audience" is hardly considered.</p>
+			<p> The art world has evolved its own curious class system. Externally this is a
+				microcosm of capitalist society, but it maintains an internal dialectic (or just
+				plain contradiction) that at- tempts to reverse or ignore that parallel. Fame may be
+				a higher currency than mere money, but the two tend to go together. Since the buying
+				and selling of art and artists is done by the ruling classes or by those chummy with
+				them and their institutions, all artists or producers, no matter what their
+				individual economic back- grounds are dependent on the owners and forced into a
+				proletarian role-just as women, in Engels' analysis, play proletarian to the male
+				ruler across all class boundaries. Looking at and "appreciating" art in this century
+				has been understood as an instrument (or at best a result) of upward social mobility
+				in which owning art is the ultimate step. Making art is at the bottom of the scale.
+				This is the only legitimate reason to see artists as so many artists see
+				themselves-as "workers." At the same time, artists/maker tend to feel misunderstood
+				and, as creators, innately superior to the buyers/owners. The innermost circle of
+				the art-world class system thereby replaces the rulers with the creators, and the
+				contemporary artist in the big city (read New York) is a schizophrenic creature.
+				S/he is persistently working "up" to be accepted, not only by other artists but also
+				by the hierarchy that exhibits, writes about, and buys her/his work. At the same
+				time s/he is often ideologi- cally working "down" in an attempt to identify with the
+				workers outside of the art context, and to overthrow the rulers in the name of art.
+				This conflict is augmented by the fact that most artists are originally from the
+				middle class, and their approach to the bourgeoisie includes a touch of adolescent
+				rebellion against authority. Those few who have actually emerged from the working
+				class sometimes use this-their very lack of background privilege-as privilege in
+				itself, while playing the same schizophrenic foreground role as their solidly
+				middle-class colleagues.</p>
+			<p> Artists, then, are workers or at least producers even when they don't know it. Yet
+				artists dressed in work clothes (or expensive imitations thereof) and producing a
+				commodity accessible only to the rich differ drastically from the real working class
+				in that artists control their pro- duction and their product-or could if they
+				realized it and if they had the strength to main- tain that control. In the studio,
+				at least, unlike the farm, the factory, and the mine, the unor- ganized worker is in
+				superficial control and can, if s/he dares, talk down to or tell off the boss—the
+				collector, the curator, etc. For years now, with little effect, it has been pointed
+				out to artists that the art-world superstructure cannot run without them. Art, after
+				all, is the product on which all the money is made and the power based.</p>
+			<p> During the 1950s and 1960s most American artists were unaware that they did not
+				control their art, that their art could be used not only for esthetic pleasure or
+				decoration or status symbols, but also as an educational weapon. In the late 1960s,
+				between the Black, the student, the anti-war and the women's movements, the facts of
+				the exploitation of art in and out of the art world emerged. Most artists and
+				artworkers still ignore these issues because they make us feel too uncomfortable and
+				helpless. Yet if there were a strike against museums and galleries to allow artists
+				control of their work, the scabs would be out immediately in full force, with
+				reasons ranging from self-interest to total lack of political awareness to a genuine
+				belief that society would crumble without art, that art is "above it all." Or is it
+				in fact below it all, as most political activists seem to think?</p>
+			<p> Another aspect of this conflict surfaces in dis- cussions around who gets a "piece
+				of the pie—a phrase which has become the scornful desig- nation for what is actually
+				most peoples goal. (Why shouldn't artists be able to make a living in this society
+				like everybody else? Well, almost <pb n="83"/> everybody else.) Those working for
+				"cultural change" through political theonizing and occasional actions are opposed to
+				anybody getting a piece of the pie, though politics appears to be getting
+				fashionable again in the art world and may itself provide a vehicle for internal
+				success; today one can refuse a piece of the pie and simultaneously be getting a
+				chance at it. Still, the pie is very small and there are a lot of hungry people
+				circling it. Things were bad enough when only men were allowed to take a bite. Since
+				"aggressive women" have gotten in there too, competition, always at the heart of the
+				art-world class system, has peaked.</p>
+			<p> Attendance at any large art school in the U.S. takes students from all classes and
+				trains them for artists' schizophrenia. While being cool and chicly grubby (in the
+				"uniform" of mass production), and knowing what's the latest in taste and what's the
+				kind of art to make and the right names to drop is clearly "upward mobility" - from
+				school into teaching jobs and/or the art world-the lifestyle accompanying these
+				habits is heavily weighted "downward." The working-class girl who has had to work
+				for nice clothes must drop into frayed jeans to make it into the art middle ciass,
+				which in turn considers itself both upper and lower class. Choosing poverty is a
+				confusing experence for a child whose parents (or more likely mother) have tried des
+				- perately against great odds to keep a clean and pleasant home. <note
+					type="researchNote">Class and Feminism, ed. Charlotte Bunch and Nancy Myron
+					(Baltimore, 1974). This book contains some excrutiating insights for the
+					middle-class feminist; it raised my consciousness and inspired this essay (along
+					with other recent experiences and conversations).</note> </p>
+			<p> The artist who feels superior to the rich because s/he is disguised as someone who
+				is poor provides a puzzle for the truly deprived. A par- allel notion, rarely
+				admitted but pervasive, is that a person can't understand "art" if their house is
+				full of pink glass swans or their lawn is inhabited by gnomes and flamingos, or if
+				they even care about house and clothes at all. This is particularly ridiculous now,
+				when art itself uses so much of this paraphernalia (and not always satirically); or,
+				from another angle, when even artists who have no visible means of profes- sional
+				support live in palatial lofts and sport beat-up $100 boots while looking down on
+				the "tourists" who come to SoHo to see art on Saturdays; SoHo is, in fact, the new
+				suburbia. One reason for such callousness is a hangover from the 1950s, when artists
+				really were poor and proud of being poor because their art, the argument went, must
+				be good if the bad guys—the rich and the masses- didn't like it.</p>
+			<p> In the 1960s the choice of poverty, often excused as anti-consumerism, even
+				infiltrated the esthetics of art. <note type="researchNote">Actually nothing new;
+					the history of modern art demonstrates a constant longing for the primitive, the
+					simple, the clear, the "poor," the noble naif, etc.</note> First there was Pop
+				Art, modeled on kitsch, on advertising and consumerism, and equally successful on
+				its own level. (Women, incidentally, participated little in Pop Art, partly because
+				of its blatant sexism, sometimes presented as a parody of the image of woman in the
+				media—and partly because the subject matter was often "women's work," ennobled and
+				acceptable only when the artists were men.) Then came Process Art-a rebellion
+				against the "precious object" traditionally desired and bought by the rich. Here
+				another kind of co-optation took place, when temporary piles of dirt, oil, rags and
+				filthy rubber began to grace carpeted living rooms. The Italian branch was even
+				called Arte Povera. Then came the rise of a third-stream medium called "conceptual
+				art" which offered "anti-objects" in the form of ideas-books or simple xeroxed texts
+				and photo- graphs with no inherent physical or monetary value (until they got on the
+				market, that is). Conceptual art seemed politically viable be- cause of its notion
+				that the use of ordinary, inexpensive, unbulky media would lead to a kind of
+				socialization (or at least democratiza- tion) of art as opposed to gigantic canvases
+				and huge chrome sculptures costing five figures and filling the world with more
+				consumer fetishes.</p>
+			<p> Yet the trip from of on canvas to ideas on xerox was, in retrospect, yet another
+				instance of "downward mobility" or middle-class guilt. It was no accident that
+				conceptual art appeared at the height of the social movements of the late 1960s nor
+				that the artists were sympathetic to those movements (with the qualified exception
+				of the women's movement). All of the esthetic tendencies listed above were genuinely
+				instigated as rebellions by the artists themselves, yet the fact remains that only
+				rich people can afford to 1) spend money on art that won't last; 2) live with "ugly
+				art" or art that is not decorative, because the rest of their surroundings are
+				beautiful and comfortable; 3) like "non-object art" which is only handy If you
+				already have too many possessions-when it becomes a reactionary commentary: art for
+				the overprivileged in a consumer society.</p>
+			<p> As a child, I was accused by my parents of being an "anti-snob snob" and I'm only
+				beginning to see the limitations of such a rebellion. Years later I was an early
+				supporter of and proselytizer for conceptual art as escape from the commodity
+				orientation of the art world, a way of communicating with a broader audience via
+				inexpensive media. Though I was bitterly disappointed (with the social, not the
+				esthetic achievements) when I found that this work could be so easily absorbed into
+				the system, it is only now that I've realized why the absorption took place.
+				Conceptual art's democratic efforts and physical vehicles were cancelled out by its
+				neutral, elitist content and its patronizing ap- proach. From around 1967 to 1971,
+				most of us involved in conceptual art saw that content as pretty revolutionary and
+				thought of ourselves as rebels against the cool, hostile artifacts of the prevailing
+				formalist and minimal art. But we were so totally enveloped in the middle-class
+				approach to everything we did and saw, we couldn't perceive how that pseudo-academic
+				narrative piece or that art-world-oriented action <pb n="3"/> in the streets was
+				deprived of any revolutionary content by the fact that it was usually incom -
+				prehensible and alienating to the people "out there," no matter how fashionably
+				downwardly mobile it might be in the art world. The idea that if art is subversive
+				in the art world it will automatically appeal to a general audience now seems
+				absurd.</p>
+			<p> The whole evolutionary basis of modernist innovation, the idea of esthetic
+				"progress," the "I-did-it-first" and "it's-been-done-already" syndromes which
+				pervade contemporary avant-garde art and criticism, are also blatantly class- ist,
+				and have more to do with technology than with art. To be "avant-garde" is inevitably
+				to be on top or to become upper-middle-class, because such innovations take place in
+				a context accessible only to the educated elite. Thus socially conscious artists
+				working in or with community groups and muralists try to disassociate themselves
+				from the art world, even though its values ("quality") remain to haunt them
+				personally.</p>
+			<p> The value systems are different in and out of the art world, and anyone attempting
+				to straddle the two develops another kind of schizophrenia. For instance, in the
+				inner-city community murals, as Eva Cockcroft points out elsewhere in this
+				publication, the images of woman are the traditional ones-a beautiful, noble mother
+				and housewife or worker, and a rebellious young woman striving to change her
+				world-both of them celebrated for their courage to be and to stay the way they are
+				and to support their men in the face of horrendous odds. This is not the art-world
+				or middle-class "radical" view of future feminism, nor is it one which radical
+				feminists hoping to "reach out" across the classes can easily espouse. Here, in the
+				realm of aspirations, is where upward and downward mobility and status quo clash,
+				where the economic class barriers are established. As Michele Russell has
+					noted, <note type="researchNote">Michele Russell, "Woman and Third World," New
+					American Movement (June, 1973).</note> the Third-World woman is not attracted to
+				the "Utopian experimentation" of the left (in the art world, the would-be Marxist
+				avant-garde) or to the "prag- matic opportunism" of the right (in the art world,
+				those who reform and co-opt the "radicals").</p>
+			<p> Many of the subjects touched on here come back to Taste. To a poor woman, art, or a
+				beautiful object, might be defined as something she cannot have. Beauty and art have
+				been defined before as the desirable. In a consumer society, art too becomes a
+				commodity rather than a life- enhancing experience. Yet the Van Gogh reproduction or
+				the pink glass swan-the same beautiful objects that may be "below" a middle - class
+				woman (because she has, in moving up- ward, acquired upper-class taste, or would
+				like to think she has)-may be "above" or inaccessible to a welfare mother. The
+				phrase "to dictate taste" has its own political connotations. Minneapolis worker
+				Interviewed by students of artist Don Celender said he liked "old art works because
+				they're more classy," <note type="researchNote">Opinions of Working People
+					Concerning the Arts, ed. Don Celender (New York, 1975)</note> and class does
+				seem to be what the traditional notion of art is all about. Yet contemporary
+				avant-garde art, for all its attempts to break out of that gold frame, is equally
+				class-bound, and even the artist aware of these contradictions in her/his own life
+				and work is hard-put to resolve them. It's a vicious circle If the artist/producer
+				is upper-middle- class, and our standards of art as taught in schools are
+				persistently upper-middle-class, how do we escape making art only for the
+				upper-middle-class?</p>
+			<p> The alternatives to "quality," to the "high" art shown in art-world galleries and
+				magazines have been few, and for the most part unsatis- fying, although
+				well-intended. Even when kitsch, politics or housework are absorbed into art,
+				contact with the real world is not necessarily made. At no time has the avant garde,
+				though playing in the famous "gap between art and life," moved far enough out of the
+				art context to attract a broad audience-that audience which has, ironically, been
+				trained to think of art as something that has nothing to do with life and, at the
+				same time, tends only to like that art which means something in terms of its own
+				life, or fantasies. The dilemma for the leftist artist in the middle class is that
+				her/his standards seem to have been set irremediably. No matter how much we know
+				about what the broader public wants, or needs, it is very difficult to break social
+				conditioning and cultural habits. Hopefully, a truly feminist art will provide other
+				standards.</p>
+			<p> To understand the woman artist's position in this complex situation between the art
+				world and the real world, class and gender, it is necessary to know that in America
+				artists are rarely respected unless they are stars or rich or mad or dead. Being an
+				artist is not being "somebody." Middle-class families are happy to pay lip service
+				to art but god forbid their own children take it so seriously as to consider it a
+				profession. Thus a man who becomes an artist is asked when he is going to "go to
+				work," and he is not- so-covertly considered a child, a sissy (a wom - an), someone
+				who has a hobby rather than a vocation, someone who can't make money and therefore
+				cannot hold his head up in the real world of men—at least until his work sells, at
+				which point he may be welcomed back. Male artists, bending over backward to rid
+				themselves of this stigma, tend to be particularly susceptible to insecurity and
+				machismo. So women daring to insist on their place in the primary rank-as art makers
+				rather than as art housekeepers (curators, critics, dealers, "pa - trons")-inherit a
+				heavy burden of male fears in addition to the economic and psychological <pb n="4"/>
+				discrimination still rampant in a patriarchal, money-oriented society.</p>
+			<p> Most art being shown now has lttle to do with any woman's experience, in part
+				because women-rich ones as "patrons," others as decorators and "home-makers" —are in
+				charge of the private sphere, while men identify more easily with public art-art
+				that has become public through economic validation (the million-dollar Rembrandt).
+				Private art is often seen as mere ornament; public art is associated with monuments
+				and money, with "high" art and its containers, including unwelcoming white-walled
+				galleries and museums with classical courthouse architecture. Even the graffiti
+				artists, whose work was unsuccessfully transferred from subways to art galleries,
+				were all men, concerned with facades, with having their names in spray paint, in
+				lights, in museums...</p>
+			<p> Private art is visible only to intimates. I suspect the reason so few women "folk"
+				artists work outdoors in large scale (like Simon Rodia's Watts Towers and other
+				"naives and visionaries" with their cement and bottles) is not only be- cause men
+				aspire to erections and know how to use the necessary tools, but because women can
+				and must assuage these same creative urges inside the house, with the pink glass
+				swan as an element in their own works of art-the living room or kitchen. In the art
+				world the situation is doubly paralleled. Women's art until recently was rarely seen
+				in public and all artists are voluntarily "women" because of the social attitudes
+				mentioned above; the art world is so small that it is "private."</p>
+			<p> Just as the living room is enclosed by the building it is in, art and artist are
+				firmly imprisoned by the culture which supports them. Artists claiming to work for
+				themselves alone, and not for any audience at all, are passively accepting the
+				upper-middle class audience of the internal art world. This is compounded by the
+				fact that to be middle-class is to be passive, to live with the expectation of being
+				taken care of and entertained. But art should be a consciousness-raiser; it partakes
+				of and should fuse the private and the public spheres. It should be able to
+				reintegrate the personal without being satisfied by the merely personal. One good
+				test is whether or not it communicates, and then, of course, what and how it
+				communicates. If it doesn't communicate it may just not be very good art from
+				anyone's point of view; or it may be that the artist is not even aware of the needs
+				of others, or simply doesn't care.</p>
+			<p> For there is a need out there, a need vaguely satisfied at the moment by
+					"schlock." <note type="researchNote">Bernard Kirchenbaum, in correspondence.
+					Celender, op. cit., offers proof of this need and of the huge (and amazing)
+					interest in art expressed by the working class, though it should be said that
+					much of what is called art would not be agreed upon by the taste
+					dictators.</note> And it seems that one of the basic tenets of the feminist arts
+				should be a reaching out from the private sphere to transform that "artificial art"
+				and to more fully satisfy that need. For the art-world artist has come to consider
+				her/his private needs paramount, and has too often forgotten about those of the
+				audience, any audience. Work that communicates to a dangerous number of people is
+				derogatorily called a "crowd pleaser." This is a blatantly classist attitude, taking
+				for granted that most people are by nature incapable of understanding good art (ie.,
+				upper-class or quality art). At the same time, much ado is made about
+				art-educational theories that claim to "teach people to see" (consider the political
+				implications of this notion) and muffle all issues by stressing the "universal- ity"
+				of great art.</p>
+			<p> It may be that at the moment the possibilities are slim for a middle-class art
+				world's understanding or criticism of the little art we see that reflects
+				working-class cultural values. Perhaps our current responsibility lies in humanizing
+				our own activities so that they will communicate more effectively with all women.
+				Hopefully we will aspire to more than women's art flooding the museum and gallery
+				circuit. Perhaps a feminist art will only emerge when we become wholly responsible
+				for our own work, for what becomes of it, who sees it, and who is nourished by it.
+				For a feminist artist, whatever her style, the prime audience at this time is other
+				women. So far, we have tended to be satisfied with com - municating with those women
+				whose social experience is close to ours. This is natural enough, since this is
+				where we will get our greatest support, and we need support in taking this risk of
+				trying to please women, knowing that we are almost certain to displease men in the
+				process. In addition, it is embarrassing to talk openly about the class system which
+				divides us, hard to do so without sounding more bourgeois than ever in the
+				implications of superiority and inferiority inherent in such discussions (where the
+				working class is as often considered superior as the middle class).</p>
+			<p> A book of essays called Class and Feminism written by The Furies, a lesbian feminist
+				collec- tive, makes clear that from the point of view of working-class women, class
+				is a definite prob- lem within the women's movement. As Nancy Myron observes,
+				middle-class women: <quote>can intellectualize, politicize, accuse, abuse and
+					contribute money in order not to deal with their own classism. Even if they
+					admit that class exists, they are not likely to admit that their behavior is a
+					product of it. They will go through every painful detail of their lives to prove
+					to me or another working-class woman that they really didn't have any privilege,
+					that their family was exceptional, that they actually did have an uncle who
+					worked in a factory. To ease anyone's guilt is not the point of talking about
+					class... You don't get rid of oppression just by talking about it.</quote></p>
+			<figure/>
+
+			<pb n="5"/>
+			<p>Women are more strenuously conditioned toward upward cultural mobility or "gentility"
+				than men, which often results in the woman consciously betraying her class origins
+				as a matter of course. The hierarchies within the whole span of the middle class are
+				most easily demarcated by lifestyle and dress. For instance, the much-scorned
+				"Queens housewife" may have enough to eat, may have learned to consume the
+				unnecessities, and may have made it to a desired social bracket in her community,
+				but if she ventures to make art (not just own it), she will find herself back at the
+				bottom in the art world, looking wistfully up to the plateau where the male, the
+				young, the bejeaned seem so at ease.</p>
+			<p> For middle-class women in the art world not only dress "down," but dress like
+				working-class men. They do so because housedresses, pedal pushers, polyester
+				pantsuits, perrnanents, the wrong accents are not such acceptable disguises for
+				women as the boots, overalls and windbreaker syndromes are for men. Thus young
+				middle-class women tend to deny their female counterparts and take on "male"
+				(unisex) attire. It may at times have been chic to dress like a native American or a
+				Bedouin woman, but it has never been chic to dress like a workingclass woman, even
+				if she's trying to look like Jackie Kennedy. Young working-class women (and men)
+				spend a large amount of avallable money on clothes; it's a way to forget the rats
+				and roaches by which even the cleanest tenement-dwellers are blessed, or the
+				mortgages by which even the hardest-working homeowners are blessed, and to present a
+				classy facade. Artists dressing and talking "down" insult the hardhat much as rich
+				kids in rags do; they insult people whose notion of art is something to work for-the
+				pink glass swan.</p>
+			<p> Yet women, as evidenced by the Furies' publication, and as pointed out elsewhere
+				(most not- ably by Bebel), have a unique chance to communicate with women across the
+				boundaries of economic class because as a "vertical class" we share the majority of
+				our most fundamental experiences-emotionally, even when economcally we are divided.
+				Thus an economic analysis does not adequately explore the psychologi - cal and
+				esthetic ramifications of the need for change within a sexually oppressed group. Nor
+				does it take into consideration that women's needs are different from men's-or so it
+				seems at this still unequal point in history. The vertical class cuts across the
+				horizontal economic classes in a column of injustices. While heightened class
+				consciousness can only clarify the way we see the world, and all clarification is
+				for the better, I can't bring myself to trust hard lines and categories where
+				fledgling feminism is concerned.</p>
+			<p> Even in the art world, the issue of feminism has barely been raised in mixed
+				political groups. In 1970, women took our rage and our energies to our own
+				organizations, or directly to the public by means of picketing and protests. While a
+				few men supported these, and most politically conscious male artists now claim to be
+				feminists to some degree, the political and apolitical art world goes on as though
+				feminism didn't exist-the presence of a few vociferous feminist artists and critics
+				not withstanding. And in the art world, as in the real world, political commitment
+				frequently means total disregard for feminist priorities. Even the increasingly
+				Marxist group ironically calling itself Art- Language is unwilling to stop the
+				exclusive use of the male pronoun in its theoretical publications. <note
+					type="researchNote">This despite their publication of and apparent endorsement
+					of Carolee Schneemann's "The Prounoun Tyranny" in the Fox, 3(1976)</note></p>
+			<p> Experiences like this one and dissatisfaction with Marxism's lack of interest in
+				"the woman question" make me wary of merging Marxism and feminism. The notion of the
+				non-economic or "vertical" class is anathema to Marxists and confusion is rampant
+				around the chicken-egg question of whether women can be equal before the
+				establishment of a classless society or whether a classless society can be
+				established before women are liberated. As Sheila Rowbotham says of her own Marxism
+				and feminism: <quote>They are at once incompatible and in real need of one another.
+					As a feminist and a Marxist I carry their contradictions within me and it is
+					tempting to opt for one or the other in an effort to produce a tidy resolution
+					of the commotion generated by the antagonism between them. But to do that would
+					mean evading the social reality which gives rise to the antagonism. <note
+						type="researchNote">Sheila Rowbotham, Women: Resistance and Revolution
+						(London, 1972).</note></quote></p>
+			<p>As women, therefore, we need to establish far more strongly our own sense of
+				community, so that all our arts will be enjoyed by all women in all economic
+				circumstances. This will happen only when women artists make conscious efforts to
+				cross class barriers, to consider their audience, to see, respect, work with the
+				women who create outside the art world-whether in suburban crafts guilds or in
+				offices and factories or in community workshops. The current feminist passion for
+				women's traditional arts, which influences a great many women artists, should make
+				this road much easier, undess it too becomes another commercialized rip-off. Despite
+				the very real class obstacles, I feel strongly that women are in a privileged
+				position to satisfy the goal of an art which would communicate the needs of all
+				classes and sexes to each other, and get rid ofthe we/they dichotomy to as great an
+				extent as is possible in a capitalist framework. Our sex, our oppression and our
+				female experience—our female culture, just being explored—offer access to all of us
+				by these common threads.</p>
+		</body>
+		<back>
+			<p>Lucy R. Lippard is a feminist art critic, writes fiction too, and has been active
+				politically. She is co-founder of several women artists' groups and has published 10
+				books on contemporary art, the two most recent ones being <title>From the Center:
+					Feminist Essays on Women's Art</title> (E.P. Dutton) and <title>Eva
+					Hesse</title> (N.Y.U. Press).</p>
+		</back>
+	</text>
+</TEI>
