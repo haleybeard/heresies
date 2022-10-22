@@ -873,6 +873,396 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104634709",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T14:46:34.709Z",
+	"dcterms:modified": "2022-10-22T14:46:39.180Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104634709#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104634709#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[9]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Orbiter, Vol. 15, No. 17\n\t\t\t\t\t(1975), p. 2."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104650210",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T14:46:50.210Z",
+	"dcterms:modified": "2022-10-22T14:46:54.480Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104650210#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104650210#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[10]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "12.\n\t\t\t\t\tIbid."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104706182",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T14:47:06.182Z",
+	"dcterms:modified": "2022-10-22T14:47:10.439Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104706182#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104706182#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[27]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Joanne Parent (one of the authors of\n\t\t\t\t\t\"The Fourth World Manifesto“) told me the following incident. While she was\n\t\t\t\t\tworking in a factory, experiencing first-hand the hardships involved, she\n\t\t\t\t\tunderstood how well Rivera's mural portrayed those; but when she commented on\n\t\t\t\t\tthat to her fellow workers they negated or at least minimized their own\n\t\t\t\t\texperience of oppression compared to its heightened portrayal in the mural. The\n\t\t\t\t\tsimilarity to women's situation is that workers who (consciously or\n\t\t\t\t\tunconsciously) feel powerless in their jobs deny the pain of their experiences\n\t\t\t\t\tif its expression would jeopardize the only wage-earning option available to\n\t\t\t\t\tthem. It is no accident that women all over the country first explored their\n\t\t\t\t\toppression in the private, safe, and supportive context of consciousness-raising\n\t\t\t\t\tgroups, removed from the institutions in which they experienced that\n\t\t\t\t\toppression in their daily lives."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104718670",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T14:47:18.670Z",
+	"dcterms:modified": "2022-10-22T14:47:23.274Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104718670#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104718670#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[27]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "It is for this reason that feminism and feminist art have validity\n\t\t\t\t\tfor all women. For the same reason, the Marxist model of workers' oppression\n\t\t\t\t\tdoes not ultimately address itself to women's oppression, beyond that of\n\t\t\t\t\tworking-class women. For an extensive analysis of these issues see \"The Fourth\n\t\t\t\t\tWorld Manifesto,\" reprinted in: Radical Feminism, Anne Koedt. Ellen Levine,\n\t\t\t\t\tAnita Rapone, eds. (New York, 1973), pp. 322-357."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104734938",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T14:47:34.938Z",
+	"dcterms:modified": "2022-10-22T14:47:34.938Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104734938#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104734938#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[11]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Orbiter,\n\t\t\t\t\tVol. 15, No. 20 (1975), p. 2."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1147,7 +1537,7 @@
 			<quote>I object to the Art Exhibition. 1 find it degrading. As a woman, and hopefully
 				a lady, find it extremely offensive. 1am unable to lower my sights to the gutter
 				level of this exhibit. In my opinion, it is lewd, vulgar, obscene and immoral.
-				Since when did good taste and modesty go out-of-style?<note>Orbiter, Vol. 15, No. 17
+				Since when did good taste and modesty go out-of-style?<note type="scholarNote">Orbiter, Vol. 15, No. 17
 					(1975), p. 2.</note></quote>
 
 			<p> In another letter signed by 36 people-almost a petition—the art was called:</p>
@@ -1162,7 +1552,7 @@
 				insurance premium. The Aerospace Women's Committee does not speak for all of the
 				female employees, as there are those of us who still adhere to the old principle
 				that we were liberated immediately when we were born in America, we enjoy being
-				treated as a woman and we are definitely Miss or Mrs. and not Ms.<note>12.
+				treated as a woman and we are definitely Miss or Mrs. and not Ms.<note type="scholarNote">12.
 					Ibid.</note></quote>
 			<p>Clearly these female viewers at Aerospace "saw" in the art their own worst fears of
 				feminism. Their objections though focused on the exhibition, were rooted in their
@@ -1196,7 +1586,7 @@
 				would find it any easier to respond to an exhibition of art exposing painful aspects
 				of the experience of being Black in American society; or that Detroit factory
 				workers for example, readily identify with the realistic presentation in Rivera’s
-				mural of the hardships of factory work.<note>Joanne Parent (one of the authors of
+				mural of the hardships of factory work.<note type="scholarNote">Joanne Parent (one of the authors of
 					"The Fourth World Manifesto“) told me the following incident. While she was
 					working in a factory, experiencing first-hand the hardships involved, she
 					understood how well Rivera's mural portrayed those; but when she commented on
@@ -1216,7 +1606,7 @@
 				of housework, bear children and carry the sole responsibility of raising them. All
 				women are potential rape victims, and all women live in a male-dominated society
 				which is based on various cultural versions of enslavement and denies women's
-					culture.<note>It is for this reason that feminism and feminist art have validity
+					culture.<note type="scholarNote">It is for this reason that feminism and feminist art have validity
 					for all women. For the same reason, the Marxist model of workers' oppression
 					does not ultimately address itself to women's oppression, beyond that of
 					working-class women. For an extensive analysis of these issues see "The Fourth
