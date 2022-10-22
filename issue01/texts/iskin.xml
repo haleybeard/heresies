@@ -561,6 +561,318 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104538894",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T14:45:38.894Z",
+	"dcterms:modified": "2022-10-22T14:45:43.097Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104538894#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104538894#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "The precedent for this feminist use of the sticker is Susana\n\t\t\t\t\tTorre's exhibition catalogue for \"Twenty-Six Contemporary Women Artists“\n\t\t\t\t\t(Aldrich Museum, Ridgefield, Conn. April, 1971), in which tearing the seal\n\t\t\t\t\timplied not only physical violation in order to \"enter\" the long-hidden works of\n\t\t\t\t\twomen artists, but also the destruction of a square cold black seal on a white\n\t\t\t\t\tcover, which represented the prevalent Minimal Art, to reach the warm inside\n\t\t\t\t\tcovers, colored red."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104553960",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T14:45:53.960Z",
+	"dcterms:modified": "2022-10-22T14:45:58.517Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104553960#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104553960#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[17]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Kollwitz's etching Raped is unique in its complete focus on the\n\t\t\t\t\texperience of the raped woman: she is lying on the ground, dead or unconscious.\n\t\t\t\t\tNeither the rapist nor his act are in the picture."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104609180",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T14:46:09.180Z",
+	"dcterms:modified": "2022-10-22T14:46:13.330Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104609180#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104609180#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[20]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "The men seemed to react neutrally to the show, probably because the\n\t\t\t\t\tart did not expose their experience, and possibly, as was suggested to me by\n\t\t\t\t\tGlenda Madrid, because they are more prone to intellectualize and thus more\n\t\t\t\t\tremoved from the level of emotional response the show raised for women."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104622377",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T14:46:22.377Z",
+	"dcterms:modified": "2022-10-22T14:46:26.863Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104622377#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/iskin.xml?note_annotation_20221022104622377#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "When I\n\t\t\t\t\tcurated the Aerospace exhibition ! did censor myself at one point: l did not\n\t\t\t\t\tinclude Chicago's Red Flag lithograph even though, dealing with menstrua tion,\n\t\t\t\t\tit would have fit well into an exhibit on female experience in art. Its literal\n\t\t\t\t\tcharacter prevented me from exhibiting it in that context, as l anticipated that\n\t\t\t\t\tit would be shocking to the audience."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -686,7 +998,7 @@
 			<p>In Youdelman's photographic series Leaves: A Self Portrait, the artist is lying on
 				the ground, gradually being covered with leaves (from photograph to photograph)
 				until she is entirely buried:</p>
-			<quote>It represented ways I felt; 1 felt numb all over, or like a sleepwalker,
+			<quote>It represented ways I felt; I felt numb all over, or like a sleepwalker,
 				something that could just disappear and 1 think that is that powerlessness in
 				female experience, sleep. There is also something esthetic about it; 1 love the
 				color of the leaves; it is about death and one could suppose that it might also mean
@@ -738,7 +1050,7 @@
 				feel powers in me, very specifically in certain centers in me.</quote>
 			<p>Suzanne Lacy's book <title>Rape Is</title> (1972) has a white cover which becomes
 				bloody red on the inside. To open the book one must tear apart a red sticker labeled
-					"rape.“<note>The precedent for this feminist use of the sticker is Susana
+					"rape.“<note type="scholarNote">The precedent for this feminist use of the sticker is Susana
 					Torre's exhibition catalogue for "Twenty-Six Contemporary Women Artists“
 					(Aldrich Museum, Ridgefield, Conn. April, 1971), in which tearing the seal
 					implied not only physical violation in order to "enter" the long-hidden works of
@@ -753,7 +1065,7 @@
 
 			<pb n="75"/>
 			<p> The traditional representation of rape in art (with the exception of
-					Kollwitz<note>Kollwitz's etching Raped is unique in its complete focus on the
+					Kollwitz<note type="scholarNote">Kollwitz's etching Raped is unique in its complete focus on the
 					experience of the raped woman: she is lying on the ground, dead or unconscious.
 					Neither the rapist nor his act are in the picture.</note>) represents the
 				experience of the rapist by focusing on his strength, activity and beauty, and
@@ -806,7 +1118,7 @@
 				contemporary feminist art when viewed by a "non-art“ audience—a cross-section of
 				middle America that normally would not encounter art, and specifically by a female
 				audience alienated from feminism. (The negative response came primarily from
-					women<note>The men seemed to react neutrally to the show, probably because the
+					women<note type="scholarNote">The men seemed to react neutrally to the show, probably because the
 					art did not expose their experience, and possibly, as was suggested to me by
 					Glenda Madrid, because they are more prone to intellectualize and thus more
 					removed from the level of emotional response the show raised for women.</note>)
@@ -814,7 +1126,7 @@
 				art into a public daily work environment.</p>
 			<p>Had the show at Aerospace been exhibited in any number of established or alternative
 				gallery spaces, it probably would not have caused unusual debate, and certainly it
-				would not have prompted any doubt about the artistic merit of the work.<note>When I
+				would not have prompted any doubt about the artistic merit of the work.<note type="scholarNote">When I
 					curated the Aerospace exhibition ! did censor myself at one point: l did not
 					include Chicago's Red Flag lithograph even though, dealing with menstrua tion,
 					it would have fit well into an exhibit on female experience in art. Its literal
