@@ -479,6 +479,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221022111156265",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-22T15:11:56.265Z",
+	"dcterms:modified": "2022-10-22T15:11:56.265Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221022111156265#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221022111156265#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "(Jakacki) See Judy's other work in Los Angeles."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -515,7 +593,7 @@
 				projects, and decorative walls—all within a framework allowing for neighborhood control. Under Seronde's direction, the program emphasized the sociological rather than the
 				decorative aspect of public art. Many impressive walls were painted from 1968 to 1970, especially in the Black communities of Roxbury and South End-including the first women's wall,
 				Sharon Dunn's Black Women, painted in 1970. Seronde is only one of many women who <pb n="15"/> have made important contributions as organizers and administrators. Judy Baca, a
-				leading Chicana muralist in Los Angeles, obtained City funding for a similar neighborhood-oriented large-scale mural program (Citywide Murals) in 1974. Shelly Killen heads a program
+				leading Chicana muralist in Los Angeles, obtained City funding for a similar neighborhood-oriented large-scale mural program (Citywide Murals) in 1974.(<note type="researchNote">(Jakacki) See Judy's other work in Los Angeles.</note> Shelly Killen heads a program
 				for murals in prisons in Rhode Island, which has operated in the correctional institutions there for the past two years. Sandy Rubins Alternate Graffiti Workshop in Philadephia
 				pioneered techniques for developing the artistic potential of graffiti writers; several of her workshop graduates have become muralists in their own right. Ruth Asawa and Nancy
 				Thompson developed the Alvarado School-Community Program in San Francisco which brings community artists into the public schools to enrich the school experience and has heped to
