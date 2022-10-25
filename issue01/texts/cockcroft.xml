@@ -1805,6 +1805,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024222702336",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-25T02:27:02.336Z",
+	"dcterms:modified": "2022-10-25T02:27:02.336Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024222702336#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024222702336#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "This seems to be an imperative task when working on a movement so centered on collectiveness. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1899,7 +1977,7 @@
 			<p>Many mural-painting collectives, including most of those that grew out of the largely white-counterculture and anti-war movements, either start with women who then invite male artists
 				in, or simply include both women and men. Often led by women with roots in Marxism and feminism, these collectives tend to be strongly anti-sexist, anti-imperialist, and to use overtly
 				political images in their artwork. One of these groups was the Peoples Painters of New Jersey, who "muralized" <placeName key="Livingston College" ref="http://www.wikidata.org/entity/Q4261030">Livingston College</placeName> from 1972 to 1974. Modeled after the Ramona Parra Bri¬
-				gades of Allendes Chile, the Peoples Painters were concerned equally with the political effects of their murals and with trying to overcome individualism and a sense of personal
+				gades of Allendes Chile, the Peoples Painters were concerned equally with the political effects of their murals and with trying to overcome individualism<note>This seems to be an imperative task when working on a movement so centered on collectiveness. </note> and a sense of personal
 				ego. Their first wall was for the Livingston Women's Center which was very appropriate since the founders of the group--Julia Smith, Kathy Jones, and myself--considered ourselves
 				activists in the Womens Liberation Movement. We worked on the design collectively, discussing ideas first and then finding the images. We chose to work in a simple style, using heavy
 				black outlines and flat color so that the women at the Center could help us paint. We also consciously worked over parts of the mural that others had originated to combat the
