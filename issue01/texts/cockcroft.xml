@@ -1883,6 +1883,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222841800",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-25T02:28:41.800Z",
+	"dcterms:modified": "2022-10-25T02:28:41.800Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222841800#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222841800#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/13166060379480322624/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1984,7 +2062,7 @@
 				tendency to say at the end of the project, "And this part is mine." While we did not wholly succeed in eliminating our sense of personal ego, we did find that by consciously
 				emphasizing collectivity in our work we could overcome personal insecurities and achieve stronger political and artistic results. We went on to incorporate men into our group and
 				painted eight other murals before agreeing to disperse in 1974, when some of our members graduated and others decided to go on to other things. </p>
-			<p>The Haight-Ashbury Muralists in San Francisco, a collective led by Jane Norling, see themselves as "anti-imperialist cultural workers." Their first mural, Ralnbow People, was
+			<p>The <orgName key="Haight Ashbury Muralists" ref="http://viaf.org/viaf/13166060379480322624/">Haight-Ashbury Muralists</orgName> in San Francisco, a collective led by Jane Norling, see themselves as "anti-imperialist cultural workers." Their first mural, Ralnbow People, was
 				painted in 1972 as part of a large anti-war demonstration. A Haight landmark, Ralnbow People was repainted and updated in 1974. Unfty Eye (1973) diagrams the ingredients for creating
 				a revolutionary culture in the United States. The mural shows a revolution peopled and led by women, and was painted by an all-female team. Most recently, the Haight-Ashbury
 				Muralists have been working on a 300-foot-long history of the class struggle in San Francisco. </p>
