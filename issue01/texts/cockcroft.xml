@@ -1259,6 +1259,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024221711053",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-25T02:17:11.053Z",
+	"dcterms:modified": "2022-10-25T02:17:11.053Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024221711053#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024221711053#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/139809031/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1306,7 +1384,7 @@
 				although highly rewarding, requires a certain kind of openness and great dedication. It also demands physical labor, community organizing, going to meetings, and an ability to deal
 				with the great variety of people who come up to talk or make comments. However, a number of the women who did become involved in the eanly 1970s now identify themselves as mur¬
 				alists and are recognized for their artistic contributions. </p>
-			<p>The development of Caryl Yasko one of the best muralists in the nation and a leader of the Chicago Mural Group, illustrates this process. like Green, Yasko was introduced to the mural
+			<p>The development of Caryl Yasko one of the best muralists in the nation and a leader of the <orgName key="Chicago Mural Group" ref="http://viaf.org/viaf/139809031/">Chicago Mural Group</orgName>, illustrates this process. like Green, Yasko was introduced to the mural
 				movement through William Waker when she volunteered as a parent-assistant for a mural he was directing with children at her neighborhood school. After this experience, Yasko and her
 				partner in a small art enterprise, Kathy judge, a ceramicist, worked with small children to paint Walls of Hope. Vasko and judge were then invited to join the Chicago Mural Group. In
 				the summer of 1972, Yasko directed her first major project, Under City Stone, a mural that runs throughout the 55th Street underpass in Hyde Park. Painted from Yasko's design with the
