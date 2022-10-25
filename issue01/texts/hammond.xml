@@ -125,10 +125,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025181537424",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025175625043",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T22:15:37.424Z",
-	"dcterms:modified": "2022-10-25T22:15:37.424Z",
+	"dcterms:created": "2022-10-25T21:56:25.043Z",
+	"dcterms:modified": "2022-10-25T21:56:25.043Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -138,7 +138,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025181537424#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025175625043#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml",
@@ -152,14 +152,170 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025181537424#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025175625043#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/note/persName"
+			"rdf:value": "TEI/text/body/p[4]/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://viaf.org/viaf/284775217/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025181634624",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-25T22:16:34.624Z",
+	"dcterms:modified": "2022-10-25T22:16:34.624Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025181634624#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025181634624#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q188740",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?title_annotation_20221025181814386",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-25T22:18:14.386Z",
+	"dcterms:modified": "2022-10-25T22:18:14.386Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?title_annotation_20221025181814386#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/hammond.xml?title_annotation_20221025181814386#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/note[2]/title/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q386599",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -181,7 +337,7 @@
 			<p>There are many articles written on feminist art which try to pinpoint and define a
 				feminist sensibility. Few of these articles go beyond the recognition that feminist
 				art is based on the personal experiences of women by beginning to question its
-				larger political implications and the roleitplaysin feminist revolution. Most
+				larger political implications and the role it plays in feminist revolution. Most
 				articles originating from the art world tend to be formal descriptive attempts at
 				documenting what women are doing, and do not attempt a feminist analysis of function
 				and meaning.</p>
@@ -200,12 +356,12 @@
 				are of interest to us and worth exploring. I will focus on one area of abstract art
 				by discussing concepts of marking and language in feminist drawing and painting-to
 				show its origin, meaning, and political potential.</p>
-			<p>In "Prime Time: Art and Politics"<note><persName key="Freeman, Alexa" ref="http://viaf.org/viaf/284775217/">Alexa Freeman</persName> and Jackie MacMillan, "Prime
+			<p>In "Prime Time: Art and Politics"<note>Alexa Freeman and Jackie MacMillan, "Prime
 					Time: Art and Politics," <title>Quest: A Feminist Quarterly</title> (Summer,
-					1975).</note> Alexa Freeman and Jackie MacMillan look at how art is viewed in
+					1975).</note> <persName key="Freeman, Alexa" ref="http://viaf.org/viaf/284775217/">Alexa Freeman</persName> and <persName>Jackie MacMillan</persName> look at how art is viewed in
 				this capitalist, patriarchal society and criticize activists for reacting too
 				quickly and overlooking the revolutionary potential of art. However, they in turn
-				react to male estabishment myths about abstract (non-representa- tional) art and
+				react to male estabishment myths about abstract (non-representational) art and
 				exclude it from feminist and political potential. They view abstract art as private
 				expression which is not understandable or analyzable to the audience, and therefore
 				irrelevant to feminist political goals. Thus they incorrectly see elitism as a
@@ -215,13 +371,13 @@
 				isolated genius, abstract art has offered an illusion of objectivity. Such notions
 				suggest that the content of one's work can be separated from one's political
 				beliefs. By sponsoring international exhibitions showing apolitical abstract
-				paintings by former Communist Party members, the C.I.A. (via the Museurn of Modern
-				Art) has sought to impress other nations with the cultural freedom of the U.S.A. The
+				paintings by former Communist Party members, the C.I.A. (via the <orgName key="Museum of Modern Art" ref="http://www.wikidata.org/entity/Q188740">Museum of Modern
+				Art</orgName>) has sought to impress other nations with the cultural freedom of the U.S.A. The
 				way in which Abstract Expressionist art was defined and developed by the artists and
 				then used by others to further cold war politics in the fifties is only one example
 				of the manipulation of abstract art to create the illusory separation of art and
 					politics.<note>Eva Cockcroft, "Abstract Expressionism, Weapon of the Cold War,"
-						<title>Artforum</title> (June, 1974).</note> Thus when women continue to
+						<title><title key="Artforum" ref="http://www.wikidata.org/entity/Q386599">Artforum</title></title> (June, 1974).</note> Thus when women continue to
 				respond to abstract art as "apolitical," they are reinforcing and maintaining myths
 				established by men.</p>
 			<p>The Freeman/MacMillan article is typical in its analysis of art and politics.
