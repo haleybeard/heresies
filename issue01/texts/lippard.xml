@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
@@ -94,20 +93,10 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				xmlns:fabio="https://purl.org/spar/fabio#"
-				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-				xmlns:org="http://www.w3.org/ns/org#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+		
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -137,10 +126,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162537523",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162537523",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-08T20:25:37.523Z",
-	"dcterms:modified": "2022-09-08T20:25:37.523Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -150,10 +138,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162537523#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162537523#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -161,10 +149,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.6.2"
+			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162537523#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162537523#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[6]/note"
 		}
@@ -172,18 +160,20 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Class and Feminism, ed. Charlotte Bunch and Nancy Myron (Baltimore, 1974). This book contains some excrutiating insights for the middle-class feminist; it raised my consciousness and inspired this essay (along with other recent experiences and conversations)."
+		"rdf:value": "Class and Feminism, ed. Charlotte Bunch and Nancy Myron\n\t\t\t\t\t(Baltimore, 1974). This book contains some excrutiating insights for the\n\t\t\t\t\tmiddle-class feminist; it raised my consciousness and inspired this essay (along\n\t\t\t\t\twith other recent experiences and conversations)."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.6.2"
+		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -213,10 +203,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162629156",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162629156",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-08T20:26:29.156Z",
-	"dcterms:modified": "2022-09-08T20:26:29.156Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -226,10 +215,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162629156#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162629156#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -237,10 +226,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.6.2"
+			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162629156#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162629156#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/note"
 		}
@@ -248,18 +237,20 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Actually nothing new; the history of modern art demonstrates a constant longing for the primitive, the simple, the clear, the \"poor,\" the noble naif, etc."
+		"rdf:value": "Actually nothing new;\n\t\t\t\t\tthe history of modern art demonstrates a constant longing for the primitive, the\n\t\t\t\t\tsimple, the clear, the \"poor,\" the noble naif, etc."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.6.2"
+		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -289,10 +280,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162724258",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162724258",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-08T20:27:24.258Z",
-	"dcterms:modified": "2022-09-08T20:27:24.258Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -302,10 +292,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162724258#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162724258#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -313,10 +303,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.6.2"
+			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162724258#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162724258#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[12]/note"
 		}
@@ -324,18 +314,20 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Michele Russell, \"Woman and Third World,\" New American Movement (June, 1973)."
+		"rdf:value": "Michele Russell, \"Woman and Third World,\" New\n\t\t\t\t\tAmerican Movement (June, 1973)."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.6.2"
+		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -365,10 +357,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162800122",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162800122",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-08T20:28:00.122Z",
-	"dcterms:modified": "2022-09-08T20:28:00.122Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -378,10 +369,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162800122#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162800122#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -389,10 +380,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.6.2"
+			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162800122#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162800122#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[13]/note"
 		}
@@ -400,18 +391,20 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Opinions of Working People Concerning the Arts, ed. Don Celender (New York, 1975)"
+		"rdf:value": "Opinions of Working People\n\t\t\t\t\tConcerning the Arts, ed. Don Celender (New York, 1975)"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.6.2"
+		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -441,10 +434,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162911251",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162911251",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-08T20:29:11.251Z",
-	"dcterms:modified": "2022-09-08T20:29:11.251Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -454,10 +446,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162911251#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162911251#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -465,10 +457,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.6.2"
+			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908162911251#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908162911251#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[19]/note"
 		}
@@ -476,18 +468,20 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Bernard Kirchenbaum, in correspondence. Celender, op. cit., offers proof of this need and of the huge (and amazing) interest in art expressed by the working class, though it should be said that much of what is called art would not be agreed upon by the taste dictators."
+		"rdf:value": "Bernard Kirchenbaum, in correspondence.\n\t\t\t\t\tCelender, op. cit., offers proof of this need and of the huge (and amazing)\n\t\t\t\t\tinterest in art expressed by the working class, though it should be said that\n\t\t\t\t\tmuch of what is called art would not be agreed upon by the taste\n\t\t\t\t\tdictators."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.6.2"
+		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -517,10 +511,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163003751",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908163003751",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-08T20:30:03.751Z",
-	"dcterms:modified": "2022-09-08T20:30:03.751Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -530,10 +523,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163003751#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908163003751#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -541,10 +534,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.6.2"
+			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163003751#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908163003751#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[25]/note"
 		}
@@ -552,18 +545,20 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "This despite their publication of and apparent endorsement of Carolee Schneemann's \"The Prounoun Tyranny\" in the Fox, 3(1976)"
+		"rdf:value": "This despite their publication of and apparent endorsement\n\t\t\t\t\tof Carolee Schneemann's \"The Prounoun Tyranny\" in the Fox, 3(1976)"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.6.2"
+		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -593,10 +588,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163034520",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908163034520",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-09-08T20:30:34.520Z",
-	"dcterms:modified": "2022-09-08T20:30:34.520Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -606,10 +600,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163034520#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908163034520#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -617,10 +611,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.6.2"
+			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/Lippard_Issue1_82-86/Lippard_Issue1_82-86_tei_transformed.xml?note_annotation_20220908163034520#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?note_annotation_20220908163034520#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[26]/quote/note"
 		}
@@ -628,25 +622,102 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Sheila Rowbotham, Women: Resistance and Revolution (London, 1972)."
+		"rdf:value": "Sheila Rowbotham, Women: Resistance and Revolution\n\t\t\t\t\t\t(London, 1972)."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.6.2"
+		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-				</rdf:Description>
-			</rdf:RDF></xenoData>
-	</teiHeader>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?person_annotation_20221027193120491",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-27T23:31:20.491Z",
+	"dcterms:modified": "2022-10-27T23:31:20.491Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?person_annotation_20221027193120491#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?person_annotation_20221027193120491#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/byline/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/109482861/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="82"/>
 			<head><title>The Pink Glass Swan: Upward ond Downward Mobility in the Art
 				World</title></head>
-			<byline><persName>Lucy R.Lippard</persName></byline>
+			<byline><persName><persName key="Lippard, Lucy R." ref="http://viaf.org/viaf/109482861/" type="real">Lucy R.Lippard</persName></persName></byline>
 			<p>The general alienation of contemporary avant-garde art from any broad audience has
 				been crystallized in the women's movement. From the beginning, both liberal
 				feminists con- cerned with changing women's personal lives and socialist feminists
@@ -725,8 +796,7 @@
 				for nice clothes must drop into frayed jeans to make it into the art middle ciass,
 				which in turn considers itself both upper and lower class. Choosing poverty is a
 				confusing experence for a child whose parents (or more likely mother) have tried des
-				- perately against great odds to keep a clean and pleasant home. <note
-					type="researchNote">Class and Feminism, ed. Charlotte Bunch and Nancy Myron
+				- perately against great odds to keep a clean and pleasant home. <note type="researchNote">Class and Feminism, ed. Charlotte Bunch and Nancy Myron
 					(Baltimore, 1974). This book contains some excrutiating insights for the
 					middle-class feminist; it raised my consciousness and inspired this essay (along
 					with other recent experiences and conversations).</note> </p>
@@ -984,8 +1054,7 @@
 				not withstanding. And in the art world, as in the real world, political commitment
 				frequently means total disregard for feminist priorities. Even the increasingly
 				Marxist group ironically calling itself Art- Language is unwilling to stop the
-				exclusive use of the male pronoun in its theoretical publications. <note
-					type="researchNote">This despite their publication of and apparent endorsement
+				exclusive use of the male pronoun in its theoretical publications. <note type="researchNote">This despite their publication of and apparent endorsement
 					of Carolee Schneemann's "The Prounoun Tyranny" in the Fox, 3(1976)</note></p>
 			<p> Experiences like this one and dissatisfaction with Marxism's lack of interest in
 				"the woman question" make me wary of merging Marxism and feminism. The notion of the
@@ -997,8 +1066,7 @@
 					As a feminist and a Marxist I carry their contradictions within me and it is
 					tempting to opt for one or the other in an effort to produce a tidy resolution
 					of the commotion generated by the antagonism between them. But to do that would
-					mean evading the social reality which gives rise to the antagonism. <note
-						type="researchNote">Sheila Rowbotham, Women: Resistance and Revolution
+					mean evading the social reality which gives rise to the antagonism. <note type="researchNote">Sheila Rowbotham, Women: Resistance and Revolution
 						(London, 1972).</note></quote></p>
 			<p>As women, therefore, we need to establish far more strongly our own sense of
 				community, so that all our arts will be enjoyed by all women in all economic
