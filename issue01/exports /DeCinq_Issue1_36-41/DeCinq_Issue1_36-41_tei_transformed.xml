@@ -323,6 +323,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?person_annotation_20221029211924580",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-30T01:19:24.580Z",
+	"dcterms:modified": "2022-10-30T01:19:24.580Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?person_annotation_20221029211924580#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?person_annotation_20221029211924580#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/229710280/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -332,7 +410,7 @@
 			</head>
          <pb n="2"/>
          <p>The <orgName key="Group of Five" ref="http://www.wikidata.org/entity/Q2720495">Group of Five</orgName> is a <placeName key="Paris" ref="http://www.wikidata.org/entity/Q90">Paris</placeName>-based collective consisting of
-				<persName key="Aballéa, Martine" ref="http://vocab.getty.edu/ulan/500072927">Martine Aballea</persName>, <persName key="Blume, Judy" ref="http://viaf.org/viaf/2962160486076205180007/">Judy Blum</persName>, Nicole Croiset, Mimi, and Nil Yalter,
+				<persName key="Aballéa, Martine" ref="http://vocab.getty.edu/ulan/500072927">Martine Aballea</persName>, <persName key="Blume, Judy" ref="http://viaf.org/viaf/2962160486076205180007/">Judy Blum</persName>, <persName key="Croiset, Nicole 1950-...." ref="http://viaf.org/viaf/229710280/">Nicole Croiset,</persName> Mimi, and Nil Yalter,
 				who include among their skills video, painting, sculpture, drawing,
 				and poetry; and among their nationalities French, Turkish, Canadian,
 				American. This work on La Roquette began when Judy and Mimi met
