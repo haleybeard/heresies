@@ -1349,6 +1349,171 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "http://purl.org/spar/cito/",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030192649354",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-30T23:26:49.354Z",
+	"dcterms:modified": "2022-10-30T23:26:49.354Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "cwrc:citing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030192649354#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030192649354#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/p[8]/note/note"
+		}
+	},
+	"oa:hasBody": [
+		{
+			"@type": "cito:Citation",
+			"dc:format": "text/plain",
+			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030192649354#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030192649354",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q470098",
+			"cito:hasCitationEvent": "cito:cites"
+		}
+	],
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030192704241",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-30T23:27:04.241Z",
+	"dcterms:modified": "2022-10-30T23:27:04.241Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030192704241#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030192704241#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/p[8]/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q7197",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		
@@ -1447,7 +1612,7 @@
 				concentrated form, just as the brothel became the ultimate classroom, the temple in
 				which men only might glimpse life's deepest mysteries: "A Henry Miller, going to bed
 				with a prostitute [in Tropic of Cancer], feels that he sounds the very depths of
-				life, death and the cosmos." <note>Simone de Beauvoir, The Second Sex (New York,
+				life, death and the cosmos." <note><persName key="Simone de Beauvoir" ref="http://www.wikidata.org/entity/Q7197">Simone de Beauvoir</persName>, The Second Sex<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q470098"/></bibl></note> (New York,
 					1961), p. 187.</note> Picasso's famous brothel scene, the Demoiselles d’Avignon
 				(1907), where the viewer is cast as the male customer makes similar claims—claims
 				that art historians advocate as "humanistic“ and universal.<note>3. Leo Steinberg,
