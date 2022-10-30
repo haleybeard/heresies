@@ -3770,6 +3770,93 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "http://purl.org/spar/cito/",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030195804492",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-30T23:58:04.492Z",
+	"dcterms:modified": "2022-10-30T23:58:04.492Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "cwrc:citing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030195804492#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030195804492#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/p[4]/note"
+		}
+	},
+	"oa:hasBody": [
+		{
+			"@type": "cito:Citation",
+			"dc:format": "text/plain",
+			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030195804492#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030195804492",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q1133821",
+			"cito:hasCitationEvent": "cito:cites"
+		}
+	],
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		
@@ -3794,7 +3881,7 @@
 				invite fantasies of male conquest (or fantasies that justify male domination) that
 				the subjuga- tion of the female will appear to be one of the primary motives of
 				modern erotic art.</p>
-			<p>In <persName key="Eugène Delacroix" ref="http://www.wikidata.org/entity/Q33477">Delacroix'</persName>s Woman in White Stockings (1832), for example, an artist's model (i.e.,
+			<p>In <persName key="Eugène Delacroix" ref="http://www.wikidata.org/entity/Q33477">Delacroix'</persName>s <note type="citation">Woman in White Stockings</note> (1832), for example, an artist's model (i.e.,
 				a sexually available woman) reclines invitingly on a silken mattress. The deep red
 				drapery behind her forms a shadowy and suggestive opening. The image evokes a basic
 				male fantasy of sexual confrontation, but the model does not appear to anticipate
@@ -3815,7 +3902,7 @@
 				thesis.</p>
 			<p>The visual arts are crowded with images of suffering, exposed heroines—slaves, murder
 				victims, women in terror under attack, betrayed, in chains, abandoned or abducted.
-				<persName key="Eugène Delacroix" ref="http://www.wikidata.org/entity/Q33477">Delacroix</persName>'s Death of Sardanapalus (1827), inspired by a poem by <persName key="Lord Byron" ref="http://www.wikidata.org/entity/Q5679">Byron</persName>, is a tour de
+				<persName key="Eugène Delacroix" ref="http://www.wikidata.org/entity/Q33477">Delacroix</persName>'s Death of Sardanapalus<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q1133821"/></bibl></note> (1827), inspired by a poem by <persName key="Lord Byron" ref="http://www.wikidata.org/entity/Q5679">Byron</persName>, is a tour de
 				force of erotic cruelty. <persName key="Jean Auguste Dominique Ingres" ref="http://www.wikidata.org/entity/Q23380">Ingres</persName>' Roger and Angelica (1867) also depicts woman as
 				victim. Here, an endangered and helpless heroine—naked, hairless and swooning—is
 				chained to a large, phallic-shaped rock, immediately below which appear the
