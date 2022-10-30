@@ -3536,14 +3536,170 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030195546521",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-30T23:55:46.521Z",
+	"dcterms:modified": "2022-10-30T23:55:46.521Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030195546521#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030195546521#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/byline/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q42564192",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030195555563",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-30T23:55:55.563Z",
+	"dcterms:modified": "2022-10-30T23:55:55.563Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030195555563#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030195555563#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q16093067",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		
 			<pb n="46"/>
 			<head><title>The Esthetics of Power in Modern Erotic Art</title></head>
-			*An excerpt from the forthcoming book, The New Eros, ed., Joan Semmel, to be
+			*An excerpt from the forthcoming book, The New Eros, ed., <persName key="Joan Semmel" ref="http://www.wikidata.org/entity/Q16093067">Joan Semmel</persName>, to be
 				published by Hacker Art Books, New York.<note></note>
-			<byline><persName>Carol Duncon</persName></byline>
+			<byline><persName>C<persName key="Carol Duncan" ref="http://www.wikidata.org/entity/Q42564192">arol Duncon</persName></persName></byline>
 
 			<p> In this essay, I am using the term erotic not as a self-evident, universal category,
 				but as a culturally defined concept that is ideological in nature. More
@@ -3799,7 +3955,7 @@
 				shepherd, a hunter an artist. <persName key="Henri Matisse" ref="http://www.wikidata.org/entity/Q5589">Matisse</persName>'s Boy With Butterfly Net<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q20890797"/></bibl></note> (1907) is a
 				magnificent image of a male in nature (or rather a male acting against nature),
 				highly individualized and properly equipped for a specific purpose. In beach scenes
-				by the Fauves and the Kirchner circle, males—when they are present—are not "bathers"
+				by the <persName>Fauves</persName> and the Kirchner circle, males—when they are present—are not "bathers"
 				i.e., placid creatures of the water, but modern men going swimming in bathing suits
 				or in the raw. They are active, engaged in a culturally defined recreation, located
 				in historical time and space. The female bather who has no counterpart in modern
@@ -3813,7 +3969,7 @@
 				savage male, a sun-burnt, dusty traveller... </quote>
 			<note>Jules Michelet, Woman (La Femme), trans. J. W. Palmer (New York, 1860), pp.
 				104-105.</note>
-			<p>Even in Matisse’s Joy of Living (1906), where men and women share an Arcadian life,
+			<p>Even in Matisse’s <note type="citation">Joy of Living</note> (1906), where men and women share an Arcadian life,
 				cultural activities (music-making, animal husbandry) are male endeavors while women
 				exist merely as sensual beings or abandon themselves to emotionally expressive but
 				artless and spontaneous dance.</p>
