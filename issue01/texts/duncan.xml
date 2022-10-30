@@ -2642,6 +2642,171 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030194552584",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-30T23:45:52.584Z",
+	"dcterms:modified": "2022-10-30T23:45:52.584Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030194552584#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030194552584#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/p[12]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/4234160486149205180008/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "http://purl.org/spar/cito/",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030194611796",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-30T23:46:11.796Z",
+	"dcterms:modified": "2022-10-30T23:46:11.796Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "cwrc:citing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030194611796#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030194611796#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/p[12]/note"
+		}
+	},
+	"oa:hasBody": [
+		{
+			"@type": "cito:Citation",
+			"dc:format": "text/plain",
+			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030194611796#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030194611796",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q910199",
+			"cito:hasCitationEvent": "cito:cites"
+		}
+	],
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		
@@ -2814,10 +2979,10 @@
 			<p>However lethal to the male, the late 19th-century femme fatale of Munch, <persName key="Gustav Klimt" ref="http://www.wikidata.org/entity/Q34661">Klimt</persName> and
 				<persName key="Gustave Moreau" ref="http://www.wikidata.org/entity/Q203828">Moreau</persName> ensnares by her physical beauty and sexual allure. In the 20th century, she
 				becomes bestial, carnivorous and visibly grotesque. In images of monstrous females
-				by <persName>Picasso Rouault</persName>, the Surrealists and de Kooning, the dread of woman and male
+				by <persName>Picasso Rouault</persName>, the Surrealists and <persName key="De Kooning, Willem" ref="http://viaf.org/viaf/4234160486149205180008/">de Kooning</persName>, the dread of woman and male
 				feelings of inferiority are projected, objectified and universalized. Yet here too
 				the devouring woman implies her opposite, combining features of both the powerless
-				and the threatening. The women in Picasso's Demoiselles d'Avignon, although
+				and the threatening. The women in Picasso's Demoiselles d'Avignon<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q910199"/></bibl></note>, although
 				physically mutilated and naked (vulnerable), aggressively stare down the viewer are
 				impenetrably masked, and display sharp-edged, dangerous-looking bodies. Picasso
 				ambivalently presents them with sham and real reverence in the form of a desecrated,
