@@ -283,7 +283,7 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165645692",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-31T20:56:45.692Z",
-	"dcterms:modified": "2022-10-31T20:56:45.692Z",
+	"dcterms:modified": "2022-10-31T20:56:50.190Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -313,9 +313,87 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:Note",
+		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
 		"rdf:value": "3. Patricia Draper,\n\t\t\t\t\t\"IKung Women,\" in Toward an Anthropology of Women, ed. Rayna Reiter (New York:\n\t\t\t\t\tMonthly Review Press, 1975), p. 94."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165656547",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:56:56.547Z",
+	"dcterms:modified": "2022-10-31T20:57:00.109Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165656547#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165656547#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "4. Turnbull, pp.\n\t\t\t\t\t59-60."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -393,7 +471,7 @@
 				not easily expanded (as in the hemispherical scherms of the !Kung) there is
 				flexibility as to who inhabits them. Children do not have to sleep with their
 				parents, and can either stay with their grandparents or make camp with other
-				children of the same sex at either end of the settlement.<note>3. Patricia Draper,
+				children of the same sex at either end of the settlement.<note type="scholarNote">3. Patricia Draper,
 					"IKung Women," in Toward an Anthropology of Women, ed. Rayna Reiter (New York:
 					Monthly Review Press, 1975), p. 94.</note> Thus the gatherers' house is not a
 				structure enforcing family isolation, but serves as a shelter of great social
@@ -412,7 +490,7 @@
 				toward the end, like clothespins, hooking two or three of them together. When she
 				had enough she started hanging them on the framework like tiles, overlapping each
 				other and forming a waterproof covering. There were leaves left over when she had
-				finished, so she let other women take them for their houses.<note>4. Turnbull, pp.
+				finished, so she let other women take them for their houses.<note type="scholarNote">4. Turnbull, pp.
 					59-60.</note></quote>
 			<p>The dwelling in the gathering culture is the focal point of women's creative activi¬
 				ties. Since it is usually constructed from materials that can be replaced from
@@ -429,9 +507,7 @@
 				is difficult.</p>
 			<p>The architecture of such semi-nomads grew out of forms developed within gathering
 				societies. Certain structural features of the grass house remained essential. For
-				semi-nomadic desert dwellers, such as the Pima and Papago of the American South¬
-				west, the convenient raw materials for building might still be plant fibers, par¬
-				ticularly where the women were highly skilled basketweavers and had developed ways
+				semi-nomadic desert dwellers, such as the Pima and Papago of the American Southwest, the convenient raw materials for building might still be plant fibers, particularly where the women were highly skilled basketweavers and had developed ways
 				of weaving fibers into other forms, such as cotton cloth or yucca-fiber sandals.
 				Up until the twentieth century the Pima were dispersed in the winter and set¬
 				tlements were occupied only for a few months during a short growing season. The
