@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" 
-        href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -97,7 +92,787 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165624500",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:56:24.500Z",
+	"dcterms:modified": "2022-10-31T20:56:27.758Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165624500#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165624500#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "1. Colin Turnbull, The Forest People (New York: Natural History\n\t\t\t\t\tLibrary, 1962), pp. 156-157."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165634786",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:56:34.786Z",
+	"dcterms:modified": "2022-10-31T20:56:38.222Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165634786#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165634786#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "2. Edward T. Hall, Beyond Culture (Garden City,\n\t\t\t\t\tN.Y.: Doubleday, 1976), Chap. 5, passim."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165645692",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:56:45.692Z",
+	"dcterms:modified": "2022-10-31T20:56:50.190Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165645692#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165645692#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "3. Patricia Draper,\n\t\t\t\t\t\"IKung Women,\" in Toward an Anthropology of Women, ed. Rayna Reiter (New York:\n\t\t\t\t\tMonthly Review Press, 1975), p. 94."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165656547",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:56:56.547Z",
+	"dcterms:modified": "2022-10-31T20:57:00.109Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165656547#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165656547#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "4. Turnbull, pp.\n\t\t\t\t\t59-60."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165725781",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:57:25.781Z",
+	"dcterms:modified": "2022-10-31T20:57:29.895Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165725781#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165725781#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "5. J.G. Kohl, Kitchi-Gami: Wandering Round Lake Superior (London,\n\t\t\t\t\t1860), p. 4."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165752443",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:57:52.443Z",
+	"dcterms:modified": "2022-10-31T20:57:56.751Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165752443#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165752443#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "6. Alice\n\t\t\t\t\tMarriott, The Trade Guild of Southern Cheyenne Women,\" Bulletin of Okla- homa\n\t\t\t\t\tAnthropological Society (April 1956), p. 24."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165817465",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:58:17.465Z",
+	"dcterms:modified": "2022-10-31T20:58:21.223Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165817465#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165817465#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "7. Jomo Kenyatta, Facing Mount Kenya, Re- print of original 1938\n\t\t\t\t\tedition (New York: AMS Press, 1976), pp. 80-81."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165828321",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:58:28.321Z",
+	"dcterms:modified": "2022-10-31T20:58:31.858Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165828321#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165828321#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "8. Judith K. Brown, \"Iroquois Women: An Ethnographic\n\t\t\t\t\tNote, in Toward an Anthropology of Women, pp. 235-251"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165852414",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:58:52.414Z",
+	"dcterms:modified": "2022-10-31T20:58:55.991Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165852414#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165852414#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[23]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "9. Pierre\n\t\t\t\t\tBourdieu, \"The Berber House, or the World Reversed,\" excerpted in Rules and\n\t\t\t\t\tMeanings, ed. Mary Douglas (Baltimore: Penguin, 1973), p. 100."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165905243",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:59:05.243Z",
+	"dcterms:modified": "2022-10-31T20:59:08.516Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165905243#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165905243#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[25]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "10. Two recently published books have begun the\n\t\t\t\t\tdocumentation of women in architecture: Doris Cole, From Tipi to Skyscraper: A\n\t\t\t\t\tHistory of Women in Architecture (Boston: press, 1973) and Susana Torre, ed.,\n\t\t\t\t\tWomen in American Architecture: A Historic and Contemporary Perspective (New\n\t\t\t\t\tYork: Wat- son-Guptill, 1977)."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="35"/>
@@ -138,8 +913,7 @@
 				Sahara Desert, Algonkian and Athabascan groups in North America, are intriguing in
 				their social harmony and their knowledgeable, non-exploitative interaction with
 				their environments. Women and men regard each other as equals. Among the BaMbuti,
-				hunting is a joint effort, men care for babies and women enter public discus¬
-					sions.<note>1. Colin Turnbull, The Forest People (New York: Natural History
+				hunting is a joint effort, men care for babies and women enter public discussions.<note type="scholarNote">1. Colin Turnbull, The Forest People (New York: Natural History
 					Library, 1962), pp. 156-157.</note></p>
 			<p>In gathering societies women may provide up to eighty percent of the food and as an
 				extension of their expertise in plants and fibers (with which they make nets), they
@@ -152,7 +926,7 @@
 				flow of space. Their size and shape maximizes physical and psychological contact
 				among the dwellers. Anthropologists suggest that such human proximity is particu¬
 				larly conducive to intuitive and nonverbal communication, to the development of
-				internalized cultural rhythms.<note>2. Edward T. Hall, Beyond Culture (Garden City,
+				internalized cultural rhythms.<note type="scholarNote">2. Edward T. Hall, Beyond Culture (Garden City,
 					N.Y.: Doubleday, 1976), Chap. 5, passim.</note> In our Western cultures, such
 				tacit synchrony is usually found only in mother-infant relationships, a vestige
 				of what was once the nature of communication between both sexes and all ages.</p>
@@ -165,7 +939,7 @@
 				not easily expanded (as in the hemispherical scherms of the !Kung) there is
 				flexibility as to who inhabits them. Children do not have to sleep with their
 				parents, and can either stay with their grandparents or make camp with other
-				children of the same sex at either end of the settlement.<note>3. Patricia Draper,
+				children of the same sex at either end of the settlement.<note type="scholarNote">3. Patricia Draper,
 					"IKung Women," in Toward an Anthropology of Women, ed. Rayna Reiter (New York:
 					Monthly Review Press, 1975), p. 94.</note> Thus the gatherers' house is not a
 				structure enforcing family isolation, but serves as a shelter of great social
@@ -184,7 +958,7 @@
 				toward the end, like clothespins, hooking two or three of them together. When she
 				had enough she started hanging them on the framework like tiles, overlapping each
 				other and forming a waterproof covering. There were leaves left over when she had
-				finished, so she let other women take them for their houses.<note>4. Turnbull, pp.
+				finished, so she let other women take them for their houses.<note type="scholarNote">4. Turnbull, pp.
 					59-60.</note></quote>
 			<p>The dwelling in the gathering culture is the focal point of women's creative activi¬
 				ties. Since it is usually constructed from materials that can be replaced from
@@ -201,9 +975,7 @@
 				is difficult.</p>
 			<p>The architecture of such semi-nomads grew out of forms developed within gathering
 				societies. Certain structural features of the grass house remained essential. For
-				semi-nomadic desert dwellers, such as the Pima and Papago of the American South¬
-				west, the convenient raw materials for building might still be plant fibers, par¬
-				ticularly where the women were highly skilled basketweavers and had developed ways
+				semi-nomadic desert dwellers, such as the Pima and Papago of the American Southwest, the convenient raw materials for building might still be plant fibers, particularly where the women were highly skilled basketweavers and had developed ways
 				of weaving fibers into other forms, such as cotton cloth or yucca-fiber sandals.
 				Up until the twentieth century the Pima were dispersed in the winter and set¬
 				tlements were occupied only for a few months during a short growing season. The
@@ -243,7 +1015,7 @@
 				work of joiners, carpenters and masons have blistered hands. In fact, their hands
 				are much harder to the touch than those of the men; and indeed their entire muscular
 				system is far more developed and they are proportionately stronger in the
-					arm.<note>5. J.G. Kohl, Kitchi-Gami: Wandering Round Lake Superior (London,
+					arm.<note type="scholarNote">5. J.G. Kohl, Kitchi-Gami: Wandering Round Lake Superior (London,
 					1860), p. 4.</note></quote>
 			<p>Similarly, the tipi-builders of the Great Plains were responsible for all aspects of
 				the construction of their dwellings. They developed one of the most striking forms
@@ -274,15 +1046,14 @@
 				Quillers' Society:</p>
 			<quote>...was spoken of as being similar in help stitch them together with sinew. Making
 				a tipi could also fulfill a sacred function. Plains women formed special
-				associations, notably the Cheyenne Quillers' Society, for the ceremonial deco¬
-				ration of tipis and their interior walls with dyed porcupine or bird quills. More
+				associations, notably the Cheyenne Quillers' Society, for the ceremonial decoration of tipis and their interior walls with dyed porcupine or bird quills. More
 				recently these tipis have been made from canvas and decorated with glass beads,
 				conception and attitudes to the Sacred Arrows [most sacred Cheyenne men's
 				society), one very important difference in behavior may be noted. During the
-				four-day arrow ceremony no talking, joking, or laugh- ing was allowed in camp. The
+				four-day arrow ceremony no talking, joking, or laughing was allowed in camp. The
 				making of the sacred beading was attended by a good deal of joking, teasing, and
 				fun. While the cere- <pb n="38"/> monial character of the work was recognized, it
-				interfered in no way with the social pleasure of the occasion.<note>6. Alice
+				interfered in no way with the social pleasure of the occasion.<note type="scholarNote">6. Alice
 					Marriott, The Trade Guild of Southern Cheyenne Women," Bulletin of Okla- homa
 					Anthropological Society (April 1956), p. 24.</note></quote>
 			<p><title>Female Farmers</title> When societies obtain their food predominantly from
@@ -290,8 +1061,7 @@
 				villages close to their fields. Jobs are traditionally assigned to one sex or an
 				other. Sometimes men and women cultivate different crops and even speak differ-
 				ent languages.</p>
-			<p>Even space within the village might alsco be divided along sex lines, and the archi¬
-				tecture reflects and affects sex-specialized tasks. Women generally dominate culti-
+			<p>Even space within the village might alsco be divided along sex lines, and the architecture reflects and affects sex-specialized tasks. Women generally dominate culti-
 				vation but building tasks are specified and divided according to sex. In much of
 				Africa the characteristic building form is round, with a gabled and thatched roof
 				and walls made of wattle and daub. Each component is made separately by men or
@@ -303,8 +1073,8 @@
 			<quote>You men, you lack the most important art in building, namely thatching. A
 				wall and an empty roof cannot protect you from heavy rain nor from the burning sun.
 				It is our careful thatching that makes the hut worth living. We are not chameleons
-				but nyoni ya nyagathanga ssmall song- birds known for their beautiful
-					nests).<note>7. Jomo Kenyatta, Facing Mount Kenya, Re- print of original 1938
+				but nyoni ya nyagathanga small songbirds known for their beautiful
+					nests).<note type="scholarNote">7. Jomo Kenyatta, Facing Mount Kenya, Re- print of original 1938
 					edition (New York: AMS Press, 1976), pp. 80-81.</note></quote>
 			<p>Separation of the sexes does not necessarily serve as a foundation for male
 				domination. Cultural practices that encourage one sex to feel communal soli¬
@@ -319,7 +1089,7 @@
 				Iroquois social life. Ritual performances took place there and it was both dwelling
 				and workplace for the many families of the clan to whom it belonged. By controlling
 				the longhouse and the food stores, women played a vital part in the political
-				affairs of the tribes.<note>8. Judith K. Brown, "Iroquois Women: An Ethnographic
+				affairs of the tribes.<note type="scholarNote">8. Judith K. Brown, "Iroquois Women: An Ethnographic
 					Note, in Toward an Anthropology of Women, pp. 235-251</note> Through
 				manipulation of supplies they could encourage or prevent war parties. The senior
 				women, who controlled the longhouse, also played an important role in social
@@ -333,8 +1103,7 @@
 				striking characteristics was that they were subsistence societies —that is, no
 				wealth was accumulated from year to year. Although the source of food and the type
 				of settlement differed, they shared this feature with the gathering peoples
-				mentioned earlier. The change from subsistence society to one in which it is pos¬
-				sible to accumulate wealth frequently comes with the addition of livestock or herd
+				mentioned earlier. The change from subsistence society to one in which it is possible to accumulate wealth frequently comes with the addition of livestock or herd
 				animals to horticultural life. Such a change in process was observed in the early
 				nineteenth century among the Mandan, a cultivating society living on the North
 				American Plains. Basically, the Mandan lived two life styles. The matrilineal one
@@ -352,8 +1121,7 @@
 				houses built by pioneers settling in the Plains in the nineteenth century. </p>
 			<pb n="39"/>
 			<p> If the Mandan had survived the epidemic of smallpox which destroyed the tribe in
-				1840, it is possible that they would have become patrilineal, giving up culti¬
-				vation altogether to pursue the buffalo as other Plains tribes did. In patrilineal
+				1840, it is possible that they would have become patrilineal, giving up cultivation altogether to pursue the buffalo as other Plains tribes did. In patrilineal
 				societies, as we have seen with the Cheyenne, the woman's position is secure when
 				she continues to control important cultural or economic features. Frequently these
 				two spheres are connected, as in societies where women have a specialized architec¬
@@ -379,7 +1147,7 @@
 				significance in the culture appears merely symbolic. She is a possession to be
 				protected. In Berber villages, she weaves inside her husband's house; the loom is
 				not considered her tool, but a symbol of male protection. Sitting behind it, she is
-				shielded from the door and from the street life that lies beyond it.<note>9. Pierre
+				shielded from the door and from the street life that lies beyond it.<note type="scholarNote">9. Pierre
 					Bourdieu, "The Berber House, or the World Reversed," excerpted in Rules and
 					Meanings, ed. Mary Douglas (Baltimore: Penguin, 1973), p. 100.</note> Thus women
 				are isolated from the world of confrontation, conversation and public
@@ -397,10 +1165,9 @@
 			<p>Ironically, this vestige of woman's importance as architect and builder is used
 				against her when psychology and popular belief insist that women are by nature'
 				oriented to interiors, and interiors alone. The home, as the exclusive province of
-				women, has become a significant cultural image on many levels — almost an arche¬
-				typal reflection of the privatization of women's lives and the resulting obsession
+				women, has become a significant cultural image on many levels — almost an archetypal reflection of the privatization of women's lives and the resulting obsession
 				with house/home. So now we paint, write, sculpt our houses; so far, too few of us
-				are creating architecture.<note>10. Two recently published books have begun the
+				are creating architecture.<note type="scholarNote">10. Two recently published books have begun the
 					documentation of women in architecture: Doris Cole, From Tipi to Skyscraper: A
 					History of Women in Architecture (Boston: press, 1973) and Susana Torre, ed.,
 					Women in American Architecture: A Historic and Contemporary Perspective (New
