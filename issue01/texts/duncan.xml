@@ -1983,7 +1983,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030193607879#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/p[10]/figure/caption/note[3]"
+			"rdf:value": "TEI/text/p[10]/figure/caption/note[2]"
 		}
 	},
 	"oa:hasBody": [
@@ -2955,7 +2955,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?citation_annotation_20221030194849445#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/p[13]/note[3]"
+			"rdf:value": "TEI/text/p[13]/note[2]"
 		}
 	},
 	"oa:hasBody": [
@@ -3918,7 +3918,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030195951811#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/p[15]/note[2]/persName"
+			"rdf:value": "TEI/text/p[15]/note/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -4559,6 +4559,162 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?title_annotation_20221030200756682",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T00:07:56.682Z",
+	"dcterms:modified": "2022-10-31T00:07:56.682Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?title_annotation_20221030200756682#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?title_annotation_20221030200756682#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/p[15]/note/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q63170412",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030200813571",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T00:08:13.571Z",
+	"dcterms:modified": "2022-10-31T00:08:13.571Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030200813571#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/duncan.xml?person_annotation_20221030200813571#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/note[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q310791",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		
@@ -4701,10 +4857,10 @@
 				sleep), and the artist manipulates their passive bodies with more liberty and
 				"artistic" bravado than <pb n="48"/>ever. <figure>
 					<caption>Left to right: Edvard Munch. Madonna<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q18890421"/></bibl></note>. 1849-95. <persName>Nasjonal Gallieret</persName>,
-						Oslo; <persName key="Willem de Kooning" ref="http://www.wikidata.org/entity/Q132305">Willem de Kooning</persName>. Untitled Drawing. 1969; <persName key="Joan Miró" ref="http://www.wikidata.org/entity/Q152384">Joan Miro</persName>. <note type="citation">Woman's Head</note>.
+						Oslo; <persName key="Willem de Kooning" ref="http://www.wikidata.org/entity/Q132305">Willem de Kooning</persName>. Untitled Drawing. 1969; <persName key="Joan Miró" ref="http://www.wikidata.org/entity/Q152384">Joan Miro</persName>. Woman's Head.
 						1938. Private Collection; Pablo Picasso. Seated Bather<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q3632880"/></bibl></note>. 1929. <placeName key="Museum of Modern Art" ref="http://www.wikidata.org/entity/Q188740">Museum of
-						Modern Art, New York</placeName>; <persName key="Maurice de Vlaminck" ref="http://www.wikidata.org/entity/Q241098">Maurice Vlaminck</persName>. <note type="citation">Bathers</note>. 1907 Private Collection.
-						<persName key="Kees van Dongen" ref="http://www.wikidata.org/entity/Q170345">Kees van Dongen</persName>. <note type="citation">Reclining Nude.</note> 1904. Private Collection.</caption>
+						Modern Art, New York</placeName>; <persName key="Maurice de Vlaminck" ref="http://www.wikidata.org/entity/Q241098">Maurice Vlaminck</persName>. <title>Bathers</title>. 1907 Private Collection.
+						<persName key="Kees van Dongen" ref="http://www.wikidata.org/entity/Q170345">Kees van Dongen</persName>. <title>Reclining Nude</title>. 1904. Private Collection.</caption>
 				</figure></p>
 
 			<p> The image of the femme fatale, especially popular at the turn of the century, would
@@ -4753,7 +4909,7 @@
 				the female genitals. The vagina dentata, an ancient fantasy into which males project
 				their terror of castration—of being swallowed up or devoured in their partner's
 				sexual organs—is commonly represented as a toothed mouth. The image, which appears
-				frequently in modern art, is a striking feature of Mirö's <note type="citation">Woman's Head</note> (1938). The
+				frequently in modern art, is a striking feature of Mirö's Woman's Head (1938). The
 				savage creature in this painting has open alligator jaws protruding from a large,
 				black head. The red eye, bristling hairs and exaggerated palpable nipples, in
 				combination with the thin weak arms, help give it that same mixture of comic
@@ -4780,13 +4936,13 @@
 			<note>De Beauvoir, op. cit., p. 179.</note>
 			<p>Pictures of nudes in nature also affirm the supremacy of the male consciousness even
 				while they ostensibly venerate or pay tribute to women as freer or more in harmony
-				with nature than men. From the <note type="citation">Bathers</note> of Delacroix to those of <persName key="Pierre-Auguste Renoir" ref="http://www.wikidata.org/entity/Q39931">Renoir</persName> and Picasso
+				with nature than men. From the Bathers of Delacroix to those of <persName key="Pierre-Auguste Renoir" ref="http://www.wikidata.org/entity/Q39931">Renoir</persName> and Picasso
 				nude-in-nature pictures almost always ascribe to women a mode of existence that is
 				categorically different from man's. Woman is seen as more of nature than man, less
 				in opposition to it both physically and mentally. Implicitly, the male is seen as
 				more closely identified with culture, "the means by which humanity transcends the
 				givens of natural existence, bends them to its purposes, controls them in its
-					interests."<note><persName key="Sherry Ortner" ref="http://www.wikidata.org/entity/Q2278440">Sherry Ortner</persName>, "Is Female to Male as Nature is to Culture?"
+					interests."<note><persName key="Sherry Ortner" ref="http://www.wikidata.org/entity/Q2278440">Sherry Ortner</persName>, "<title key="Is Female to Male as Nature Is to Culture?" ref="http://www.wikidata.org/entity/Q63170412">Is Female to Male as Nature is to Culture</title>?"
 					Feminist Studies, 1, No. 2 (Fall, 1972), p. 10</note></p>
 			<p>This woman/nature-man/culture dichotomy is one of the most ancient and universal
 				ideas ever devised by man and is hardly new to modern Western culture. However, in
@@ -4834,9 +4990,9 @@
 				repeating herself with a touching grace of constancy and fidelity. .. . Nature is a
 				woman. History, which we very foolishly put in the feminine gender, is a rude,
 				savage male, a sun-burnt, dusty traveller... </quote>
-			<note>Jules Michelet, Woman (La Femme), trans. J. W. Palmer (New York, 1860), pp.
+			<note><persName key="Jules Michelet" ref="http://www.wikidata.org/entity/Q310791">Jules Michelet</persName>, Woman (La Femme), trans. J. W. Palmer (New York, 1860), pp.
 				104-105.</note>
-			<p>Even in Matisse’s <note type="citation">Joy of Living</note> (1906), where men and women share an Arcadian life,
+			<p>Even in Matisse’s Joy of Living (1906), where men and women share an Arcadian life,
 				cultural activities (music-making, animal husbandry) are male endeavors while women
 				exist merely as sensual beings or abandon themselves to emotionally expressive but
 				artless and spontaneous dance.</p>
