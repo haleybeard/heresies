@@ -404,6 +404,240 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165725781",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:57:25.781Z",
+	"dcterms:modified": "2022-10-31T20:57:29.895Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165725781#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165725781#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "5. J.G. Kohl, Kitchi-Gami: Wandering Round Lake Superior (London,\n\t\t\t\t\t1860), p. 4."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165752443",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:57:52.443Z",
+	"dcterms:modified": "2022-10-31T20:57:56.751Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165752443#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165752443#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "6. Alice\n\t\t\t\t\tMarriott, The Trade Guild of Southern Cheyenne Women,\" Bulletin of Okla- homa\n\t\t\t\t\tAnthropological Society (April 1956), p. 24."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165817465",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-10-31T20:58:17.465Z",
+	"dcterms:modified": "2022-10-31T20:58:17.465Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165817465#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue02/texts/weatherford.xml?note_annotation_20221031165817465#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "7. Jomo Kenyatta, Facing Mount Kenya, Re- print of original 1938\n\t\t\t\t\tedition (New York: AMS Press, 1976), pp. 80-81."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -547,7 +781,7 @@
 				work of joiners, carpenters and masons have blistered hands. In fact, their hands
 				are much harder to the touch than those of the men; and indeed their entire muscular
 				system is far more developed and they are proportionately stronger in the
-					arm.<note>5. J.G. Kohl, Kitchi-Gami: Wandering Round Lake Superior (London,
+					arm.<note type="scholarNote">5. J.G. Kohl, Kitchi-Gami: Wandering Round Lake Superior (London,
 					1860), p. 4.</note></quote>
 			<p>Similarly, the tipi-builders of the Great Plains were responsible for all aspects of
 				the construction of their dwellings. They developed one of the most striking forms
@@ -578,15 +812,14 @@
 				Quillers' Society:</p>
 			<quote>...was spoken of as being similar in help stitch them together with sinew. Making
 				a tipi could also fulfill a sacred function. Plains women formed special
-				associations, notably the Cheyenne Quillers' Society, for the ceremonial deco¬
-				ration of tipis and their interior walls with dyed porcupine or bird quills. More
+				associations, notably the Cheyenne Quillers' Society, for the ceremonial decoration of tipis and their interior walls with dyed porcupine or bird quills. More
 				recently these tipis have been made from canvas and decorated with glass beads,
 				conception and attitudes to the Sacred Arrows [most sacred Cheyenne men's
 				society), one very important difference in behavior may be noted. During the
-				four-day arrow ceremony no talking, joking, or laugh- ing was allowed in camp. The
+				four-day arrow ceremony no talking, joking, or laughing was allowed in camp. The
 				making of the sacred beading was attended by a good deal of joking, teasing, and
 				fun. While the cere- <pb n="38"/> monial character of the work was recognized, it
-				interfered in no way with the social pleasure of the occasion.<note>6. Alice
+				interfered in no way with the social pleasure of the occasion.<note type="scholarNote">6. Alice
 					Marriott, The Trade Guild of Southern Cheyenne Women," Bulletin of Okla- homa
 					Anthropological Society (April 1956), p. 24.</note></quote>
 			<p><title>Female Farmers</title> When societies obtain their food predominantly from
@@ -594,8 +827,7 @@
 				villages close to their fields. Jobs are traditionally assigned to one sex or an
 				other. Sometimes men and women cultivate different crops and even speak differ-
 				ent languages.</p>
-			<p>Even space within the village might alsco be divided along sex lines, and the archi¬
-				tecture reflects and affects sex-specialized tasks. Women generally dominate culti-
+			<p>Even space within the village might alsco be divided along sex lines, and the architecture reflects and affects sex-specialized tasks. Women generally dominate culti-
 				vation but building tasks are specified and divided according to sex. In much of
 				Africa the characteristic building form is round, with a gabled and thatched roof
 				and walls made of wattle and daub. Each component is made separately by men or
@@ -607,7 +839,7 @@
 			<quote>You men, you lack the most important art in building, namely thatching. A
 				wall and an empty roof cannot protect you from heavy rain nor from the burning sun.
 				It is our careful thatching that makes the hut worth living. We are not chameleons
-				but nyoni ya nyagathanga ssmall song- birds known for their beautiful
+				but nyoni ya nyagathanga small songbirds known for their beautiful
 					nests).<note>7. Jomo Kenyatta, Facing Mount Kenya, Re- print of original 1938
 					edition (New York: AMS Press, 1976), pp. 80-81.</note></quote>
 			<p>Separation of the sexes does not necessarily serve as a foundation for male
