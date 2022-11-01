@@ -2355,6 +2355,162 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101164121760",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-01T20:41:21.760Z",
+	"dcterms:modified": "2022-11-01T20:41:21.760Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101164121760#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101164121760#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/68171928/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101164136717",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-01T20:41:36.717Z",
+	"dcterms:modified": "2022-11-01T20:41:36.717Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101164136717#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101164136717#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[3]/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/68171928/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2487,13 +2643,13 @@
 				primarily with the work itself, what it says and how it says it-rather than with an
 				imposed set of esthetic beliefs.</p>
 			<p>In her excellent catalogue introduction to "Changes<note type="researchNote">Note exhibition</note>," an exhibition by <persName key="Betsy Damon" ref="http://www.wikidata.org/entity/Q43078535">Betsy Damon</persName>
-				and <persName>Carole Fisher</persName>, Kathryn C. Johnson comments that "intent" is most important when
+				and <persName>Carole Fisher</persName>, <persName key="Johnson, Kathryn C." ref="http://viaf.org/viaf/68171928/">Kathryn C. Johnson</persName> comments that "intent" is most important when
 				defining feminist art. She states that it is "a powerful oneness of subject and
 				content" that makes certain work feminist:</p>
 			<quote>...Their work both is and tells about the pain of their life experiences. It is
 				about pain and is painful, but does not present woman as passive victim. The pain is
 				presented with deep understanding of its sources and effects, and the anger which
-				follows confrontation with the hurt.<note>Kathryn C. Johnson, catalogue introduction
+				follows confrontation with the hurt.<note><persName key="Johnson, Kathryn C." ref="http://viaf.org/viaf/68171928/">Kathryn C. Johnson</persName>, catalogue introduction
 					to "Changes," exhibition by Betsy Damon and Carole Fisher at the College of St.
 					Catherine (St. Paul, Minn., 1976).</note></quote>
 			<p>Fisher writes:</p>
