@@ -557,6 +557,162 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?organization_annotation_20221101102902669",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-01T14:29:02.669Z",
+	"dcterms:modified": "2022-11-01T14:29:02.669Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?organization_annotation_20221101102902669#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?organization_annotation_20221101102902669#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q736641",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?place_annotation_20221101102930606",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-01T14:29:30.606Z",
+	"dcterms:modified": "2022-11-01T14:29:30.606Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?place_annotation_20221101102930606#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?place_annotation_20221101102930606#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q40357",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -569,10 +725,10 @@
 				<persName key="Aballéa, Martine" ref="http://vocab.getty.edu/ulan/500072927">Martine Aballea</persName>, <persName key="Blume, Judy" ref="http://viaf.org/viaf/2962160486076205180007/">Judy Blum</persName>, <persName key="Croiset, Nicole 1950-...." ref="http://viaf.org/viaf/229710280/">Nicole Croiset,</persName> <persName key="Mimi" ref="http://www.wikidata.org/entity/Q15303153">Mimi</persName>, and <persName key="Yalter, Nil, 1938-...." ref="http://viaf.org/viaf/6198528/">Nil Yalter</persName>,
 				who include among their skills video, painting, sculpture, drawing,
 				and poetry; and among their nationalities French, Turkish, Canadian,
-				American. This work on La Roquette began when Judy and Mimi met
+				American. This work on <orgName key="La Roquette Prisons" ref="http://www.wikidata.org/entity/Q736641">La Roquette</orgName> began when Judy and Mimi met
 				through their children at a day-care center. Judy mentioned her
 				collaboration with Nil on the theme of living conditions in each of
-				Paris' 20 arrondissements, for which the prison had been suggested to
+				Paris' 20 arrondissements, for which the <placeName key="prison" ref="http://www.wikidata.org/entity/Q40357">prison</placeName> had been suggested to
 				represent the 11th arrondissement. Mimi, it turned out, had been
 				detained there, and she offered an elaboration of her experiences.
 				Martine, whose writing is based on her own memories and dreams,
