@@ -1102,6 +1102,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?person_annotation_20221101135728257",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-01T17:57:28.257Z",
+	"dcterms:modified": "2022-11-01T17:57:28.257Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?person_annotation_20221101135728257#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?person_annotation_20221101135728257#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q28873078",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1272,7 +1350,7 @@
 				or middle-class "radical" view of future feminism, nor is it one which radical
 				feminists hoping to "reach out" across the classes can easily espouse. Here, in the
 				realm of aspirations, is where upward and downward mobility and status quo clash,
-				where the economic class barriers are established. As Michele Russell has
+				where the economic class barriers are established. As <persName>Michele Russell</persName> has
 					noted, <note type="researchNote">Michele Russell, "Woman and Third World," New
 					American Movement (June, 1973).</note> the Third-World woman is not attracted to
 				the "Utopian experimentation" of the left (in the art world, the would-be Marxist
@@ -1286,7 +1364,7 @@
 				woman (because she has, in moving up- ward, acquired upper-class taste, or would
 				like to think she has)-may be "above" or inaccessible to a welfare mother. The
 				phrase "to dictate taste" has its own political connotations. Minneapolis worker
-				Interviewed by students of artist Don Celender said he liked "old art works because
+				Interviewed by students of artist <persName key="Don Celender" ref="http://www.wikidata.org/entity/Q28873078">Don Celender</persName> said he liked "old art works because
 				they're more classy," <note type="researchNote">Opinions of Working People
 					Concerning the Arts, ed. Don Celender (New York, 1975)</note> and class does
 				seem to be what the traditional notion of art is all about. Yet contemporary
