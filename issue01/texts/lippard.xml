@@ -1492,6 +1492,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?person_annotation_20221101140811518",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-01T18:08:11.518Z",
+	"dcterms:modified": "2022-11-01T18:08:11.518Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?person_annotation_20221101140811518#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lippard.xml?person_annotation_20221101140811518#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[26]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q432851",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1834,7 +1912,7 @@
 				feminism didn't exist-the presence of a few vociferous feminist artists and critics
 				not withstanding. And in the art world, as in the real world, political commitment
 				frequently means total disregard for feminist priorities. Even the increasingly
-				Marxist group ironically calling itself Art- Language is unwilling to stop the
+				Marxist group ironically calling itself <orgName>Art- Language</orgName> is unwilling to stop the
 				exclusive use of the male pronoun in its theoretical publications. <note type="researchNote">This despite their publication of and apparent endorsement
 					of Carolee Schneemann's "The Prounoun Tyranny" in the Fox, 3(1976)</note></p>
 			<p> Experiences like this one and dissatisfaction with Marxism's lack of interest in
@@ -1842,7 +1920,7 @@
 				non-economic or "vertical" class is anathema to Marxists and confusion is rampant
 				around the chicken-egg question of whether women can be equal before the
 				establishment of a classless society or whether a classless society can be
-				established before women are liberated. As Sheila Rowbotham says of her own Marxism
+				established before women are liberated. As <persName key="Sheila Rowbotham" ref="http://www.wikidata.org/entity/Q432851">Sheila Rowbotham</persName> says of her own Marxism
 				and feminism: <quote>They are at once incompatible and in real need of one another.
 					As a feminist and a Marxist I carry their contradictions within me and it is
 					tempting to opt for one or the other in an effort to produce a tidy resolution
