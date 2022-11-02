@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
@@ -126,10 +126,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20221011133221849",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20221011133229506",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-11T17:32:21.849Z",
-	"dcterms:modified": "2022-10-11T17:32:29.506Z",
+	"dcterms:created": "2022-10-11T17:32:29.506Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -139,7 +138,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20221011133221849#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20221011133229506#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
@@ -150,10 +149,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.8.0"
+			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20221011133221849#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20221011133229506#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/head/title/note"
 		}
@@ -168,7 +167,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.8.0"
+		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
         </rdf:Description>
@@ -204,10 +203,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?person_annotation_20221011134053354",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?person_annotation_20221011134103657",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-11T17:40:53.354Z",
-	"dcterms:modified": "2022-10-11T17:41:03.657Z",
+	"dcterms:created": "2022-10-11T17:41:03.657Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -217,7 +215,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?person_annotation_20221011134053354#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?person_annotation_20221011134103657#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
@@ -228,10 +226,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "1.8.0"
+			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?person_annotation_20221011134053354#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?person_annotation_20221011134103657#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/byline/persName"
 		}
@@ -246,7 +244,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "1.8.0"
+		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
         </rdf:Description>
@@ -280,7 +278,7 @@
 				of itself. We have speakers, conferences articles on "socialist feminism"—though we
 				know perfectly well that either"socialism" or "feminism" is too huge and too
 				inclusive to be a subject for any sensible speech, conference, or article. People,
-				includ- ing avowed socialist feminists, ask themselves anxiously, "What is socialist
+				including avowed socialist feminists, ask themselves anxiously, "What is socialist
 				feminism?" There is a kind of expectation that it is (or is about to be at any
 				moment, maybe in the next speech, conference or article) a brilliant synthesis of
 				world historical proportions—an evolutionary leap beyond Marx, Freud and
