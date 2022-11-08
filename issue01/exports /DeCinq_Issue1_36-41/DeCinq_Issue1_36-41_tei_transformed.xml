@@ -687,7 +687,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?place_annotation_20221101102930606#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/placeName[3]"
+			"rdf:value": "TEI/text/body/placeName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -1400,6 +1400,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?note_annotation_20221108142746462",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T19:27:46.462Z",
+	"dcterms:modified": "2022-11-08T19:27:46.462Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?note_annotation_20221108142746462#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?note_annotation_20221108142746462#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/note[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "administrative district"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1415,8 +1493,8 @@
 				American. This work on <orgName key="La Roquette Prisons" ref="http://www.wikidata.org/entity/Q736641">La Roquette</orgName> began when Judy and Mimi met
 				through their children at a <placeName key="day care" ref="http://www.wikidata.org/entity/Q364005">day-care center</placeName>. Judy mentioned her
 				collaboration with Nil on the theme of living conditions in each of
-				Paris' 20 arrondissements, for which the <placeName key="prison" ref="http://www.wikidata.org/entity/Q40357">prison</placeName> had been suggested to
-				represent the 11th arrondissement. Mimi, it turned out, had been
+				<placeName><placeName>Paris' <placeName>20 arrondissements</placeName></placeName></placeName>, for which the <placeName key="prison" ref="http://www.wikidata.org/entity/Q40357">prison</placeName> had been suggested to
+				represent the 11th <note>administrative district</note>arrondissement. Mimi, it turned out, had been
 				detained there, and she offered an elaboration of her experiences.
 				Martine, whose writing is based on her own memories and dreams,
 				also joined the project, while Nil offered her use of video to univer¬
