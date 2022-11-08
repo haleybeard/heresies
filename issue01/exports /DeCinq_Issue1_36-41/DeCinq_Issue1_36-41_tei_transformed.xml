@@ -1790,6 +1790,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?note_annotation_20221108144143082",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T19:41:43.082Z",
+	"dcterms:modified": "2022-11-08T19:41:43.082Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?note_annotation_20221108144143082#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue01/exports%20/DeCinq_Issue1_36-41/DeCinq_Issue1_36-41_tei_transformed.xml?note_annotation_20221108144143082#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "controlled the prison"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1823,8 +1901,7 @@
 				prostitution, or, like me, for robbery. There were also some murderers; I knew one in my workshop. Another had been accused of stealing a painting. The first days we asked each other, but afterwards we
 				didn’t really say "What are you doing here?" except to our best
 				friends. </p>
-			<p>	These women came from all classes. In general, relations be¬
-				tween inmates were pretty good. There were a lot of lesbians; the
+			<p>	These women came from all classes. In general, relations be tween inmates were pretty good. There were a lot of lesbians; the<note>controlled the prison</note>
 				<persName key="Nuns" ref="http://www.wikidata.org/entity/Q58141325">nuns</persName>' attitudes toward them was to turn a blind eye. They couldn't
 				not have known about it. The girls hid it a little—and even a lot—but
 				it was too obvious. As for me, I was not a lesbian, but I nevertheless
