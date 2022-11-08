@@ -1340,6 +1340,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221108175918504",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T22:59:18.504Z",
+	"dcterms:modified": "2022-11-08T22:59:18.504Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221108175918504#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221108175918504#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/note/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q104874805",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1467,8 +1545,8 @@
 				Feminists from <persName key="Tennessee Claflin" ref="http://www.wikidata.org/entity/Q7700030">Tennessee Claflin</persName> to <persName key="Isadora Duncan" ref="http://www.wikidata.org/entity/Q483512">Isadora Duncan</persName> have scored high in locating it.
 				"At the ballot box is not where the shoe pinches .It is at home where the hus- band
 				is the supreme ruler that the little difficul- ty arises; he will not surrender this
-				absolute power unless he is compelled," wrote Claflin in 1871. <note type="researchNote"><persName key="Schneir, Miriam" ref="http://viaf.org/viaf/114917240/">Schneir, Miriam</persName>, ed., Feminism: The Essential Historical
-					Writings, Vintage Books (New York, 1972), p. xviii.</note> Duncan, in her 1927
+				absolute power unless he is compelled," wrote Claflin in 1871. <note type="researchNote"><persName key="Schneir, Miriam" ref="http://viaf.org/viaf/114917240/">Schneir, Miriam</persName>, ed., <title key="Feminism: The Essential Historical Writings" ref="http://www.wikidata.org/entity/Q104874805">Feminism: The Essential Historical
+					Writings</title>, Vintage Books (New York, 1972), p. xviii.</note> Duncan, in her 1927
 				autobiography said, "Any intelligent woman who reads the marriage contract and then
 				goes into it, deserves all the consequences." <note type="researchNote">Ibid., p.
 					XV.</note> Here is the confounding point. Monogamy asserts a situation in which
