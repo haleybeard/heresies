@@ -442,7 +442,6 @@
 	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221106200455964",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-07T01:04:55.964Z",
-	"dcterms:modified": "2022-11-07T01:04:55.964Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -468,7 +467,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221106200455964#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[15]/persName"
+			"rdf:value": "TEI/text/body/p[14]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -520,7 +519,6 @@
 	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221106200510652",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-07T01:05:10.652Z",
-	"dcterms:modified": "2022-11-07T01:05:10.652Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -546,7 +544,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221106200510652#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[15]/persName[2]"
+			"rdf:value": "TEI/text/body/p[14]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -751,84 +749,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221108152538614",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-08T20:25:38.614Z",
-	"dcterms:modified": "2022-11-08T20:25:38.614Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Sophie McQuaide"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221108152538614#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221108152538614#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[12]/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q12716775",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221108152604587",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-08T20:26:04.587Z",
@@ -858,7 +778,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221108152604587#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/persName"
+			"rdf:value": "TEI/text/body/p[13]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -936,7 +856,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221108152622793#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/note/persName"
+			"rdf:value": "TEI/text/body/p[13]/note/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1014,7 +934,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221108152631236#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/note/title"
+			"rdf:value": "TEI/text/body/p[13]/note/title"
 		}
 	},
 	"oa:hasBody": {
@@ -1092,7 +1012,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221108152641805#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/note/title[2]"
+			"rdf:value": "TEI/text/body/p[13]/note/title[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1170,7 +1090,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?place_annotation_20221108152720378#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/note/placeName"
+			"rdf:value": "TEI/text/body/p[13]/note/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -1248,12 +1168,90 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?date_annotation_20221108152743940#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/note/date"
+			"rdf:value": "TEI/text/body/p[13]/note/date"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "xsd:date",
 		"rdf:value": "1974"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221108152832675",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T20:28:32.675Z",
+	"dcterms:modified": "2022-11-08T20:28:32.675Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221108152832675#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221108152832675#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q181707",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -1370,19 +1368,7 @@
 				possibility of "equal rights" before the very laws which uphold a sys- tem of
 				inequality, are a slap in the face to an ideology which aimed to alter the very
 				"nature“ of human relationships. This too is a contradiction. </p>
-			<p>What kind of contradiction? It is a contra- diction between an ideology and a system;
-				an ideology which has placed its profoundly hu- manist hope in individual
-				consciousness as somehow separable from the structures in which that consciousness
-				is created. Demystifying the contradictory elements of traditional feminism itself,
-				then, is part of our task. In capitalist society, the process through which human
-				labor is translated into commodity, then capital, is a process necessarily affecting
-				not only the pro- duction of tractors and bombs but the produc- tion of ideology.
-				This process puts intellectual labor like esthetic labor, like factory labor like
-				reproductive labor in the service of a system which generates a surplus of wealth
-				for the few and subsistence for the many. This contradic- tion —between the forces
-				of production (labor) and the property relations of production (own- ership) is the
-				contradiction which <orgName key="marxist" ref="http://www.wikidata.org/entity/Q12716775">Marxists</orgName> claim moves history, because it produces class
-				struggle: the power of masses of people to labor becomes the power to revolt.</p>
+			
 			<p> This contradiction has moved history. But, feminists ask, has it altered the basic
 				relation between woman and man, woman and child- rearing, woman and psycho-sexual
 				slavery? For the hypocrisy of bourgeois ideology in relation to bourgeois practice
@@ -1395,7 +1381,7 @@
 				Rowbotham</persName> has documented, <note type="researchNote"><persName key="Sheila Rowbotham" ref="http://www.wikidata.org/entity/Q432851">Rowbotham, Sheila</persName>, <title key="Rowbotham, Sheila. | Women, resistance and revolution" ref="http://viaf.org/viaf/7667153954881305680001/">Women,
 					Resistance and Revolution</title>, <title key="Vintage Books" ref="http://www.wikidata.org/entity/Q3560313">Vintage Books</title> (<placeName key="New York City" ref="http://www.wikidata.org/entity/Q60">New York</placeName>, <date when="1974">1974</date>).</note> heated in the
 				cauldron of bourgeois revolution and sim- mered in the idealism of 19th-century
-				Utopianism à la Fourier who claimed that "the change in historical epoch can
+				Utopianism à la <persName key="Charles Fourier" ref="http://www.wikidata.org/entity/Q181707">Fourier</persName> who claimed that "the change in historical epoch can
 				always be determined by the progress of women toward freedom." <note type="researchNote">Ibid., p. 51</note></p>
 			<p>Bourgeois feminism has begun, then, in its history of leaps and starts to identify
 				and attack its sexist enemy, and taken a few long strides away from female feudalism
