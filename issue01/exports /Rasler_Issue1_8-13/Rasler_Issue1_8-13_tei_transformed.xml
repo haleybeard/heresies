@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -15,12 +11,90 @@
 				<p>Information about the source</p>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/exports%20/Rasler_Issue1_8-13/Rasler_Issue1_8-13_tei_transformed.xml?note_annotation_20221108171307324",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T22:13:07.324Z",
+	"dcterms:modified": "2022-11-08T22:13:11.642Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/exports%20/Rasler_Issue1_8-13/Rasler_Issue1_8-13_tei_transformed.xml?note_annotation_20221108171307324#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/exports%20/Rasler_Issue1_8-13/Rasler_Issue1_8-13_tei_transformed.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/exports%20/Rasler_Issue1_8-13/Rasler_Issue1_8-13_tei_transformed.xml?note_annotation_20221108171307324#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "The third part of a trilogy sent out as postcard novels,\n\t\t\t\t\t\tthat also includes a budding gourmet and\n\t\t\t\t\t\t\tMcTowersMaid; to be published early 1977 as\n\t\t\t\t\t\t\tService: a trilogy on colonization by Printed Matter\n\t\t\t\t\t\tInc., New York."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="8"/>
 			<div>
-				<head>Tijuana Moid <note>The third part of a trilogy sent out as postcard novels,
+				<head>Tijuana Moid <note type="scholarNote">The third part of a trilogy sent out as postcard novels,
 						that also includes <title>a budding gourmet</title> and
 							<title>McTowersMaid</title>; to be published early 1977 as
 							<title>Service: a trilogy on colonization</title> by Printed Matter
@@ -67,8 +141,7 @@
 					oficina. iEstaba tan sorprendida! Sölo le daban gracias a Dios por haberme
 					conseguido empleo. Ellos suponian que trabajaria los 7 dias de la semana, pero
 					cuando les conte de Rositay Juanito ellos me dieron un dia y medio de descanso.
-					La mujer me diô un libro para que lo estudiara, llamado <hi rend="underscore"
-						>Home Maid Spanish Cook Book</hi>. El libro dice "Our aim is not to teach
+					La mujer me diô un libro para que lo estudiara, llamado <hi rend="underscore">Home Maid Spanish Cook Book</hi>. El libro dice "Our aim is not to teach
 					the Mexican or Spanish speaking maid how to make her own native dishes. She can
 					do that to perfection and without our help. We want to have her help Y O U in
 					the kitchen. To do things Y O UR way" El libro tiene un dibujo de una cocina
@@ -409,8 +482,7 @@
 						them some tamales. l'd pretend ! didn’t understand. I didn’t want to make
 						tamales for them. didn’t expect to do so much cooking, but l would not last
 						if I com- plained. So! made tacos. I don’t know which ! disliked more,
-						cooking the boring American foods they loved or the tacos once a <pb n="12"
-						/> week. My sister told me about a girl from our village who was taken to
+						cooking the boring American foods they loved or the tacos once a <pb n="12"/> week. My sister told me about a girl from our village who was taken to
 						Laguna Beach by a couple to care for their children, but all day they had
 						her cooking and cleaning. They had her cook very spicy Mexican dishes for
 						their friends, and then they would bring her out to show to the guests. She

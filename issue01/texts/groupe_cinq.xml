@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
@@ -97,7 +93,2113 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035278",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.278Z",
+	"dcterms:modified": "2022-11-09T01:00:35.278Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035278#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035278#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://vocab.getty.edu/ulan/500072927",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035300",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.300Z",
+	"dcterms:modified": "2022-11-09T01:00:35.300Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035300#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035300#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/2962160486076205180007/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.301Z",
+	"dcterms:modified": "2022-11-09T01:00:35.301Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/229710280/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.301Z",
+	"dcterms:modified": "2022-11-09T01:00:35.301Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q15303153",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.301Z",
+	"dcterms:modified": "2022-11-09T01:00:35.301Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/6198528/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.301Z",
+	"dcterms:modified": "2022-11-09T01:00:35.301Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035301#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q58141325",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035302",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.302Z",
+	"dcterms:modified": "2022-11-09T01:00:35.302Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035302#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?person_annotation_20221108200035302#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q80900",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035302",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.302Z",
+	"dcterms:modified": "2022-11-09T01:00:35.302Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035302#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035302#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q90",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035302",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.302Z",
+	"dcterms:modified": "2022-11-09T01:00:35.302Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035302#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035302#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q364005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035303",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.303Z",
+	"dcterms:modified": "2022-11-09T01:00:35.303Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035303#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035303#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q40357",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035303",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.303Z",
+	"dcterms:modified": "2022-11-09T01:00:35.303Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035303#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035303#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q99460745",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035303",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.303Z",
+	"dcterms:modified": "2022-11-09T01:00:35.303Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035303#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?place_annotation_20221108200035303#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q5503154",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?organization_annotation_20221108200035303",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.303Z",
+	"dcterms:modified": "2022-11-09T01:00:35.303Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?organization_annotation_20221108200035303#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?organization_annotation_20221108200035303#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q2720495",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?organization_annotation_20221108200035303",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.303Z",
+	"dcterms:modified": "2022-11-09T01:00:35.303Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?organization_annotation_20221108200035303#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?organization_annotation_20221108200035303#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q736641",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?organization_annotation_20221108200035304",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:00:35.304Z",
+	"dcterms:modified": "2022-11-09T01:00:35.304Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?organization_annotation_20221108200035304#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?organization_annotation_20221108200035304#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[31]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q188307",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200113961",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:01:13.961Z",
+	"dcterms:modified": "2022-11-09T01:01:18.181Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200113961#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200113961#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/note[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "detained in prison, told from her perspective"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200126026",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:01:26.026Z",
+	"dcterms:modified": "2022-11-09T01:01:30.562Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200126026#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200126026#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "members: Martine Azalea, Judy Blum, Nicole Croiset, Mimi, and Nil Yalter"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200146110",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:01:46.110Z",
+	"dcterms:modified": "2022-11-09T01:01:50.003Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200146110#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200146110#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "DeCinq: "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200201041",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:02:01.041Z",
+	"dcterms:modified": "2022-11-09T01:02:04.878Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200201041#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200201041#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/note[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Nil"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200216373",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:02:16.373Z",
+	"dcterms:modified": "2022-11-09T01:02:21.210Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200216373#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200216373#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/note[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Martine"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200234057",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:02:34.057Z",
+	"dcterms:modified": "2022-11-09T01:02:38.493Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200234057#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200234057#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/note[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "prison"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200249123",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:02:49.123Z",
+	"dcterms:modified": "2022-11-09T01:02:53.276Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200249123#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200249123#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/note[7]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "administrative district"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200307340",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:03:07.340Z",
+	"dcterms:modified": "2022-11-09T01:03:11.711Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200307340#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200307340#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/front/p/note[8]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "narrative with videotape, and images"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200324028",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:03:24.028Z",
+	"dcterms:modified": "2022-11-09T01:03:27.627Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200324028#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200324028#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "controlled the prison"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200334690",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:03:34.690Z",
+	"dcterms:modified": "2022-11-09T01:03:39.008Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200334690#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200334690#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "prison store"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200353275",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:03:53.275Z",
+	"dcterms:modified": "2022-11-09T01:03:57.508Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200353275#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200353275#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "system the inmates used to communicate with each other"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200404522",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-09T01:04:04.522Z",
+	"dcterms:modified": "2022-11-09T01:04:08.268Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200404522#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/groupe_cinq.xml?note_annotation_20221108200404522#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "form of punishment"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 
 		<pb n="36"/>
@@ -105,110 +2207,124 @@
 		<front>
 			<head><title>La Roquette, Women s Prison</title></head>
 			<byline><orgName>Groupe de Cinq</orgName></byline>
-			<p>The Group of Five is a Paris-based collective consisting of Martine Aballea, Judy
-				Blum, Nicole Croiset, Mimi, and Nil Yalter, who include among their skills video,
-				painting, sculpture, drawing, and poetry; and among their nationalities French,
-				Turkish, Canadian, American. This work on La Roquette began when Judy and Mimi met
-				through their children at a day-care center. Judy mentioned her collaboration with
-				Nil on the theme of living conditions in each of Paris' 20 arrondissements, for
-				which the prison had been suggested to represent the 11th arrondissement. Mimi, it
-				turned out, had been detained there, and she offered an elaboration of her
-				experiences. Martine, whose writing is based on her own memories and dreams, also
-				joined the project, while Nil offered her use of video to univer salize the
-				narrative elements, in collaboration with Nicole, who concentrated on the
-				esthetic/sociological aspects of the research. The result is a visual representation
-				of the prison and of the personal experiences of many women, centered around the
-				group's increasing consciousness of the meaning of Mimi's story: "Bonds of
-				friendship, constantly confirmed, played the most cohesive role on the level of the
-				work itself, resulting in the combination of apparently disparate means connected to
-				each other by mutual understanding within the group." The following narrative
-				accompanies a videotape from which most of the images are taken. </p>
+			<p> The<note type="researchNote">members: Martine Azalea, Judy Blum, Nicole Croiset, Mimi, and Nil Yalter</note><note type="researchNote">DeCinq: </note><orgName key="Group of Five" ref="http://www.wikidata.org/entity/Q2720495">Group of Five</orgName> is a <placeName key="Paris" ref="http://www.wikidata.org/entity/Q90">Paris</placeName>-based collective consisting of
+				<persName key="Aballéa, Martine" ref="http://vocab.getty.edu/ulan/500072927">Martine Aballea</persName>, <persName key="Blume, Judy" ref="http://viaf.org/viaf/2962160486076205180007/">Judy Blum</persName>, <persName key="Croiset, Nicole 1950-...." ref="http://viaf.org/viaf/229710280/">Nicole Croiset,</persName> <note type="researchNote">detained in prison, told from her perspective</note><persName key="Mimi" ref="http://www.wikidata.org/entity/Q15303153">Mimi</persName>, and <persName key="Yalter, Nil, 1938-...." ref="http://viaf.org/viaf/6198528/">Nil Yalter</persName>,
+				who include among their skills <note type="researchNote">Nil</note>video, painting, sculpture, drawing,
+				and <note type="researchNote">Martine</note>poetry; and among their nationalities French, Turkish, Canadian,
+				American. This work on <note type="researchNote">prison</note><orgName key="La Roquette Prisons" ref="http://www.wikidata.org/entity/Q736641">La Roquette</orgName> began when Judy and Mimi met
+				through their children at a <placeName key="day care" ref="http://www.wikidata.org/entity/Q364005">day-care center</placeName>. Judy mentioned her
+				collaboration with Nil on the theme of living conditions in each of
+				<placeName><placeName>Paris' <placeName>20 arrondissements</placeName></placeName></placeName>, for which the <placeName key="prison" ref="http://www.wikidata.org/entity/Q40357">prison</placeName> had been suggested to
+				represent the 11th <note type="researchNote">administrative district</note>arrondissement. Mimi, it turned out, had been
+				detained there, and she offered an elaboration of her experiences.
+				Martine, whose writing is based on her own memories and dreams,
+				also joined the project, while Nil offered her use of video to universalize the narrative elements, in collaboration with Nicole, who
+				concentrated on the esthetic/sociological aspects of the research.
+				The result is a visual representation of the prison and of the personal
+				experiences of many women, centered around the group's increasing
+				consciousness of the meaning of <note type="researchNote">narrative with videotape, and images</note>Mimi's story: "Bonds of friendship,
+				constantly confirmed, played the most cohesive role on the level of
+				the work itself, resulting in the combination of apparently disparate
+				means connected to each other by mutual understanding within the
+				group." The following narrative accompanies a videotape from which
+				most of the images are taken.</p>
 		</front>
 		<body>
-			<p>The other women were mostly in the prison for bad checks, prostitution, or, like me,
-				for robbery. There were also some murder ers; I knew one in my workshop. Another had
-				been accused of steal ing a painting. The first days we asked each other, but
-				afterwards we didn’t really say "What are you doing here?" except to our best
-				friends.</p>
-			<p>These women came from all classes. In general, relations be tween inmates were pretty
-				good. There were a lot of lesbians; the nuns' attitudes toward them was to turn a
-				blind eye. They couldn't not have known about it. The girls hid it a little—and even
-				a lot—but it was too obvious. As for me, I was not a lesbian, but I nevertheless
-				flirted here and there to pass the time. It could have certain advan tages: when you
-				didn’t have any money, your friends could buy things at the canteen for you. Or, at
-				one time, I went out with an English girl who was the favorite of a nun who didn’t
-				like me, and from that day on, that nun was very nice to me, and I got certain
-				favors I shouldn’t have had.</p>
-			<p>But still there were lots of fights, sometimes for no reason at all, just because the
-				girls felt like fighting. Sometimes it was a question of class. Some girls felt
-				superior to others: it wasn’t a question of money, but of intellect. ... So
-				sometimes one girl would insult another, or feel insulted, and there would be a
-				fight. We were a whole gang; some had to be in charge. And if you knew how to fight,
+			<p>The other women were mostly in the prison for bad checks,
+				prostitution, or, like me, for robbery. There were also some murderers; I knew one in my workshop. Another had been accused of stealing a painting. The first days we asked each other, but afterwards we
+				didn’t really say "What are you doing here?" except to our best
+				friends. </p>
+			<p>	These women came from all classes. In general, relations be tween inmates were pretty good. There were a lot of lesbians; the<note type="researchNote">controlled the prison</note>
+				<persName key="Nuns" ref="http://www.wikidata.org/entity/Q58141325">nuns</persName>' attitudes toward them was to turn a blind eye. They couldn't
+				not have known about it. The girls hid it a little—and even a lot—but
+				it was too obvious. As for me, I was not a lesbian, but I nevertheless
+				flirted here and there to pass the time. It could have certain advan¬
+				tages: when you didn’t have any money, your friends could buy
+				things at the <note type="researchNote">prison store</note><placeName>canteen</placeName> for you. Or, at one time, I went out with an
+				English girl who was the favorite of a nun who didn’t like me, and
+				from that day on, that nun was very nice to me, and I got certain
+				favors I shouldn’t have had. </p>
+			<p> But still there were lots of fights, sometimes for no reason at all,
+				just because the girls felt like fighting. Sometimes it was a question of
+				class. Some girls felt superior to others: it wasn’t a question of
+				money, but of intellect. ... So sometimes one girl would insult
+				another, or feel insulted, and there would be a fight. We were a
+				whole gang; some had to be in charge. And if you knew how to fight,
 				you were respected. There was nothing you could do about it.</p>
-			<p>Sometimes fights started over cigarettes. For example, I got into a fight with a girl
-				over that. Every Wednesday we had the right to buy four packs of cigarettes at the
-				canteen. This girl didn’t smoke, so, with my money, I had bought her something she
-				needed, and she, with her money, was going to buy me four more packs, which would
-				have made eight for the week. She bought me the cigarettes, but another girl told
-				her to give them to her. She was very weak and she didn’t dare refuse. That night I
-				waited for her in her cell and I beat her up. The week after that she bought me
-				cigarettes, and she didn’t even ask me for money. Afterwards—it's stupid, she was a
-				coward—she would pick up butts in the yard for me, when I really didn’t expect that
-				from her. When the other girls saw that, they all turned against her. When I saw
-				that, I stood up for her, because I don’t like to take sides. l'd hit her a little,
-				but I didn’t have a grudge against her.</p>
-			<p>Another time there was a fight in the mess hall, in front of the nun. There was blood
-				on the floor: one girl had had a nosebleed, and the other had been hurt elsewhere. I
-				was drawing; with my finger picked up some drops of blood and put them on my
-				drawing.</p>
-			<p>But there was also a feeling of solidarity among the inmates. One time, for example,
-				a girl had been punished and locked up in the mess hall toilets. I didn’t know what
-				she had done, I don’t even know if she had really done anything; in any case it was
-				totally unjust to lock her up like that. So, with my friend, I climbed onto the
-				ledge over the mess hall door and we said that we would stay there until they let
-				this girl out. Normally we should have done two weeks in the cooler for that, but we
-				didn’t get anything. We would have done it anyway because it was unjust.</p>
-			<p>Or one day a girl gave me a little piece of candle about two inches long. We were
-				forbidden to have candles, but there were a lot of things like that that went around
-				the prison. I don’t know how she got it; that was the sort of question you didn’t
-				ask. She gave it to me because she knew that I liked to read.</p>
-			<p>We also managed to pass notes from cell to cell by what we called the "yoyo" system.
-				You tied the note to a piece of string and you put it through the window. We did
-				that for certain girls who were in the cooler when we were in the yard. We would
-				send them a note <pb n="38"/> from their best friends or something like that.</p>
-			<p>As for the nuns, apart from some who were especially mean, they were mostly
-				indifferent. But they had, of course, their favorites. It was a question of
-				personality: they liked the docile inmates. In the beginning they didn’t like me
-				because I was stubborn and rude to them. Afterwards, I sometimes behaved better. But
-				in any case, being with the English girl, I could do things that were forbidden and
-				not get punished. Sometimes, for example, I would go into the yard to pick up butts
-				that the richer girls had left; we weren’t allowed to do that other than at recess.
-				Or I tried doing all kinds of things so I could go to the cooler, because l had a
-				friend who sang in church and in the cooler there was a lot of echo. But despite all
-				I did I never got sent, while some girls did nothing at all and got sent right
-				away.</p>
-			<p>Down in the cooler you were isolated from everybody. You got no mail or visits. You
-				never left your cell, except once a day when you had a walk, alone, in the yard. You
-				only had one meal a day which was brought to you in your cell.</p>
-			<p>Generally speaking, it took a certain amount of time to make friends. I didn’t have
-				this problem because there were already two people there whom I knew when I arrived.
-				But for the others who had no soap, no handkerchiefs (the prison gave you nothing,
-				not even sanitary napkins; all they gave me when I came in was a rag to wash myself
-				with), if they weren’t resourceful, if they didn’t get some friends to help them,
-				they couldn’t make it. You had to work about ten days before having enough money to
-				buy things at the canteen.</p>
-			<p>The money that you made working, making key rings, was only just enough to buy
-				cigarettes. You were paid 80 centimes (15 cents) for one hundred key rings, about a
-				day’s work. Those who worked really fast managed to make two hundred. I started
-				working the second day after my arrival, but I lost the tool I had been given. I got
-				yelled at by the nun, and I saw that it was badly paid, so I stopped. Instead, I
-				spent my days reading. I could do this because I was not sentenced yet, while those
-				who were had to work. The catalogue from the library was passed in the workshop and
-				we had the right to two books a week; I would ask some girls who didn’t read to
-				order some for me. I read everything—Pearl Buck, books on explorations. also spent a
-				lot of time drawing, and sometimes I would go out. My seat was at the end of the
-				workshop, near the door, so it was easy for me to go out in the yard when the nun
-				wasn’t looking.</p>
+			<p>	Sometimes fights started over cigarettes. For example, I got into
+				a fight with a girl over that. Every Wednesday we had the right to buy
+				four packs of cigarettes at the canteen. This girl didn’t smoke, so,
+				with my money, I had bought her something she needed, and she,
+				with her money, was going to buy me four more packs, which would
+				have made eight for the week. She bought me the cigarettes, but
+				another girl told her to give them to her. She was very weak and she
+				didn’t dare refuse. That night I waited for her in her cell and I beat her
+				up. The week after that she bought me cigarettes, and she didn’t even
+				ask me for money. Afterwards—it's stupid, she was a coward—she
+				would pick up butts in the yard for me, when I really didn’t expect
+				that from her. When the other girls saw that, they all turned against
+				her. When I saw that, I stood up for her, because I don’t like to take
+				sides. l'd hit her a little, but I didn’t have a grudge against her.</p>
+			<p> Another time there was a fight in the mess hall, in front of the
+				nun. There was blood on the floor: one girl had had a nosebleed, and
+				the other had been hurt elsewhere. I was drawing; with my finger
+				picked up some drops of blood and put them on my drawing. </p>
+			<p> But there was also a feeling of solidarity among the inmates. One
+				time, for example, a girl had been punished and locked up in the
+				<placeName key="Mess Hall" ref="http://www.wikidata.org/entity/Q99460745">mess hall</placeName> toilets. I didn’t know what she had done, I don’t even know
+				if she had really done anything; in any case it was totally unjust to
+				lock her up like that. So, with my friend, I climbed onto the ledge
+				over the mess hall door and we said that we would stay there until
+				they let this girl out. Normally we should have done two weeks in the
+				cooler for that, but we didn’t get anything. We would have done it
+				anyway because it was unjust.</p>
+			<p>Or one day a girl gave me a little piece of candle about two
+				inches long. We were forbidden to have candles, but there were a lot
+				of things like that that went around the prison. I don’t know how she
+				got it; that was the sort of question you didn’t ask. She gave it to me
+				because she knew that I liked to read.</p>
+			<p>We also managed to pass notes from cell to cell by what we
+				called the <note type="researchNote">system the inmates used to communicate with each other</note>"yoyo" system. You tied the note to a piece of string and
+				you put it through the window. We did that for certain girls who were
+				in the cooler<note type="researchNote">form of punishment</note> when we were in the yard. We would send them a note <pb n="38"/> from their best friends or something like that.</p>
+			<p>As for the nuns, apart from some who were especially mean,
+				they were mostly indifferent. But they had, of course, their favorites.
+				It was a question of personality: they liked the docile inmates. In the
+				beginning they didn’t like me because I was stubborn and rude to
+				them. Afterwards, I sometimes behaved better. But in any case,
+				being with the English girl, I could do things that were forbidden and
+				not get punished. Sometimes, for example, I would go into the yard
+				to pick up butts that the richer girls had left; we weren’t allowed to do
+				that other than at recess. Or I tried doing all kinds of things so I could
+				go to the cooler, because l had a friend who sang in church and in the
+				cooler there was a lot of echo. But despite all I did I never got sent,
+				while some girls did nothing at all and got sent right away.</p>
+			<p>Down in the cooler you were isolated from everybody. You got
+				no mail or visits. You never left your cell, except once a day when
+				you had a walk, alone, in the yard. You only had one meal a day
+				which was brought to you in your cell.</p>
+			<p>Generally speaking, it took a certain amount of time to make
+				friends. I didn’t have this problem because there were already two
+				people there whom I knew when I arrived. But for the others who had
+				no soap, no handkerchiefs (the prison gave you nothing, not even
+				sanitary napkins; all they gave me when I came in was a rag to wash
+				myself with), if they weren’t resourceful, if they didn’t get some
+				friends to help them, they couldn’t make it. You had to work about
+				ten days before having enough money to buy things at the canteen.</p>
+			<p>The money that you made working, making key rings, was only
+				just enough to buy cigarettes. You were paid 80 centimes (15 cents)
+				for one hundred key rings, about a day’s work. Those who worked
+				really fast managed to make two hundred. I started working the
+				second day after my arrival, but I lost the tool I had been given. I got
+				yelled at by the nun, and I saw that it was badly paid, so I stopped.
+				Instead, I spent my days reading. I could do this because I was not
+				sentenced yet, while those who were had to work. The catalogue
+				from the library was passed in the workshop and we had the right to
+				two books a week; I would ask some girls who didn’t read to order
+				some for me. I read everything—<persName key="Pearl S. Buck" ref="http://www.wikidata.org/entity/Q80900">Pearl Buck</persName>, books on explorations.
+				also spent a lot of time drawing, and sometimes I would go out. My
+				seat was at the end of the workshop, near the door, so it was easy for
+				me to go out in the yard when the nun wasn’t looking.</p>
 			<p>The money that you had on you on entering the prison was kept; you could only use it
 				in the canteen. Some inmates received money orders; many of them, actually, got
 				money. As for me, my brother <pb n="39"/>sent me a hundred francs (20 dollars) and a
@@ -263,19 +2379,22 @@
 				full of soap, there was nothing you could do about it. You had to find a way to
 				rinse yourself with cold water afterwards; sometimes when you finally got a chance
 				to do it, your head was already half dry.</p>
-			<p>As for clothes, pants were forbidden. Men were banished from our environment and the
-				nuns would say "Stop wriggling!" when we saw workers from Fresnes (men’s prison). We
-				weren’t supposed to look at them. We had to wear dresses or skirts. When I arrived,
-				I was wearing pants, so to replace it they gave me a burlap dress. In the beginning
-				I didn’t have any other clothes; I wore it night and day. couldn’t wash it and until
-				I got other clothes, my dress stayed dirty.... One girl had made herself a skirt
-				from a blanket, so she went to the cooler. It was a beautiful skirt and it was a
-				long time before they realized what she had done. I don’t know where she found the
-				needle and thread; they were among the things that circulated. ... The sheets and
-				rags which had been given to us were washed in the linen room. The linen maids, like
-				those who served the meals, were inmates who had been there a long time and who had
-				won the trust of the nuns. The sheets were changed about once a month; it was far
-				from ideal when there were lice.</p>
+			<p>As for clothes, pants were forbidden. Men were banished from
+				our environment and the nuns would say "Stop wriggling!" when we
+				saw workers from <placeName key="Fresnes Prison" ref="http://www.wikidata.org/entity/Q5503154">Fresnes</placeName> (men’s prison). We weren’t supposed to
+				look at them. We had to wear dresses or skirts. When I arrived, I was
+				wearing pants, so to replace it they gave me a burlap dress. In the
+				beginning I didn’t have any other clothes; I wore it night and day.
+				couldn’t wash it and until I got other clothes, my dress stayed
+				dirty.... One girl had made herself a skirt from a blanket, so she
+				went to the cooler. It was a beautiful skirt and it was a long time
+				before they realized what she had done. I don’t know where she
+				found the needle and thread; they were among the things that circu¬
+				lated. ... The sheets and rags which had been given to us were
+				washed in the linen room. The linen maids, like those who served the
+				meals, were inmates who had been there a long time and who had
+				won the trust of the nuns. The sheets were changed about once a
+				month; it was far from ideal when there were lice.</p>
 			<p>During my stay there was an epidemic of lice. The nuns told us to go to the kitchen
 				and ask for vinegar, and we put it on our heads. When it was dry we put on some
 				powder, and then a scarf; we stayed like that for three days. If you had lice it was
@@ -340,19 +2459,21 @@
 				usually did it with shoe polish that we got at the canteen. We mostly made our eyes
 				up, but some girls put brown pencil around their lips.</p>
 			<p>Some girls reacted badly to prison lite, but we tried to help them, and they managed
-				to make friends, to find people who helped them >overcome their distress. I wouldn’t
+				to make friends, to find people who helped them &amp;gt;overcome their distress. I wouldn’t
 				leave a poor girl by herself who arrived here and who looked completely lost. I went
 				to see her, talked to her. Of course there were those who had their husbands and
 				their children outside; for them it was harder. I was told that once a girl hanged
 				herself. Sometimes there were also attempts at escape; was told that one inmate hid
 				herself in a garbage can, but she didn’t have time to get out and was killed inside
 				the garbage truck.</p>
-			<p>At Christmas the Salvation Army came. We got together in the mess hall and listened
-				to them sing Christmas carols. These women were very nice. They gave each of us a
-				towel, a handkerchief, and a pack of candy. We had a lot of fun because we weren’t
-				used to seeing this sort of woman. Everybody was laughing, but they were well
-				received by the inmates. In the end we thought it was really nice of them to trouble
-				themselves for us. I think a lot of the girls were touched.</p>
+			<p>At Christmas <orgName key="The Salvation Army" ref="http://www.wikidata.org/entity/Q188307">the Salvation Arm</orgName>y came. We got together in the
+				mess hall and listened to them sing Christmas carols. These women
+				were very nice. They gave each of us a towel, a handkerchief, and a
+				pack of candy. We had a lot of fun because we weren’t used to seeing
+				this sort of woman. Everybody was laughing, but they were well
+				received by the inmates. In the end we thought it was really nice of
+				them to trouble themselves for us. I think a lot of the girls were
+				touched.</p>
 			<p>For the meal, we put all the tables together to be the most together possible. Those
 				who had saved a little money bought pastries, but almost everything was shared. I,
 				for example, didn’t have any money, but I had a little of everything like everybody
