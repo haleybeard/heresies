@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
@@ -97,7 +93,397 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221106192640875",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-07T00:26:40.875Z",
+	"dcterms:modified": "2022-11-07T00:26:40.875Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221106192640875#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221106192640875#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/268913776/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?place_annotation_20221108173751412",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T22:37:51.412Z",
+	"dcterms:modified": "2022-11-08T22:37:51.412Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?place_annotation_20221108173751412#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?place_annotation_20221108173751412#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q109849",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221108173847426",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T22:38:47.426Z",
+	"dcterms:modified": "2022-11-08T22:38:47.426Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221108173847426#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221108173847426#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/Socialist_feminism",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221108173921990",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T22:39:21.990Z",
+	"dcterms:modified": "2022-11-08T22:39:21.990Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221108173921990#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221108173921990#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q1987244",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221108174200211",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T22:42:00.211Z",
+	"dcterms:modified": "2022-11-08T22:42:00.211Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221108174200211#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/sweeney.xml?organization_annotation_20221108174200211#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q164597",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="104"/>
@@ -106,17 +492,17 @@
 			<p>Many "feminist" writers have contributed to the ideology of housework.
 				Radical-feminists, while recognizing the identification of housework with our female
 				nature, have proposed sharing this work with a man and leaving the home for outside
-				work. Socialist-feminists, describing housework as precapitalist, have pro claimed
+				work. <orgName key="Socialist feminism" ref="http://dbpedia.org/resource/Socialist_feminism">Socialist-feminists</orgName>, describing housework as precapitalist, have pro claimed
 				that our goal should be toward "industrialization," which would liberate our time
-				for more work—but in a factory, if not a collective kitchen. Liberal feminists have
-				defined our problem as "lack of consciousness," describing women as dupes of Madison
-				Avenue ad-men. Finally, there are those feminists who, much to capitalists'
+				for more work—but in a factory, if not a collective kitchen. <orgName key="liberal feminism" ref="http://www.wikidata.org/entity/Q1987244">Liberal feminists</orgName> have
+				defined our problem as "lack of consciousness," describing women as dupes of <placeName key="Madison Avenue" ref="http://www.wikidata.org/entity/Q109849">Madison
+				Avenue</placeName> ad-men. Finally, there are those feminists who, much to capitalists'
 				rejoicing, have glorified our forced labor in the home as the embodiment of the best
 				human potentials: our capacity to nurture and care, our very capacity to love. One
 				thing they all agree on is that women should not be paid for this work, because this
 				presumably would institutionalize us in the home, and extend the control of the
 				state to "the one area of freedom we have in our lives."</p>
-			<p>Contrary to these criticisms, the Wages for Housework Committee's perspective is
+			<p>Contrary to these criticisms, the <orgName key="Toronto Wages for Housework Committee" ref="http://viaf.org/viaf/268913776/">Wages for Housework Committee</orgName>'s perspective is
 				based on the fact that housework is already controlled and institutionalized
 				(Mother's Day is nothing less than the celebration of this institutionalization!)
 				precisely because this work is unwaged. Society is organized to force us into this
@@ -134,7 +520,7 @@
 			<p>Housework is not just washing dishes, scrubbing floors, or raising babies. What we do
 				at home is produce and reproduce workers: every day we create and restore the
 				capacity of others (and ourselves) to work, and to be exploited. It is ironic that
-				as houseworkers we are not in cluded in the nation’s labor force, for without this
+				as houseworkers we are not included in the nation’s labor force, for without this
 				work the workforce would not exist. The lack of a wage obscures the indispensability
 				of our work to the functioning of this society. Housework makes every other work
 				possible. No car could be produced, no coal could be dug, no office could be run, if
@@ -157,7 +543,7 @@
 				backstreet butchers (the right to life is never claimed for women). Likewise, if we
 				are on welfare or we tend to produce "troublemakers," we are again sterilized.</p>
 			<p>In every case, our sexuality is continuously under control to make sure that we use
-				it productively. Lesbianism and teenage sex are il legal, and rape in the family (or
+				it productively. Lesbianism and teenage sex are illegal, and rape in the family (or
 				the battered wife) is not a crime since readily available<pb n="105"/> money of our
 				own that creates the battered wife or the closet lesbian and forces so many of us to
 				remain in unwanted family situations. With money in our hands, we would have the
@@ -178,7 +564,7 @@
 				enforcement of unpaid labor the only source of capitalist profits. Thus to attack
 				our wagelessness is to attack capitalism at its roots for capital is precisely the
 				accumulated labor that has been robbed from workers generation after generation.</p>
-			<p>In contrast, the strategy that has been offered to us by "feminists" and the left—the
+			<p>In contrast, the strategy that has been offered to us by "feminists" and <orgName key="left-wing" ref="http://www.wikidata.org/entity/Q164597">the left</orgName>—the
 				strategy to obtain more work-would only mean further enslavement to the present
 				system. It is capital that poses work as the only natural destiny in our lives, not
 				the working class, whose struggles are always directed toward gaining more money and
@@ -200,8 +586,7 @@
 				home is not much of a relief if we don’t have any money in our hands, or if we go
 				out just for more work.</p>
 			<p>We also reject the idea that sharing our exploitation in the home with a man can be a
-				strategy for liberation. "Sharing the housework" is not an invention of the Women's
-				Movement. Women have continuously tried to get men to share this work. Despite some
+				strategy for liberation. "Sharing the housework" is not an invention of <orgName>the Women's Movement</orgName>. Women have continuously tried to get men to share this work. Despite some
 				victories, we have discovered that this battle also has many limitations. First, the
 				man is not home most of the time. If he brings in the money, and we are economically
 				dependent on him, we don’t have the power to force him to do housework. In fact it
@@ -223,7 +608,7 @@
 				sector of the economy benefits from our work we don’t work for one boss, we work for
 				all the bosses. Consequently we demand the money from the state. Second, the
 				government already is our boss. In every country the government is responsible for
-				guaranteeing an adequate labor force to industry. This means that the govern ment
+				guaranteeing an adequate labor force to industry. This means that the government
 				directly regulates and controls our work through the family, world population
 				control, immigration laws, and finally by entering the community whenever we refuse
 				to perform our work.</p>
