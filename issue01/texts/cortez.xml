@@ -639,6 +639,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/cortez.xml?organization_annotation_20221110204331696",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-11T01:43:31.696Z",
+	"dcterms:modified": "2022-11-11T01:43:31.696Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/cortez.xml?organization_annotation_20221110204331696#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/cortez.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/cortez.xml?organization_annotation_20221110204331696#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q949686",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -700,9 +778,9 @@
 		<back>
 			<p><persName key="Jayne Cortez" ref="http://www.wikidata.org/entity/Q1670154">Jayne Cortez</persName> was born in <placeName key="Arizona" ref="http://www.wikidata.org/entity/Q816">Arizona</placeName> and grew up in the <placeName key="Watts" ref="http://www.wikidata.org/entity/Q1687279">Watts Community</placeName> of <placeName key="Los Angeles" ref="http://www.wikidata.org/entity/Q65">Los Angeles</placeName>.
 				She is the author of three books of poetry—<title key="Pissstained Stairs and the Monkey Man's Wares" ref="https://www.worldcat.org/title/pissstained-stairs-and-the-monkey-mans-wares/oclc/119044">Pissstained Stairs and the Monkey Man's
-				Wares</title> (1969), <title key="Festivals and Funerals" ref="https://www.worldcat.org/title/festivals-and-funerals/oclc/1302189">Festivals and Funerals</title> (1971), Scarifications (1973), from which this
-				poem is reprinted, and a recording — Celebrations and Solitudes (Strata East
-				Records, 1975) </p>
+				Wares</title> (1969), <title key="Festivals and Funerals" ref="https://www.worldcat.org/title/festivals-and-funerals/oclc/1302189">Festivals and Funerals</title> (1971), <title>Scarifications</title> (1973), from which this
+				poem is reprinted, and a recording — Celebrations and Solitudes (<orgName key="Strata-East Records" ref="http://www.wikidata.org/entity/Q949686">Strata East
+				Records</orgName>, 1975) </p>
 		</back>
 
 	</text>
