@@ -121,23 +121,27 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221022110744748",
+
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221025182402959",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-22T15:07:44.748Z",
-	"dcterms:modified": "2022-10-22T15:07:44.748Z",
+	"dcterms:created": "2022-10-25T22:24:02.959Z",
+	"dcterms:modified": "2022-10-25T22:24:02.959Z",
+
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Diane Jakacki"
+
+		"cwrc:hasName": "Sophie McQuaide"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221022110744748#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221025182402959#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/cockcroft.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -148,9 +152,11 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221022110744748#Selector",
+
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221025182402959#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/byline/persName/persName"
+			"rdf:value": "TEI/text/body/byline/persName/persName"
+
 		}
 	},
 	"oa:hasBody": {
@@ -167,6 +173,7 @@
 	}
 }]]>
         </rdf:Description>
+
       
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
@@ -717,11 +724,13 @@
 	<text>
 		<body>
 			<pb n="14"/>
+
 			<div><head><title>Women in the Community Mural Movement</title></head>
 				<byline><persName><persName key="Eva Cockcroft" ref="http://www.wikidata.org/entity/Q106308202">Eva Cockcroft</persName></persName></byline></div>
 <div>
 			<p>Women's role in the community mural movement is much greater than is generally recognized. Major city-sponsored mural programs in <placeName key="Boston" ref="http://www.wikidata.org/entity/Q100">Boston</placeName> (<persName key="Seronde, Adele" ref="http://viaf.org/viaf/36150536/">Adele Seronde</persName> and <orgName key="Summerthing" ref="http://www.wikidata.org/entity/Q109320582">Summerthing</orgName>), New Vork
 				(Susan Shapiro-Kiok and Cityarts), and Los Angeles (<persName key="Baca, Judith Francisca" ref="http://vocab.getty.edu/ulan/500026686">Judy Baca</persName> and Citywide) have been initiated and directed by women artists, who have given these programs much of their character
+
 				and philosophy. Women have led school mural projects, mural collectives, and mural-work with street youth. Whether working as individual muralists, members of coalitions, or in
 				collectives, women have increasingly dominated the mural movement as a force for non-elitism, collectivity, and the practice of social philosophies ranging from humanism to
 				Marxism.<seg type="keyword"><term>marxism</term></seg></p>
