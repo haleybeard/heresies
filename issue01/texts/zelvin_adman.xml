@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
-				<title>Adman</title>
-				<author>Elizabeth Zelvin</author>
+				<title>List of Contributors</title>
 
 				<respStmt>
 					<persName>Haley Beardsley</persName>
@@ -73,7 +73,7 @@
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
-						<title>Heresies: Issue 1</title>
+						<title>Issue 1: Heresies</title>
 					</analytic>
 					<monogr>
 						<imprint>
@@ -93,9 +93,20 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+				xmlns:as="http://www.w3.org/ns/activitystreams#"
+				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+				xmlns:fabio="https://purl.org/spar/fabio#"
+				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+				xmlns:org="http://www.w3.org/ns/org#">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -125,23 +136,23 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?person_annotation_20221108145950252",
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?person_annotation_20221108154236324",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-08T19:59:50.252Z",
-	"dcterms:modified": "2022-11-08T19:59:50.252Z",
+	"dcterms:created": "2022-11-08T20:42:36.324Z",
+	"dcterms:modified": "2022-11-08T20:42:36.324Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Sophie McQuaide"
+		"cwrc:hasName": "Maya Wadhwa"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?person_annotation_20221108145950252#Target",
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?person_annotation_20221108154236324#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -152,14 +163,14 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?person_annotation_20221108145950252#Selector",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?person_annotation_20221108154236324#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/byline/persName/persName"
+			"rdf:value": "TEI/text/body/head/persName/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q112492894",
+		"@id": "http://viaf.org/viaf/285000059/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -170,10 +181,8 @@
 		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -203,23 +212,23 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?person_annotation_20221108150115398",
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?keyword_annotation_20221108154330986",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-08T20:01:15.398Z",
-	"dcterms:modified": "2022-11-08T20:01:15.398Z",
+	"dcterms:created": "2022-11-08T20:43:30.986Z",
+	"dcterms:modified": "2022-11-08T20:43:30.986Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Sophie McQuaide"
+		"cwrc:hasName": "Maya Wadhwa"
 	},
-	"oa:motivatedBy": "oa:identifying",
+	"oa:motivatedBy": "oa:tagging",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?person_annotation_20221108150115398#Target",
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?keyword_annotation_20221108154330986#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -230,15 +239,15 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?person_annotation_20221108150115398#Selector",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?keyword_annotation_20221108154330986#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/persName"
+			"rdf:value": "TEI/text/body/p[3]/seg"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q112492894",
-		"dc:format": "text/plain"
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "feminism, revolution"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -248,10 +257,8 @@
 		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -281,23 +288,23 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?place_annotation_20221108150123503",
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?organization_annotation_20221108154359327",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-08T20:01:23.503Z",
-	"dcterms:modified": "2022-11-08T20:01:23.503Z",
+	"dcterms:created": "2022-11-08T20:43:59.327Z",
+	"dcterms:modified": "2022-11-08T20:43:59.327Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Sophie McQuaide"
+		"cwrc:hasName": "Maya Wadhwa"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?place_annotation_20221108150123503#Target",
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?organization_annotation_20221108154359327#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -308,14 +315,14 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?place_annotation_20221108150123503#Selector",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?organization_annotation_20221108154359327#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/placeName"
+			"rdf:value": "TEI/text/body/p[4]/orgName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q60",
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q48732990",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -326,10 +333,8 @@
 		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -359,23 +364,23 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?title_annotation_20221108150131730",
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?organization_annotation_20221108154409593",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-08T20:01:31.730Z",
-	"dcterms:modified": "2022-11-08T20:01:31.730Z",
+	"dcterms:created": "2022-11-08T20:44:09.593Z",
+	"dcterms:modified": "2022-11-08T20:44:09.593Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Sophie McQuaide"
+		"cwrc:hasName": "Maya Wadhwa"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?title_annotation_20221108150131730#Target",
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?organization_annotation_20221108154409593#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -386,91 +391,13 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?title_annotation_20221108150131730#Selector",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27_Adman/Zelvin_Issue1_27_Adman_tei_transformed.xml?organization_annotation_20221108154409593#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/title"
+			"rdf:value": "TEI/text/body/p[4]/orgName[2]"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "http://dbpedia.org/resource/WomanSpirit",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?place_annotation_20221108150142309",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-08T20:01:42.309Z",
-	"dcterms:modified": "2022-11-08T20:01:42.309Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Sophie McQuaide"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?place_annotation_20221108150142309#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/zelvin_adman.xml?place_annotation_20221108150142309#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/placeName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
+		"@type": "org:Organization",
 		"@id": "http://www.wikidata.org/entity/Q95584323",
 		"dc:format": "text/plain"
 	},
@@ -482,75 +409,91 @@
 		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+				</rdf:Description>
+			</rdf:RDF></xenoData>
+	</teiHeader>
 	<text>
 		<body>
-			<pb n="1"/>
-			<head>
-				<title>Adman</title>
-			</head>
-			<byline><persName><persName key="Elizabeth Zelvin" ref="http://www.wikidata.org/entity/Q112492894">Elizabeth Zelvin</persName></persName></byline>
-			<lg>
-				<l>twelve years later, how funny running into you</l>
-				<l>i remember you in glasses and a bowtie</l>
-				<l>before mad avenue bought space in the revolution</l>
-			</lg>
-			<lg>
-				<l>you are conscientiously updated</l>
-				<l>you have let your hair grow longer</l>
-				<l>in that slick packaged heaven</l>
-				<l>where good admen go</l>
-				<l>you will play electric harp</l>
-			</lg>
-			<lg>
-				<l>you have remembered every moment</l>
-				<l>all this time</l>
-				<l>and remind me of it over steak</l>
-				<l>which you have paid for</l>
-				<l>your revolution balks at going dutch</l>
-				<l>mine will be vegetarian by next week</l>
-				<l>but just this once i'Il buy your buying me</l>
-				<l>my steak</l>
-				<l>i'm curious to remember how it feels</l>
-			</lg>
-			<lg>
-				<l>i took my diaphragm everywhere in those days</l>
-				<l>the only part i remember is when you said</l>
-				<l>why don’t we go ahead, do what we’ve both been thinking</l>
-				<l>but i hadn’t, honestly, or i would never</l>
-				<l>have put my flannel nightgown on</l>
-				<l>sorry, i don’t remember</l>
-				<l>anything that happened after that</l>
-				<l>it was all so long ago</l>
-				<l>and meant so little</l>
-			</lg>
-			<lg>
-				<l>twelve years ago, before the revolution</l>
-				<l>it was usually too much trouble to say no</l>
-				<l>especially when the man had bought you</l>
-				<l>steak</l>
-			</lg>
-			<lg>
-				<l>you are curious to remember how it feels</l>
-				<l>but i have chewed and sat with downcast eyes</l>
-				<l>letting you tell some patent Barbie me</l>
-				<l>that i'm more womanly (sic) than your ex-wife</l>
-				<l>and feel i've paid enough</l>
-				<l>thanks for the steak, good seeing you again</l>
-				<l>i mouth, let's get together soon</l>
-				<l>i do not say, there’s been a revolution</l>
-				<l>and there have been too many one night stands</l>
-			</lg>
+			<pb n="27"/>
+			<div>
+				<head>
+					<title>Adman</title>
+				</head>
+				<byline><persName key="Zelvin, Elizabeth" ref="http://viaf.org/viaf/285000059/"
+						>Elizabeth Zelvin</persName></byline>
+			</div>
+
+			<div>
+				<lg>
+					<l>twelve years later, how funny running into you</l>
+					<l>i remember you in glasses and a bowtie</l>
+					<l>before mad avenue bought space</l>
+					<l>in the revolution</l>
+				</lg>
+				<lg>
+					<l>you are conscientiously updated</l>
+					<l>you have let your hair grow longer</l>
+					<l>in that slick packaged heaven</l>
+					<l>where good admen go</l>
+					<l>you will play electric harp</l>
+				</lg>
+
+				<lg>
+					<l>you have remembered every moment</l>
+					<l>all this time</l>
+					<l>and remind me of it over steak</l>
+					<l>which you have paid for</l>
+					<l>your revolution balks at going dutch</l>
+					<l>mine will be vegetarian by next week</l>
+					<l>but just this once i'Il buy your buying me</l>
+					<l>my steak</l>
+				</lg>
+
+				<lg>
+					<l>i'm curious to remember how it feels</l>
+				</lg>
+
+				<lg>
+					<l>i took my diaphragm everywhere in those days</l>
+					<l>the only part i remember is when you said</l>
+					<l>why don’t we go ahead, do what we’ve both been thinking</l>
+					<l>but i hadn’t, honestly, or i would never</l>
+					<l>have put my flannel nightgown on</l>
+					<l>sorry, i don’t remember</l>
+					<l>anything that happened after that</l>
+					<l>it was all so long ago</l>
+					<l>and meant so little</l>
+				</lg>
+
+				<lg>
+					<l>twelve years ago, before the revolution</l>
+					<l><seg type="keyword"><term>feminism, revolution</term></seg></l>
+					<l>it was usually too much trouble to say no</l>
+					<l>especially when the man had bought you</l>
+					<l>steak</l>
+				</lg>
+
+				<lg>
+					<l>you are curious to remember how it feels</l>
+					<l>but i have chewed and sat with downcast eyes</l>
+					<l>letting you tell some patent Barbie me</l>
+					<l>that i'm more womanly (sic) than your ex-wife</l>
+					<l>and feel i've paid enough</l>
+					<l>thanks for the steak, good seeing you again</l>
+					<l>i mouth, let's get together soon</l>
+					<l>i do not say, there’s been a revolution</l>
+					<l>and there have been too many one night stands</l>
+				</lg>
+			</div>
 		</body>
-
 		<back>
-			<p><persName key="Elizabeth Zelvin" ref="http://www.wikidata.org/entity/Q112492894">Elizabeth Zelvin</persName> is a writer living in <placeName key="New York City" ref="http://www.wikidata.org/entity/Q60">New York</placeName> who has poems appearing in
-				<title key="WomanSpirit" ref="http://dbpedia.org/resource/WomanSpirit">Womanspirit</title> and <placeName key="13th Moon" ref="http://www.wikidata.org/entity/Q95584323">13th Moon</placeName>. She has recently completed a book about an alternative
-				marriage, and among her other interests are "singing and song-writ-ing, teaching
-				creative movement, and trying to understand the synthesis of anarchism and
-				feminism." </p>
+			<p>Elizabeth Zelvin is a writer living in New York who has poems appearing in <orgName
+					key="WomanSpirit" ref="http://www.wikidata.org/entity/Q48732990"
+					>Womanspirit</orgName> and <orgName key="13th Moon"
+					ref="http://www.wikidata.org/entity/Q95584323">13th Moon</orgName>. She has
+				recently completed a book about an alternative marriage, and among her other
+				interests are "singing and song-writ- ing, teaching creative movement, and trying to
+				understand the synthesis of anarchism and feminism." </p>
 		</back>
-
 	</text>
 </TEI>
