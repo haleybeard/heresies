@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
@@ -93,8 +93,8 @@
 			</sourceDesc>
 		</fileDesc>
       <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-            <![CDATA[{
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -124,88 +124,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml?person_annotation_20221108154002023",
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/zelvin_zucchini.xml?keyword_annotation_20221115163437221",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-08T20:40:02.023Z",
-	"dcterms:modified": "2022-11-08T20:40:02.023Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml?person_annotation_20221108154002023#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml?person_annotation_20221108154002023#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/head/persName/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/285000059/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-         </rdf:Description>
-         
-         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-            <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml?keyword_annotation_20221108154022441",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-08T20:40:22.441Z",
-	"dcterms:modified": "2022-11-08T20:40:22.441Z",
+	"dcterms:created": "2022-11-15T21:34:37.221Z",
+	"dcterms:modified": "2022-11-15T21:34:40.327Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -215,10 +137,10 @@
 	},
 	"oa:motivatedBy": "oa:tagging",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml?keyword_annotation_20221108154022441#Target",
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/zelvin_zucchini.xml?keyword_annotation_20221115163437221#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/zelvin_zucchini.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -226,12 +148,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml?keyword_annotation_20221108154022441#Selector",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/zelvin_zucchini.xml?keyword_annotation_20221115163437221#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/seg"
+			"rdf:value": "TEI/text/body/div[2]/lg[2]/l/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -244,88 +166,10 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-         </rdf:Description>
-         
-         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-            <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml?organization_annotation_20221108154053608",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-08T20:40:53.608Z",
-	"dcterms:modified": "2022-11-08T20:40:53.608Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml?organization_annotation_20221108154053608#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/Zelvin_Issue1_27/Zelvin_Issue1_27_tei_transformed.xml?organization_annotation_20221108154053608#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q48732990",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-         </rdf:Description>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -340,7 +184,7 @@
             <l>patient in her camouflage</l>
             </lg>
       	<lg>
-            <l>imperialist<seg type="keyword"><term>theory/ imperalism</term></seg> tentacles of vine</l>
+            <l>imperialist<seg type="keyword"><term><term>theory/ imperalism</term></term></seg> tentacles of vine</l>
             <l>are taking over the garden</l>
             <l>shouting mine mine</l>
             </lg>
@@ -367,10 +211,7 @@
 </div>
       </body>
    	<back>
-   		<p>Elizabeth Zelvin is a writer living in New York who has poems appearing in <orgName
-   			key="WomanSpirit" ref="http://www.wikidata.org/entity/Q48732990"
-   			>Womanspirit</orgName> and <orgName key="13th Moon"
-   				ref="http://www.wikidata.org/entity/Q95584323">13th Moon</orgName>. She has
+   		<p>Elizabeth Zelvin is a writer living in New York who has poems appearing in <orgName key="WomanSpirit" ref="http://www.wikidata.org/entity/Q48732990">Womanspirit</orgName> and <orgName key="13th Moon" ref="http://www.wikidata.org/entity/Q95584323">13th Moon</orgName>. She has
    			recently completed a book about an alternative marriage, and among her other
    			interests are "singing and song-writ- ing, teaching creative movement, and trying to
    			understand the synthesis of anarchism and feminism." </p>
