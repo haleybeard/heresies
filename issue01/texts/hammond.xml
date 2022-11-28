@@ -126,9 +126,10 @@
 		"org": "http://www.w3.org/ns/org#"
 	},
 
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025181448261",
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025175520598",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T22:14:48.261Z",
+	"dcterms:created": "2022-10-25T21:55:20.598Z",
+	"dcterms:modified": "2022-10-25T21:55:20.598Z",
 
 	"dcterms:creator": {
 		"@type": [
@@ -136,14 +137,14 @@
 			"schema:Person"
 		],
 
-		"cwrc:hasName": "Sophie McQuaide"
+		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025181448261#Target",
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025175520598#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml",
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml",
 
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
@@ -155,6 +156,7 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
+
 
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025181448261#Selector",
 			"@type": "oa:XPathSelector",
@@ -3507,11 +3509,14 @@
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101174854266#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[9]/persName[15]"
+
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q21643944",
+
+		"@id": "http://viaf.org/viaf/284775217/",
+
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3520,7 +3525,10 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "2.2.0"
-	}
+
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+
 }]]>
         </rdf:Description>
       
@@ -3555,23 +3563,27 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?title_annotation_20221101175330882",
+
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025175735561",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-01T21:53:30.882Z",
-	"dcterms:modified": "2022-11-01T21:53:30.882Z",
+	"dcterms:created": "2022-10-25T21:57:35.561Z",
+	"dcterms:modified": "2022-10-25T21:57:35.561Z",
+
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Sophie McQuaide"
+
+		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?title_annotation_20221101175330882#Target",
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025175735561#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml",
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -3582,14 +3594,16 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?title_annotation_20221101175330882#Selector",
+
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025175735561#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[17]/title"
+			"rdf:value": "TEI/text/body/p[4]/orgName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "https://louisefishman.net/work/feminism.html",
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q233591",
+
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3598,6 +3612,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "2.2.0"
+
 	}
 }]]>
         </rdf:Description>
@@ -3677,6 +3692,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "2.2.0"
 	}
+
 }]]>
         </rdf:Description>
       
@@ -3711,23 +3727,27 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101175713450",
+
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025181001605",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-01T21:57:13.450Z",
-	"dcterms:modified": "2022-11-01T21:57:13.450Z",
+	"dcterms:created": "2022-10-25T22:10:01.605Z",
+	"dcterms:modified": "2022-10-25T22:10:01.605Z",
+
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Sophie McQuaide"
+
+		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101175713450#Target",
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025181001605#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml",
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -3738,14 +3758,18 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?person_annotation_20221101175713450#Selector",
+
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?person_annotation_20221025181001605#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[9]/persName[5]/persName"
+			"rdf:value": "TEI/text/body/p[4]/note[2]/persName"
+
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q527001",
+
+		"@id": "http://www.wikidata.org/entity/Q106308202",
+
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3754,6 +3778,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "2.2.0"
+
 	}
 }]]>
         </rdf:Description>
@@ -3832,6 +3857,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "2.2.0"
 	}
+
 }]]>
         </rdf:Description>
       
@@ -3866,23 +3892,27 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221110200144724",
+
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025181117459",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-11T01:01:44.724Z",
-	"dcterms:modified": "2022-11-11T01:01:44.724Z",
+	"dcterms:created": "2022-10-25T22:11:17.459Z",
+	"dcterms:modified": "2022-10-25T22:11:17.459Z",
+
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Sophie McQuaide"
+
+		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221110200144724#Target",
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025181117459#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml",
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -3893,14 +3923,18 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221110200144724#Selector",
+
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?organization_annotation_20221025181117459#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/orgName"
+			"rdf:value": "TEI/text/body/p[4]/orgName[2]"
+
 		}
 	},
 	"oa:hasBody": {
 		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q233591",
+
+		"@id": "http://www.wikidata.org/entity/Q188740",
+
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3944,23 +3978,27 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?place_annotation_20221110200338599",
+
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?note_annotation_20221025182903996",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-11T01:03:38.599Z",
-	"dcterms:modified": "2022-11-11T01:03:38.599Z",
+	"dcterms:created": "2022-10-25T22:29:03.996Z",
+	"dcterms:modified": "2022-10-25T22:29:03.996Z",
+
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Sophie McQuaide"
+
+		"cwrc:hasName": "maggie smith"
 	},
-	"oa:motivatedBy": "oa:identifying",
+	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?place_annotation_20221110200338599#Target",
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml?note_annotation_20221025182903996#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml",
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/hammond.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -3971,6 +4009,7 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
+
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/hammond.xml?place_annotation_20221110200338599#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[5]/note/placeName"
@@ -4059,6 +4098,7 @@
 		"@id": "http://www.wikidata.org/entity/Q3480184",
 		"dc:format": "text/plain"
 
+
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -4099,8 +4139,10 @@
 				by discussing concepts of marking and language in feminist drawing and painting-to
 				show its origin, meaning, and political potential.</p>
 
+
 			<p>In <title>"Prime Time: Art and Politics"</title><note><persName key="Freeman, Alexa" ref="http://viaf.org/viaf/284775217/">Alexa Freeman</persName> and <persName>Jackie MacMillan</persName>, "<title>Prime Time: Art and Politics</title>," <title><orgName key="Quest: A Feminist Quarterly" ref="http://www.wikidata.org/entity/Q105972288">Quest: A Feminist Quarterly</orgName></title> (Summer,
 					1975).</note> <persName key="Freeman, Alexa" ref="http://viaf.org/viaf/284775217/">Alexa Freeman</persName> and <persName>Jackie MacMillan</persName> look at how art is viewed in
+
 
 				this capitalist, patriarchal society and criticize activists for reacting too
 				quickly and overlooking the revolutionary potential of art. However, they in turn
@@ -4115,15 +4157,19 @@
 				suggest that the content of one's work can be separated from one's political
 				beliefs. By sponsoring international exhibitions showing apolitical abstract
 
+
 				paintings by former <orgName key="communist party" ref="http://www.wikidata.org/entity/Q233591">Communist Party</orgName> members, the <orgName key="Central Intelligence Agency" ref="http://www.wikidata.org/entity/Q37230">C.I.A.</orgName> (via the <orgName key="Museum of Modern Art" ref="http://www.wikidata.org/entity/Q188740">Museum of Modern
+
 
 				Art</orgName>) has sought to impress other nations with the cultural freedom of the U.S.A. The
 				way in which Abstract Expressionist art was defined and developed by the artists and
 				then used by others to further cold war politics in the fifties is only one example
 				of the manipulation of abstract art to create the illusory separation of art and
 
+
 					politics.<note><persName key="Eva Cockcroft" ref="http://www.wikidata.org/entity/Q106308202">Eva Cockcroft</persName>, <title key="Abstract Expressionism, Weapon of the Cold War" ref="http://www.columbia.edu/itc/barnard/arthist/wolff/pdfs/week4_cockcroft.pdf">"Abstract Expressionism, Weapon of the Cold War,"</title>
 						<title><orgName key="Artforum" ref="http://www.wikidata.org/entity/Q386599">Artforum</orgName></title> (June, 1974).</note> Thus when women continue to
+
 
 				respond to abstract art as "apolitical," they are reinforcing and maintaining myths
 				established by men.</p>
@@ -4134,10 +4180,12 @@
 				who are making abstract art. Radical feminism operates from the belief that women as
 				a class are oppressed, and that a mass political women's movement is necessary to
 
+
 				overthrow male supremacy.<note><persName>Brooke</persName>, "<title>The Retreat to Cultural Feminism</title>," in
 						<title><orgName>Feminist Revolution</orgName></title>, ed. <orgName key="Redstockings" ref="http://www.wikidata.org/entity/Q3480184">Redstockings</orgName> (<placeName key="New York City" ref="http://www.wikidata.org/entity/Q60">New York</placeName>,
 
 					1975).</note> Therefore, we might ask, how are the visions of radical feminists
+
 				analyzed and portrayed in this art?</p>
 			<p>It is necessary to break down the myths and fears surrounding abstract art and make
 				it understandable. Women—artists and non-artists—need to talk about art, and talking
