@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" 
-        href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -97,21 +92,254 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
-	<text>
-		<body>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111153631947",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-11T20:36:31.947Z",
+	"dcterms:modified": "2022-11-11T20:36:31.947Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111153631947#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111153631947#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/6428160667863803560007/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111154008964",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-11T20:40:08.964Z",
+	"dcterms:modified": "2022-11-11T20:40:08.964Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111154008964#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111154008964#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/persName[18]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q107596196",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?note_annotation_20221111154023316",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-11T20:40:23.316Z",
+	"dcterms:modified": "2022-11-11T20:40:23.316Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "maggie smith"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?note_annotation_20221111154023316#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?note_annotation_20221111154023316#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": ""
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+	
+		
 			<pb n="99"/>
 
-			<head><title>Who Are We? What Do We Wont? What Do We Do?</title></head>
-			<note>Excerpts (slightly rearranged) from the booklet of this name distributed by
+			<head><title>Who Are We? What Do We Want? What Do We Do?</title></head>
+			Excerpts (slightly rearranged) from the booklet of this name distributed by
 				"Accion para la Liberacion de la Mujer Peruana," April 15, 1975, Lima, Peru. This
 				text was taken from the first half of the booklet; the second half deals with a
 				specific program for practical revolutionary work. The following are listed as the
-				group's coordinators and "honorary members“: Cristina Portocarrero Rey, Ana Maria
-				Portugal, Amor Arguedas, Dorelly Castafieda, Beatriz Ramos, Lucia Parra, Margot
-				Loayza, Edith Alva, Carmela Bravo, Dora Ponce, Flor Herrera, Leo Arteaga, Diana
-				Arteaga, Dora Guerrero, Bertha Vargas, Inés Pratt, Adela Montesinos, Estela Luna
-				Lôpez.</note>
+				group's coordinators and "honorary members“:<note/> <persName>Cristina Portocarrero Rey</persName>, <persName key="Portugal, Ana Maria" ref="http://viaf.org/viaf/6428160667863803560007/" cert="low">Ana Maria
+				Portugal</persName>, <persName cert="Unknown">Amor Arguedas</persName>, <persName>Dorelly Castafieda</persName>, <persName>Beatriz Ramos</persName>, <persName>Lucia Parra</persName>, <persName>Margot Loayza</persName>, <persName>Edith Alva</persName>, <persName>Carmela Bravo</persName>, <persName>Dora Ponce</persName>, <persName>Flor Herrera</persName>, <persName>Leo Arteaga,</persName> <persName>Diana Arteaga</persName>, <persName>Dora Guerrero</persName>, <persName>Bertha Vargas</persName>, <persName>Inés Pratt</persName>, <persName>Adela Montesinos</persName>, <persName key="Estela Luna López" ref="http://www.wikidata.org/entity/Q107596196">Estela Luna
+				Lôpez</persName>.
 			<byline><orgName>Accion para la Liberacion de la Mujer Peruana</orgName></byline>
 
 			<p> We are a group of women who have organized to study, work and fight for our
@@ -125,7 +353,7 @@
 				<l>Yes! to Peruvian Woman's Day.</l>
 				<l>Less homage, more rights.</l>
 			</lg>
-			<p> Why are we named Action for the Liberation of Peruvian Women?</p>
+			<p> Why are we named <orgName>Action for the Liberation of Peruvian Women</orgName>?</p>
 			<p>Because we want to carry out our work without euphemisms or timidity—in short,
 				without masks or half-measures. It is correct to call actions which are destined to
 				radically change our condition by their rightful name: liberation.</p>
@@ -143,11 +371,11 @@
 			<p> Because we cannot separate our specific problems from our socio-economic context,
 				all our work strategies are adapted to the actual conditions of our country. We do
 				not copy foreign movements because we are aware of living in a Third-World Society
-				where imperjalism is our most powerful enemy. Therefore we express solidarity with
+				where imperialism is our most powerful enemy. Therefore we express solidarity with
 				other liberation struggles on this continent, as well as with other women and men
 				fighting for national liberation in their respective countries. </p>
 			<p> To analyze the historic and social origins of our condition is to revolutionize our
-				understanding of the worldl </p>
+				understanding of the world.</p>
 			<p> We believe our liberation is inseparable from that of other oppressed groups—workers
 				and peasants. The liberation of our brothers will never be realized while their
 				women—workers and peasants too—are second-class citizens, and while prostitution is
@@ -211,6 +439,6 @@
 				Monolithic Unity of Revolutionary Women, and of those men who integrally support the
 				cause of our liberation.</p>
 
-		</body>
-	</text>
+		
+	
 </TEI>

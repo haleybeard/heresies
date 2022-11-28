@@ -125,23 +125,27 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?person_annotation_20221110162934293",
+
+	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml?person_annotation_20221111152722580",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-10T21:29:34.293Z",
-	"dcterms:modified": "2022-11-10T21:29:44.801Z",
+	"dcterms:created": "2022-11-11T20:27:22.580Z",
+	"dcterms:modified": "2022-11-11T20:27:22.580Z",
+
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Diane Jakacki"
+
+		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?person_annotation_20221110162934293#Target",
+		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml?person_annotation_20221111152722580#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml",
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -152,165 +156,11 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?person_annotation_20221110162934293#Selector",
+
+			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml?person_annotation_20221111152722580#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/byline/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q270705",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?title_annotation_20221110163148226",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-10T21:31:48.226Z",
-	"dcterms:modified": "2022-11-10T21:31:48.226Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?title_annotation_20221110163148226#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?title_annotation_20221110163148226#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "http://viaf.org/viaf/9718159521652133070000/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?person_annotation_20221110163206435",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-10T21:32:06.435Z",
-	"dcterms:modified": "2022-11-10T21:32:06.435Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?person_annotation_20221110163206435#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?person_annotation_20221110163206435#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/persName"
+			"rdf:value": "TEI/text/body/byline/persName/persName"
+
 		}
 	},
 	"oa:hasBody": {
@@ -331,8 +181,10 @@
 	<text>
 		<body>
 			<pb n="23"/>
-			<div><head><title>Women and Honor: Some Notes on Lying</title></head>
-			<byline><persName key="Adrienne Rich" ref="http://www.wikidata.org/entity/Q270705">Adrienne Rich</persName></byline></div>
+
+			<head><title>Women and Honor: Some Notes on Lying</title></head>
+			<byline><persName><persName key="Adrienne Rich" ref="http://www.wikidata.org/entity/Q270705">Adrienne Rich</persName></persName></byline>
+
 
 			<div><p>(These notes are concerned with relationships between and among women. When "personal
 				relationship" is referred to I mean a relationship between two women, it will be
@@ -386,7 +238,7 @@
 			<p>In speaking of lies we come inevitably to the subject of truth. There is nothing
 				simple or easy about this idea. There is no “the truth,” "a truth" — truth is not
 				one thing, or even a system. It is an increasing complexity. The pattern of the
-				carpet is a surface. When we look ciosely or when we become weavers, we learn of the
+				carpet is a surface. When we look closely or when we become weavers, we learn of the
 				tiny multiple threads unseen in the overall pattern, the knots on the underside of
 				the carpet.</p>
 			<p>This is why the effort to speak honestly is so important, Lies are usually attempts
