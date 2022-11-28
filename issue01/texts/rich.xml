@@ -2,8 +2,8 @@
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
-				<title>[ESSAY TITLE]</title>
-				<author>[ESSAY AUTHOR]</author>
+				<title>Women and Honor: Some Notes on Lying</title>
+				<author>Adrienne Rich</author>
 
 				<respStmt>
 					<persName>Haley Beardsley</persName>
@@ -73,7 +73,7 @@
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
-						<title>[ISSUE TITLE]</title>
+						<title>Issue 1: Heresies</title>
 					</analytic>
 					<monogr>
 						<imprint>
@@ -125,15 +125,18 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
+
 	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml?person_annotation_20221111152722580",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-11T20:27:22.580Z",
 	"dcterms:modified": "2022-11-11T20:27:22.580Z",
+
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
+
 		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
@@ -142,6 +145,7 @@
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -152,9 +156,11 @@
 			"schema:softwareVersion": "2.2.0"
 		},
 		"oa:hasSelector": {
+
 			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml?person_annotation_20221111152722580#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/byline/persName/persName"
+
 		}
 	},
 	"oa:hasBody": {
@@ -175,10 +181,12 @@
 	<text>
 		<body>
 			<pb n="23"/>
+
 			<head><title>Women and Honor: Some Notes on Lying</title></head>
 			<byline><persName><persName key="Adrienne Rich" ref="http://www.wikidata.org/entity/Q270705">Adrienne Rich</persName></persName></byline>
 
-			<p>(These notes are concerned with relationships between and among women. When "personal
+
+			<div><p>(These notes are concerned with relationships between and among women. When "personal
 				relationship" is referred to I mean a relationship between two women, it will be
 				clear in what follows when I am talking about women's relationships with men.)</p>
 			<p>The old, male idea of honor. A man’s “word" sufficed —to other men — without
@@ -416,12 +424,12 @@
 				I feel strong enough to hear your tentative and groping words. That we both know we
 				are trying, ail the time, to extend the possibilities of truth between us.</p>
 			<p>The possibility of life between us.</p>
-			<figure/>
+			<figure/></div>
 		</body>
 
 		<back>
-			<p> Adrienne Rich is a well-known poet and feminist who has published 9 books. The most
-				recent one, Of Woman Born: Motherhood as Experience and Institution (W.W. Norton
+			<p> <persName key="Adrienne Rich" ref="http://www.wikidata.org/entity/Q270705">Adrienne Rich</persName> is a well-known poet and feminist who has published 9 books. The most
+				recent one, <title key="Rich, Adrienne Cecile. | Of woman born" ref="http://viaf.org/viaf/9718159521652133070000/">Of Woman Born: Motherhood as Experience and Institution</title> (W.W. Norton
 				&amp; Company), she described as coming “from the double need to survive and to
 				work; and I wrote it in part for the young woman I once was, divided between body
 				and mind, wanting to give her the book she was seeking...." </p>
