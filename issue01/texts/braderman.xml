@@ -3717,6 +3717,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221129161704446",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-29T21:17:04.446Z",
+	"dcterms:modified": "2022-11-29T21:17:04.446Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221129161704446#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221129161704446#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[25]/persName/orgName/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q3656351",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3965,8 +4043,8 @@
          rights before unequal laws is flung in our faces, and even defeated (adding insult to
          injury), the dominant media simultaneously declare the women's movement to be "over" or
          somehow "won" because of the presence of one and a half news anchor-women on TV or the
-         financial viability of <persName key="Ms." ref="http://www.wikidata.org/entity/Q3656351"><orgName key="Ms." ref="http://www.wikidata.org/entity/Q3656351">Ms.
-               Magazine</orgName></persName>. Capitalist propaganda demonstrates before our eyes
+         financial viability of <persName key="Ms." ref="http://www.wikidata.org/entity/Q3656351"><orgName key="Ms." ref="http://www.wikidata.org/entity/Q3656351"><title key="Ms." ref="http://www.wikidata.org/entity/Q3656351">Ms.
+               Magazine</title></orgName></persName>. Capitalist propaganda demonstrates before our eyes
          that by inference, if one woman can do work that one man can do, women are the achieved
          "equals" of men. The responsibility for change is thus cleverly switched back onto the
          shoulders of <emph>individual</emph> women; to change the world, all you really must do is
