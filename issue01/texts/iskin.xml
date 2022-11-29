@@ -2493,6 +2493,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml?person_annotation_20221129174023839",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-29T22:40:23.839Z",
+	"dcterms:modified": "2022-11-29T22:40:23.839Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml?person_annotation_20221129174023839#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml?person_annotation_20221129174023839#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[14]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q28883455",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2627,8 +2705,7 @@
 				history of (male) art to entice the spectator by reminding him of his vertical
 				superiority. However Youdelman's tableau successfully evokes the solemn empathy of
 				the viewer who is confronted with the victims feelings about her powerlessness.</p>
-			<p>In Jan Lester's tableau environment—Cats Enamoured Kits: Helpless Tom and Merciless
-				Sex Kitten (1974)—two cats are anthropomorphized to enact a sexual-encounter
+			<p>In <persName>Jan Lester</persName>'s tableau environment—<title>Cats Enamoured Kits: Helpless Tom and Merciless Sex Kitten</title> (1974)—two cats are anthropomorphized to enact a sexual-encounter
 				scene. The human environment, dress and behavior patterns throw into relief the
 				stereotyped patterns of men and women, only the roles are reversed. The female cat
 				plays the determined "attacker the seducer while the male cat withdraws with some
@@ -2639,7 +2716,7 @@
 				general. It is one situation like a snapshot that makes it clear that this goes on n
 				al situations in society.</quote>
 			<pb n="74"/>
-			<p>Sherie Scheer's series—Heavenly Visions— depicts Fragonard-inspired images of her own
+			<p><persName key="Sherie Scheer" ref="http://www.wikidata.org/entity/Q28883455">Sherie Scheer</persName>'s series—Heavenly Visions— depicts Fragonard-inspired images of her own
 				baby as a cherub floating in an infinite blue California sky. "Wherever they go,
 				they have no choice in it. ... The heavenly vision in which they appear is both
 				ideal and it is limbo." This reflects Scheer's own experience as a first-time
