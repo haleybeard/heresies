@@ -2181,12 +2181,90 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129154221848#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[20]/orgName"
+			"rdf:value": "TEI/text/body/p[20]/orgName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "org:Organization",
 		"@id": "http://viaf.org/viaf/157557651/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129154347000",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-29T20:43:47.000Z",
+	"dcterms:modified": "2022-11-29T20:43:47.000Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129154347000#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129154347000#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5044485",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2531,10 +2609,10 @@
 				straight. Finally, after months of editing, a half-hour tape emerged which documents
 				the poems, songs, love, and exasperation of some of these incredible women. (This
 				tape is available to anyone interested.)</p>
-			<p>In September 1975, FREE SPACE merged with <orgName key="Art without Walls (Organization)" ref="http://viaf.org/viaf/157557651/">ART WITHOUT WALLS</orgName>, another arts project for
+			<p>In September 1975, <orgName>FREE SPACE</orgName> merged with <orgName key="Art without Walls (Organization)" ref="http://viaf.org/viaf/157557651/">ART WITHOUT WALLS</orgName>, another arts project for
 				women in prison. Now we were able to offer graphic arts and dance, in addition to
 				having a larger staff. The publishing idea had fulfilled itself, a renaissance.
-				Juanita had begun a book about her experiences; another woman, Isabelle Newton, was
+				Juanita had begun a book about her experiences; another woman, <persName>Isabelle Newton</persName>, was
 				collecting her poems in manuscript. Then Assata, who had been held in solitary
 				for one year in New Jersey, whose cell was raided by guards every day in search of
 				contraband, and who had been beaten by the prison goon squad on numerous
@@ -2606,7 +2684,7 @@
 			</lg>
 		</body>
 		<back>
-			<p>Carol Muske is a New York poet and assistant editor of Anteus. Her book, Camouflage,
+			<p><persName key="Carol Muske-Dukes" ref="http://www.wikidata.org/entity/Q5044485">Carol Muske</persName> is a New York poet and assistant editor of Anteus. Her book, Camouflage,
 				was published in 1975 (University of Pittsburgh Press). She directs the prison
 				program Art Without Walls/Free Space at Bedford Hills Correctional Facility for
 				Women.</p>
