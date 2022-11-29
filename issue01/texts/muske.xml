@@ -1104,6 +1104,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152740674",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-29T20:27:40.674Z",
+	"dcterms:modified": "2022-11-29T20:27:40.674Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152740674#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152740674#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://en.wikipedia.org/wiki/Thomas_E._Weatherly_Jr.",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1259,7 +1337,7 @@
 				as the class had come to be called. The <orgName key="National Endowment for the Arts" ref="http://www.wikidata.org/entity/Q1967116">NEA</orgName> had given us some funding, as did Poets
 				&amp; Writers and some local banks. <persName>Linda Stewart</persName> of The Book-of-the-Month Club
 				mailed boxes of overstocked paperback books; we amassed our own library and <persName>Ted Slate</persName> of Newsweek donated supplies and equipment.</p>
-			<p>Tom Weatherly taught a second poetry class, Gail Rosenblum taught fiction, and Fannie
+			<p><persName key="Tom Weatherly" ref="https://en.wikipedia.org/wiki/Thomas_E._Weatherly_Jr.">Tom Weatherly</persName> taught a second poetry class, Gail Rosenblum taught fiction, and Fannie
 				James, an ex-inmate, ex-student of the Space whom the warden actually allowed to
 				come back to work with us, taught poetry and library skills. Each teacher learned to
 				cope in his or her own way with the trials of trying to run a writing class in a
