@@ -3561,6 +3561,162 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221129161430777",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-29T21:14:30.777Z",
+	"dcterms:modified": "2022-11-29T21:14:30.777Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221129161430777#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221129161430777#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[29]/title/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.focorevistadecinema.com.br/FOCO8-9/michelsonradicaldveng.htm",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221129161518394",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-29T21:15:18.394Z",
+	"dcterms:modified": "2022-11-29T21:15:18.394Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221129161518394#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221129161518394#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[28]/note/title/orgName/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q386599",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3841,7 +3997,7 @@
             to confront this issue head on. Film, more than any other artform, requires the mas-
             tery of machine technology. For women, that technology and the authority it connotes has
             been historically taboo. There are exceptions in the history of film <note type="researchNote">I and others have written elsewhere about the history of women
-               directors. See my article in <title><orgName key="Artforum" ref="http://www.wikidata.org/entity/Q386599">Artforum</orgName></title> (Sept.
+               directors. See my article in <title><orgName key="Artforum" ref="http://www.wikidata.org/entity/Q386599"><orgName key="Artforum" ref="http://www.wikidata.org/entity/Q386599">Artforum</orgName></orgName></title> (Sept.
                1972) and <persName key="Sharon Smith Kane" ref="http://www.wikidata.org/entity/Q110231123" type="real">Sharon
                   Smith</persName>'s <title><title>Women Who Make Movies</title></title>,
                   <orgName>Hopkinson and Black</orgName> (New York, 1975).</note> but the percentage
@@ -3853,8 +4009,8 @@
             liberals included.</p>
          <p> Advocates of independent filmmaking from <persName key="Maya Deren" ref="http://www.wikidata.org/entity/Q450382">Maya Deren</persName> in the 1940s
             (implicitly) to <persName key="Annette Michelson" ref="http://www.wikidata.org/entity/Q21176228" type="real">Annette
-               Michelson</persName> in the 1960s (explicitly in her article "<title>Film and the
-               Radical Aspiration</title>") <note type="researchNote"><orgName>In <title key="Sitney, P. Adams. | Film culture reader" ref="http://viaf.org/viaf/6125154387351330970000/">Film Culture
+               Michelson</persName> in the 1960s (explicitly in her article "<title><title key="Film and the Radical Aspiration" ref="http://www.focorevistadecinema.com.br/FOCO8-9/michelsonradicaldveng.htm">Film and the
+               Radical Aspiration</title></title>") <note type="researchNote"><orgName>In <title key="Sitney, P. Adams. | Film culture reader" ref="http://viaf.org/viaf/6125154387351330970000/">Film Culture
                   Reader</title></orgName>, ed., <persName key="P. Adams Sitney" ref="http://www.wikidata.org/entity/Q7117121">P. <persName key="P. Adams Sitney" ref="http://www.wikidata.org/entity/Q7117121">Adams Sitney</persName></persName>,
                   <orgName><orgName key="Praeger" ref="http://www.wikidata.org/entity/Q61855663">Praeger</orgName></orgName> (New York, 1970).</note> have proposed that a stance
             outside of the commercial market is itself a "political" gesture. It is—to the <pb n="93"/> extent that money can be garnered from liberals to make "art" as long as it
