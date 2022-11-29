@@ -1589,10 +1589,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml?place_annotation_20221129163514472",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml?organization_annotation_20221129163627236",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T21:35:14.472Z",
-	"dcterms:modified": "2022-11-29T21:35:14.472Z",
+	"dcterms:created": "2022-11-29T21:36:27.236Z",
+	"dcterms:modified": "2022-11-29T21:36:27.236Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1602,7 +1602,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml?place_annotation_20221129163514472#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml?organization_annotation_20221129163627236#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml",
@@ -1616,13 +1616,13 @@
 			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml?place_annotation_20221129163514472#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/iskin.xml?organization_annotation_20221129163627236#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p/placeName"
+			"rdf:value": "TEI/text/body/div[2]/p/orgName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
+		"@type": "org:Organization",
 		"@id": "http://www.wikidata.org/entity/Q7712741",
 		"dc:format": "text/plain"
 	},
@@ -1644,7 +1644,7 @@
 			<byline><persName><persName key="Iskin, Ruth." ref="http://viaf.org/viaf/7712247/">Ruth E. Iskin</persName></persName></byline></div>
 <div>
 			<p> In early summer of 1975 1 was asked by the Women's Committee and the Office of Equal
-				Opportunity of <placeName key="The Aerospace Corporation" ref="http://www.wikidata.org/entity/Q7712741">Aerospace Corporation</placeName> to curate an exhibition of women's art on the
+				Opportunity of <orgName key="The Aerospace Corporation" ref="http://www.wikidata.org/entity/Q7712741">Aerospace Corporation</orgName> to curate an exhibition of women's art on the
 				subject of female experience. This seemed to me to offer the potential of reaching a
 				broad audience and avoiding the defensive reactions often attached to "feminist
 				art“ or "female sensibility“ in the art world.<note type="scholarNote">The exhibition also provided a
