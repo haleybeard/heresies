@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
       <fileDesc>
@@ -95,19 +94,10 @@
       </fileDesc>
 
 
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-            xmlns:as="http://www.w3.org/ns/activitystreams#"
-            xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-            xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#"
-            xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/"
-            xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#"
-            xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-            xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-            xmlns:org="http://www.w3.org/ns/org#">
-            <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+      
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -137,10 +127,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183315630",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183315630",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:33:15.630Z",
-	"dcterms:modified": "2022-11-02T22:33:15.630Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -150,10 +139,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183315630#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183315630#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -161,10 +150,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183315630#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183315630#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/byline/persName"
 		}
@@ -177,11 +166,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -211,10 +202,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183557729",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183557729",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:35:57.729Z",
-	"dcterms:modified": "2022-11-02T22:35:57.729Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -224,10 +214,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183557729#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183557729#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -235,10 +225,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183557729#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183557729#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/persName"
 		}
@@ -253,11 +243,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -287,10 +279,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183923101",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183923101",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:39:23.101Z",
-	"dcterms:modified": "2022-11-02T22:39:23.101Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -300,10 +291,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183923101#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183923101#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -311,10 +302,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183923101#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102183923101#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/persName"
 		}
@@ -329,11 +320,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -363,10 +356,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184055240",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184055240",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:40:55.240Z",
-	"dcterms:modified": "2022-11-02T22:40:55.240Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -376,10 +368,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184055240#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184055240#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -387,10 +379,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184055240#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184055240#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/note/title"
 		}
@@ -403,11 +395,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -437,10 +431,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184109973",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184109973",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:41:09.973Z",
-	"dcterms:modified": "2022-11-02T22:41:09.973Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -450,10 +443,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184109973#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184109973#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -461,10 +454,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184109973#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184109973#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/note/orgName"
 		}
@@ -479,11 +472,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -513,10 +508,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184720575",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184720575",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:47:20.575Z",
-	"dcterms:modified": "2022-11-02T22:47:20.575Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -526,10 +520,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184720575#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184720575#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -537,10 +531,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184720575#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184720575#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[12]/persName"
 		}
@@ -555,11 +549,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -589,10 +585,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184805443",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184805443",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:48:05.443Z",
-	"dcterms:modified": "2022-11-02T22:48:05.443Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -602,10 +597,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184805443#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184805443#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -613,10 +608,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184805443#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184805443#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[14]/persName"
 		}
@@ -631,11 +626,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -665,10 +662,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184820793",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184820793",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:48:20.793Z",
-	"dcterms:modified": "2022-11-02T22:48:20.793Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -678,10 +674,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184820793#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184820793#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -689,10 +685,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184820793#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102184820793#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[14]/note/title"
 		}
@@ -707,11 +703,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -741,10 +739,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184831753",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184831753",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:48:31.753Z",
-	"dcterms:modified": "2022-11-02T22:48:31.753Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -754,10 +751,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184831753#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184831753#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -765,10 +762,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184831753#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102184831753#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[14]/note/orgName"
 		}
@@ -783,11 +780,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -817,10 +816,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184914941",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184914941",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:49:14.941Z",
-	"dcterms:modified": "2022-11-02T22:49:14.941Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -830,10 +828,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184914941#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184914941#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -841,10 +839,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184914941#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184914941#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[14]/persName[2]"
 		}
@@ -859,11 +857,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -893,10 +893,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184934584",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184934584",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:49:34.584Z",
-	"dcterms:modified": "2022-11-02T22:49:34.584Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -906,10 +905,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184934584#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184934584#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -917,10 +916,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184934584#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102184934584#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[15]/persName"
 		}
@@ -935,11 +934,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -969,10 +970,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185050498",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185050498",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:50:50.498Z",
-	"dcterms:modified": "2022-11-02T22:50:50.498Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -982,10 +982,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185050498#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185050498#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -993,10 +993,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185050498#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185050498#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[15]/persName[2]"
 		}
@@ -1009,11 +1009,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1043,10 +1045,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?note_annotation_20221102185110157",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?note_annotation_20221102185110157",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:51:10.157Z",
-	"dcterms:modified": "2022-11-02T22:51:10.157Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1056,10 +1057,10 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?note_annotation_20221102185110157#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?note_annotation_20221102185110157#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1067,10 +1068,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?note_annotation_20221102185110157#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?note_annotation_20221102185110157#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[15]/note"
 		}
@@ -1078,18 +1079,20 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "idk who this is"
+		"rdf:value": "idk who this\n               is"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1119,10 +1122,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185156309",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185156309",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:51:56.309Z",
-	"dcterms:modified": "2022-11-02T22:51:56.309Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1132,10 +1134,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185156309#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185156309#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1143,10 +1145,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185156309#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185156309#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[15]/note[2]/persName"
 		}
@@ -1161,11 +1163,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1195,10 +1199,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185208407",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185208407",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:52:08.407Z",
-	"dcterms:modified": "2022-11-02T22:52:08.407Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1208,10 +1211,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185208407#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185208407#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1219,10 +1222,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185208407#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185208407#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[15]/note[2]/title"
 		}
@@ -1237,11 +1240,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1271,10 +1276,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185242581",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185242581",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:52:42.581Z",
-	"dcterms:modified": "2022-11-02T22:52:42.581Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1284,10 +1288,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185242581#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185242581#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1295,10 +1299,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185242581#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102185242581#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[16]/persName"
 		}
@@ -1313,11 +1317,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1347,10 +1353,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20221102185433358",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20221102185433358",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:54:33.358Z",
-	"dcterms:modified": "2022-11-02T22:54:33.358Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1360,10 +1365,10 @@
 	},
 	"oa:motivatedBy": "oa:tagging",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20221102185433358#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20221102185433358#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1371,10 +1376,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20221102185433358#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20221102185433358#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[16]/seg"
 		}
@@ -1382,18 +1387,20 @@
 	"oa:hasBody": {
 		"@type": "fabio:UncontrolledVocabulary",
 		"dc:format": "text/xml",
-		"rdf:value": "personal is political"
+		"rdf:value": "personal\n                  is political"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1423,10 +1430,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185532955",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185532955",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T22:55:32.955Z",
-	"dcterms:modified": "2022-11-02T22:55:32.955Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1436,10 +1442,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185532955#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185532955#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1447,10 +1453,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185532955#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102185532955#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[17]/title"
 		}
@@ -1465,11 +1471,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1499,10 +1507,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190436822",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190436822",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:04:36.822Z",
-	"dcterms:modified": "2022-11-02T23:04:36.822Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1512,10 +1519,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190436822#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190436822#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1523,10 +1530,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190436822#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190436822#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[19]/persName"
 		}
@@ -1541,11 +1548,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1575,10 +1584,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190524433",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190524433",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:05:24.433Z",
-	"dcterms:modified": "2022-11-02T23:05:24.433Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1588,10 +1596,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190524433#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190524433#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1599,10 +1607,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190524433#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190524433#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[20]/persName"
 		}
@@ -1617,11 +1625,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1651,10 +1661,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190543688",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190543688",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:05:43.688Z",
-	"dcterms:modified": "2022-11-02T23:05:43.688Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1664,10 +1673,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190543688#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190543688#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1675,10 +1684,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190543688#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190543688#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[20]/persName[2]"
 		}
@@ -1693,11 +1702,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1727,10 +1738,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190607574",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190607574",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:06:07.574Z",
-	"dcterms:modified": "2022-11-02T23:06:07.574Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1740,10 +1750,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190607574#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190607574#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1751,10 +1761,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190607574#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190607574#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[20]/orgName"
 		}
@@ -1769,11 +1779,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1803,10 +1815,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190631664",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190631664",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:06:31.664Z",
-	"dcterms:modified": "2022-11-02T23:06:31.664Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1816,10 +1827,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190631664#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190631664#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1827,10 +1838,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190631664#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190631664#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[20]/orgName[2]"
 		}
@@ -1845,11 +1856,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1879,10 +1892,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190655436",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190655436",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:06:55.436Z",
-	"dcterms:modified": "2022-11-02T23:06:55.436Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1892,10 +1904,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190655436#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190655436#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1903,10 +1915,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190655436#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190655436#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[21]/orgName"
 		}
@@ -1921,11 +1933,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1955,10 +1969,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190736267",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190736267",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:07:36.267Z",
-	"dcterms:modified": "2022-11-02T23:07:36.267Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1968,10 +1981,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190736267#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190736267#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1979,10 +1992,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190736267#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190736267#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[21]/persName"
 		}
@@ -1997,11 +2010,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -2031,10 +2046,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190750934",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190750934",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:07:50.934Z",
-	"dcterms:modified": "2022-11-02T23:07:50.934Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -2044,10 +2058,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190750934#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190750934#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2055,10 +2069,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190750934#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190750934#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[21]/persName[2]"
 		}
@@ -2073,11 +2087,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -2107,10 +2123,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190810376",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190810376",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:08:10.376Z",
-	"dcterms:modified": "2022-11-02T23:08:10.376Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -2120,10 +2135,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190810376#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190810376#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2131,10 +2146,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190810376#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190810376#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[21]/persName[3]"
 		}
@@ -2149,11 +2164,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -2183,10 +2200,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190850140",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190850140",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:08:50.140Z",
-	"dcterms:modified": "2022-11-02T23:08:50.140Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -2196,10 +2212,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190850140#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190850140#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2207,10 +2223,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190850140#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102190850140#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[22]/note/persName"
 		}
@@ -2225,11 +2241,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -2259,10 +2277,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102190922223",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102190922223",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:09:22.223Z",
-	"dcterms:modified": "2022-11-02T23:09:22.223Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -2272,10 +2289,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102190922223#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102190922223#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2283,10 +2300,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102190922223#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102190922223#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[22]/note/title/title"
 		}
@@ -2299,11 +2316,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -2333,10 +2352,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190934463",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190934463",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:09:34.463Z",
-	"dcterms:modified": "2022-11-02T23:09:34.463Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -2346,10 +2364,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190934463#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190934463#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2357,10 +2375,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190934463#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102190934463#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[22]/note/orgName"
 		}
@@ -2375,11 +2393,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -2409,10 +2429,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102191259712",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191954642",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:12:59.712Z",
-	"dcterms:modified": "2022-11-02T23:12:59.712Z",
+	"dcterms:created": "2022-11-02T23:19:54.642Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -2422,10 +2441,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102191259712#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191954642#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2433,240 +2452,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102191259712#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191954642#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/persName/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q3656351",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20221102191437406",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:14:37.406Z",
-	"dcterms:modified": "2022-11-02T23:14:37.406Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:tagging",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20221102191437406#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20221102191437406#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[26]/seg"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "fabio:UncontrolledVocabulary",
-		"dc:format": "text/xml",
-		"rdf:value": "the system"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102191516162",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:15:16.162Z",
-	"dcterms:modified": "2022-11-02T23:15:16.162Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102191516162#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102191516162#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[27]/note/title/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q386599",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191738764",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:17:38.764Z",
-	"dcterms:modified": "2022-11-02T23:17:38.764Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191738764#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191738764#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[27]/note/persName"
+			"rdf:value": "TEI/text/body/p[28]/note/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2679,11 +2470,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -2713,460 +2506,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102191755397",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:17:55.397Z",
-	"dcterms:modified": "2022-11-02T23:17:55.397Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102191755397#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102191755397#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[27]/note/title[2]/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102191810761",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:18:10.761Z",
-	"dcterms:modified": "2022-11-02T23:18:10.761Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102191810761#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102191810761#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[27]/note/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191841276",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:18:41.276Z",
-	"dcterms:modified": "2022-11-02T23:18:41.276Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191841276#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191841276#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[28]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q450382",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191856590",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:18:56.590Z",
-	"dcterms:modified": "2022-11-02T23:18:56.590Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191856590#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191856590#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[28]/persName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q21176228",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102191922390",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:19:22.390Z",
-	"dcterms:modified": "2022-11-02T23:19:22.390Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102191922390#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102191922390#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[28]/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191954642",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:19:54.642Z",
-	"dcterms:modified": "2022-11-02T23:19:54.642Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191954642#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102191954642#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[28]/note/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q7117121",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192010863",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192010863",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:20:10.863Z",
-	"dcterms:modified": "2022-11-02T23:20:10.863Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -3176,10 +2518,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192010863#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192010863#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -3187,10 +2529,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192010863#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192010863#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[28]/note/orgName"
 		}
@@ -3203,11 +2545,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -3237,84 +2581,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192040323",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:20:40.323Z",
-	"dcterms:modified": "2022-11-02T23:20:40.323Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192040323#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192040323#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[28]/note/orgName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192221023",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192221023",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:22:21.023Z",
-	"dcterms:modified": "2022-11-02T23:22:21.023Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -3324,10 +2593,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192221023#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192221023#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -3335,17 +2604,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192221023#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192221023#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[29]/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q1711898",
+		"@id": "http://www.wikidata.org/entity/Q450382",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3353,11 +2622,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -3387,10 +2658,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192541200",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192541200",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-02T23:25:41.200Z",
-	"dcterms:modified": "2022-11-02T23:25:41.200Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -3400,10 +2670,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192541200#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192541200#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -3411,17 +2681,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192541200#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192541200#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[29]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q452238",
+		"@id": "http://www.wikidata.org/entity/Q21176228",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3429,11 +2699,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -3463,23 +2735,23 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192556770",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221129160901215",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:25:56.770Z",
-	"dcterms:modified": "2022-11-02T23:25:56.770Z",
+	"dcterms:created": "2022-11-29T21:09:01.215Z",
+	"dcterms:modified": "2022-11-29T21:09:01.215Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Kaitlyn Segreti"
+		"cwrc:hasName": "Sophie McQuaide"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192556770#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221129160901215#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -3487,17 +2759,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192556770#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?person_annotation_20221129160901215#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[29]/persName[3]"
+			"rdf:value": "TEI/text/back/p/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q449349",
+		"@id": "http://www.wikidata.org/entity/Q28911659",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3505,11 +2777,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -3539,23 +2813,23 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192609020",
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221129160929512",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:26:09.020Z",
-	"dcterms:modified": "2022-11-02T23:26:09.020Z",
+	"dcterms:created": "2022-11-29T21:09:29.512Z",
+	"dcterms:modified": "2022-11-29T21:09:29.512Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Kaitlyn Segreti"
+		"cwrc:hasName": "Sophie McQuaide"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192609020#Target",
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221129160929512#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -3563,93 +2837,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?person_annotation_20221102192609020#Selector",
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221129160929512#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[29]/persName[4]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q239823",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192646290",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:26:46.290Z",
-	"dcterms:modified": "2022-11-02T23:26:46.290Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192646290#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?organization_annotation_20221102192646290#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[29]/orgName"
+			"rdf:value": "TEI/text/back/p/orgName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q16253555",
+		"@id": "http://www.wikidata.org/entity/Q49210",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3657,162 +2855,11 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102192824071",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:28:24.071Z",
-	"dcterms:modified": "2022-11-02T23:28:24.071Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102192824071#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102192824071#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[31]/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-               <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102192837672",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-02T23:28:37.672Z",
-	"dcterms:modified": "2022-11-02T23:28:37.672Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102192837672#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/braderman.xml?title_annotation_20221102192837672#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[31]/title[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "http://www.wikidata.org/entity/Q7959525",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-            </rdf:Description>
-         </rdf:RDF></xenoData>
-   </teiHeader>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <pb n="88"/>
@@ -3822,8 +2869,7 @@
             finally be left behind to get there. The nature of these myths—the myths of equality,
             individualism and democratic liberalism—which underwrite our humanist heritage, account
             for the weakest elements of feminist ideology. The recognition that feminism is an
-            ideology, like <persName key="Karl Marx" ref="http://www.wikidata.org/entity/Q9061"
-               type="real">Marx</persName>'s recognition that humanism is an ideology (i.e., not a
+            ideology, like <persName key="Karl Marx" ref="http://www.wikidata.org/entity/Q9061" type="real">Marx</persName>'s recognition that humanism is an ideology (i.e., not a
             discourse whose "truth" was inseparable from the world it described) is a necessary step
             in re-examining what feminism is and what it can do.</p>
          <p> I will use as a conceit the form of "the contradiction"—that underlying, dynamic
@@ -3875,11 +2921,8 @@
             another, who are members of the bourgeoisie.</p>
          <p> Our psychosexual behavior, like our economic roles, is wholly determined by an
             inherited system of power relations, not only in the public sector, but at deeper
-            levels, in the formation—within the family—of the psyche itself. Hence, as <persName
-               key="Juliet Mitchell" ref="http://www.wikidata.org/entity/Q453560">Juliet
-               Mitchell</persName> so carefully <pb n="89"/> describes, <note type="researchNote"
-               >Mitchell, Juliet, "<title>Women and Equality</title>," in <orgName
-                  key="Partisan Review" ref="http://www.wikidata.org/entity/Q1930723">Partisan
+            levels, in the formation—within the family—of the psyche itself. Hence, as <persName key="Juliet Mitchell" ref="http://www.wikidata.org/entity/Q453560">Juliet
+               Mitchell</persName> so carefully <pb n="89"/> describes, <note type="researchNote">Mitchell, Juliet, "<title>Women and Equality</title>," in <orgName key="Partisan Review" ref="http://www.wikidata.org/entity/Q1930723">Partisan
                   Review</orgName> (Summer, 1975)</note> it is the concept of equality which is
             invalid within our system. The abstract ideal of equality, she demonstrates, provides
             the philosophical basis for our laws. Our legal system, at its best, functions as if
@@ -3926,9 +2969,7 @@
             intellectual labor like esthetic labor, like factory labor like reproductive labor in
             the service of a system which generates a surplus of wealth for the few and subsistence
             for the many. This contradiction —between the forces of production (labor) and the
-            property relations of production (own- ership) is the contradiction which <persName
-               key="Marxism" ref="http://dbpedia.org/resource/Marxism" type="real"
-               >Marxists</persName> claim moves history, because it produces class struggle: the
+            property relations of production (own- ership) is the contradiction which <persName key="Marxism" ref="http://dbpedia.org/resource/Marxism" type="real">Marxists</persName> claim moves history, because it produces class struggle: the
             power of masses of people to labor becomes the power to revolt.</p>
          <p> This contradiction has moved history. But, feminists ask, has it altered the basic
             relation between woman and man, woman and childrearing, woman and psychosexual slavery?
@@ -3938,30 +2979,23 @@
             an exploited, isolated and powerless worker.</p>
          <p> It is the belief in the illusion that such social contracts can be fulfilled that has
             hung feminists on the horns of contradiction. Feminism was born in the 17th century
-            along with the concept of equality of individuals. It was as <persName
-               key="Sheila Rowbotham" ref="http://www.wikidata.org/entity/Q432851">Sheila
+            along with the concept of equality of individuals. It was as <persName key="Sheila Rowbotham" ref="http://www.wikidata.org/entity/Q432851">Sheila
                Rowbotham</persName> has documented, <note type="researchNote">Rowbotham, Sheila,
-                  <title key="Rowbotham, Sheila. | Women, resistance and revolution"
-                  ref="http://viaf.org/viaf/7667153954881305680001/">Women, Resistance and
-                  Revolution</title>, <orgName key="Vintage Books"
-                  ref="http://www.wikidata.org/entity/Q3560313">Vintage Books</orgName> (New York,
+                  <title key="Rowbotham, Sheila. | Women, resistance and revolution" ref="http://viaf.org/viaf/7667153954881305680001/">Women, Resistance and
+                  Revolution</title>, <orgName key="Vintage Books" ref="http://www.wikidata.org/entity/Q3560313">Vintage Books</orgName> (New York,
                1974).</note> heated in the cauldron of bourgeois revolution and simmered in the
-            idealism of 19th-century Utopianism à <persName key="Fourier, Charles"
-               ref="http://vocab.getty.edu/ulan/500069988" type="real">la Fourier</persName> who
+            idealism of 19th-century Utopianism à <persName key="Fourier, Charles" ref="http://vocab.getty.edu/ulan/500069988" type="real">la Fourier</persName> who
             claimed that "the change in historical epoch can always be determined by the progress of
             women toward freedom." <note type="researchNote">Ibid., p. 51</note></p>
          <p>Bourgeois feminism has begun, then, in its history of leaps and starts to identify and
             attack its sexist enemy, and taken a few long strides away from female feudalism for the
             benefit of some bourgeois women. But the heart of the problem remains. Feminists from
-               <persName key="Tennessee Claflin" ref="http://www.wikidata.org/entity/Q7700030"
-               >Tennessee Claflin</persName> to <note type="researchNote">idk who this
+               <persName key="Tennessee Claflin" ref="http://www.wikidata.org/entity/Q7700030">Tennessee Claflin</persName> to <note type="researchNote">idk who this
                is</note><persName type="real">Isadora Duncan</persName> have scored high in locating
             it. "At the ballot box is not where the shoe pinches. It is at home where the husband is
             the supreme ruler that the little difficulty arises; he will not surrender this absolute
-            power unless he is compelled," wrote Claflin in 1871. <note type="researchNote"
-                  ><persName key="Schneir, Miriam" ref="http://viaf.org/viaf/114917240/">Schneir,
-                  Miriam</persName>, ed., <title key="Feminism: The Essential Historical Writings"
-                  ref="http://www.wikidata.org/entity/Q104874805">Feminism: The Essential Historical
+            power unless he is compelled," wrote Claflin in 1871. <note type="researchNote"><persName key="Schneir, Miriam" ref="http://viaf.org/viaf/114917240/">Schneir,
+                  Miriam</persName>, ed., <title key="Feminism: The Essential Historical Writings" ref="http://www.wikidata.org/entity/Q104874805">Feminism: The Essential Historical
                   Writings</title>, Vintage Books (New York, 1972), p. xviii.</note> Duncan, in her
             1927 autobiography said, "Any intelligent woman who reads the marriage contract and then
             goes into it, deserves all the consequences." <note type="researchNote">Ibid., p.
@@ -3974,8 +3008,7 @@
          <p> When feminists claim that "the personal is political<seg type="keyword"><term>personal
                   is political</term></seg>" they refer in a sense, to this problem. Their
             hypothesis is that one can generalize from the individual, internal dynamics of sexist
-            oppression, to a general rule. <persName key="Sigmund Freud"
-               ref="http://www.wikidata.org/entity/Q9215" type="real">Freud</persName>'s revelation
+            oppression, to a general rule. <persName key="Sigmund Freud" ref="http://www.wikidata.org/entity/Q9215" type="real">Freud</persName>'s revelation
             of the structures of the unconscious confirms to an extent the validity of that
             enterprise. But up to now feminists have not taken it far enough. Having accepted the
             existence of subconscious structural analogues which mirror the differences between the
@@ -3994,9 +3027,7 @@
             contradictions—in extant phallocentric models and generate predictive models based in
             the experience of both halves of the human race. Feminists who wish to throw Freud out
             the window because of simplistic readings of "penis envy" current in popular psychology
-            might well take a look at Mitchell's <title
-               key="Mitchell, Juliet, 1940-. | Psychoanalysis and feminism"
-               ref="http://viaf.org/viaf/4238151051781333530003/">Feminism and
+            might well take a look at Mitchell's <title key="Mitchell, Juliet, 1940-. | Psychoanalysis and feminism" ref="http://viaf.org/viaf/4238151051781333530003/">Feminism and
                Psychoanalysis</title> for a re-examination of the usefulness of psychoanalysis to
             feminist analysis. Her ef- fort there is exemplary. We cannot just look back
             nostalgically to ancient matriarchies. Indeed, fantasies about matriarchy in our era are
@@ -4015,43 +3046,32 @@
             question" has really only been given lip service by the most advanced intellectual
             sciences —not surprising since they are "man-made."</p>
          <p>
-            <persName key="Friedrich Engels" ref="http://www.wikidata.org/entity/Q34787"
-               >Engels</persName>, Marx and others have, of course, identified the monogamous,
+            <persName key="Friedrich Engels" ref="http://www.wikidata.org/entity/Q34787">Engels</persName>, Marx and others have, of course, identified the monogamous,
             patriarchal family as the central prison for woman. Mechanistic Marxists therefore claim
             that releasing her from this singular prison into the work force (under socialism) must
             guarantee her freedom. Does it? Has it?</p>
          <p> Not significantly; not yet. The major 20th-century socialist revolutions have made some
             progress, removing, as in China, the most barbaric manifestations of sexist domination.
-            Immediately following the Soviet revolution, <persName key="Vladimir Lenin"
-               ref="http://www.wikidata.org/entity/Q1394" type="real">Lenin</persName>'s program
+            Immediately following the Soviet revolution, <persName key="Vladimir Lenin" ref="http://www.wikidata.org/entity/Q1394" type="real">Lenin</persName>'s program
             included not only the training of women to join the work force at all levels, but the
             legalization of abortion, free, accessible divorce, communal daycare, etc. Within ten
-            years, however <persName key="Joseph Stalin" ref="http://www.wikidata.org/entity/Q855"
-               >Stalin</persName>ist backlash hit these family issues hardest; much harder,
+            years, however <persName key="Joseph Stalin" ref="http://www.wikidata.org/entity/Q855">Stalin</persName>ist backlash hit these family issues hardest; much harder,
             predictably, than the building of an extra-domestic women's work force. In China, with
-            the <orgName key="Cultural Revolution" ref="http://www.wikidata.org/entity/Q8690"
-               >Cultural Revolution</orgName> and before, ideological struggle against the values of
-            patriarchy has at least begun. But in the <orgName key="Soviet Union"
-               ref="http://www.wikidata.org/entity/Q15180">U.S.S.R.</orgName>, in the context of
+            the <orgName key="Cultural Revolution" ref="http://www.wikidata.org/entity/Q8690">Cultural Revolution</orgName> and before, ideological struggle against the values of
+            patriarchy has at least begun. But in the <orgName key="Soviet Union" ref="http://www.wikidata.org/entity/Q15180">U.S.S.R.</orgName>, in the context of
             their drive to quickly meet economic priorites which created the bastard known as "state
             capitalism," it was easier to fall back on the ingrained behaviors of the traditional
             family unit for free work by women in the home.</p>
-         <p> The <orgName key="Communist Party USA" ref="http://www.wikidata.org/entity/Q308714"
-               >American Communist Party</orgName> reflects this tendency, still defending the
+         <p> The <orgName key="Communist Party USA" ref="http://www.wikidata.org/entity/Q308714">American Communist Party</orgName> reflects this tendency, still defending the
             "fighting family unit" as a revolutionary force—in America, a reactionary notion. In
             fact. mothers have been strong revolutionaries. The strength of the women of Vietnam in
             the long battle to defeat American imperialism is a case in point. But, as in Algeria,
             where fighting European imperialism also meant the reassertion of the heavily
             patriarchal values of Arab and Islamic culture, women's fate has most often been: off
             the battlefield and back to the kitchen. The contradictions of the double standard
-            apparently are so heightened during periods of revolution that, as with <persName
-               key="Bolsheviks" ref="http://www.wikidata.org/entity/Q83372" type="real"
-               >Bolsheviks</persName> like <persName key="Alexandra Kollontai"
-               ref="http://www.wikidata.org/entity/Q179558">Alexandra Kollontai</persName>, the
+            apparently are so heightened during periods of revolution that, as with <persName key="Bolsheviks" ref="http://www.wikidata.org/entity/Q83372" type="real">Bolsheviks</persName> like <persName key="Alexandra Kollontai" ref="http://www.wikidata.org/entity/Q179558">Alexandra Kollontai</persName>, the
             preaching and practice of "free love" (and all it implies) becomes acceptable —for a
-            brief time. Despite Lenin's great sympathy and work for women, his <persName
-               key="Victorianism" ref="http://www.wikidata.org/entity/Q605933"
-               >Victorianism</persName> won out in the area of sex. Even the Soviet woman engineer
+            brief time. Despite Lenin's great sympathy and work for women, his <persName key="Victorianism" ref="http://www.wikidata.org/entity/Q605933">Victorianism</persName> won out in the area of sex. Even the Soviet woman engineer
             comes home to work that is still hers, and still never <pb n="91"/> done.</p>
          <p> In the U.S., too, anti-feminist backlash, somewhat reminiscent of the Stalinist attack
             on women's freedom, splits American feminism down its uncertain center. Though
@@ -4061,10 +3081,8 @@
             of the contradiction. "Its progressive side provides a rationale for defending the
             rights of individuals against the state. Its reactionary side emphasized that capitalism
             is not a system where one class exploits another but is rather a collection of
-            individuals, any one of whom can succeed if he or she so decides."<note><persName
-                  key="Guettel, Charnie." ref="http://viaf.org/viaf/1981898/" type="real">Guettel,
-                  Charnie</persName>, <title><title>Marxism and Feminism</title></title>, <orgName
-                  key="Women's Press (Toronto)." ref="http://viaf.org/viaf/311383281/">Women's
+            individuals, any one of whom can succeed if he or she so decides."<note><persName key="Guettel, Charnie." ref="http://viaf.org/viaf/1981898/" type="real">Guettel,
+                  Charnie</persName>, <title><title>Marxism and Feminism</title></title>, <orgName key="Women's Press (Toronto)." ref="http://viaf.org/viaf/311383281/">Women's
                   Educational Press</orgName> (Ontario, Canada, 1974), p. 2.</note></p>
          <p> I hope it is becoming clear how ideologically messy liberalism really is from a
             post-humanist perspective in which the individual can no longer be seen as the subject
@@ -4089,8 +3107,7 @@
          rights before unequal laws is flung in our faces, and even defeated (adding insult to
          injury), the dominant media simultaneously declare the women's movement to be "over" or
          somehow "won" because of the presence of one and a half news anchor-women on TV or the
-         financial viability of <persName key="Ms." ref="http://www.wikidata.org/entity/Q3656351"
-               ><orgName key="Ms." ref="http://www.wikidata.org/entity/Q3656351">Ms.
+         financial viability of <persName key="Ms." ref="http://www.wikidata.org/entity/Q3656351"><orgName key="Ms." ref="http://www.wikidata.org/entity/Q3656351">Ms.
                Magazine</orgName></persName>. Capitalist propaganda demonstrates before our eyes
          that by inference, if one woman can do work that one man can do, women are the achieved
          "equals" of men. The responsibility for change is thus cleverly switched back onto the
@@ -4121,12 +3138,9 @@
             must re-examine their place in our culture. The feminist filmmaker for example, has had
             to confront this issue head on. Film, more than any other artform, requires the mas-
             tery of machine technology. For women, that technology and the authority it connotes has
-            been historically taboo. There are exceptions in the history of film <note
-               type="researchNote">I and others have written elsewhere about the history of women
-               directors. See my article in <title><orgName key="Artforum"
-                     ref="http://www.wikidata.org/entity/Q386599">Artforum</orgName></title> (Sept.
-               1972) and <persName key="Sharon Smith Kane"
-                  ref="http://www.wikidata.org/entity/Q110231123" type="real">Sharon
+            been historically taboo. There are exceptions in the history of film <note type="researchNote">I and others have written elsewhere about the history of women
+               directors. See my article in <title><orgName key="Artforum" ref="http://www.wikidata.org/entity/Q386599">Artforum</orgName></title> (Sept.
+               1972) and <persName key="Sharon Smith Kane" ref="http://www.wikidata.org/entity/Q110231123" type="real">Sharon
                   Smith</persName>'s <title><title>Women Who Make Movies</title></title>,
                   <orgName>Hopkinson and Black</orgName> (New York, 1975).</note> but the percentage
             of women filmmakers is dramatically low for a 20th- century art. Feminists with the
@@ -4135,17 +3149,13 @@
             "independent" filmmakers: the problem of capital. For to make films requires large
             amounts of capital, capital which is controlled by the ruling classes, middle-class
             liberals included.</p>
-         <p> Advocates of independent filmmaking from <persName key="Maya Deren"
-               ref="http://www.wikidata.org/entity/Q450382">Maya Deren</persName> in the 1940s
-            (implicitly) to <persName key="Annette Michelson"
-               ref="http://www.wikidata.org/entity/Q21176228" type="real">Annette
+         <p> Advocates of independent filmmaking from <persName key="Maya Deren" ref="http://www.wikidata.org/entity/Q450382">Maya Deren</persName> in the 1940s
+            (implicitly) to <persName key="Annette Michelson" ref="http://www.wikidata.org/entity/Q21176228" type="real">Annette
                Michelson</persName> in the 1960s (explicitly in her article "<title>Film and the
                Radical Aspiration</title>") <note type="researchNote"><orgName>In Film Culture
-                  Reader</orgName>, ed., <persName key="P. Adams Sitney"
-                  ref="http://www.wikidata.org/entity/Q7117121">P. Adams Sitney</persName>,
+                  Reader</orgName>, ed., <persName key="P. Adams Sitney" ref="http://www.wikidata.org/entity/Q7117121">P. Adams Sitney</persName>,
                   <orgName>Praeger</orgName> (New York, 1970).</note> have proposed that a stance
-            outside of the commercial market is itself a "political" gesture. It is—to the <pb
-               n="93"/> extent that money can be garnered from liberals to make "art" as long as it
+            outside of the commercial market is itself a "political" gesture. It is—to the <pb n="93"/> extent that money can be garnered from liberals to make "art" as long as it
             is not fundamentally dangerous. But can any political art which attempts to attack the
             assumptions of The System from within patriarchal capitalism actually threaten it? This
             has been and will be an area of debate for many political estheticians and ar- tists and
@@ -4158,12 +3168,8 @@
             "independent" male counterpart, must face the terms of her depend- ence. She has begun
             to beg, borrow or steal (translated as win grants, go into debt, etc.) the capital to
             write herself into visual history, making films about the experience of women; viz: the
-            films of <persName key="Julia Reichert" ref="http://www.wikidata.org/entity/Q1711898"
-               type="real">Julia Reichert</persName>, <persName key="Yvonne Rainer"
-               ref="http://www.wikidata.org/entity/Q452238">Yvonne Rainer</persName>, <persName
-               key="Barbara Kopple" ref="http://www.wikidata.org/entity/Q449349" type="real">Barbara
-               Kopple</persName>, <persName key="Chantal Akerman"
-               ref="http://www.wikidata.org/entity/Q239823">Chantal Ackerman</persName>, and many
+            films of <persName key="Julia Reichert" ref="http://www.wikidata.org/entity/Q1711898" type="real">Julia Reichert</persName>, <persName key="Yvonne Rainer" ref="http://www.wikidata.org/entity/Q452238">Yvonne Rainer</persName>, <persName key="Barbara Kopple" ref="http://www.wikidata.org/entity/Q449349" type="real">Barbara
+               Kopple</persName>, <persName key="Chantal Akerman" ref="http://www.wikidata.org/entity/Q239823">Chantal Ackerman</persName>, and many
             others. But who actually sees these films? They are shown in women's festivals, in
             avant-garde and political forums in a few major cities. She is, in short, caught in that
             same economic trap. Cooperatives for pooling resources and sharing distribution efforts,
@@ -4185,8 +3191,7 @@
             build a new one.</p>
          <p> Several feminist strategies for such a realignment of women with the broader struggle
             for freedom are presented in this issue of Heresies (see "<title>Toward
-               Socialist-Feminism</title>" and "<title key="Wages for housework"
-               ref="http://www.wikidata.org/entity/Q7959525">Wages for Housework</title>"). This
+               Socialist-Feminism</title>" and "<title key="Wages for housework" ref="http://www.wikidata.org/entity/Q7959525">Wages for Housework</title>"). This
             does not mean that women will not have to continue to force the priority of their own
             demands in relation to the needs of others. Women will need autonomy to develop theory
             and strategy accountable to our own needs within a broad movement, to avoid the failures
@@ -4199,7 +3204,7 @@
       </body>
 
       <back>
-         <p>Joan Braderman is completing her doctorate in film and political theory at N.Y.U.,
+         <p><persName key="Joan Braderman" ref="http://www.wikidata.org/entity/Q28911659">Joan Braderman</persName> is completing her doctorate in film and political theory at <orgName key="New York University" ref="http://www.wikidata.org/entity/Q49210">N.Y.U</orgName>.,
             writes theory and criticism and makes 16mm films. She teaches film at The School of
             Visual Arts in New York City, is a political activist and likes to sing. </p>
       </back>
