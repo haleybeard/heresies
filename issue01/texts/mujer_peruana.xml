@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -92,9 +93,20 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+				xmlns:as="http://www.w3.org/ns/activitystreams#"
+				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
+				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+				xmlns:fabio="https://purl.org/spar/fabio#"
+				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+				xmlns:org="http://www.w3.org/ns/org#">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -170,10 +182,8 @@
 	},
 	"cwrc:hasCertainty": "cwrc:low"
 }]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -248,10 +258,8 @@
 		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
+				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+					<![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -326,20 +334,33 @@
 		"schema:softwareVersion": "2.2.0"
 	}
 }]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
-	
-		
+				</rdf:Description>
+			</rdf:RDF></xenoData>
+	</teiHeader>
+
+	<text>
+		<body>
 			<pb n="99"/>
 
 			<head><title>Who Are We? What Do We Want? What Do We Do?</title></head>
-			Excerpts (slightly rearranged) from the booklet of this name distributed by
+			<head>Excerpts (slightly rearranged) from the booklet of this name distributed by
 				"Accion para la Liberacion de la Mujer Peruana," April 15, 1975, Lima, Peru. This
 				text was taken from the first half of the booklet; the second half deals with a
 				specific program for practical revolutionary work. The following are listed as the
-				group's coordinators and "honorary members“:<note/> <persName>Cristina Portocarrero Rey</persName>, <persName key="Portugal, Ana Maria" ref="http://viaf.org/viaf/6428160667863803560007/" cert="low">Ana Maria
-				Portugal</persName>, <persName cert="Unknown">Amor Arguedas</persName>, <persName>Dorelly Castafieda</persName>, <persName>Beatriz Ramos</persName>, <persName>Lucia Parra</persName>, <persName>Margot Loayza</persName>, <persName>Edith Alva</persName>, <persName>Carmela Bravo</persName>, <persName>Dora Ponce</persName>, <persName>Flor Herrera</persName>, <persName>Leo Arteaga,</persName> <persName>Diana Arteaga</persName>, <persName>Dora Guerrero</persName>, <persName>Bertha Vargas</persName>, <persName>Inés Pratt</persName>, <persName>Adela Montesinos</persName>, <persName key="Estela Luna López" ref="http://www.wikidata.org/entity/Q107596196">Estela Luna
-				Lôpez</persName>.
+				group's coordinators and "honorary members“:<note/>
+				<persName>Cristina Portocarrero Rey</persName>, <persName key="Portugal, Ana Maria"
+					ref="http://viaf.org/viaf/6428160667863803560007/" cert="low">Ana Maria
+					Portugal</persName>, <persName>Amor Arguedas</persName>, <persName>Dorelly
+					Castafieda</persName>, <persName>Beatriz Ramos</persName>, <persName>Lucia
+					Parra</persName>, <persName>Margot Loayza</persName>, <persName>Edith
+					Alva</persName>, <persName>Carmela Bravo</persName>, <persName>Dora
+					Ponce</persName>, <persName>Flor Herrera</persName>, <persName>Leo
+					Arteaga,</persName>
+				<persName>Diana Arteaga</persName>, <persName>Dora Guerrero</persName>,
+					<persName>Bertha Vargas</persName>, <persName>Inés Pratt</persName>,
+					<persName>Adela Montesinos</persName>, <persName key="Estela Luna López"
+					ref="http://www.wikidata.org/entity/Q107596196">Estela Luna
+				Lôpez</persName>.</head>
 			<byline><orgName>Accion para la Liberacion de la Mujer Peruana</orgName></byline>
 
 			<p> We are a group of women who have organized to study, work and fight for our
@@ -359,9 +380,9 @@
 				radically change our condition by their rightful name: liberation.</p>
 			<p>Ours is simultaneously a study-group and an action-group. We are by no means a
 				political party. We do not aspire to be an institution with traditional hierarchic
-				structure. We reject verticalism, dogmatism and leadership positions.
-				Ideologically, we align ourselves within free Humanist Socialism and adopt the best
-				of its tenets conducive to female emancipation. </p>
+				structure. We reject verticalism, dogmatism and leadership positions. Ideologically,
+				we align ourselves within free Humanist Socialism and adopt the best of its tenets
+				conducive to female emancipation. </p>
 			<lg>
 				<l>Without national liberation, there can be no women's liberation. Fight!</l>
 				<l>Only reactionary men are our enemies!</l>
@@ -382,9 +403,9 @@
 				seen as a "necessary and insuperable evil."</p>
 			<p>Consequently we do not believe in individual liberation. The fact that some of our
 				sisters are being promoted to important public positions or are gaining access to
-				professional and technical careers in increasingly greater numbers has nothing to
-				do with liberation. We believe that only structural change will produce real
-				"women's liberation."</p>
+				professional and technical careers in increasingly greater numbers has nothing to do
+				with liberation. We believe that only structural change will produce real "women's
+				liberation."</p>
 			<p>So our position, our actions, are aimed at contributing to the process of
 				transformation taking place in our country, at helping it strengthen and advance
 				without obstacles. We support this Revolution because it is anti-imperialist and
@@ -393,13 +414,13 @@
 			<p>The process by which the old system is entirely questioned and revised: its values,
 				behavior, habits, customs, institutions and forms of communication. A Cultural
 				Revolution must reject all individualism, engendering a collective way of life
-				harmonious with group ideals, while resistant to group egoism. A Cultural
-				Revolution must combat stereotypical attitudes like "maleism" (machismo) and
-				"femaleism" (hembrismo) —brute maleness and coy femaleness. A Cultural Revolution
-				must change patriarchal institutions like bourgeois marriage and the nuclear
-				family—two characteristic expressions of capitalism and the division of labor.
-				Finally, a Cultural Revolution's ultimate goal must be to change life, to culminate
-				in a free and humane socialism. </p>
+				harmonious with group ideals, while resistant to group egoism. A Cultural Revolution
+				must combat stereotypical attitudes like "maleism" (machismo) and "femaleism"
+				(hembrismo) —brute maleness and coy femaleness. A Cultural Revolution must change
+				patriarchal institutions like bourgeois marriage and the nuclear family—two
+				characteristic expressions of capitalism and the division of labor. Finally, a
+				Cultural Revolution's ultimate goal must be to change life, to culminate in a free
+				and humane socialism. </p>
 			<lg>
 				<l>Wanting to shape your own destiny is wanting to transform injustice.</l>
 				<l>Wanting to transform injustice is being political.</l>
@@ -412,10 +433,10 @@
 				reduces <pb n="100"/> everything to the creation or amplification of protectionary
 				laws that are pretexts to mask our real situation of dependence on men and
 				second-class citizenship.</p>
-			<p>From all kinds of ideological pressure, expressed in the terror most of us feel
-				about joining feminist organizations, under the assumption that if we do so, we
-				must be "against men.“ From the fear of being ridiculed or insulted as tomboys,"
-				"whores," or "dykes."</p>
+			<p>From all kinds of ideological pressure, expressed in the terror most of us feel about
+				joining feminist organizations, under the assumption that if we do so, we must be
+				"against men.“ From the fear of being ridiculed or insulted as tomboys," "whores,"
+				or "dykes."</p>
 
 			<p> Statistics affirm that few women are workers.</p>
 			<p>Out of the home and onto the production lines! Working women also carry the burden of
@@ -439,6 +460,7 @@
 				Monolithic Unity of Revolutionary Women, and of those men who integrally support the
 				cause of our liberation.</p>
 
-		
-	
+		</body>
+	</text>
+
 </TEI>
