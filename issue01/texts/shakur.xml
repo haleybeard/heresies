@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Heresies Project</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>A Bucknell Production</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml?person_annotation_20221108150358616",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T20:03:58.616Z",
+	"dcterms:modified": "2022-11-08T20:03:58.616Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml?person_annotation_20221108150358616#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml?person_annotation_20221108150358616#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/byline/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q467961",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml?person_annotation_20221108150723063",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T20:07:23.063Z",
+	"dcterms:modified": "2022-11-08T20:07:23.063Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml?person_annotation_20221108150723063#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml?person_annotation_20221108150723063#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q467961",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml?person_annotation_20221108150757095",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-08T20:07:57.095Z",
+	"dcterms:modified": "2022-11-08T20:07:57.095Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml?person_annotation_20221108150757095#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/shakur.xml?person_annotation_20221108150757095#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q467961",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+	<text>
+		<body>
+			<pb n="101"/>
+			<head><title>WHAT IS LEFT?</title></head>
+			<byline><persName><persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Assata Shakur</persName></persName></byline>
+
+			<lg>
+				<l>AFTER THE BARS AND THE GATES AND THE DEGRADATION</l>
+				<l>WHAT IS LEFT?</l>
+				<l>AFTER THE LOCK INS AND THE LOCK OUTS AND THE LOCK UPS</l>
+				<l>WHAT IS LEFT?</l>
+				<l>I MEAN, AFTER THE CHAINS THAT GET ENTANGLED IN THE GREY OF ONE'S MATTER</l>
+				<l>AFTER THE BARS THAT GET STUCK IN THE HEARTS OF MEN AND WOMEN</l>
+				<l>WHAT IS LEFT?</l>
+				<l>AFTER THE TEARS AND DISAPPOINTMENTS</l>
+				<l>AFTER THE LONELY ISOLATION</l>
+				<l>AFTER THE CUT WRIST AND THE HEAVY NOOSE</l>
+				<l>WHAT IS LEFT?</l>
+				<l>I MEAN, LIKE, AFTER THE COMMISSARY KISSES</l>
+				<l>AND THE GET-YOUR-SHIT-OFF-BLUES</l>
+				<l>AFTER THE HUSTLER HAS BEEN HUSTLED</l>
+				<l>WHAT IS LEFT?</l>
+				<l>AFTER THE SAD FUTILE MANEUVERS</l>
+				<l>AFTER THE SHRILL AND BARREN LAUGHTER</l>
+				<l>AFTER THE CONTRABAND EMOTIONS</l>
+				<l>WHAT IS LEFT?</l>
+				<l>AFTER THE MURDERBURGERS AND THE COON SQUADS AND THE TEAR CAS</l>
+				<l>AFTER THE BULLS AND THE BULLPENS AND THE BULLSHIT</l>
+				<l>WHAT IS LEFT?</l>
+				<l>I MEAN LIKE, AFTER YOU KNOW THAT GOD CANT BE TRUSTED</l>
+				<l>AFTER YOU KNOW THAT THE SHRINK IS A PUSHER</l>
+				<l>THAT THE WORD IS A WHIP, AND THE BADGE IS A BULLET</l>
+				<l>WHAT IS LEFT?</l>
+				<l>AFTER YOU KNOW THAT THE DEAD ARE STILL WALKING</l>
+				<l>AFTER YOU REALIZE THAT SILENCE IS TALKING</l>
+				<l>THAT OUTSIDE AND INSIDE ARE JUST AN ILLUSION</l>
+				<l>WHAT IS LEFT?</l>
+				<l>I MEAN, LIKE, WHERE IS THE SUN?</l>
+				<l>WHERE ARE HER ARMS AND WHERE ARE HER KISSES?</l>
+				<l>THERE ARE LIP PRINTS ON MY PILLOW</l>
+				<l>I AM SEARCHING</l>
+				<l>WHAT IS LEFT?</l>
+				<l>I MEAN, LIKE, NOTHING IS STANDSTILL AND NOTHING IS ABSTRACT</l>
+				<l>THE WING OF A BUTTERFLY CANT TAKE FLIGHT</l>
+				<l>THE FOOT ON MY NECK IS A PART OF A BODY</l>
+				<l>THE SONG THAT I SING IS A PART OF AN ECHO</l>
+				<l>WHAT IS LEFT?</l>
+				<l>I MEAN, LIKE, LOVE IS SPECIFIC</l>
+				<l>IS MY MIND A MACHINE GUN?</l>
+				<l>IS MY HEART A HACKSAW?</l>
+				<l>CAN I MAKE FREEDOM REAL? YEAH,</l>
+				<l>WHAT IS LEFT?</l>
+				<l>I AM AT THE TOP AND BOTTOM OF A LOWER-ARCHY</l>
+				<l>I AM IN LOVE WITH LOSERS AND LAUGHTER</l>
+				<l>I AM IN LOVE WITH FREEDOM AND CHILDREN</l>
+				<l>LOVE IS MY SWORD AND TRUTH IS MY COMPASS</l>
+				<l>WHAT IS LEFT?</l>
+			</lg>
+
+		</body>
+		<back>
+			<p><persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Assata Shakur</persName>/<persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Joanne Chesimard</persName>; courtesy of Assata Shakur Defense Committee.</p>
+		</back>
+	</text>
+</TEI>
