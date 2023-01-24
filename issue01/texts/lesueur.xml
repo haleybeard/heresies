@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
@@ -121,10 +121,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110195848870",
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110195848870",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-11T00:58:48.870Z",
-	"dcterms:modified": "2022-11-11T00:58:48.870Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -134,10 +133,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110195848870#Target",
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110195848870#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -145,10 +144,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110195848870#Selector",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110195848870#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/byline/persName/persName"
 		}
@@ -163,7 +162,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
         </rdf:Description>
@@ -199,10 +198,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110202553412",
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110202553412",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-11T01:25:53.412Z",
-	"dcterms:modified": "2022-11-11T01:25:53.412Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -212,10 +210,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110202553412#Target",
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110202553412#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -223,10 +221,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110202553412#Selector",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?person_annotation_20221110202553412#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/back/p/persName"
 		}
@@ -241,7 +239,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
         </rdf:Description>
@@ -277,10 +275,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?title_annotation_20221110202728270",
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?title_annotation_20221110202728270",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-11T01:27:28.270Z",
-	"dcterms:modified": "2022-11-11T01:27:28.270Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -290,10 +287,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?title_annotation_20221110202728270#Target",
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?title_annotation_20221110202728270#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -301,10 +298,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?title_annotation_20221110202728270#Selector",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?title_annotation_20221110202728270#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/back/p/title"
 		}
@@ -319,7 +316,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
         </rdf:Description>
@@ -355,10 +352,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?place_annotation_20221110202957141",
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?place_annotation_20221110202957141",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-11T01:29:57.141Z",
-	"dcterms:modified": "2022-11-11T01:29:57.141Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -368,10 +364,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?place_annotation_20221110202957141#Target",
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?place_annotation_20221110202957141#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -379,10 +375,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/lesueur.xml?place_annotation_20221110202957141#Selector",
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?place_annotation_20221110202957141#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/back/p/placeName"
 		}
@@ -397,7 +393,85 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?organization_annotation_20221129150808323",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-29T20:08:08.323Z",
+	"dcterms:modified": "2022-11-29T20:08:08.323Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?organization_annotation_20221129150808323#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/lesueur.xml?organization_annotation_20221129150808323#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg[2]/l[3]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q714534",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.0"
 	}
 }]]>
         </rdf:Description>
@@ -428,7 +502,7 @@
 				<lg>
 					<l>I speak from old portages</l>
 				<l>Where they pursued and shot into the river crossing</l>
-				<l>All the grandmothers of Black Hawk.</l>
+				<l>All the grandmothers of <orgName key="Black Hawk" ref="http://www.wikidata.org/entity/Q714534">Black Hawk</orgName>.</l>
 				<l>I speak from the smoke of grief,</l>
 				<l>from the broken stone,</l>
 				<l>And cry with the women crying from the marsh</l>
