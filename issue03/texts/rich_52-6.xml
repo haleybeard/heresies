@@ -534,7 +534,7 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104549123",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-02-02T15:45:49.123Z",
-	"dcterms:modified": "2023-02-02T15:45:49.123Z",
+	"dcterms:modified": "2023-02-02T15:45:52.542Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -565,9 +565,325 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:Note",
+		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
 		"rdf:value": "6. H.D., Tribute to Freud. Carcanet Press, Oxford, 1971, pp.\n\t\t\t\t\t50-54."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104556694",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-02T15:45:56.694Z",
+	"dcterms:modified": "2023-02-02T15:45:59.735Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104556694#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104556694#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "7. Virginia Woolf, A Room of One’s Own.\n\t\t\t\t\tHogarth Press, London, 1929, p. 126."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104604992",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-02T15:46:04.992Z",
+	"dcterms:modified": "2023-02-02T15:46:08.068Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104604992#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104604992#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[6]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "8. Sinister Wisdom, Vol. I, f2, Fall 1976."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104616459",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-02T15:46:16.459Z",
+	"dcterms:modified": "2023-02-02T15:46:20.573Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104616459#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104616459#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[7]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "9. Virginia Woolf, Three Guineas\n\t\t\t\t\t(1938). Harbinger Book, New York, 1966, p. 63."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104642879",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-02T15:46:42.879Z",
+	"dcterms:modified": "2023-02-02T15:46:45.974Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104642879#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/rich_52-6.xml?note_annotation_20230202104642879#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/quote[8]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "10. Simone Weil, Oppression and Liberty. Translated by\n\t\t\t\t\tArthur Wills and John Petrie. University of Massachusetts Press, Amherst, Mass.,\n\t\t\t\t\t1973, p. 87."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -782,7 +1098,7 @@
 				Pythoness of Delphi. But it was I, battered and disassociated...who was seeing the
 				pictures, and who was reading the writing or granted the inner vision. Or perhaps,
 				in some sense, we were "seeing" it together, for without her, admittedly, I could
-				not have gone on.<note>6. H.D., Tribute to Freud. Carcanet Press, Oxford, 1971, pp.
+				not have gone on.<note type="scholarNote">6. H.D., Tribute to Freud. Carcanet Press, Oxford, 1971, pp.
 					50-54.</note></quote>
 			<p>Even for those who would mistrust visionary experience, the episode is revealing as
 				metaphor. The personal relationship helps create the conditions for work (out of her
@@ -790,7 +1106,7 @@
 				world and the quest of female heroes); no less does the fact of working together
 				deepen and sustain a personal relationship. "If Chloe likes Olivia and they share a
 				laboratory...this of itself will make their friendship more varied and lasting
-				because it will be less personal."<note>7. Virginia Woolf, A Room of One’s Own.
+				because it will be less personal."<note type="scholarNote">7. Virginia Woolf, A Room of One’s Own.
 					Hogarth Press, London, 1929, p. 126.</note> By “like” I believe Virginia Woolf
 				(still, in that book, writing more cautiously than later in Three Guineas) also
 				meant “love"; for a laboratory we can read "the creation of a common world."</p>
@@ -829,7 +1145,7 @@
 				which is most loaded for everyone, even those who are not lesbians. Because the fact
 				of love between women...is one which affects every event in this society, psychic
 				and political and sociological. And for a writer, the most savage center is oneself.
-					<note>8. Sinister Wisdom, Vol. I, f2, Fall 1976.</note></quote>
+					<note type="scholarNote">8. Sinister Wisdom, Vol. I, f2, Fall 1976.</note></quote>
 			<p>The whole question of what it means, or might mean, to work as a lesbian might have
 				occupied an entire essay in this book. Of past women whose thought and work have
 				remained visible in history, an enormous number have been lesbians, yet because of
@@ -890,7 +1206,7 @@
 
 			<quote>What is this “civilization" in which we find ourselves? What are these ceremonies
 				and why should we make money out of them? Where in short is it leading, the
-				procession of the sons of educated men?<note>9. Virginia Woolf, Three Guineas
+				procession of the sons of educated men?<note type="scholarNote">9. Virginia Woolf, Three Guineas
 					(1938). Harbinger Book, New York, 1966, p. 63.</note></quote>
 			<p>Her answer was that it is leading to war, to elitism, to exploitation and the greed
 				for power; in our own time we can also add that it has clearly been leading to the
@@ -903,7 +1219,7 @@
 				anything else proceed moderation and courage, virtues without which life is nothing
 				but a disgraceful frenzy. Besides, the source of any kind of virtue lies in the
 				shock produced by the human intelligence being brought up against a matter devoid of
-				lenience and of falsity.<note>10. Simone Weil, Oppression and Liberty. Translated by
+				lenience and of falsity.<note type="scholarNote">10. Simone Weil, Oppression and Liberty. Translated by
 					Arthur Wills and John Petrie. University of Massachusetts Press, Amherst, Mass.,
 					1973, p. 87.</note>
 			</quote>
