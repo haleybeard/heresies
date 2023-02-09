@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" 
-href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"? 
-
-        href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -112,7 +104,86 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/collective.xml?organization_annotation_20230202201008032",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-03T01:10:08.032Z",
+	"dcterms:modified": "2023-02-03T01:10:08.032Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/collective.xml?organization_annotation_20230202201008032#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/collective.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/collective.xml?organization_annotation_20230202201008032#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/Heresies:_A_Feminist_Publication_on_Art_and_Politics",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="2"/>
@@ -127,7 +198,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 					feel good about itself.) And we spent many many meetings doing
 					consciousness-raising on what it means to be lesbian artists—talking, some of
 					us, about issues we had never discussed before. My excitement in working on this
-					issue of Heresies centered around the hope that many lesbian artists would write
+					issue of <orgName key="Heresies: A Feminist Publication on Art and Politics" ref="http://dbpedia.org/resource/Heresies:_A_Feminist_Publication_on_Art_and_Politics">Heresies</orgName> centered around the hope that many lesbian artists would write
 					us, share their work, and contribute to this dialogue.</p>
 				<p>The standard I used in judging work was based on my wish to be inclusive—to
 					present as much diversity as possible, to present clearly articulated articles
@@ -137,16 +208,15 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 					when we started—discussing our similarities, our struggles, our fears, and our
 					opportunities as lesbian artists—to get very far in discussing our
 					differences.</p>
-				<byline>Cynthia Carr</byline>
+				<byline><persName>Cynthia Carr</persName></byline>
 			</div>
 			<div type="statement">
 				<p> The only talent I bring to the lesbian collective is my sexual preference, a
 					scorn of self-important pretension, a nose for drivel, and a desire to see to it
-					that we say it like it is. In the past we have done ourselves and our work a
-					terrible damage by lying about our experience. Driven by a need for the com-
-					fort of a common political position, we have all too often allowed rhetoric to
+					that we say it like it is. In the past, we have done ourselves and our work a
+					terrible damage by lying about our experience. Driven by a need for the comfort of a common political position, we have all too often allowed rhetoric to
 					pass for truth. Seeking an accommodation with the straight world, we have lied
-					about our essential dif- ference. And in a spirit of loyalty we have compromised
+					about our essential difference. And in a spirit of loyalty, we have compromised
 					ourselves by supporting thinking and work which is simply bad. There is very
 					little sense of humor in us. We have, by this excusable example, leaned heavily
 					on many closet doors which might otherwise have sprung open. It was my hope that
@@ -154,7 +224,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 					to be pasted up and mechanicaled, I can say that the effort has been exhausting
 					and perilous. And certainly I am too close to the final product to say that we
 					have succeeded.</p>
-				<byline>Betsy Crowell</byline>
+				<byline><persName>Betsy Crowell</persName></byline>
 			</div>
 			<div type="statement">
 				<p> I usually think of myself as part scientist and part magician with certain
@@ -455,7 +525,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 					parts of us remain intact after suffering consistent negation and brutality.</p>
 				<p>Who we choose as an audience is of vital consideration as long as exposure is
 					dangerous. I sign my name to this issue with a great sense of purpose as well as
-					real trepidation. Every day l am aware that people think I am crazy because I am
+					real trepidation. Everyday l am aware that people think I am crazy because I am
 					a lesbian and that violence may be done to me because of it. This will continue
 					long after male institutions grant us our civil rights. It will continue until
 					we make the reality of our experience clear. Women have often had strength in
