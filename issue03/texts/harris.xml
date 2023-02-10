@@ -3344,6 +3344,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/harris.xml?title_annotation_20230209210200423",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-10T02:02:00.423Z",
+	"dcterms:modified": "2023-02-10T02:02:00.423Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/harris.xml?title_annotation_20230209210200423#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/harris.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/harris.xml?title_annotation_20230209210200423#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/title[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://archive.org/details/angeldanceclassi00beal",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3569,7 +3648,7 @@
 				<persName key="Judy Grahn" ref="http://www.wikidata.org/entity/Q1711155">Judy Grahn</persName> prophesied in <title key="The Common Woman poems" ref="https://judygrahn.org/2014/01/25/from-the-common-woman-poems/">The Common Woman poems</title> is at least an esthetic reality.
 				In <persName key="June Arnold" ref="http://www.wikidata.org/entity/Q21078073">June Arnold</persName>’s <title key="Sister Gin" ref="https://books.google.com/books/about/Sister_Gin.html?id=GKK6BZ8Nr8IC">Sister Gin</title> to be old and fat is also to be a lover. <persName key="Pat Parker" ref="https://en.wikipedia.org/wiki/Pat_Parker">Pat Parker</persName>’s
 				poetry shows that it is even possible to be Black and stay Black when one is a
-				lesbian. In <persName key="Beal, M. F. (Mary F.), 1937-" ref="http://viaf.org/viaf/75091934/">M.F. Beal</persName>’s Angel Dance and in my own novel, Lover, men are dangerous to
+				lesbian. In <persName key="Beal, M. F. (Mary F.), 1937-" ref="http://viaf.org/viaf/75091934/">M.F. Beal</persName>’s <title key="Angel Dance" ref="https://archive.org/details/angeldanceclassi00beal">Angel Dance</title> and in my own novel, Lover, men are dangerous to
 				the lives of women: and so they are killed. Such works, from such places, constitute
 				the beginnings of the future of lesbian literature and serve to show what the
 				lesbian is becoming: a creature of tooth and claw, of passion and purpose:
