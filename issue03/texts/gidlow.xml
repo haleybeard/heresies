@@ -1429,12 +1429,91 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue03/texts/gidlow.xml?title_annotation_20230214205613255#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/title"
+			"rdf:value": "TEI/text/back/p/title[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "bf:Title",
 		"@id": "https://archive.org/details/OnAGreyThread/page/n5/mode/2up",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue03/texts/gidlow.xml?title_annotation_20230214205753698",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-15T01:57:53.698Z",
+	"dcterms:modified": "2023-02-15T01:57:53.698Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/sophiemcquaide",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sophie McQuaide"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue03/texts/gidlow.xml?title_annotation_20230214205753698#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue03/texts/gidlow.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue03/texts/gidlow.xml?title_annotation_20230214205753698#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://search.lib.buffalo.edu/discovery/fulldisplay?vid=01SUNY_BUF:everything&amp;search_scope=MyInst_and_CI&amp;tab=Everything&amp;docid=alma990011872290204803&amp;lang=en&amp;context=L&amp;adaptor=Local%20Search%20Engine&amp;offset=0",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1589,7 +1668,7 @@
 		</body>
 		<back>
 			<p> <persName key="Elsa Gidlow" ref="http://www.wikidata.org/entity/Q5367407">Elsa Gidlow</persName> is a poet who has made her living most of her life as a journalist. Her
-				latest book SAPPHIC SONGS, Seventeen to Seventy, (<orgName key="Diana Press Publications" ref="http://www.wikidata.org/entity/Q105833288">Diana Press</orgName>) includes recent work
+				latest book <title key="SAPPHIC SONGS, Seventeen to Seventy" ref="https://search.lib.buffalo.edu/discovery/fulldisplay?vid=01SUNY_BUF:everything&amp;search_scope=MyInst_and_CI&amp;tab=Everything&amp;docid=alma990011872290204803&amp;lang=en&amp;context=L&amp;adaptor=Local%20Search%20Engine&amp;offset=0">SAPPHIC SONGS, Seventeen to Seventy</title>, (<orgName key="Diana Press Publications" ref="http://www.wikidata.org/entity/Q105833288">Diana Press</orgName>) includes recent work
 				and lesbian love poems from her book <title key="On a Grey Thread Elsa Gidlow" ref="https://archive.org/details/OnAGreyThread/page/n5/mode/2up">On a Grey Thread</title>, first published in 1923. </p>
 		</back>
 	</text>
