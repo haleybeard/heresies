@@ -257,6 +257,162 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/lapidus.xml?link_annotation_20230216203356583",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-17T01:33:56.583Z",
+	"dcterms:modified": "2023-02-17T01:33:56.583Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucywads",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lucy Wadsworth"
+	},
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/lapidus.xml?link_annotation_20230216203356583#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/lapidus.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/lapidus.xml?link_annotation_20230216203356583#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/epigraph/ab/persName/ref"
+		}
+	},
+	"oa:hasBody": {
+		"@id": "https://en.wikipedia.org/wiki/Catherine_Blake",
+		"@type": "cnt:ContentAsText"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/lapidus.xml?link_annotation_20230216203418097",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-17T01:34:18.097Z",
+	"dcterms:modified": "2023-02-17T01:34:18.097Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucywads",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lucy Wadsworth"
+	},
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/lapidus.xml?link_annotation_20230216203418097#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/lapidus.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/lapidus.xml?link_annotation_20230216203418097#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[6]/p[2]/ref"
+		}
+	},
+	"oa:hasBody": {
+		"@id": "https://en.wikipedia.org/wiki/Catherine_Blake",
+		"@type": "cnt:ContentAsText"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -264,7 +420,7 @@
          <head><title>Design for the City of Women</title></head>
          <byline><note type="researchNote">3rd link on VIAF</note><persName key="Lapidus, Jacqueline" ref="http://viaf.org/viaf/40694137/" type="real">Jacqueline Lapidus</persName></byline>
          <epigraph>
-            <ab>to Catherine Blake</ab>
+            <ab>to <persName><ref target="https://en.wikipedia.org/wiki/Catherine_Blake">Catherine Blake</ref></persName></ab>
          </epigraph>
 
          <div>
@@ -401,7 +557,7 @@
             <p>The women are developing a new language, fully aware that although they have become a
                people capable of reproducing themselves, they can not consider themselves a nation
                unless they share a mother tongue. They expect this to take several centuries.</p>
-            <p>"We live,” says Catherine, "in the crevices, the hollows, the spaces, the secret
+            <p>"We live,” says <ref target="https://en.wikipedia.org/wiki/Catherine_Blake">Catherine</ref>, "in the crevices, the hollows, the spaces, the secret
                places, we live on the edge of the wave. The tide never goes out exactly as she came
                in—she always leaves us something we can use.</p>
             <p>She reminds me that the little mermaid’s fatal error was not that she longed for
