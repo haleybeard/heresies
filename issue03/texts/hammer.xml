@@ -1279,6 +1279,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/hammer.xml?link_annotation_20230216211115367",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-17T02:11:15.367Z",
+	"dcterms:modified": "2023-02-17T02:11:15.367Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucywads",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lucy Wadsworth"
+	},
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/hammer.xml?link_annotation_20230216211115367#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/hammer.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucywads/heresies/main/issue03/texts/hammer.xml?link_annotation_20230216211115367#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/title/ref"
+		}
+	},
+	"oa:hasBody": {
+		"@id": "https://barbarahammer.com/films/psychosynthesis/",
+		"@type": "cnt:ContentAsText"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1345,10 +1423,10 @@
 				simultaneous and continuous time. Feminist phenomenology or gut level experiencing
 				stems from right brain use: the nonverbal knowledge of intuition, feeling and
 				imaging. I suggest that the right hemisphere is dominant in forming the image
-				clusters in my films and in my dreams. In Psychosynthesis (1975) I use the holistic
+				clusters in my films and in my dreams. In <title level="s"><ref target="https://barbarahammer.com/films/psychosynthesis/">Psychosynthesis (1975)</ref></title> I use the holistic
 				right brain for dream imagery and time structure. Some of the images are from deep
 				sleep dreams, others from waking dreams or dream-like states of consciousness.</p>
-			<p>Presently 1 am attempting to understand the time structure of dreams and I think I
+			<p>Presently I am attempting to understand the time structure of dreams and I think I
 				can only talk here about my dreams. The time in my dreams seems to be time that can
 				jump back and forth into past and future time that is not chronologically sequential
 				but emotionally, or symbolically sequential, much like the illuminated moments
