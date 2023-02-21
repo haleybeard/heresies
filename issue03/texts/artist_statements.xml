@@ -1129,6 +1129,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230221164539886",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T21:45:39.886Z",
+	"dcterms:modified": "2023-02-21T21:45:39.886Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230221164539886#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230221164539886#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/2639166479514307840006/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1935,10 +2014,10 @@
 		<back>
 			<p> <persName key="Jane Stedman" ref="http://www.wikidata.org/entity/Q110623866">Jane Stedman</persName>, a self-taught weaver who makes elegantly simple and functional
 				weavings, works with her partner, <persName>MLou Brubaker</persName>, a silversmith (formerly
-				“Sistersilver”) in their craft business, Mother Oaks Crafts.</p>
-			<p>Maryann King lives in New York City, paints, swims and puts together jigsaw
+				“Sistersilver”) in their craft business, <orgName>Mother Oaks Crafts</orgName>.</p>
+			<p><persName>Maryann King</persName> lives in New York City, paints, swims and puts together jigsaw
 				puzzles.</p>
-			<p>Ellen Ledley lives in Pasadena in the Red Moon Collective and she is a member of a
+			<p><persName>Ellen Ledley</persName> lives in Pasadena in the Red Moon Collective and she is a member of a
 				women’s carpentry/handicrafts collective. She is also part of a group of women
 				artists who have been meeting and talking abóut work.</p>
 			<p>Joan Nestle is a lecturer in English, SEEK Program, Queens College, CUNY and a
@@ -1960,7 +2039,7 @@
 			<p>Kathryn Kendall survives and writes in New Orleans, mothering Seth and prevailing,
 				despite the odds.</p>
 			<p>Olga Broumas’ poetry appears on page 57.</p>
-			<p>Sandy Boucher is the author of a book of short stories, Assaults &amp; Rituals, and a
+			<p><persName key="Boucher, Sandy" ref="http://viaf.org/viaf/2639166479514307840006/">Sandy Boucher</persName> is the author of a book of short stories, Assaults &amp; Rituals, and a
 				novel, Charlotte Street, to be published by Daughter’s, Inc. this year.</p>
 			<p>Amy Sillman would like to make a living running an offset press.</p>
 			<p>Phylane Norman considers herself a lesbian artist more often than not when she is
