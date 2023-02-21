@@ -801,6 +801,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue02/exports/weatherford_issue2-36-41/weatherford_issue2-36-41_tei_transformed2.xml?organization_annotation_20230221101934075",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T15:19:34.075Z",
+	"dcterms:modified": "2023-02-21T15:19:34.075Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue02/exports/weatherford_issue2-36-41/weatherford_issue2-36-41_tei_transformed2.xml?organization_annotation_20230221101934075#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue02/exports/weatherford_issue2-36-41/weatherford_issue2-36-41_tei_transformed2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue02/exports/weatherford_issue2-36-41/weatherford_issue2-36-41_tei_transformed2.xml?organization_annotation_20230221101934075#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q57414904",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1029,7 +1108,7 @@
 				stretched; it may be low and rounded or
 			</p>
          <p>
-				Pima women and house. (Museum of the American Indian, Heye Foundation.)
+				Pima women and house. (<orgName key="Museum of the American Indian" ref="http://www.wikidata.org/entity/Q57414904">Museum of the American Indian</orgName>, Heye Foundation.)
 			</p>
          <p>
 				domestic animals part of the year and
@@ -1052,7 +1131,7 @@
 				the coverings, and sometimes the frames,
 				are carried with the band as it moves. All
 				the components of such tents, including
-				those of the Tuareg, Algonkian wigwams
+				those of the Tuareg, Algonkian <title>wigwams</title>
 				and Plains tribes' tipis, are made by wom¬
 				en — exterior and interior walls, floor
 				coverings and frames. There is a tradi¬
