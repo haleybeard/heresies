@@ -1208,6 +1208,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230221164653960",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T21:46:53.960Z",
+	"dcterms:modified": "2023-02-21T21:46:53.960Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230221164653960#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230221164653960#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/305012016/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2022,7 +2101,7 @@
 				artists who have been meeting and talking abóut work.</p>
 			<p>Joan Nestle is a lecturer in English, SEEK Program, Queens College, CUNY and a
 				co-founder of the Lesbian Herstory Archives in New York. </p>
-			<p> Sandra DeSando lives in New York City. She has exhibited at various galleries,
+			<p> <persName>Sandra DeSando</persName> lives in New York City. She has exhibited at various galleries,
 				including Albright-Knox and Hundred Acres. Her work is currently at the Seventeenth
 				St. Gallery.</p>
 			<p>Melanie Kaye is a poet and activist. She teaches women's studies at Portland State
@@ -2035,7 +2114,7 @@
 				England for the last 15 years. Her book, The Ancient Religion of the Great Cosmic
 				Mother of All will be published by Womanspirit, in the United States in the coming
 				year.</p>
-			<p>Debbie Jones is a sculptor, woodworker and lecturer living in Ithaca, New York.</p>
+			<p><persName key="Jones, Debbie" ref="http://viaf.org/viaf/305012016/">Debbie Jones</persName> is a sculptor, woodworker and lecturer living in Ithaca, New York.</p>
 			<p>Kathryn Kendall survives and writes in New Orleans, mothering Seth and prevailing,
 				despite the odds.</p>
 			<p>Olga Broumas’ poetry appears on page 57.</p>
