@@ -732,6 +732,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221112018963",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T16:20:18.963Z",
+	"dcterms:modified": "2023-02-21T16:20:18.963Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221112018963#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221112018963#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[10]/p[5]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q9684",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1137,10 +1216,10 @@
 				<p>"I was never very much accepted by the lesbian radical community. I was mystical
 					and religious. I had had this background of being involved with men, but at the
 					same time, 1 had always known <persName key="Agnes Martin" ref="http://www.wikidata.org/entity/Q275610">Agnes Martin</persName> and written about her.... Then I went
-					to work with the Byrd Hoff¬ man School. The Byrd Hoffman School was creating art
+					to work with the Byrd Hoff¬ man School. The <placeName>Byrd Hoffman School</placeName> was creating art
 					out of personal madness. It was a predominantly homosexual community. Ifound it
 					personally very help¬ ful. That community was rather like Harry Stack Sulli¬
-					van's homosexual ward at Shepherd Pratt Hospital. The idea of a healing
+					van's homosexual ward at <placeName>Shepherd Pratt Hospital.</placeName> The idea of a healing
 					community, people healing each other. I came out in that group."</p>
 				<p>"It’s becoming clearer to me, on hearing everybody talk, that if we don’t get a
 					community together we’re not going to survive. I have seen so many brilliant
@@ -1157,7 +1236,7 @@
 				<p>"I certainly think that we have the least options in terms of funding, money,
 					gallery space, critics. If we want to be visible there are no options. At all.
 					God forbid that there should be a lesbian show in the Museum of Modern Art and
-					that somebody would condescendingly write about it in The New York Times. The
+					that somebody would condescendingly write about it in <orgName key="The New York Times" ref="http://www.wikidata.org/entity/Q9684">The New York Times</orgName>. The
 					last thing they would see is the painting. 1 always get told by men how angry I
 					am, how hostile I am, how domineering I am. And l’m sure 1 am. I think that
 					because lesbians are the outcasts of the sexual world, much more so than male
