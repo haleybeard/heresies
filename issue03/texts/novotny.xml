@@ -1842,6 +1842,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123046037",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:30:46.037Z",
+	"dcterms:modified": "2023-02-21T17:30:46.037Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123046037#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123046037#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[20]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/6360166535904512880008/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123101129",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:31:01.129Z",
+	"dcterms:modified": "2023-02-21T17:31:01.129Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123101129#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123101129#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/8379162669547955500003/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2063,19 +2221,19 @@
 				nursing home for the last few months of her life. She was interviewed on <orgName key="CBS" ref="http://www.wikidata.org/entity/Q43380">CBS</orgName>
 				television, entertained at a party for 300 guests (including many of the old friends
 				who appeared in her early photos), and honored with an exhibition of her work in the
-				Richmondtown Museum. "Isn’t the whole idea like a fairy tale?" exulted Gertrude
+				<placeName>Richmondtown Museum</placeName>. "Isn’t the whole idea like a fairy tale?" exulted Gertrude
 				Tate, who visited Alice regularly and who helped to prepare the guest lists.</p>
 			<p>Two months after the party, Alice suffered a slight stroke and developed pneumonia in
 				one lung. She died quietly in her wheelchair, in the morning sun on the porch of the
 				nursing home, in June 1952, aged eighty-six. "My heart is so full of sorrow at my
-				deep sense of loss, Gertrude wrote to Oliver Jensen. “She was a rare soul, and her
+				deep sense of loss, Gertrude wrote to <persName key="Jensen, Oliver" ref="http://viaf.org/viaf/6360166535904512880008/">Oliver Jensen</persName>. “She was a rare soul, and her
 				going leaves me bereft indeed.... God was good to spare me these long years when she
 				needed me so much, so 1 can only thank him for answering my prayer, that I might be
 				with her to the end."</p>
 			<pb n="36"/>
 		</body>
 		<back>
-			<p> Ann Novotny is co-founder of a picture research company in New York. Her recent
+			<p> <persName key="Novotny, Ann" ref="http://viaf.org/viaf/8379162669547955500003/">Ann Novotny</persName> is co-founder of a picture research company in New York. Her recent
 				book, Alice’s World: The Life and Photography of An American Original, Alice Austen
 				(1866-1952) is available from Research Reports, 315 W. 78th St. N.Y. 10024. The
 				Friends of Alice Austen House are raising funds to restore the photographer’s old
