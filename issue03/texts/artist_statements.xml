@@ -1287,6 +1287,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?place_annotation_20230221164724556",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T21:47:24.556Z",
+	"dcterms:modified": "2023-02-21T21:47:24.556Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?place_annotation_20230221164724556#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?place_annotation_20230221164724556#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p[8]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q21",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230221164916856",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T21:49:16.856Z",
+	"dcterms:modified": "2023-02-21T21:49:16.856Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230221164916856#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230221164916856#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/113979432/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2099,19 +2257,19 @@
 			<p><persName>Ellen Ledley</persName> lives in Pasadena in the Red Moon Collective and she is a member of a
 				women’s carpentry/handicrafts collective. She is also part of a group of women
 				artists who have been meeting and talking abóut work.</p>
-			<p>Joan Nestle is a lecturer in English, SEEK Program, Queens College, CUNY and a
+			<p><persName key="Nestle, Joan, 1940-...." ref="http://viaf.org/viaf/113979432/">Joan Nestle</persName> is a lecturer in English, SEEK Program, Queens College, CUNY and a
 				co-founder of the Lesbian Herstory Archives in New York. </p>
 			<p> <persName>Sandra DeSando</persName> lives in New York City. She has exhibited at various galleries,
 				including Albright-Knox and Hundred Acres. Her work is currently at the Seventeenth
 				St. Gallery.</p>
-			<p>Melanie Kaye is a poet and activist. She teaches women's studies at Portland State
+			<p><persName>Melanie Kaye</persName> is a poet and activist. She teaches women's studies at Portland State
 				University in Oregon and is a co-author of Naming: Poems by Eight Women.</p>
-			<p>Janice Helleloid is a member of the Women’s Art Registry of Minnesota Gallery, a
+			<p><persName>Janice Helleloid</persName> is a member of the <placeName>Women’s Art Registry of Minnesota Gallery</placeName>, a
 				Woman s Collective Art Space, and an instructor at the College of Art and Design in
 				Minneapolis. Currently she is working on an exhibition for Galleria D’Arte Del
 				Cavallino in Venice, Italy for fall of 1977.</p>
 			<p>Monica Sjoo is a Swedish feminist artist and writer (self taught) who has lived in
-				England for the last 15 years. Her book, The Ancient Religion of the Great Cosmic
+				<placeName key="England" ref="http://www.wikidata.org/entity/Q21">England</placeName> for the last 15 years. Her book, The Ancient Religion of the Great Cosmic
 				Mother of All will be published by Womanspirit, in the United States in the coming
 				year.</p>
 			<p><persName key="Jones, Debbie" ref="http://viaf.org/viaf/305012016/">Debbie Jones</persName> is a sculptor, woodworker and lecturer living in Ithaca, New York.</p>
