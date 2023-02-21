@@ -495,6 +495,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221111332747",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T16:13:32.747Z",
+	"dcterms:modified": "2023-02-21T16:13:32.747Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221111332747#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221111332747#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[5]/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/3725159248044004870000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -736,7 +815,7 @@
 					that no one in it can have a noble, honest, or true friendship.... I find the
 					work of that community to be abysmally dull, boring, repetitive, incestuous, and
 					I don’t think anybody has had an idea since <persName key="Duchamp, Marcel" ref="http://viaf.org/viaf/5043149068581165730007/">Duchamp</persName>.</p>
-				<p>"Some women are a lot like Garbo cashing in on homo¬ sexual and heterosexual
+				<p>"Some women are a lot like <persName key="Garbo" ref="http://viaf.org/viaf/3725159248044004870000/">Garbo</persName> cashing in on homo¬ sexual and heterosexual
 					males. She's the muse on the pedestal. These women make themselves goddesses.
 					Men accept them and gradually their work is also per¬ mitted. But the men define
 					what kind of women they are going to accept and how they are going to accept
