@@ -811,6 +811,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml?organization_annotation_20230223184845683",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-23T23:48:45.683Z",
+	"dcterms:modified": "2023-02-23T23:48:45.683Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zohanadeer",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "zoha nadeer"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml?organization_annotation_20230223184845683#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml?organization_annotation_20230223184845683#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/epigraph/p[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q1503157",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml?person_annotation_20230223184902984",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-23T23:49:02.984Z",
+	"dcterms:modified": "2023-02-23T23:49:02.984Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zohanadeer",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "zoha nadeer"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml?person_annotation_20230223184902984#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml?person_annotation_20230223184902984#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/epigraph/p[2]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q275628",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml?place_annotation_20230223184919629",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-23T23:49:19.629Z",
+	"dcterms:modified": "2023-02-23T23:49:19.629Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zohanadeer",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "zoha nadeer"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml?place_annotation_20230223184919629#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/porter.xml?place_annotation_20230223184919629#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/epigraph/p[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q43196",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -828,11 +1065,11 @@
 				<p>Barney was a writer herself but little of her work has appeared in English, and
 					she is more talked about than read. She was alive until 1972 but remains
 					enigmatic, a "legend," the blonde Amazon who rode horseback in the <placeName key="Bois de Boulogne" ref="http://www.wikidata.org/entity/Q209626">Bois de
-					Boulogne</placeName> every morning. “She was charming, wrote <persName key="Sylvia Beach" ref="http://www.wikidata.org/entity/Q265562">Sylvia Beach</persName> in Shakespeare and
-					Company. “Many of her sex found her fatally so... The following excerpt from one
+					Boulogne</placeName> every morning. “She was charming, wrote <persName key="Sylvia Beach" ref="http://www.wikidata.org/entity/Q265562">Sylvia Beach</persName> in <orgName key="Shakespeare and Company" ref="http://www.wikidata.org/entity/Q1503157">Shakespeare and
+					Company</orgName>. “Many of her sex found her fatally so... The following excerpt from one
 					of her last books chronicles an important relationship in Barney's life, that
-					with poet Renée Vivien.</p>
-				<p>In the article, Barney first describes her own girlhood in Cincinnati and Paris,
+					with poet <persName key="Renée Vivien" ref="http://www.wikidata.org/entity/Q275628">Renée Vivien</persName>.</p>
+				<p>In the article, Barney first describes her own girlhood in <placeName key="Cincinnati" ref="http://www.wikidata.org/entity/Q43196">Cincinnati</placeName> and Paris,
 					then a love affair with Liane de Pougy, a courtesan. As this affair is ending,
 					she is introduced to Renée Vivien by a mutual friend, Violette Shiletto. Both
 					women are about twenty years old at this time, and Barney, absorbed with
