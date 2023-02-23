@@ -732,6 +732,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182938952",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-23T23:29:38.952Z",
+	"dcterms:modified": "2023-02-23T23:29:38.952Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zohanadeer",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "zoha nadeer"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182938952#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182938952#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q115581765",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223183024995",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-23T23:30:24.995Z",
+	"dcterms:modified": "2023-02-23T23:30:24.995Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zohanadeer",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "zoha nadeer"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223183024995#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223183024995#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[5]/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q157309",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -894,7 +1052,7 @@
 				<p>If we examine the relationship of lesbians to the class system, and to
 					patriarchy, we can get an idea of the active role art can play in developing a
 					culture that does not make women powerless and invisible. In “Lesbians and The
-					Class Position of Women," Margaret Small writes:</p>
+					Class Position of Women," <persName key="Margaret Small" ref="http://www.wikidata.org/entity/Q115581765">Margaret Small</persName> writes:</p>
 				<quote>...At this point in history, the primary role that lesbians have to play in
 					the development of revolutionary consciousness is ideological. Because lesbians
 					are objectively outside of heterosexual reality, they have potential for <pb n="36"/> developing an alternative ideology not limited by heterosexuality.
@@ -954,7 +1112,7 @@
 					and controlling social order through the manipulation of fine art. Demanding
 					group and self identity in art is one means of resisting oppression. The
 					art-making process is a tool for making these demands and changes.</p>
-				<p>Art is essentially work. Simone Weil writes that art is a surplus commodity in
+				<p>Art is essentially work. <persName key="Simone Weil" ref="http://www.wikidata.org/entity/Q157309">Simone Weil</persName> writes that art is a surplus commodity in
 					this culture because it does not have immediate consumption and is not shared
 					and used by the people. That artists are not part of the paid work force further
 					separates the productive from the consumptive classes. The work process (and the
