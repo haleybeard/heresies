@@ -4210,6 +4210,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?title_annotation_20230226224139599",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-27T03:41:39.599Z",
+	"dcterms:modified": "2023-02-27T03:41:39.599Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?title_annotation_20230226224139599#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?title_annotation_20230226224139599#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p[7]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://thewarm.org/index.htm",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5026,9 +5105,9 @@
 			<p> Sandra DeSando lives in New York City. She has exhibited at various galleries,
 				including <orgName key="Albright–Knox Art Gallery" ref="http://dbpedia.org/resource/Albright–Knox_Art_Gallery">Albright-Knox</orgName> and <orgName key="Hundred Acres" ref="http://www.wikidata.org/entity/Q72853923">Hundred Acres</orgName>. Her work is currently at the <orgName>Seventeenth St. Gallery</orgName>.</p>
 			<p>Melanie Kaye is a poet and activist. She teaches women's studies at <orgName key="Portland State University. College of Liberal Arts and Sciences" ref="http://viaf.org/viaf/172436837/">Portland State
-				University in Oregon</orgName> and is a co-author of Naming: Poems by Eight Women.</p>
-			<p>Janice Helleloid is a member of the Women’s Art Registry of Minnesota Gallery, a
-				Woman s Collective Art Space, and an instructor at the College of Art and Design in
+				University in Oregon</orgName> and is a co-author of <title>Naming: Poems by Eight Women</title>.</p>
+			<p>Janice Helleloid is a member of the <title key="Women’s Art Registry of Minnesota Gallery" ref="https://thewarm.org/index.htm">Women’s Art Registry of Minnesota Gallery</title>, a
+				Woman's Collective Art Space, and an instructor at the College of Art and Design in
 				Minneapolis. Currently she is working on an exhibition for Galleria D’Arte Del
 				Cavallino in Venice, Italy for fall of 1977.</p>
 			<p>Monica Sjoo is a Swedish feminist artist and writer (self taught) who has lived in
