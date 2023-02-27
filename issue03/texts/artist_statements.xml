@@ -3262,6 +3262,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?title_annotation_20230226222825666",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-27T03:28:25.666Z",
+	"dcterms:modified": "2023-02-27T03:28:25.666Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?title_annotation_20230226222825666#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?title_annotation_20230226222825666#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[13]/p[6]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q3221803",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3972,7 +4051,7 @@
 					the purposes of capitalism and heterosexism, our resistance to knowledge of our
 					bodies is extreme. We are traumatized, we freeze, we become blind and deaf in
 					the pres ence of flesh. A book that confronts us with flesh is <orgName key="Monique Wittig" ref="http://www.wikidata.org/entity/Q263201">Monique Wittig</orgName>’s
-					The Lesbian Body. And because we resist so strongly, Wittig has to proceed in a
+					<title key="The Lesbian Body" ref="http://www.wikidata.org/entity/Q3221803">The Lesbian Body</title>. And because we resist so strongly, Wittig has to proceed in a
 					violent manner. She has to take us by the back of the head and shove our face
 					into it to make us look at the body, touch, smell, taste it from the inside,
 					make us stare at it rotten and putrid and every possible way it can be—so that
@@ -3991,7 +4070,7 @@
 					liberating. It is our continued working together over time, taking risks,
 					remaining true to ourselves and stretching ourselves out be yond our limits,
 					that will lead us to the development of this world-view.</p>
-				<p>What I want to do in my own work is to affirm wom- en’s strength, and I don’t
+				<p>What I want to do in my own work is to affirm women’s strength, and I don’t
 					mean by that to pretend to a kind of strength that isn’t real. (For instance, I
 					find heroines like Wonder Woman or Super Dyke offensive.) In the novel l’ve been
 					writing, the character who started out at the most disadvantage, supposedly, was
