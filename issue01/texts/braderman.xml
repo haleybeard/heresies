@@ -4506,6 +4506,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20230227141350106",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-27T19:13:50.106Z",
+	"dcterms:modified": "2023-02-27T19:13:50.106Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:tagging",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20230227141350106#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/braderman.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20230227141350106#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/gloss/seg"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "feminism"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -4563,13 +4642,13 @@
 				virtually co-opted. The great capitalist commodity machine has produced a whole new
 				catalogue of cultural commodities: the feminist writer, artist, poet; the teminist
 				academic, professional, journalist, TV persona; the feminist token with that
-					<gloss>"feminist mystique"</gloss>. She is for
-				sale in the cul- tural marketplace. She is tough, durable, tire-ess. She is
+					<gloss>"feminist mystique"<seg type="keyword"><term>feminism</term></seg></gloss>. She is for
+				sale in the cultural marketplace. She is tough, durable, tire-ess. She is
 				"sexually liberated" (a great lay). She works harder than a man. She has to. She is
 				still a woman in a world that calls people "mankind." That is, "equality" for women
 				still equals inequality for women. This is a contradiction.</p>
 			<p> What kind of contradiction? It is a contradiction between the ideology of
-					<gloss>bourgeois feminism<seg type="keyword"><term>Feminism</term></seg></gloss> and economic
+					<gloss>bourgeois feminism<seg cert="high" part="Y" type="keyword" xml:space="default"><term>Feminism</term></seg></gloss> and economic
 				and biological fact. The economic facts of life for the great majority of women
 				remain the same: unpaid domestic labor, ill-paid labor in the work force. Biological
 				fact (which is gender difference along with its cultural baggage) proposes a
