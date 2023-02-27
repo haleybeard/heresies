@@ -2630,6 +2630,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?organization_annotation_20230226222349507",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-27T03:23:49.507Z",
+	"dcterms:modified": "2023-02-27T03:23:49.507Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?organization_annotation_20230226222349507#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?organization_annotation_20230226222349507#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[12]/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "https://en.wikipedia.org/wiki/Yale_Series_of_Younger_Poets",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230226222410601",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-27T03:24:10.601Z",
+	"dcterms:modified": "2023-02-27T03:24:10.601Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230226222410601#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/artist_statements.xml?person_annotation_20230226222410601#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[12]/byline/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q2007001",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3276,8 +3434,8 @@
 					isolation through the star-systems and image-making verbal and physical
 					harassment, assault, threats. And co-optation. Of all these the fear of
 					co-optation, of losing touch with myself, my sisters, what is necessary and real
-					for us, this fear has never left me since I received. the Yale (Younger Poets)
-					Award.</p>
+					for us, this fear has never left me since I received. the <orgName key="Yale (Younger Poets) Award" ref="https://en.wikipedia.org/wiki/Yale_Series_of_Younger_Poets">Yale (Younger Poets)
+					Award</orgName>.</p>
 				<p>Then again, visibility makes possible much greater contact with women. What
 					enabled me to begin writing with authenticity was my decision, in 1973, to speak
 					only to a female and feminist audience. It gave me a sense of community, a sense
@@ -3296,7 +3454,7 @@
 					of the institutionalized conflicts and brutality that have characterized our
 					literary tradition for so long, to use simple grammar and syntax, and to praise,
 					praise.</p>
-				<byline><persName>Olga Broumas</persName>
+				<byline><persName><persName key="Olga Broumas" ref="http://www.wikidata.org/entity/Q2007001">Olga Broumas</persName></persName>
 					<placeName>Eugene, Oregon</placeName></byline>
 			</div>
 			<div type="statement">
