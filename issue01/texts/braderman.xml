@@ -4536,12 +4536,13 @@
 		"fabio": "https://purl.org/spar/fabio#",
 		"bf": "http://www.openlinksw.com/schemas/bif#",
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
+		"org": "http://www.w3.org/ns/org#",
+		"skos": "http://www.w3.org/2004/02/skos/"
 	},
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/braderman.xml?keyword_annotation_20230228090206977",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-02-28T14:02:06.977Z",
-	"dcterms:modified": "2023-02-28T14:02:06.977Z",
+	"dcterms:modified": "2023-02-28T14:04:01.031Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -4571,11 +4572,16 @@
 			"rdf:value": "TEI/text/body/p/gloss/seg"
 		}
 	},
-	"oa:hasBody": {
-		"@type": "fabio:UncontrolledVocabulary",
-		"dc:format": "text/xml",
-		"rdf:value": "theory"
-	},
+	"oa:hasBody": [
+		{
+			"@type": "fabio:UncontrolledVocabulary",
+			"rdf:value": "marxism"
+		},
+		{
+			"dc:format": "text/xml",
+			"skos:altLabel": "theory"
+		}
+	],
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
@@ -4593,7 +4599,7 @@
 			<byline><persName>Joan Braderman</persName></byline>
 			<p>In this essay, I would like to suggest where feminism can lead us and what myths must
 				finally be left behind to get there. The nature of these myths—the myths of
-				equality, individualism and <gloss>democratic liberalism<seg type="keyword"><term>theory</term></seg></gloss>—which underwrite our humanist
+				equality, individualism and <gloss>democratic liberalism<seg type="keyword" ana="marxism"><term>theory</term></seg></gloss>—which underwrite our humanist
 				heritage, account for the weakest elements of feminist ideology. The recognition
 				that feminism is an ideology, like <persName key="Karl Marx" ref="http://www.wikidata.org/entity/Q9061" type="real">Marx</persName>'s
 				recognition that humanism is an ideology (i.e., not a discourse whose "truth" was
