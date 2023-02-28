@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" 
-href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"? 
-
-        href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -112,33 +104,3219 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221120550209",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:05:50.209Z",
+	"dcterms:modified": "2023-02-21T17:05:50.209Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221120550209#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+<
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221204148216#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q18432",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221120636874",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:06:36.874Z",
+	"dcterms:modified": "2023-02-21T17:06:36.874Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221120636874#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221120636874#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/168516706/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221120655496",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:06:55.496Z",
+	"dcterms:modified": "2023-02-21T17:06:55.496Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221120655496#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221120655496#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://viaf.org/viaf/212370198/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121042598",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:10:42.598Z",
+	"dcterms:modified": "2023-02-21T17:10:42.598Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121042598#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121042598#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/46191070/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121129768",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:11:29.768Z",
+	"dcterms:modified": "2023-02-21T17:11:29.768Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121129768#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121129768#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName[3]"
+
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://www.wikidata.org/entity/Q538225",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121219674",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:12:19.674Z",
+	"dcterms:modified": "2023-02-21T17:12:19.674Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121219674#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121219674#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://www.wikidata.org/entity/Q313899",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121239681",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:12:39.681Z",
+	"dcterms:modified": "2023-02-21T17:12:39.681Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121239681#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121239681#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName[2]"
+
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://www.wikidata.org/entity/Q322030",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121305906",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:13:05.906Z",
+	"dcterms:modified": "2023-02-21T17:13:05.906Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121305906#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121305906#Selector",
+
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://www.wikidata.org/entity/Q462707",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221204613610",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T01:46:13.610Z",
+	"dcterms:modified": "2023-02-22T01:46:13.610Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221204613610#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221204613610#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q61",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121331372",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:13:31.372Z",
+	"dcterms:modified": "2023-02-21T17:13:31.372Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121331372#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121331372#Selector",
+
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q192245",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121404818",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:14:04.818Z",
+	"dcterms:modified": "2023-02-21T17:14:04.818Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121404818#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121404818#Selector",
+
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[6]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+
+		"@id": "http://www.wikidata.org/entity/Q4726073",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121505191",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:15:05.191Z",
+	"dcterms:modified": "2023-02-21T17:15:56.556Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121505191#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121505191#Selector",
+
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://www.wikidata.org/entity/Q230120",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121617137",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:16:17.137Z",
+	"dcterms:modified": "2023-02-21T17:16:17.137Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121617137#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121617137#Selector",
+
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://viaf.org/viaf/32142225/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121637409",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:16:37.409Z",
+	"dcterms:modified": "2023-02-21T17:16:37.409Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121637409#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121637409#Selector",
+
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://www.wikidata.org/entity/Q434674",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121735265",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:17:35.265Z",
+	"dcterms:modified": "2023-02-21T17:17:35.265Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121735265#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121735265#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName"
+
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://vocab.getty.edu/ulan/500597021",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121808151",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:18:08.151Z",
+	"dcterms:modified": "2023-02-21T17:18:08.151Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121808151#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121808151#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/9805728/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121822623",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:18:22.623Z",
+	"dcterms:modified": "2023-02-21T17:18:22.623Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121822623#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221121822623#Selector",
+
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://viaf.org/viaf/101425885/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221122046717",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:20:46.717Z",
+	"dcterms:modified": "2023-02-21T17:20:46.717Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221122046717#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221122046717#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/5321159477830327990003/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221122144940",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:21:44.940Z",
+	"dcterms:modified": "2023-02-21T17:21:44.940Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221122144940#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221122144940#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/168471426/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221122613310",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:26:13.310Z",
+	"dcterms:modified": "2023-02-21T17:26:13.310Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221122613310#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221122613310#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/placeName"
+
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q1408",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221122630943",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:26:30.943Z",
+	"dcterms:modified": "2023-02-21T17:26:30.943Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221205524167#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221122630943#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/placeName[2]"
+
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q1393",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221122829891",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:28:29.891Z",
+	"dcterms:modified": "2023-02-21T17:28:29.891Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221122829891#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221122829891#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[17]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/141952451/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221122945414",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:29:45.414Z",
+	"dcterms:modified": "2023-02-21T17:29:45.414Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221122945414#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221122945414#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q43380",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123046037",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:30:46.037Z",
+	"dcterms:modified": "2023-02-21T17:30:46.037Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123046037#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123046037#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[20]/persName"
+
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+
+		"@id": "http://www.wikidata.org/entity/Q114101224",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123101129",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T17:31:01.129Z",
+	"dcterms:modified": "2023-02-21T17:31:01.129Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221123101129#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/novotny.xml",
+
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221205750601#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q18419",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221205811142",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T01:58:11.142Z",
+	"dcterms:modified": "2023-02-22T01:58:11.142Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221205811142#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221205811142#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q46",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221205839490",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T01:58:39.490Z",
+	"dcterms:modified": "2023-02-22T01:58:39.490Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221205839490#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221205839490#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q470110",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221205923737",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T01:59:23.737Z",
+	"dcterms:modified": "2023-02-22T01:59:23.737Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221205923737#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221205923737#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[17]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q25395",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221205936718",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T01:59:36.718Z",
+	"dcterms:modified": "2023-02-22T01:59:36.718Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221205936718#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221205936718#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[17]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q7603995",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221210004426",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T02:00:04.426Z",
+	"dcterms:modified": "2023-02-22T02:00:04.426Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221210004426#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221210004426#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[18]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q7588180",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221210023974",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T02:00:23.974Z",
+	"dcterms:modified": "2023-02-22T02:00:23.974Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221210023974#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?place_annotation_20230221210023974#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[18]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q18424",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221210057292",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T02:00:57.292Z",
+	"dcterms:modified": "2023-02-22T02:00:57.292Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221210057292#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?person_annotation_20230221210057292#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q42119397",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?title_annotation_20230221210159730",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T02:01:59.730Z",
+	"dcterms:modified": "2023-02-22T02:01:59.730Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?title_annotation_20230221210159730#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?title_annotation_20230221210159730#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://www.abebooks.com/book-search/title/revolt-american-women/author/jensen-oliver/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210213464",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T02:02:13.464Z",
+	"dcterms:modified": "2023-02-22T02:02:13.464Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210213464#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210213464#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q463198",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210248801",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T02:02:48.801Z",
+	"dcterms:modified": "2023-02-22T02:02:48.801Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210248801#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210248801#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/orgName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q5880356",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210304520",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T02:03:04.520Z",
+	"dcterms:modified": "2023-02-22T02:03:04.520Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210304520#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210304520#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/orgName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/CBS",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210321445",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T02:03:21.445Z",
+	"dcterms:modified": "2023-02-22T02:03:21.445Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210321445#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210321445#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/orgName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/Richmondtown,_Staten_Island",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210456669",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-22T02:04:56.669Z",
+	"dcterms:modified": "2023-02-22T02:04:56.669Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210456669#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/novotny.xml?organization_annotation_20230221210456669#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "https://aliceausten.org/",
+
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="27"/>
 			<pb n="28"/>
 			<head><title>Alice Austen's World</title></head>
-			<byline>Ann Novotny</byline>
+
+			<byline><persName>Ann Novotny</persName></byline>
 			<p> When she was a woman of forty, the photographer clambered up a high fence beside the
 				race track, focusing her European press camera on the turn-of-the-century automobile
-				speed trials on Staten Island. One friend who was with her raised his own camera to
-				record the photographer—so we can see Elizabeth Alice Austen up there still,
+				speed trials on <placeName key="Staten Island" ref="http://www.wikidata.org/entity/Q18432">Staten Island</placeName>. One friend who was with her raised his own camera to
+				record the photographer—so we can see <persName key="Alice Austen" ref="http://www.wikidata.org/entity/Q538225" cert="low">Elizabeth Alice Austen</persName> up there still,
+
 				athletically balanced on her precarious perch, concentrating single-mindedly on the
 				picture she is taking, oblivious to her observer and to the other spectators around
 				her and not giving a tinker's damn that her ankles are exposed below her long skirt
 				in a most unladylike manner. The lover who was to share Alice’s life and her
-				enthusiasms for over fifty years, Gertrude Amelia Tate, is smiling quizzically at
+
+				enthusiasms for over fifty years, <persName key="Gertrude Tate" ref="http://www.wikidata.org/entity/Q114101224" cert="high">Gertrude Amelia Tate</persName>, is smiling quizzically at
+
 				the second photographer: she and he may be sharing amusement at how very
 				characteristic this unconventional pose is for Alice.</p>
-			<p>From the time when she was very young, much about Alice Austen’s lifestyle and
+			<p>From the time when she was very young, much about <persName>Alice Austen’s</persName> lifestyle and
 				personality was unusual, according to the social conventions of her time and place.
 				Just before or very soon after her birth in March, 1866, her father, an Englishman
-				named Edward Munn, deserted her mother and vanished home to London, never to be
+
+				named <persName key="Munn, E. A. (Edward A.)" ref="http://viaf.org/viaf/46191070/">Edward Munn</persName>, deserted her mother and vanished home to London, never to be
+
 				heard from again. The abandoned Mrs. Munn, with her small baby and no means of
 				support, returned to her parents' Victorian cottage on the east shore of Staten
 				Island. She stopped using her married surname, and her bitterness toward her former
 				husband communicated itself to her daughter. Small playmates in the neighborhood
-				soon discovered that one sure way to enrage the little girl known as Alice Austen
+				soon discovered that one sure way to enrage the little girl known as <persName key="Alice Austen" ref="http://www.wikidata.org/entity/Q538225">Alice Austen</persName>
 				was to call her "Alice Munn.</p>
 			<p>Alice’s strong personality was formed in the 1860’s and 1870’s in her grandparents’
 				home, where she was the only child in a household also shared by her mother, her
@@ -168,13 +3346,15 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				water as many as twenty-five times. By the time she was eighteen years old (the
 				earliest year from which any of her photographs survive), Alice Austen was an
 				experienced photographer with professional standards. It is worth emphasizing how
-				early this was in photo- graphic history. Alfred Stieglitz (1864-1946) had only just
+				early this was in photo- graphic history. <persName key="Alfred Stieglitz" ref="http://www.wikidata.org/entity/Q313055">Alfred Stieglitz</persName> (1864-1946) had only just
 				exposed his first negative by the time Alice’s skill was perfected. Alice began to
-				take photographs some twenty years before Edward Steichen (1879-1973) bought his
-				first camera in Milwaukee and twenty years before Eugene Atget (1857-1927) began to
+
+				take photographs some twenty years before <persName key="Steichen, Edward, 1879-1973." ref="http://viaf.org/viaf/73926135/">Edward Steichen</persName> (1879-1973) bought his
+				first camera in Milwaukee and twenty years before <persName key="Atget, Eugène, 1857-1927." ref="http://viaf.org/viaf/6700/">Eugene Atget</persName> (1857-1927) began to
 				record the streets and people of Paris.</p>
-			<p>The photographer whose work most closely resembles Alice Austen’s, Frances Benjamin
-				Johnston, began working as a photojournalist in Washington, D.C., in the 1890’s,
+			<p>The photographer whose work most closely resembles Alice Austen’s, Frances <persName key="Johnson, Benjamin, 1711-1768" ref="http://viaf.org/viaf/249147905058979090976/">Benjamin
+				Johnston</persName>, began working as a photojournalist in Washington, D.C., in the 1890’s,
+
 				when she and Alice were both in their thir- ties. These two women probably never
 				met, and may not even have heard of each other, but the similarities between them
 				are striking. Johnston never married, and it is quite likely that she too was a
@@ -182,17 +3362,21 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				manners, as one biographer has written. Like Austen, she was well-connected socially
 				and much-traveled, unconventional in many ways according to the norms of her
 				society, a strong and independent woman whose career also lasted into the 1930’s.
-				Johnston became known for her portraits of the famous (Susan B. Anthony, Alice
-				Roosevelt, actresses, and the wives of the Presidential Cabinet) and of the obscure
+
+				Johnston became known for her portraits of the famous (<persName key="Susan B. Anthony" ref="http://www.wikidata.org/entity/Q192245">Susan B. Anthony</persName>, <persName key="Alice Roosevelt" ref="http://www.wikidata.org/entity/Q4726073">Alice
+
+				Roosevelt</persName>, actresses, and the wives of the Presidential Cabinet) and of the obscure
 				(women workers, Blacks, Indians), and above all for the realism of her documentary
 				photographs (world expositions, Yellowstone Park, coal mines and battleships).</p>
 			<p>Austen, like Johnston, was a realistic documentary <pb n="29"/>
 				<pb n="30"/>
 				<pb n="31"/> photographer—something unusual around the turn of the century, when the
 				women photographers who were her contemporaries made pictures to illustrate
-				Tennyson’s poems (Julia Margaret Cameron of England), portrayed pretty landscapes,
+
+				Tennyson’s poems (<persName key="Julia Margaret Cameron" ref="http://www.wikidata.org/entity/Q230120">Julia Margaret Cameron</persName> of England), portrayed pretty landscapes,
 				dressed children as cherubs, posed themselves as nude dryads communing with nature
-				(Annie Brigman of California), or, like Gertrude Käsebier of New York, tried to
+				(<persName key="Brigman, Anne, 1869-1950" ref="http://viaf.org/viaf/32142225/">Annie Brigman</persName> of California), or, like <persName key="Käsebier, Gertrude, 1852-1934" ref="http://viaf.org/viaf/54950744/">Gertrude Käsebier</persName> of New York, tried to
+
 				capture the Eternal Feminine Essence in sentimentalized studio portraits of mothers
 				with their children. These other photographers typically used a soft, blurred focus
 				and emphasized light and shadow in imitation of Impressionist painters, trying to
@@ -211,17 +3395,19 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				climbing a tree. Certainly she never subjected children to the awful ordeal of
 				posing in disguise as little angels. She appreciated them as they were—inquisitive
 				and busy, mischievous and often hard-working (as when selling newspapers on the
-				streets of Manhattan).</p>
+				streets of <placeName key="Manhattan" ref="http://www.wikidata.org/entity/Q11299">Manhattan</placeName>).</p>
 			<p>The women she recorded are as real and vigorous as Alice herself. Other photographers
 				in the 1880’s and 1890’s chose to portray nymph-like young women float- ing in
 				unruffled ponds or dancing effortlessly on tiptoe through flower-filled fields.
 				Austen recorded her own friends in heavy bathing suits that were calculated to
 				impede the movements of all but the strongest swimmers, and she showed them doing
 				gymnastic exercises to develop the strength their daily activities required.</p>
-			<p>The fact that Alice was a woman, often photograph- ing women, adds a special
+			<p>The fact that Alice was a woman, often photographing women, adds a special
 				dimension to her work. No masculine camera could or would have invaded the private
-				sanctum of the young Victorian lady, preserving for us the bedrooms of Trude
-				Eccleston, Julia Marsh, Bessie Strong and of Alice herself, showing us all their
+
+				sanctum of the young Victorian lady, preserving for us the bedrooms of <persName key="Esser, Trude" ref="http://vocab.getty.edu/ulan/500597021">Trude
+				Eccleston</persName>, <persName key="Marsh, Julia" ref="http://viaf.org/viaf/9805728/">Julia Marsh</persName>, <persName key="Strong, Bessie A." ref="http://viaf.org/viaf/101425885/">Bessie Strong</persName> and of Alice herself, showing us all their
+
 				souvenirs and home-made decorations. Only a woman's camera would record the
 				unself-conscious affection of young women for one another, and their mockery of the
 				conventional strictures of their society. Mrs. Snively and Miss Sanford would never
@@ -234,11 +3420,13 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				fifty years) and as excellent as hers. Austen did not have to worry about money when
 				she was young, but she had to surmount the less tangible deterrent of Victorian
 				social custom. The barriers to be overcome by the serious woman photographer (much
-				more formidable a century ago than today) are described in The Woman’s Eye by Anne
-				Tucker: “Not only must she find the time and energy to create, and establish her
+
+				more formidable a century ago than today) are described in <title>The Woman’s Eye</title> by <persName key="Tucker, Anne" ref="http://viaf.org/viaf/5321159477830327990003/">Anne
+				Tucker</persName>: “Not only must she find the time and energy to create, and establish her
+
 				right to do so, but she must know what she wants to express and how best to express
 				it. To achieve this, any artist has to explore and take risks, but so often a woman
-				is handicapped by her public image as a woman.... Exploraation, whether of jungles
+				is handicapped by her public image as a woman.... Exploration, whether of jungles
 				or minds, is considered unfeminine and dangerous.... Beyond the realm of fashion,
 				women are not encouraged to be original, but to look for approval." Austen received
 				all the approval she needed from her family, from Gertrude Tate, and from her close
@@ -266,26 +3454,27 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				these immigrants, from the 1890’s until about 1910, in an exhaustive series of
 				photographs of the federal quarantine facilities on Staten Island and on the nearby
 				Hoff- mann and Swinburn hospital islands. The earliest of these photos, undertaken
+
 				as a semi-professional assignment for the U.S. Public Health Service, was exhibited
-				in Buffalo at the Pan-American Exposition of 1901. Alice traveled to that exposition
+				in Buffalo at the <orgName key="Pan-American Exposition 1901 Buffalo, NY" ref="http://viaf.org/viaf/168471426/">Pan-American Exposition</orgName> of 1901. Alice traveled to that exposition
 				with her camera, as she had done to the World’s Columbian Exposition in Chicago in
 				the summer of 1893. She once took her photographic equipment along on a nine-day
-				cruise with four friends through the canals of New Jersey and Delaware. On more
+				cruise with four friends through the canals of <placeName key="New Jersey" ref="http://www.wikidata.org/entity/Q1408">New Jersey</placeName> and <placeName key="Delaware" ref="http://www.wikidata.org/entity/Q1393">Delaware</placeName>. On more
 				conventional summer travels to the mountain resorts of upstate New York or through
 				New England, she photographed scenic views and historic monuments, and—even when
 				hampered by a long-skirted traveling dress—gave not a moment’s thought to the
 				obvious risk of crawling along a half-rotten log into the middle of a rapid stream
 				in pursuit of the perfect angle.</p>
-			<p>On one such summer excursion in 1899, visiting a Catskill hotel known as “Twilight
-				Rest, Alice met Gertrude Tate, who was recuperating there from a bad case of typhoid
+			<p>On one such summer excursion in 1899, visiting a Catskill hotel known as “<placeName>Twilight Rest</placeName>, Alice met Gertrude Tate, who was recuperating there from a bad case of typhoid
+
 				fever. Gertrude was twenty-eight, a kindergarten teacher and professional dancing
-				instructor, who worked to support her younger sister and widowed mother in Brooklyn.
+				instructor, who worked to support her younger sister and widowed mother in <placeName key="Brooklyn" ref="http://www.wikidata.org/entity/Q18419">Brooklyn</placeName>.
 				Judging from the small personal photo album that commemorates that summer,
 				Gertrude’s spontaneous gaiety and warm humor enchanted Alice, who was then
 				thirty-three. Alice’s casual sophistication, her forceful and winning personality,
 				and her comfortable lifestyle, opened Gertrude’s eyes to a wider world than she had
-				known before. Gertrude began regu- larly to visit the Austen house on Staten Island,
-				then to spend long summer holidays in Europe with Alice. But not until 1917, when
+				known before. Gertrude began regularly to visit the Austen house on Staten Island,
+				then to spend long summer holidays in <placeName key="Europe" ref="http://www.wikidata.org/entity/Q46">Europe</placeName> with Alice. But not until 1917, when
 				her younger sister and mother gave up their Brooklyn house, did Gertrude, overriding
 				her family’s appalled objections over her “wrong devotion to Alice, finally move
 				into the Austen house. She arrived just in time to keep Alice company there during
@@ -294,7 +3483,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				mid-forties. They weathered the First World War with brisk fortitude—Alice driving
 				an ambulance for the local military hospital, both of them entertaining officers
 				from nearby Fort Wadsworth and organizing small parties in their waterfront garden
-				to wave Red Cross flags at the returning troop ships after Armistice.</p>
+				to wave <orgName key="American Red Cross" ref="http://www.wikidata.org/entity/Q470110">Red Cross</orgName> flags at the returning troop ships after Armistice.</p>
 			<p>Disaster struck in 1929, when Alice lost all her capital in the stock market crash.
 				She was sixty-three. She stopped taking photographs in the 1930’s, for film was too
 				expensive a luxury in years when she was hard pressed to pay bills for electricity,
@@ -302,23 +3491,24 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				meet mortgage payments to the bank—in spite of income raised by Gertrude’s dancing
 				classes, the piecemeal sale of the Austen family antiques, the taking in of
 				boarders, and the small restaurant she and Gertrude ran in the house in the 1940’s.
-				The house was sold to new owners, who were not patient with two old and occa-
-				sionally autocratic ladies.</p>
+				The house was sold to new owners, who were not patient with two old and occasionally autocratic ladies.</p>
 			<p>In the early summer of 1945, aged seventy-nine and severely crippled by arthritis,
 				Alice Austen was forcibly evicted from the home which her grandparents had bought
 				more than a century before and in which she had lived for all but the first few
 				months of her life. Her house was not the only loss, for her personal papers disappeared and some two thousand of her precious glass negatives were hauled away to
-				Newark, New Jersey, by the junk dealer who bought the remaining contents of her
+				<placeName key="Newark" ref="http://www.wikidata.org/entity/Q25395">Newark, New Jersey</placeName>, by the junk dealer who bought the remaining contents of her
 				house for a mere 5600. The surviving 3500 photographs were rescued by a
-				quick-witted volunteer from the Staten Island Historical Society, who spotted them
+
+				quick-witted volunteer from the <orgName key="Staten Island Historical Society" ref="http://viaf.org/viaf/141952451/">Staten Island Historical Society</orgName>, who spotted them
+
 				on the upper floor of the house before the dealer got there.</p>
-			<p>Alice and Gertrude moved into a small apartment in the nearby town of St. George,
+			<p>Alice and Gertrude moved into a small apartment in the nearby town of <placeName key="St. George" ref="http://www.wikidata.org/entity/Q7588180">St. George</placeName>,
 				where Gertrude adjusted cheerfully to her new surroundings, but Alice sat in the
 				wheelchair to which she was increasingly confined, staring with unseeing eyes at the
 				view of New York har- bor and mourning for her old home. She was ill as well as
 				miserably unhappy. Gertrude, after giving Alice love and companionship for the more
 				than thirty years they had lived together, was finally no longer able to give her
-				the nursing care she needed. She went to live with her married sister in Queens, and
+				the nursing care she needed. She went to live with her married sister in <placeName key="Queens" ref="http://www.wikidata.org/entity/Q18424">Queens</placeName>, and
 				Alice, her money entirely gone after a year in a succession of private nursing
 				homes, was in June, 1950, admitted as a legal pauper into the hospital ward of the
 				local poorhouse, the Staten Island Farm Colony. She was eighty-four.</p>
@@ -326,30 +3516,34 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				a search for unpublished 19th-century photographs of American women. He discovered
 				the Austen collection of 3500 photographs in the basement of the Staten Island
 				Historical Society, and then discovered, to his horror, Miss Austen herself in a
-				ward of forty beds in the poorhouse. Oliver Jensen, known today as one of the
-				founders of the American Heritage Publishing Company, not only published her
-				photos in his own book (The Revolt of American Women), but sold publication rights
-				to Life, Holiday and other national magazines, raising enough money to release the
+				ward of forty beds in the poorhouse. <persName key="Oliver E. Jensen" ref="http://www.wikidata.org/entity/Q42119397">Oliver Jensen</persName>, known today as one of the
+				founders of the <orgName>American Heritage Publishing Company</orgName>, not only published her
+				photos in his own book (<title key="The Revolt of American Women" ref="https://www.abebooks.com/book-search/title/revolt-american-women/author/jensen-oliver/">The Revolt of American Women</title>), but sold publication rights
+				to <orgName key="Life" ref="http://www.wikidata.org/entity/Q463198">Life</orgName>, <orgName key="Holiday" ref="http://www.wikidata.org/entity/Q5880356">Holiday</orgName> and other national magazines, raising enough money to release the
 				photographer from the poorhouse and to establish her in a comfortable private
-				nursing home for the last few months of her life. She was interviewed on CBS
+
+				nursing home for the last few months of her life. She was interviewed on <orgName key="CBS" ref="http://www.wikidata.org/entity/Q43380">CBS</orgName>
 				television, entertained at a party for 300 guests (including many of the old friends
 				who appeared in her early photos), and honored with an exhibition of her work in the
-				Richmondtown Museum. "Isn’t the whole idea like a fairy tale?" exulted Gertrude
+				<placeName>Richmondtown Museum</placeName>. "Isn’t the whole idea like a fairy tale?" exulted Gertrude
+
 				Tate, who visited Alice regularly and who helped to prepare the guest lists.</p>
 			<p>Two months after the party, Alice suffered a slight stroke and developed pneumonia in
 				one lung. She died quietly in her wheelchair, in the morning sun on the porch of the
 				nursing home, in June 1952, aged eighty-six. "My heart is so full of sorrow at my
-				deep sense of loss, Gertrude wrote to Oliver Jensen. “She was a rare soul, and her
+				deep sense of loss, Gertrude wrote to <persName key="Jensen, Oliver" ref="http://viaf.org/viaf/6360166535904512880008/">Oliver Jensen</persName>. “She was a rare soul, and her
 				going leaves me bereft indeed.... God was good to spare me these long years when she
 				needed me so much, so 1 can only thank him for answering my prayer, that I might be
 				with her to the end."</p>
 			<pb n="36"/>
 		</body>
 		<back>
-			<p> Ann Novotny is co-founder of a picture research company in New York. Her recent
-				book, Alice’s World: The Life and Photography of An American Original, Alice Austen
+
+			<p> <persName key="Novotny, Ann" ref="http://viaf.org/viaf/8379162669547955500003/">Ann Novotny</persName> is co-founder of a picture research company in New York. Her recent
+				book, <title>Alice’s World: The Life and Photography of An American Original,</title> Alice Austen
 				(1866-1952) is available from Research Reports, 315 W. 78th St. N.Y. 10024. The
 				Friends of Alice Austen House are raising funds to restore the photographer’s old
+
 				home and turn it into a small museum of her work. </p>
 		</back>
 
