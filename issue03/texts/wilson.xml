@@ -131,16 +131,19 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
+
 	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/wilson.xml?person_annotation_20230223182006047",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-02-23T23:20:06.047Z",
 	"dcterms:modified": "2023-02-23T23:20:06.047Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/zohanadeer",
+
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
+
 		"cwrc:hasName": "zoha nadeer"
 	},
 	"oa:motivatedBy": "oa:identifying",
@@ -149,6 +152,7 @@
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/wilson.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -159,13 +163,16 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
+
 			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/wilson.xml?person_annotation_20230223182006047#Selector",
+
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/byline/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
+
 		"@id": "http://www.wikidata.org/entity/Q4768892",
 		"dc:format": "text/plain"
 	},
@@ -247,6 +254,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
 		"@id": "http://www.wikidata.org/entity/Q668",
+
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -264,7 +272,9 @@
          <pb n="78"/>
 
          <head><title>Architectural Icon Ine Shrine 1 ne Votive The Gesture</title></head>
+
          <byline><persName key="Anne Wilson" ref="http://www.wikidata.org/entity/Q4768892" cert="low">Ann Wilson</persName></byline>
+
 
          <epigraph>
             <p> “The Icon, then, is not only an aesthetical entity. It is the result of the faith
@@ -305,7 +315,7 @@
             different neural message for each color? Are we always composing processional spaces to
             approach our intuition? When you walk between columns toward the center do you begin to
             feel the effect of your progress toward the conclusion? Is geometry perhaps the
-            repository of ancient sacrificial gesture? The Chinese, who have had a long time to
+            repository of ancient sacrificial gesture? The <persName>Chinese</persName>, who have had a long time to
             think, have over a hundred names for differing shades of blue. Where do colors come
             from? Who am 1? Where do I come from? Where am I going? Liturgies are a logical order
             for progressions toward their fullest possible human form—mundra. This is an invocation.
