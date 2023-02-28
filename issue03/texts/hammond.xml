@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" 
-href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"? 
-        href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -107,12 +100,644 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	</teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221171406582",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T22:14:06.582Z",
+	"dcterms:modified": "2023-02-21T22:14:06.582Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221171406582#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221171406582#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/96477687/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172032607",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T22:20:32.607Z",
+	"dcterms:modified": "2023-02-21T22:20:32.607Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172032607#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172032607#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[5]/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/315683158/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172054690",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T22:20:54.690Z",
+	"dcterms:modified": "2023-02-21T22:20:54.690Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172054690#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172054690#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/96477687/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?organization_annotation_20230221172109027",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T22:21:09.027Z",
+	"dcterms:modified": "2023-02-21T22:21:09.027Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?organization_annotation_20230221172109027#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?organization_annotation_20230221172109027#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q17022558",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172300494",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T22:23:00.494Z",
+	"dcterms:modified": "2023-02-21T22:23:00.494Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172300494#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172300494#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/110397434/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172322035",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T22:23:22.035Z",
+	"dcterms:modified": "2023-02-21T22:23:22.035Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172322035#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172322035#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/73850765/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172410321",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T22:24:10.321Z",
+	"dcterms:modified": "2023-02-21T22:24:10.321Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172410321#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172410321#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/59091154/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172423074",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-02-21T22:24:23.074Z",
+	"dcterms:modified": "2023-02-21T22:24:23.074Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BrianaPerea",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Briana Perea"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172423074#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/hammond.xml?person_annotation_20230221172423074#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/p[2]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/27087243/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb n="34"/>
 			<head>CLASS NOTES</head>
-			<byline>HARMONY HAMMOND</byline>
+			<byline><persName key="Hammond, Harmony" ref="http://viaf.org/viaf/96477687/">HARMONY HAMMOND</persName></byline>
 			<div>
 				<p> Class hierarchies and heterosexuality are patriarchal institutions which divide
 					women, give some women power over others, and destroy our strength. As a lesbian
@@ -164,8 +789,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 				<p>If art provides a way for us to perceive ourselves and the world around us, it
 					seems necessary that we examine what is validated as art. An excellent example
 					of an attempt to write social history through art was the exhibition “American
-					Art,” a collection belonging to John D. Rockefeller III, which was shown last
-					fall at the Whitney Museum as our Bicentennial survey exhibition of American
+					Art,” a collection belonging to <persName key="Rockefeller, John D., 1906-1978" ref="http://viaf.org/viaf/110397434/">John D. Rockefeller III</persName>, which was shown last
+					fall at the <placeName>Whitney Museum</placeName> as our Bicentennial survey exhibition of American
 					art. This collection contains one work by a woman artist, one work by a Black
 					artist, and no work by Hispanic or Native American artists. The absence of work
 					by women and Third World artists in this and most other collections and
@@ -184,7 +809,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 					ignored.</p>
 				<p>All classes accept this myth, for to question it would be to reveal the
 					oppressive political structures and social institutions underlying patriarchal
-					capitalist society. Rita Mae Brown writes that “America is a country reluctant
+					capitalist society. <persName key="Brown, Rita Mae" ref="http://viaf.org/viaf/73850765/">Rita Mae Brown</persName> writes that “America is a country reluctant
 					to recognize class differences. The American myth crystallized is: This is the
 					land of equal opportunity; work hard, stay in line, you’ll get ahead. (Getting
 					ahead always means money.)"<note>4. Brown, Rita Mae, “The Last Straw," Class and
@@ -263,17 +888,16 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 					lesbian, by not relating to men does not benefit economically and has no
 					privilege unless she is independently wealthy. Most of us do not have that kind
 					of support and opportunity, and without support, it is very difficult to
-					continue making art. Historically, known lesbian visual artists (Rosa Bonheur,
-					Romaine Brooks, etc.) were wealthy. Only they had the privilege to continue
+					continue making art. Historically, known lesbian visual artists (<persName key="Bonheur, Rosa, 1822-1899" ref="http://viaf.org/viaf/59091154/">Rosa Bonheur</persName>,
+					<persName key="Brooks, Romaine, 1874-1970" ref="http://viaf.org/viaf/27087243/">Romaine Brooks</persName>, etc.) were wealthy. Only they had the privilege to continue
 					making art despite their public lesbian lifestyle.</p>
 				<p>If we examine the relationship of lesbians to the class system, and to
 					patriarchy, we can get an idea of the active role art can play in developing a
 					culture that does not make women powerless and invisible. In “Lesbians and The
-					Class Position of Women," Margaret Small writes:</p>
+					Class Position of Women," <persName>Margaret Small</persName> writes:</p>
 				<quote>...At this point in history, the primary role that lesbians have to play in
 					the development of revolutionary consciousness is ideological. Because lesbians
-					are objectively outside of heterosexual reality, they have potential for <pb
-						n="36"/> developing an alternative ideology not limited by heterosexuality.
+					are objectively outside of heterosexual reality, they have potential for <pb n="36"/> developing an alternative ideology not limited by heterosexuality.
 					Lesbians stand in a different relationship to (the) three conditions that
 					determine the class position of women (production, reproduction, sexuality). The
 					lesbian does not have a domestic base that is defined by the production of new
@@ -330,7 +954,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 					and controlling social order through the manipulation of fine art. Demanding
 					group and self identity in art is one means of resisting oppression. The
 					art-making process is a tool for making these demands and changes.</p>
-				<p>Art is essentially work. Simone Weil writes that art is a surplus commodity in
+				<p>Art is essentially work. <persName key="Weil, Simone" ref="http://viaf.org/viaf/315683158/">Simone Weil</persName> writes that art is a surplus commodity in
 					this culture because it does not have immediate consumption and is not shared
 					and used by the people. That artists are not part of the paid work force further
 					separates the productive from the consumptive classes. The work process (and the
@@ -351,7 +975,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
 			</div>
 		</body>
 		<back>
-			<p> Harmony Hammond is a painter and sometimes writer who is a member of the Heresies
+			<p> <persName key="Hammond, Harmony" ref="http://viaf.org/viaf/96477687/">Harmony Hammond</persName> is a painter and sometimes writer who is a member of the <orgName key="Heresies: A Feminist Publication on Art and Politics" ref="http://www.wikidata.org/entity/Q17022558">Heresies</orgName>
 				collective. She teaches at any university and feminist art program that will have
 				her, and gives workshops and lectures on lesbian artists and feminist artists. </p>
 		</back>
