@@ -130,24 +130,28 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/grahn.xml?person_annotation_20230221200640069",
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/grahn.xml?person_annotation_20230221170308993",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T01:06:40.069Z",
-	"dcterms:modified": "2023-02-22T01:06:40.069Z",
+	"dcterms:created": "2023-02-21T22:03:08.993Z",
+	"dcterms:modified": "2023-02-21T22:03:08.993Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/Mayawadhwa",
+		"@id": "https://github.com/BrianaPerea",
+
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+
+		"cwrc:hasName": "Briana Perea"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/grahn.xml?person_annotation_20230221200640069#Target",
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/grahn.xml?person_annotation_20230221170308993#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/grahn.xml",
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/grahn.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -158,14 +162,18 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/grahn.xml?person_annotation_20230221200640069#Selector",
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/grahn.xml?person_annotation_20230221170308993#Selector",
+
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/byline/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
+
 		"@id": "http://www.wikidata.org/entity/Q1711155",
+
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -209,24 +217,28 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/grahn.xml?title_annotation_20230221200841378",
+
+	"id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/grahn.xml?organization_annotation_20230221170417879",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T01:08:41.378Z",
-	"dcterms:modified": "2023-02-22T01:08:41.378Z",
+	"dcterms:created": "2023-02-21T22:04:17.879Z",
+	"dcterms:modified": "2023-02-21T22:04:17.879Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/Mayawadhwa",
+		"@id": "https://github.com/BrianaPerea",
+
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+
+		"cwrc:hasName": "Briana Perea"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/grahn.xml?title_annotation_20230221200841378#Target",
+		"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/grahn.xml?organization_annotation_20230221170417879#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/grahn.xml",
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/grahn.xml",
+
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -237,14 +249,16 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/grahn.xml?title_annotation_20230221200841378#Selector",
+
+			"@id": "https://raw.githubusercontent.com/BrianaPerea/heresies/main/issue03/texts/grahn.xml?organization_annotation_20230221170417879#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/title"
+			"rdf:value": "TEI/text/back/p/orgName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "https://www.poetryfoundation.org/poems/52844/the-common-women-poems-ii-ella-in-a-square-apron-along-highway-80",
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/298361182/",
+
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -262,8 +276,10 @@
          <pb n="9"/>
          
             
+
                <head><title><title>The enemies of She Who call her various names</title></title></head>
          <byline><persName key="Judy Grahn" ref="http://www.wikidata.org/entity/Q1711155">Judy Grahn</persName></byline>
+
             
          
 
@@ -310,9 +326,11 @@
       </body>
             <back>
                <p>Judy Grahn is a thirty-seven year old poet. Her books include
-               <title key="The Common Woman" ref="https://www.poetryfoundation.org/poems/52844/the-common-women-poems-ii-ella-in-a-square-apron-along-highway-80">The Common Woman</title> and <title>Edward the Dyke</title>. The above
-               poem is from She Who, A Graphic Book of Poems which was
-               recently published by Diana Press. She is working on a matriarchal novel.</p>
+
+               <title>The Common Woman and Edward the Dyke</title>. The above
+               poem is from <title>She Who</title>, A Graphic Book of Poems which was
+               recently published by <orgName key="Diana Press" ref="http://viaf.org/viaf/298361182/">Diana Press</orgName>. She is working on a matriarchal novel.</p>
+
             </back>
 
    </text>
