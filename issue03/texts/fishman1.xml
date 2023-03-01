@@ -132,28 +132,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221193725882",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449302",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:37:25.882Z",
-	"dcterms:modified": "2023-02-22T00:37:25.882Z",
+	"dcterms:created": "2023-03-01T02:54:49.302Z",
+	"dcterms:modified": "2023-03-01T02:54:49.302Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221193725882#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449302#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -164,8 +160,7 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221193725882#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449302#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/byline/persName"
 		}
@@ -216,103 +211,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?note_annotation_20230221193856424",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449303",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:38:56.424Z",
-	"dcterms:modified": "2023-02-22T00:38:56.424Z",
+	"dcterms:created": "2023-03-01T02:54:49.303Z",
+	"dcterms:modified": "2023-03-01T02:54:49.303Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?note_annotation_20230221193856424#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?note_annotation_20230221193856424#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/byline/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "oa:TextualBody",
-		"dc:format": "text/plain",
-		"rdf:value": "no information available "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221193912054",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:39:12.054Z",
-	"dcterms:modified": "2023-02-22T00:39:12.054Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221193912054#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449303#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -323,7 +239,7 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221193912054#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449303#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/quote/persName/persName"
 		}
@@ -374,24 +290,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194047648",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449304",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:40:47.648Z",
-	"dcterms:modified": "2023-02-22T00:40:47.648Z",
+	"dcterms:created": "2023-03-01T02:54:49.304Z",
+	"dcterms:modified": "2023-03-01T02:54:49.304Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194047648#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449304#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -402,8 +318,7 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194047648#Selector",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449304#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/byline/persName"
 		}
@@ -454,28 +369,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221194159158",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449304",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:41:59.158Z",
-	"dcterms:modified": "2023-02-22T00:41:59.158Z",
+	"dcterms:created": "2023-03-01T02:54:49.304Z",
+	"dcterms:modified": "2023-03-01T02:54:49.304Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221194159158#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449304#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -486,88 +397,7 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221194159158#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[7]/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q15580856",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194310143",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:43:10.143Z",
-	"dcterms:modified": "2023-02-22T00:43:10.143Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194310143#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194310143#Selector",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449304#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[4]/p/persName"
 		}
@@ -618,28 +448,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221194322742",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449304",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:43:22.742Z",
-	"dcterms:modified": "2023-02-22T00:43:22.742Z",
+	"dcterms:created": "2023-03-01T02:54:49.304Z",
+	"dcterms:modified": "2023-03-01T02:54:49.304Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221194322742#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449304#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -650,105 +476,14 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221194322742#Selector",
-
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/p/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-
-		"@id": "http://www.wikidata.org/entity/Q808462",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194344382",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:43:44.382Z",
-	"dcterms:modified": "2023-02-22T00:43:44.382Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194344382#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194344382#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449304#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[4]/p[5]/persName"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q275610",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -792,28 +527,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230221194400139",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449305",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:44:00.139Z",
-	"dcterms:modified": "2023-02-22T00:44:00.139Z",
+	"dcterms:created": "2023-03-01T02:54:49.305Z",
+	"dcterms:modified": "2023-03-01T02:54:49.305Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230221194400139#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449305#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -824,103 +555,14 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230221194400139#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/p[5]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q18432",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194420408",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:44:20.408Z",
-	"dcterms:modified": "2023-02-22T00:44:20.408Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194420408#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194420408#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449305#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[5]/p/persName"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q7531",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -964,28 +606,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194437201",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449305",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:44:37.201Z",
-	"dcterms:modified": "2023-02-22T00:44:37.201Z",
+	"dcterms:created": "2023-03-01T02:54:49.305Z",
+	"dcterms:modified": "2023-03-01T02:54:49.305Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194437201#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449305#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -996,18 +634,14 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194437201#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449305#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[5]/p/persName[2]"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q487604",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1051,28 +685,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194630980",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449305",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:46:30.980Z",
-	"dcterms:modified": "2023-02-22T00:46:30.980Z",
+	"dcterms:created": "2023-03-01T02:54:49.305Z",
+	"dcterms:modified": "2023-03-01T02:54:49.305Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194630980#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449305#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1083,9 +713,244 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194630980#Selector",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449305#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[5]/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/5043149068581165730007/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449306",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-01T02:54:49.306Z",
+	"dcterms:modified": "2023-03-01T02:54:49.306Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449306#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449306#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[5]/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/3725159248044004870000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449306",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-01T02:54:49.306Z",
+	"dcterms:modified": "2023-03-01T02:54:49.306Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449306#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449306#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[6]/p[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q744443",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449306",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-01T02:54:49.306Z",
+	"dcterms:modified": "2023-03-01T02:54:49.306Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449306#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449306#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[2]/persName"
 		}
@@ -1136,28 +1001,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194731000",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449307",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:47:31.000Z",
-	"dcterms:modified": "2023-02-22T00:47:31.000Z",
+	"dcterms:created": "2023-03-01T02:54:49.307Z",
+	"dcterms:modified": "2023-03-01T02:54:49.307Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194731000#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449307#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1168,8 +1029,7 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194731000#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449307#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[2]/persName[2]"
 		}
@@ -1220,24 +1080,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230221194801316",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449307",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:48:01.316Z",
-	"dcterms:modified": "2023-02-22T00:48:01.316Z",
+	"dcterms:created": "2023-03-01T02:54:49.307Z",
+	"dcterms:modified": "2023-03-01T02:54:49.307Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230221194801316#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449307#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1248,171 +1108,7 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230221194801316#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[10]/p[5]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q188740",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221194818204",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:48:18.204Z",
-	"dcterms:modified": "2023-02-22T00:48:18.204Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221194818204#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230221194818204#Selector",
-
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[10]/p[5]/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q9684",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194833528",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:48:33.528Z",
-	"dcterms:modified": "2023-02-22T00:48:33.528Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194833528#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194833528#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449307#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[12]/persName"
 		}
@@ -1420,7 +1116,6 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://www.wikidata.org/entity/Q37571",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1464,28 +1159,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194847474",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449307",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:48:47.474Z",
-	"dcterms:modified": "2023-02-22T00:48:47.474Z",
+	"dcterms:created": "2023-03-01T02:54:49.307Z",
+	"dcterms:modified": "2023-03-01T02:54:49.307Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194847474#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449307#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1496,8 +1187,7 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194847474#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449307#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[12]/persName[2]"
 		}
@@ -1505,7 +1195,6 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://www.wikidata.org/entity/Q5664",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1549,28 +1238,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194859171",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:48:59.171Z",
-	"dcterms:modified": "2023-02-22T00:48:59.171Z",
+	"dcterms:created": "2023-03-01T02:54:49.308Z",
+	"dcterms:modified": "2023-03-01T02:54:49.308Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194859171#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1580,18 +1265,15 @@
 			"rdfs:label": "LEAF-Writer",
 			"schema:softwareVersion": "2.3.1"
 		},
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194859171#Selector",
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[12]/persName[3]"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q7814",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1635,28 +1317,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194917967",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:49:17.967Z",
-	"dcterms:modified": "2023-02-22T00:49:17.967Z",
+	"dcterms:created": "2023-03-01T02:54:49.308Z",
+	"dcterms:modified": "2023-03-01T02:54:49.308Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194917967#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1667,18 +1345,14 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194917967#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[12]/persName[4]"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q46373",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1722,28 +1396,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194958593",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:49:58.593Z",
-	"dcterms:modified": "2023-02-22T00:49:58.593Z",
+	"dcterms:created": "2023-03-01T02:54:49.308Z",
+	"dcterms:modified": "2023-03-01T02:54:49.308Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194958593#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1754,18 +1424,14 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221194958593#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[15]/persName"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q43078535",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1809,28 +1475,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195008886",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:50:08.886Z",
-	"dcterms:modified": "2023-02-22T00:50:08.886Z",
+	"dcterms:created": "2023-03-01T02:54:49.308Z",
+	"dcterms:modified": "2023-03-01T02:54:49.308Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195008886#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1841,18 +1503,14 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195008886#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449308#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[15]/persName[2]"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q6688739",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1896,28 +1554,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195031483",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:50:31.483Z",
-	"dcterms:modified": "2023-02-22T00:50:31.483Z",
+	"dcterms:created": "2023-03-01T02:54:49.309Z",
+	"dcterms:modified": "2023-03-01T02:54:49.309Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195031483#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1928,18 +1582,14 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195031483#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[15]/persName[3]"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q5659529",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1983,25 +1633,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195224923",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:52:24.923Z",
-	"dcterms:modified": "2023-02-22T00:52:24.923Z",
+	"dcterms:created": "2023-03-01T02:54:49.309Z",
+	"dcterms:modified": "2023-03-01T02:54:49.309Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195224923#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2012,7 +1661,7 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195224923#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[15]/persName[4]"
 		}
@@ -2064,27 +1713,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195253843",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:52:53.843Z",
-	"dcterms:modified": "2023-02-22T00:52:53.843Z",
+	"dcterms:created": "2023-03-01T02:54:49.309Z",
+	"dcterms:modified": "2023-03-01T02:54:49.309Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195253843#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2095,18 +1741,14 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195253843#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[15]/persName[5]"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q481952",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2150,28 +1792,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195319956",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-22T00:53:19.956Z",
-	"dcterms:modified": "2023-02-22T00:53:19.956Z",
+	"dcterms:created": "2023-03-01T02:54:49.309Z",
+	"dcterms:modified": "2023-03-01T02:54:49.309Z",
 	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "zoha nadeer"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195319956#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2182,16 +1820,488 @@
 			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230221195319956#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?person_annotation_20230228215449309#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[10]/p[15]/persName[6]"
-
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://viaf.org/viaf/36463058/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230228215449310",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-01T02:54:49.310Z",
+	"dcterms:modified": "2023-03-01T02:54:49.310Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230228215449310#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230228215449310#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q18432",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230228215449310",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-01T02:54:49.310Z",
+	"dcterms:modified": "2023-03-01T02:54:49.310Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230228215449310#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230228215449310#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[10]/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q188740",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230228215449310",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-01T02:54:49.310Z",
+	"dcterms:modified": "2023-03-01T02:54:49.310Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230228215449310#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?place_annotation_20230228215449310#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[10]/p[15]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q60",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230228215449310",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-01T02:54:49.310Z",
+	"dcterms:modified": "2023-03-01T02:54:49.310Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230228215449310#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230228215449310#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[7]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q15580856",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230228215449311",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-01T02:54:49.311Z",
+	"dcterms:modified": "2023-03-01T02:54:49.311Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230228215449311#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230228215449311#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q808462",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230228215449311",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-01T02:54:49.311Z",
+	"dcterms:modified": "2023-03-01T02:54:49.311Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230228215449311#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue03/texts/fishman1.xml?organization_annotation_20230228215449311#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[10]/p[5]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q9684",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2693,7 +2803,7 @@
 					one of us works full-time. All of the women, except for two, are in the
 
 					collective responsible for the third issue of Heresies. Participants for the
-					three sessions were Bestsy Crowell, <persName key="Betsy Damon" ref="http://www.wikidata.org/entity/Q43078535">Betsy Damon</persName>, <persName key="Louise Fishman" ref="http://www.wikidata.org/entity/Q6688739">Louise Fishman</persName>, <persName key="Harmony Hammond" ref="http://www.wikidata.org/entity/Q5659529">Har- mony
+					three sessions were Bestsy Crowell, <persName key="Betsy Damon" ref="http://www.wikidata.org/entity/Q43078535">Betsy Damon</persName>, <persName key="Louise Fishman" ref="http://www.wikidata.org/entity/Q6688739">Louise Fishman</persName>, <persName key="Harmony Hammond" ref="http://www.wikidata.org/entity/Q5659529">Harmony
 					Hammond</persName>, Sarah Whitworth, and <persName key="Ann Wilson" ref="http://www.wikidata.org/entity/Q258053" cert="low">Ann Wilson</persName>. Also participating in the first
 					discussion on “Coming Out" were Rose Fichtenholtz, <persName key="Amy Sillman" ref="http://www.wikidata.org/entity/Q481952">Amy Sillman</persName>, Christine Wade,
 					and <persName key="Webster, Kathy L." ref="http://viaf.org/viaf/36463058/">Kathy Webster</persName>. Betsy Crowell took photo- graphs and assisted in transcribing
