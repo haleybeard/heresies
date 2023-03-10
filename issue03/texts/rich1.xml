@@ -1999,6 +1999,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/rich1.xml?person_annotation_20230310114023452",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-10T16:40:23.452Z",
+	"dcterms:modified": "2023-03-10T16:40:23.452Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/rich1.xml?person_annotation_20230310114023452#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/rich1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/rich1.xml?person_annotation_20230310114023452#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q40909",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/rich1.xml?person_annotation_20230310114037258",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-10T16:40:37.258Z",
+	"dcterms:modified": "2023-03-10T16:40:37.258Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Mayawadhwa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maya Wadhwa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/rich1.xml?person_annotation_20230310114037258#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/rich1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue03/texts/rich1.xml?person_annotation_20230310114037258#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[16]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q9185668",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2211,13 +2369,13 @@
 				deepen and sustain a personal relationship. "If Chloe likes Olivia and they share a
 				laboratory...this of itself will make their friendship more varied and lasting
 				because it will be less personal."<note type="scholarNote">7. Virginia Woolf, A Room of One’s Own.
-					Hogarth Press, London, 1929, p. 126.</note> By “like” I believe Virginia Woolf
+					Hogarth Press, London, 1929, p. 126.</note> By “like” I believe <persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909">Virginia Woolf</persName>
 				(still, in that book, writing more cautiously than later in Three Guineas) also
 				meant “love"; for a laboratory we can read "the creation of a common world."</p>
 			<p>Many women have known the figure of the male mentor" who guides and protects his
 				female student or colleague, tenderly opening doors for her into the common world of
 				men. He seems willing to share his power, to conspire with her in stealing what
-				Celia Gilbert names in this book “the sacred fire” of work. Yet what can he really
+				<persName key="Celia Gilbert" ref="http://www.wikidata.org/entity/Q9185668">Celia Gilbert</persName> names in this book “the sacred fire” of work. Yet what can he really
 				bestow but the illusion of power, a power stolen, in any case, from the mass of
 				women, over centuries, by men? He can teach her to name her experience in language
 				that may allow her to live, work, perhaps succeed in the common world of men. But he
