@@ -661,83 +661,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024221337884",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:13:37.884Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024221337884#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024221337884#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Neighborhood oriented / neighborhood controlled seems to be important. Perhaps in instills a sense of community while making sure the art is welcomed. "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221354632",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:13:54.632Z",
@@ -897,7 +820,6 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024221449690",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:14:49.690Z",
-	"dcterms:modified": "2022-10-25T02:14:49.690Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -923,7 +845,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024221449690#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/persName[4]"
+			"rdf:value": "TEI/text/body/p[5]/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -2648,6 +2570,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143642806",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:36:42.806Z",
+	"dcterms:modified": "2023-03-16T18:36:42.806Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143642806#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143642806#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/45550073/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143827249",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:38:27.249Z",
+	"dcterms:modified": "2023-03-16T18:38:27.249Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143827249#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143827249#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q62",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2688,27 +2768,24 @@
 				decorative aspect of public art. Many impressive walls were painted from 1968 to 1970, especially in the Black communities of Roxbury and South End-including the first women's wall,
 
 				<persName key="Sharon Dunn" ref="http://www.wikidata.org/entity/Q107551786">Sharon Dunn</persName>'s Black Women, painted in 1970. Seronde is only one of many women who <pb n="15"/> have made important contributions as organizers and administrators. <persName key="Judy Baca" ref="http://www.wikidata.org/entity/Q6304327">Judy Baca</persName>, a
-				leading Chicana muralist in Los Angeles, obtained City funding for a similar neighborhood-oriented<note>Neighborhood oriented / neighborhood controlled seems to be important. Perhaps in instills a sense of community while making sure the art is welcomed. </note> large-scale mural program (Citywide Murals) in 1974. Shelly Killen heads a program
-				for murals in prisons in <placeName key="Rhode Island" ref="http://www.wikidata.org/entity/Q1387">Rhode Island</placeName>, which has operated in the correctional institutions there for the past two years. Sandy Rubins Alternate Graffiti Workshop in <placeName key="Philadelphia" ref="http://dbpedia.org/resource/Philadelphia">Philadephia</placeName>
-				pioneered techniques for developing the artistic potential of graffiti writers; several of her workshop graduates have become muralists in their own right. <persName key="Ruth Asawa" ref="http://www.wikidata.org/entity/Q7382874">Ruth Asawa</persName> and Nancy
-
-				Thompson developed the Alvarado School-Community Program in San Francisco which brings community artists into the public schools to enrich the school experience and has heped to
+				leading Chicana muralist in Los Angeles, obtained City funding for a similar neighborhood-oriented large-scale mural program (Citywide Murals) in 1974. <persName key="Killen, Shelly" ref="http://viaf.org/viaf/45550073/">Shelly Killen</persName> heads a program
+				for murals in prisons in <placeName key="Rhode Island" ref="http://www.wikidata.org/entity/Q1387">Rhode Island</placeName>, which has operated in the correctional institutions there for the past two years. <persName>Sandy Rubin</persName>'s Alternate Graffiti Workshop in <placeName key="Philadelphia" ref="http://dbpedia.org/resource/Philadelphia">Philadephia</placeName>
+				pioneered techniques for developing the artistic potential of graffiti writers; several of her workshop graduates have become muralists in their own right. <persName key="Ruth Asawa" ref="http://www.wikidata.org/entity/Q7382874">Ruth Asawa</persName> and <persName>Nancy Thompson</persName> developed the Alvarado School-Community Program in <placeName key="San Francisco" ref="http://www.wikidata.org/entity/Q62">San Francisco</placeName> which brings community artists into the public schools to enrich the school experience and has heped to
 				open the doors to "Artists in the Schools" programs around the country. In fact, at the present time, the majority of the mural programs throughout the nation are directed by
 				women. </p>
 			<p>The major influx of women artists into the mural movement did not take place until 1971-73 when news about the community walls had become better known outside the actual mural
 				communities. This was also a time of expansion for the Womens Liberation Movement. Many women artists tried mural work, but not all of them became muralists. Community mural work,
 				although highly rewarding, requires a certain kind of openness and great dedication. It also demands physical labor, community organizing, going to meetings, and an ability to deal
-				with the great variety of people who come up to talk or make comments. However, a number of the women who did become involved in the eanly 1970s now identify themselves as mur¬
-				alists and are recognized for their artistic contributions. </p>
-			<p>The development of Caryl Yasko one of the best muralists in the nation and a leader of the <orgName key="Chicago Mural Group" ref="http://viaf.org/viaf/139809031/">Chicago Mural Group</orgName>, illustrates this process. like Green, Yasko was introduced to the mural
+				with the great variety of people who come up to talk or make comments. However, a number of the women who did become involved in the eanly 1970s now identify themselves as muralists and are recognized for their artistic contributions. </p>
+			<p>The development of <persName>Caryl Yasko</persName> one of the best muralists in the nation and a leader of the <orgName key="Chicago Mural Group" ref="http://viaf.org/viaf/139809031/">Chicago Mural Group</orgName>, illustrates this process. like Green, Yasko was introduced to the mural
 				movement through William Waker when she volunteered as a parent-assistant for a mural he was directing with children at her neighborhood school. After this experience, Yasko and her
-				partner in a small art enterprise, Kathy judge, a ceramicist, worked with small children to paint Walls of Hope. Vasko and judge were then invited to join the Chicago Mural Group. In
-				the summer of 1972, Yasko directed her first major project, Under City Stone, a mural that runs throughout the 55th Street underpass in Hyde Park. Painted from Yasko's design with the
+				partner in a small art enterprise, <persName>Kathy judge</persName>, a ceramicist, worked with small children to paint <title>Walls of Hope</title>. Vasko and judge were then invited to join the Chicago Mural Group. In
+				the summer of 1972, Yasko directed her first major project, <title>Under City Stone</title>, a mural that runs throughout the 55th Street underpass in Hyde Park. Painted from Yasko's design with the
 				help of a team recruited from passers-by, it shows hundreds of figures walking around and, above them, the machinery, technology, and pollution of today's city. Yasko painted herself
 				in the <pb n="16"/>
-				<caption>Caryl Yasko. I Am the People. 1974. 2659 N. Milwaukee, Chicago, Illinois. (Photo: Eva Cockcroft.)</caption> crowd—a slim young woman, paintbrushes in hand, a baby on her back.
+				 crowd—a slim young woman, paintbrushes in hand, a baby on her back.
 				The following year Yasko painted in the heart of the Black-Belt South Side with a team of young Black people. Located on a prenatal clinic wall, this mural depicts statuesque,
-				larger-than-life women with their children. In 974 Yasko broke new ground for the Chicago muralists. Although murals had become commonplace in many areas of Chicago certain white
+				larger-than-life women with their children. In 1974 Yasko broke new ground for the Chicago muralists. Although murals had become commonplace in many areas of Chicago certain white
 				working-class areas peopled by Polish and other Middle-European immigrants remained untouched. The question of whether murals were valid only for minority-group ghetto areas or would
 				also be meaningful in white working-class neighborhoods was in the air.<note>Key question of the movement </note> In those cities where the murals had begun with the Black Power thrust of the late sixties, a movement toward
 				more general themes was beginning. In 1974 Yasko began a mammoth mural in the <placeName key="Logan Square" ref="http://vocab.getty.edu/tgn/7015699">Logan Square area of Chicago</placeName>. The mural uses symbolic figures and images to identify the values of the
