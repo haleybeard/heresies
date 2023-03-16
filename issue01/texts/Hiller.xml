@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -123,27 +123,22 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202104310",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202104310",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-11T01:21:04.310Z",
-	"dcterms:modified": "2022-11-11T01:21:04.310Z",
-
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
 		"cwrc:hasName": "Kaitlyn Segreti"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202104310#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202104310#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -151,12 +146,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202104310#Selector",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202104310#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/byline/persName/persName"
 		}
@@ -169,7 +162,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -205,91 +198,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?title_annotation_20221110202502507",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-11T01:25:02.507Z",
-	"dcterms:modified": "2022-11-11T01:25:02.507Z",
-
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "Kaitlyn Segreti"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?title_annotation_20221110202502507#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?title_annotation_20221110202502507#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/title/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202519797",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202519797",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-11T01:25:19.797Z",
-	"dcterms:modified": "2022-11-11T01:25:19.797Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -299,10 +210,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202519797#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202519797#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -310,18 +221,16 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202519797#Selector",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202519797#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/back/p/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://www.wikidata.org/entity/Q5044485",
 		"dc:format": "text/plain"
 	},
@@ -330,7 +239,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -366,10 +275,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202656395",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202656395",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-11T01:26:56.395Z",
-	"dcterms:modified": "2022-11-11T01:26:56.395Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -379,10 +287,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202656395#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202656395#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -390,10 +298,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/kaitlynsegreti/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202656395#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Hiller.xml?person_annotation_20221110202656395#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/back/p/persName[2]"
 		}
@@ -401,7 +309,6 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "https://loft.org/artists/gail-rosenblum",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -409,7 +316,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
