@@ -1825,6 +1825,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321145305340",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:53:05.340Z",
+	"dcterms:modified": "2023-03-21T18:53:05.340Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321145305340#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321145305340#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q41406",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321145329098",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:53:29.098Z",
+	"dcterms:modified": "2023-03-21T18:53:29.098Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321145329098#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321145329098#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q34661",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 	<body>	
@@ -1974,20 +2132,20 @@
 				the depictions often reveal. Munch's Madonna (1893-94), a femme fatale par excellence, visually hints at the imagery of victimization. The familiar gestures of
 				surrender (the arm behind the head) and captivity (the arm behind the back, as if
 				bound) are clearly if softly stated. These gestures have a long history in Western
-				art. The dying Daughter of Niobe, a well-known Greek sculpture of the 5th century
+				art. The dying <title>Daughter of Niobe</title>, a well-known Greek sculpture of the 5th century
 				B.C. exhibits exactly this pose. The raised arm is also seen in numerous 5th-century
 				statues of dying Amazons and sleeping Ariadnes, where it conveys death, sleep or an
 				overwhelming of the will. It may also convey the idea of lost struggle, as in the
-				Amazon statues or in <persName key="Michelangelo" ref="http://www.wikidata.org/entity/Q5592">Michaelangelo</persName>'s Dying Captive<note type="citation"><bibl><ref target="http://viaf.org/viaf/174531128/"/><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></note> (<placeName key="Louvre Museum" ref="http://www.wikidata.org/entity/Q19675">The Louvre</placeName>), themselves
+				Amazon statues or in <persName key="Michelangelo" ref="http://www.wikidata.org/entity/Q5592">Michaelangelo</persName>'s <title>Dying Captive</title> (<placeName key="Louvre Museum" ref="http://www.wikidata.org/entity/Q19675">The Louvre</placeName>), themselves
 				masterpieces of victim imagery with strong sexual overtones. But in the modern era,
 				the raised arm (or arms) is emptied of its classical connotation of defeat with
 				dignity and becomes almost exclusively a female gesture—a signal of sexual surrender
-				and physical availability. Munch used it in his Madonna to mitigate his assertion of
+				and physical availability. <persName key="Edvard Munch" ref="http://www.wikidata.org/entity/Q41406">Munch</persName> used it in his Madonna to mitigate his assertion of
 				female power; the gesture of defeat subtly checks the dark, overpowering force of
 				Woman. The same ambivalence can also be seen in the spatial relationship between the
 				figure and the viewer: the woman can be read as rising upright before him or as
 				lying beneath him.</p>
-			<p>However lethal to the male, the late 19th-century femme fatale of Munch, <persName key="Gustav Klimt" ref="http://www.wikidata.org/entity/Q34661">Klimt</persName> and
+			<p>However lethal to the male, the late 19th-century femme fatale of Munch, <persName key="Gustav Klimt" ref="http://www.wikidata.org/entity/Q34661"><persName key="Gustav Klimt" ref="http://www.wikidata.org/entity/Q34661">Klimt</persName></persName> and
 				<persName key="Gustave Moreau" ref="http://www.wikidata.org/entity/Q203828">Moreau</persName> ensnares by her physical beauty and sexual allure. In the 20th century, she
 				becomes bestial, carnivorous and visibly grotesque. In images of monstrous females
 				by <persName>Picasso Rouault</persName>, the Surrealists and <persName key="De Kooning, Willem" ref="http://viaf.org/viaf/4234160486149205180008/">de Kooning</persName>, the dread of woman and male
