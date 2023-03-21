@@ -1667,6 +1667,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321144805127",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:48:05.127Z",
+	"dcterms:modified": "2023-03-21T18:48:05.127Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321144805127#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321144805127#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/persName[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q229272",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321144820631",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:48:20.631Z",
+	"dcterms:modified": "2023-03-21T18:48:20.631Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321144820631#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321144820631#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/persName[2]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q15485083",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 	<body>	
@@ -1802,25 +1960,18 @@
 				women, shedding, however the narrative trappings and much of the illusionism of the
 				19th century. The abandoned Ariadnes, endangered captives and cloistered harem women
 				of 19th century art become simply naked models and mistresses in the studio or whores
-				in the brothel. In nudes by Matisse, <persName key="Maurice de Vlaminck" ref="http://www.wikidata.org/entity/Q241098"><persName key="Maurice de Vlaminck" ref="http://www.wikidata.org/entity/Q241098">Vlaminck</persName></persName>, <persName>Kirchner, Van Dongen</persName> and others, the
+				in the brothel. In nudes by Matisse, <persName key="Maurice de Vlaminck" ref="http://www.wikidata.org/entity/Q241098"><persName key="Maurice de Vlaminck" ref="http://www.wikidata.org/entity/Q241098">Vlaminck</persName></persName>, <persName><persName key="Ernst Ludwig Kirchner" ref="http://www.wikidata.org/entity/Q229272">Kirchner</persName>, <persName key="Dionys van Dongen" ref="http://www.wikidata.org/entity/Q15485083">Van Dongen</persName></persName> and others, the
 				demonstration of male control and the suppression of female subjectivity is more
 				emphatic and more frequently asserted than in 19th-century ones. Their faces are
 				more frequently concealed, blank or mask-like (that is when they are not put to
 				sleep), and the artist manipulates their passive bodies with more liberty and
-				"artistic" bravado than <pb n="48"/>ever. <figure>
-					<caption>Left to right: Edvard Munch. Madonna<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q18890421"/><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></note>. 1849-95. <persName>Nasjonal Gallieret</persName>,
-						Oslo; <persName key="Willem de Kooning" ref="http://www.wikidata.org/entity/Q132305">Willem de Kooning</persName>. Untitled Drawing. 1969; <persName key="Joan Miró" ref="http://www.wikidata.org/entity/Q152384">Joan Miro</persName>. Woman's Head.
-						1938. Private Collection; Pablo Picasso. Seated Bather<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q3632880"/><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></note>. 1929. <placeName key="Museum of Modern Art" ref="http://www.wikidata.org/entity/Q188740">Museum of
-						Modern Art, New York</placeName>; <persName key="Maurice de Vlaminck" ref="http://www.wikidata.org/entity/Q241098">Maurice Vlaminck</persName>. <title>Bathers</title>. 1907 Private Collection.
-						<persName key="Kees van Dongen" ref="http://www.wikidata.org/entity/Q170345">Kees van Dongen</persName>. <title>Reclining Nude</title>. 1904. Private Collection.</caption>
-				</figure></p>
+				"artistic" bravado than <pb n="48"/>ever. </p>
 
 			<p> The image of the femme fatale, especially popular at the turn of the century, would
 				seem to contradict the image of woman as victim. Typically, she looms over the male
 				viewer, fixing him with a mysterious gaze and rendering him will-less. Yet she is
 				born of the same set of underlying fears as her powerless, victimized sisters, as
-				the depictions often reveal. Munch's Madonna (1893-94), a femme fatale par excel¬
-				lence, visually hints at the imagery of victimization. The familiar gestures of
+				the depictions often reveal. Munch's Madonna (1893-94), a femme fatale par excellence, visually hints at the imagery of victimization. The familiar gestures of
 				surrender (the arm behind the head) and captivity (the arm behind the back, as if
 				bound) are clearly if softly stated. These gestures have a long history in Western
 				art. The dying Daughter of Niobe, a well-known Greek sculpture of the 5th century
