@@ -1114,6 +1114,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144242492",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:42:42.492Z",
+	"dcterms:modified": "2023-03-21T18:42:47.006Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144242492#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144242492#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[8]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Simone de Beauvoir, The Second Sex (New York,\n\t\t\t\t\t1961), p. 187."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 	<body>	
@@ -1212,7 +1291,7 @@
 				concentrated form, just as the brothel became the ultimate classroom, the temple in
 				which men only might glimpse life's deepest mysteries: "A Henry Miller, going to bed
 				with a prostitute [in Tropic of Cancer], feels that he sounds the very depths of
-				life, death and the cosmos." <note><persName key="Simone de Beauvoir" ref="http://www.wikidata.org/entity/Q7197">Simone de Beauvoir</persName>, The Second Sex<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q470098"/><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></note> (New York,
+				life, death and the cosmos." <note type="scholarNote"><persName key="Simone de Beauvoir" ref="http://www.wikidata.org/entity/Q7197">Simone de Beauvoir</persName>, The Second Sex (New York,
 					1961), p. 187.</note> Picasso's famous brothel scene, the Demoiselles d’Avignon<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q910199"/><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></note>
 				(1907), where the viewer is cast as the male customer makes similar claims—claims
 				that art historians advocate as "humanistic“ and universal.<note>3. <persName key="Leo Steinberg" ref="http://www.wikidata.org/entity/Q457739">Leo Steinberg</persName>,
