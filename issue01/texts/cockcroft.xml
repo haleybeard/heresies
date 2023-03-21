@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 			<fileDesc>
 				<titleStmt>
@@ -121,273 +121,22 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024184229266",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-24T22:42:29.266Z",
-	"dcterms:modified": "2022-10-24T22:42:29.266Z",
-
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024184229266#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024184229266#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
-
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q100",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024184315311",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-24T22:43:15.311Z",
-	"dcterms:modified": "2022-10-24T22:43:15.311Z",
-
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024184315311#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024184315311#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q65",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024184504650",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-24T22:45:04.650Z",
-	"dcterms:modified": "2022-10-24T22:45:04.650Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024184504650#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024184504650#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "I think this is essential to the progress of an organization, especially one with human rights and justice at the center. One cannot make change while reproducing hierarchy and power dynamics. "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024220034427",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024220034427",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:00:34.427Z",
-	"dcterms:modified": "2022-10-25T02:00:34.427Z",
-
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
 		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024220034427#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024220034427#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -395,11 +144,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024220034427#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024220034427#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[3]/placeName"
 		}
@@ -407,7 +155,6 @@
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
 		"@id": "http://www.wikidata.org/entity/Q1297",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -415,7 +162,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -451,27 +198,22 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220139322",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220139322",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:01:39.322Z",
-	"dcterms:modified": "2022-10-25T02:01:39.322Z",
-
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
 		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220139322#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220139322#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -479,14 +221,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220139322#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220139322#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[3]/orgName"
-
 		}
 	},
 	"oa:hasBody": {
@@ -499,7 +239,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -535,93 +275,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024220322058",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:03:22.058Z",
-	"dcterms:modified": "2022-10-25T02:03:22.058Z",
-
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024220322058#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024220322058#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Is this seen in a negative light?"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220625991",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220625991",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:06:25.991Z",
-	"dcterms:modified": "2022-10-25T02:06:25.991Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -631,10 +287,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220625991#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220625991#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -642,10 +298,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220625991#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220625991#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[4]/orgName"
 		}
@@ -660,7 +316,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -696,10 +352,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220639100",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220639100",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:06:39.100Z",
-	"dcterms:modified": "2022-10-25T02:06:39.100Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -709,10 +364,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220639100#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220639100#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -720,26 +375,25 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220639100#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220639100#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/persName"
+			"rdf:value": "TEI/text/body/p[4]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://viaf.org/viaf/43387406/",
 		"dc:format": "text/plain"
-
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -775,27 +429,22 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220651554",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220651554",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:06:51.554Z",
-	"dcterms:modified": "2022-10-25T02:06:51.554Z",
-
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
 		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220651554#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220651554#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -803,11 +452,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220651554#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024220651554#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[4]/orgName[2]"
 		}
@@ -816,14 +464,13 @@
 		"@type": "org:Organization",
 		"@id": "http://viaf.org/viaf/139809031/",
 		"dc:format": "text/plain"
-
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -859,27 +506,22 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220718557",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220718557",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:07:18.557Z",
-	"dcterms:modified": "2022-10-25T02:07:18.557Z",
-
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
 		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220718557#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220718557#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -887,21 +529,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220718557#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220718557#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/persName[2]"
-
+			"rdf:value": "TEI/text/body/p[4]/persName[5]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-
 		"@id": "http://vocab.getty.edu/ulan/500070127",
-
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -909,7 +547,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -945,27 +583,23 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220927098",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220927098",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:09:27.098Z",
 	"dcterms:modified": "2022-10-25T02:09:27.098Z",
-
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
 		"cwrc:hasName": "maggie smith"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220927098#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220927098#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -973,13 +607,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220927098#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024220927098#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/persName"
+			"rdf:value": "TEI/text/body/p[5]/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -992,7 +625,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1028,85 +661,7 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024221337884",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:13:37.884Z",
-	"dcterms:modified": "2022-10-25T02:13:37.884Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024221337884#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024221337884#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Neighborhood oriented / neighborhood controlled seems to be important. Perhaps in instills a sense of community while making sure the art is welcomed. "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221354632",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221354632",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:13:54.632Z",
 	"dcterms:modified": "2022-10-25T02:13:54.632Z",
@@ -1119,10 +674,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221354632#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221354632#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1130,12 +685,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221354632#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221354632#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/placeName"
+			"rdf:value": "TEI/text/body/p[5]/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1148,7 +703,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1184,7 +739,7 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221411562",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221411562",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:14:11.562Z",
 	"dcterms:modified": "2022-10-25T02:14:11.562Z",
@@ -1197,10 +752,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221411562#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221411562#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1208,12 +763,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221411562#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221411562#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/placeName[2]"
+			"rdf:value": "TEI/text/body/p[5]/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -1226,7 +781,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1262,10 +817,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024221449690",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024221449690",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:14:49.690Z",
-	"dcterms:modified": "2022-10-25T02:14:49.690Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1275,10 +829,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024221449690#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024221449690#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1286,12 +840,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024221449690#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024221449690#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/persName[2]"
+			"rdf:value": "TEI/text/body/p[5]/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -1304,7 +858,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1340,166 +894,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024221711053",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:17:11.053Z",
-	"dcterms:modified": "2022-10-25T02:17:11.053Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024221711053#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024221711053#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[7]/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://viaf.org/viaf/139809031/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024221859714",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:18:59.714Z",
-	"dcterms:modified": "2022-10-25T02:18:59.714Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024221859714#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024221859714#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[7]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Key question of the movement "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221922612",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221922612",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:19:22.612Z",
-	"dcterms:modified": "2022-10-25T02:19:22.612Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1509,10 +906,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221922612#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221922612#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1520,10 +917,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221922612#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024221922612#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/placeName"
 		}
@@ -1538,7 +935,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1574,10 +971,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222027529",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222027529",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:20:27.529Z",
-	"dcterms:modified": "2022-10-25T02:20:27.529Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1587,10 +983,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222027529#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222027529#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1598,10 +994,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222027529#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222027529#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[7]/placeName[2]"
 		}
@@ -1616,7 +1012,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1652,88 +1048,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024222223146",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:22:23.146Z",
-	"dcterms:modified": "2022-10-25T02:22:23.146Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024222223146#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024222223146#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Fascinating. Seems difficult to avoid non-elitism in this environment as stated in the introduction. "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222253244",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222253244",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:22:53.244Z",
-	"dcterms:modified": "2022-10-25T02:22:53.244Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1743,10 +1060,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222253244#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222253244#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1754,10 +1071,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222253244#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222253244#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[10]/orgName"
 		}
@@ -1772,7 +1089,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1808,10 +1125,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222552872",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222552872",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:25:52.872Z",
-	"dcterms:modified": "2022-10-25T02:25:52.872Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1821,10 +1137,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222552872#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222552872#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1832,10 +1148,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222552872#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222552872#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[12]/placeName"
 		}
@@ -1850,7 +1166,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -1886,88 +1202,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024222702336",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:27:02.336Z",
-	"dcterms:modified": "2022-10-25T02:27:02.336Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024222702336#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024222702336#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[12]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "This seems to be an imperative task when working on a movement so centered on collectiveness. "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222841800",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222841800",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:28:41.800Z",
-	"dcterms:modified": "2022-10-25T02:28:41.800Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1977,10 +1214,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222841800#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222841800#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1988,10 +1225,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222841800#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024222841800#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[13]/orgName"
 		}
@@ -2006,7 +1243,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -2042,10 +1279,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222955260",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222955260",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:29:55.260Z",
-	"dcterms:modified": "2022-10-25T02:29:55.260Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -2055,10 +1291,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222955260#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222955260#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2066,10 +1302,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222955260#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024222955260#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[15]/placeName"
 		}
@@ -2084,7 +1320,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -2120,244 +1356,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024223107340",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:31:07.340Z",
-	"dcterms:modified": "2022-10-25T02:31:07.340Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024223107340#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20221024223107340#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[16]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q16729470",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024223129501",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:31:29.501Z",
-	"dcterms:modified": "2022-10-25T02:31:29.501Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024223129501#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024223129501#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[16]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Love this"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024223241945",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-25T02:32:41.945Z",
-	"dcterms:modified": "2022-10-25T02:32:41.945Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "maggie smith"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024223241945#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20221024223241945#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[17]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "This is crucial. Mothers or those living the more traditional roles of women can/are feminists too. "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024223252499",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024223252499",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:32:52.499Z",
-	"dcterms:modified": "2022-10-25T02:32:52.499Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -2367,10 +1368,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024223252499#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024223252499#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2378,10 +1379,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024223252499#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20221024223252499#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[18]/orgName"
 		}
@@ -2396,7 +1397,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -2432,10 +1433,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024223551802",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024223551802",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-10-25T02:35:51.802Z",
-	"dcterms:modified": "2022-10-25T02:35:51.802Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -2445,10 +1445,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024223551802#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024223551802#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2456,10 +1456,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.3.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024223551802#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20221024223551802#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[21]/placeName"
 		}
@@ -2468,14 +1468,1669 @@
 		"@type": "cwrc:RealPlace",
 		"@id": "http://www.wikidata.org/entity/Q7432908",
 		"dc:format": "text/plain"
-
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316142655351",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:26:55.351Z",
+	"dcterms:modified": "2023-03-16T18:26:55.351Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316142655351#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316142655351#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q106308202",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?title_annotation_20230316143008382",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:30:08.382Z",
+	"dcterms:modified": "2023-03-16T18:30:08.382Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?title_annotation_20230316143008382#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?title_annotation_20230316143008382#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q29641568",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143036152",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:30:36.152Z",
+	"dcterms:modified": "2023-03-16T18:30:36.152Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143036152#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143036152#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q12439",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143239573",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:32:39.573Z",
+	"dcterms:modified": "2023-03-16T18:32:39.573Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143239573#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143239573#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q160456",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143316249",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:33:16.249Z",
+	"dcterms:modified": "2023-03-16T18:33:16.249Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143316249#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143316249#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q100",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230316143358710",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:33:58.710Z",
+	"dcterms:modified": "2023-03-16T18:33:58.710Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230316143358710#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230316143358710#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q109320582",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143444092",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:34:44.092Z",
+	"dcterms:modified": "2023-03-16T18:34:44.092Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143444092#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143444092#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q107551786",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143642806",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:36:42.806Z",
+	"dcterms:modified": "2023-03-16T18:36:42.806Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143642806#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230316143642806#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/45550073/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143827249",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:38:27.249Z",
+	"dcterms:modified": "2023-03-16T18:38:27.249Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143827249#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316143827249#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q62",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316144600948",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:46:00.948Z",
+	"dcterms:modified": "2023-03-16T18:46:00.948Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316144600948#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?place_annotation_20230316144600948#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q37836",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230316144825977",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:48:25.977Z",
+	"dcterms:modified": "2023-03-16T18:48:25.977Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230316144825977#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230316144825977#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q586735",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230316144945910",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-16T18:49:45.910Z",
+	"dcterms:modified": "2023-03-16T18:49:45.910Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230316144945910#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230316144945910#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q19630440",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321130928850",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:09:28.850Z",
+	"dcterms:modified": "2023-03-21T17:09:28.850Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321130928850#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321130928850#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/49182313/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230321131202822",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:12:02.822Z",
+	"dcterms:modified": "2023-03-21T17:12:02.822Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230321131202822#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230321131202822#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/orgName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q5518465",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131249105",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:12:49.105Z",
+	"dcterms:modified": "2023-03-21T17:12:49.105Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131249105#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131249105#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q24007838",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131440807",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:14:40.807Z",
+	"dcterms:modified": "2023-03-21T17:14:40.807Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131440807#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131440807#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/33155224423584371184/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131513007",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:15:13.007Z",
+	"dcterms:modified": "2023-03-21T17:15:13.007Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131513007#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131513007#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/58093996/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321132735868",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:27:35.868Z",
+	"dcterms:modified": "2023-03-21T17:27:35.868Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321132735868#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321132735868#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q29024307",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20230321135516354",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:55:16.354Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20230321135516354#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?note_annotation_20230321135516354#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "from \"Brotando del Silencio\" (Breaking Out ofthe Sjlence), songs by Suni Paz, Paredon P-1016, Paredon Records, Box889, Brooklyn, N.V. 11202."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321140529753",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:05:29.753Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321140529753#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321140529753#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/202455277/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?date_annotation_20230321140806539",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:08:06.539Z",
+	"dcterms:modified": "2023-03-21T18:08:06.539Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?date_annotation_20230321140806539#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?date_annotation_20230321140806539#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1967"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
         </rdf:Description>
@@ -2483,12 +3138,14 @@
 	<text>
 		<body>
 			<pb n="14"/>
+			<head><title><title level="a">Women in the Community Mural Movement</title></title></head>
+			<byline><persName key="Eva Cockcroft" ref="http://www.wikidata.org/entity/Q106308202">Eva Cockcroft</persName></byline>
 
 
-			<p>Women's role in the community mural movement is much greater than is generally recognized. Major city-sponsored mural programs in <placeName key="Boston" ref="http://www.wikidata.org/entity/Q100">Boston</placeName> (Adele Seronde and Summerthing), New Vork
-				(Susan Shapiro-Kiok and Cityarts), and <placeName key="Los Angeles" ref="http://www.wikidata.org/entity/Q65">Los Angeles</placeName> (Judy Baca and Citywide) have been initiated and directed by women artists, who have given these programs much of their character
+			<p>Women's role in the community mural movement is much greater than is generally recognized. Major city-sponsored mural programs in Boston (<persName>Adele Seronde</persName> and Summerthing), New York
+				(<persName>Susan Shapiro-Kiok</persName> and Cityarts), and Los Angeles (Judy Baca and Citywide) have been initiated and directed by women artists, who have given these programs much of their character
 				and philosophy. Women have led school mural projects, mural collectives, and mural-work with street youth. Whether working as individual muralists, members of coalitions, or in
-				collectives, women have increasingly dominated the mural movement as a force for non-elitism<note>I think this is essential to the progress of an organization, especially one with human rights and justice at the center. One cannot make change while reproducing hierarchy and power dynamics. </note>, collectivity, and the practice of social philosophies ranging from humanism to
+				collectives, women have increasingly dominated the mural movement as a force for non-elitismI think this is essential to the progress of an organization, especially one with human rights and justice at the center. One cannot make change while reproducing hierarchy and power dynamics, collectivity, and the practice of social philosophies ranging from humanism to
 				Marxism.</p>
 
 			<p>Murals on urban walls reflecting the aspirations of neighborhood residents began as part of the more general social upheaval of the 1960s. Artists found themselves dragged into the
@@ -2496,118 +3153,111 @@
 				uses of their art. A number of movements arose that tried to enlarge the audience and scope of contemporary art. Minority-group and politically active artists felt both a demand and
 				an opportunity to create an art responsive to their special heritage and relevant to their own ethnic group, community, or movement. Mainstream artists attempted to bring art out
 				of the museums and into the cities in the form of urban super-graphics, environmental sculptures, streetworks, and happenings. Out of the coincidence of these social and artistic
-				forces the community mural movement began in 1967-68.</p>
+				forces the community mural movement began in <date from="1967" to="1968">1967-68</date>.</p>
 
 			<p>The mural movement took on different forms in different locations, depending on which particular combination of social forces spurred its beginnings. The first mural in <placeName key="Chicago" ref="http://www.wikidata.org/entity/Q1297">Chicago</placeName>, the
 
-				1967 Wall of Respect, was painted by 21 Black artists from the <orgName key="Organization of Black American Culture" ref="http://www.wikidata.org/entity/Q7101960">Organization of Black American Culture</orgName> (ÖBAC) and celebrated Black history and culture. It was a political-art
+				<date when="1967">1967</date> <title key="Wall of Respect" ref="http://www.wikidata.org/entity/Q29641568">Wall of Respect</title>, was painted by 21 Black artists from the <orgName key="Organization of Black American Culture" ref="http://www.wikidata.org/entity/Q7101960">Organization of Black American Culture</orgName> (OBAC) and celebrated Black history and culture. It was a political-art
 				happening involving musicians and poets who played and read as the painting progressed. Although women artists participated in the Wall of Respect, they were not among those who
-				continued the movement in Chicago and went from the OBAC wall to paint in Detroit. </p>
-			<p>For a long time Vanita Green's Black Women (1970) served as the token<note>Is this seen in a negative light?</note> of women's participation in the Chicago mural movement. Green was 17, a high school dropout, when she saw William
-				Walker painting the Peace and Salvation Wall of Understanding near the Cabrini-Green projects where she lived. After watching for a time, she asked Walker for paints and brushes and
-				on a storage shed nearby painted portraits of famous Black women from Aunt Jemima to Angela Davis. Almost immediately afterwards, the wall was defaced with large splashes of white
+				continued the movement in Chicago and went from the OBAC wall to paint in <placeName key="Detroit" ref="http://www.wikidata.org/entity/Q12439">Detroit</placeName>. </p>
+			<p>For a long time <persName>Vanita Green</persName>'s <title>Black Women</title> (1970) served as the token of women's participation in the Chicago mural movement. Green was 17, a high school dropout, when she saw <persName>William Walker</persName> painting the <title>Peace and Salvation Wall of Understanding</title> near the Cabrini-Green projects where she lived. After watching for a time, she asked Walker for paints and brushes and
+				on a storage shed nearby painted portraits of famous Black women from Aunt Jemima to <persName key="Angela Davis" ref="http://www.wikidata.org/entity/Q160456">Angela Davis</persName>. Almost immediately afterwards, the wall was defaced with large splashes of white
 				paint, practically the only defacement in Chicago up to that time. When Green saw what the vandals had done, she commented, "Before, it was just a pretty picture, but it says more
 				now." In general, though, during those early years women found their place largely as assistants and apprentices in one of the two major community-based Chicago mural groups: <orgName key="Public Art Workshop" ref="http://viaf.org/viaf/134009800/">Public
 				Art Workshop</orgName>, led by <persName key="Rogovin, Mark" ref="http://viaf.org/viaf/43387406/">Mark Rogovin</persName>, and <orgName key="Chicago Mural Group" ref="http://viaf.org/viaf/139809031/">Chicago Mural Group</orgName>, a multi-ethnic coalition led by William Walker and <persName key="Weber, John Pitman" ref="http://vocab.getty.edu/ulan/500070127">John Weber.</persName> </p>
-			<p>In Boston, on the other hand, women played an important role in introducing the mural idea. Boston artist Adele Seronde’s proposal calling for the use of neglected city sites to
-				transform the city into a museum was the start. Through the collaboration of Kathy Kane of the Mayor's Office of Cultural Affairs, the Institute of Contemporary Art, a number of
-				Black artists, and Seronde, Summerthing was launched. It was the largest and most productive of the early mural programs, beginning in 1968 and peaking in 1970. The Summerthing program
+			<p>In <placeName key="Boston" ref="http://www.wikidata.org/entity/Q100">Boston</placeName>, on the other hand, women played an important role in introducing the mural idea. Boston artist Adele Seronde’s proposal calling for the use of neglected city sites to
+				transform the city into a museum was the start. Through the collaboration of <persName>Kathy Kane</persName> of the Mayor's Office of Cultural Affairs, the Institute of Contemporary Art, a number of
+				Black artists, and Seronde, <orgName key="Summerthing" ref="http://www.wikidata.org/entity/Q109320582">Summerthing</orgName> was launched. It was the largest and most productive of the early mural programs, beginning in 1968 and peaking in 1970. The Summerthing program
 				combined elements of three distinct phenomena which had emerged the preceding year—the renaissance in Black culture (Wall of Respect), the "Summer in the City Paint-in Festival" and
 				various clean-up programs, and the desire of environmental artists to work in urban spaces. Summerthing sponsored Black Power murals, children's playground and pocket-park
 				projects, and decorative walls—all within a framework allowing for neighborhood control. Under Seronde's direction, the program emphasized the sociological rather than the
 				decorative aspect of public art. Many impressive walls were painted from 1968 to 1970, especially in the Black communities of Roxbury and South End-including the first women's wall,
 
-				Sharon Dunn's Black Women, painted in 1970. Seronde is only one of many women who <pb n="15"/> have made important contributions as organizers and administrators. <persName key="Judy Baca" ref="http://www.wikidata.org/entity/Q6304327">Judy Baca</persName>, a
-				leading Chicana muralist in Los Angeles, obtained City funding for a similar neighborhood-oriented<note>Neighborhood oriented / neighborhood controlled seems to be important. Perhaps in instills a sense of community while making sure the art is welcomed. </note> large-scale mural program (Citywide Murals) in 1974. Shelly Killen heads a program
-				for murals in prisons in <placeName key="Rhode Island" ref="http://www.wikidata.org/entity/Q1387">Rhode Island</placeName>, which has operated in the correctional institutions there for the past two years. Sandy Rubins Alternate Graffiti Workshop in <placeName key="Philadelphia" ref="http://dbpedia.org/resource/Philadelphia">Philadephia</placeName>
-				pioneered techniques for developing the artistic potential of graffiti writers; several of her workshop graduates have become muralists in their own right. <persName key="Ruth Asawa" ref="http://www.wikidata.org/entity/Q7382874">Ruth Asawa</persName> and Nancy
-
-				Thompson developed the Alvarado School-Community Program in San Francisco which brings community artists into the public schools to enrich the school experience and has heped to
+				<persName key="Sharon Dunn" ref="http://www.wikidata.org/entity/Q107551786">Sharon Dunn</persName>'s Black Women, painted in 1970. Seronde is only one of many women who <pb n="15"/> have made important contributions as organizers and administrators. <persName key="Judy Baca" ref="http://www.wikidata.org/entity/Q6304327">Judy Baca</persName>, a
+				leading Chicana muralist in Los Angeles, obtained City funding for a similar neighborhood-oriented large-scale mural program (Citywide Murals) in 1974. <persName key="Killen, Shelly" ref="http://viaf.org/viaf/45550073/">Shelly Killen</persName> heads a program
+				for murals in prisons in <placeName key="Rhode Island" ref="http://www.wikidata.org/entity/Q1387">Rhode Island</placeName>, which has operated in the correctional institutions there for the past two years. <persName>Sandy Rubin</persName>'s Alternate Graffiti Workshop in <placeName key="Philadelphia" ref="http://dbpedia.org/resource/Philadelphia">Philadephia</placeName>
+				pioneered techniques for developing the artistic potential of graffiti writers; several of her workshop graduates have become muralists in their own right. <persName key="Ruth Asawa" ref="http://www.wikidata.org/entity/Q7382874">Ruth Asawa</persName> and <persName>Nancy Thompson</persName> developed the Alvarado School-Community Program in <placeName key="San Francisco" ref="http://www.wikidata.org/entity/Q62">San Francisco</placeName> which brings community artists into the public schools to enrich the school experience and has heped to
 				open the doors to "Artists in the Schools" programs around the country. In fact, at the present time, the majority of the mural programs throughout the nation are directed by
 				women. </p>
 			<p>The major influx of women artists into the mural movement did not take place until 1971-73 when news about the community walls had become better known outside the actual mural
 				communities. This was also a time of expansion for the Womens Liberation Movement. Many women artists tried mural work, but not all of them became muralists. Community mural work,
 				although highly rewarding, requires a certain kind of openness and great dedication. It also demands physical labor, community organizing, going to meetings, and an ability to deal
-				with the great variety of people who come up to talk or make comments. However, a number of the women who did become involved in the eanly 1970s now identify themselves as mur¬
-				alists and are recognized for their artistic contributions. </p>
-			<p>The development of Caryl Yasko one of the best muralists in the nation and a leader of the <orgName key="Chicago Mural Group" ref="http://viaf.org/viaf/139809031/">Chicago Mural Group</orgName>, illustrates this process. like Green, Yasko was introduced to the mural
+				with the great variety of people who come up to talk or make comments. However, a number of the women who did become involved in the eanly 1970s now identify themselves as muralists and are recognized for their artistic contributions. </p>
+			<p>The development of <persName>Caryl Yasko</persName> one of the best muralists in the nation and a leader of the <orgName key="Chicago Mural Group" ref="http://viaf.org/viaf/139809031/">Chicago Mural Group</orgName>, illustrates this process. like Green, Yasko was introduced to the mural
 				movement through William Waker when she volunteered as a parent-assistant for a mural he was directing with children at her neighborhood school. After this experience, Yasko and her
-				partner in a small art enterprise, Kathy judge, a ceramicist, worked with small children to paint Walls of Hope. Vasko and judge were then invited to join the Chicago Mural Group. In
-				the summer of 1972, Yasko directed her first major project, Under City Stone, a mural that runs throughout the 55th Street underpass in Hyde Park. Painted from Yasko's design with the
+				partner in a small art enterprise, <persName>Kathy judge</persName>, a ceramicist, worked with small children to paint <title>Walls of Hope</title>. Vasko and judge were then invited to join the Chicago Mural Group. In
+				the summer of 1972, Yasko directed her first major project, <title>Under City Stone</title>, a mural that runs throughout the 55th Street underpass in Hyde Park. Painted from Yasko's design with the
 				help of a team recruited from passers-by, it shows hundreds of figures walking around and, above them, the machinery, technology, and pollution of today's city. Yasko painted herself
 				in the <pb n="16"/>
-				<caption>Caryl Yasko. I Am the People. 1974. 2659 N. Milwaukee, Chicago, Illinois. (Photo: Eva Cockcroft.)</caption> crowd—a slim young woman, paintbrushes in hand, a baby on her back.
+				 crowd—a slim young woman, paintbrushes in hand, a baby on her back.
 				The following year Yasko painted in the heart of the Black-Belt South Side with a team of young Black people. Located on a prenatal clinic wall, this mural depicts statuesque,
-				larger-than-life women with their children. In 974 Yasko broke new ground for the Chicago muralists. Although murals had become commonplace in many areas of Chicago certain white
+				larger-than-life women with their children. In 1974 Yasko broke new ground for the Chicago muralists. Although murals had become commonplace in many areas of Chicago certain white
 				working-class areas peopled by Polish and other Middle-European immigrants remained untouched. The question of whether murals were valid only for minority-group ghetto areas or would
-				also be meaningful in white working-class neighborhoods was in the air.<note>Key question of the movement </note> In those cities where the murals had begun with the Black Power thrust of the late sixties, a movement toward
+				also be meaningful in white working-class neighborhoods was in the air. In those cities where the murals had begun with the Black Power thrust of the late sixties, a movement toward
 				more general themes was beginning. In 1974 Yasko began a mammoth mural in the <placeName key="Logan Square" ref="http://vocab.getty.edu/tgn/7015699">Logan Square area of Chicago</placeName>. The mural uses symbolic figures and images to identify the values of the
 				largely Polish and Bielorussian residents of the area and to depict them working together to maintain control in a highly technical, mechanized world. This major wal has opened the
-				door for a number of other murals in this and similar neighborhoods Yasko, however, is only one of many women muralists who have made important artistic contributions. Lucy Mahler's
-				vivid mural at the Wright Brothers School in New York is one of the earliest murals on a public school building. Astrid Fuller with her distinctive combination <caption>Marie Burton,
-					director. Celebration of Cultures. 1975. Milwaukee, Wisconsin. (Photo: Weber.) </caption>
-				<pb n="17"/> of a primitive literalism with surrealist images, has created a series of ambitious underpass murals in the <placeName key="Chicago Park" ref="http://vocab.getty.edu/tgn/2010686">Hyde Park area of Chicago</placeName>. Holly Highfill, who painted an
-				anti-war mural in the Loop area of Chicago (1973), has gone on to do several succeeding walls with gang youth. Marie Burton, who with Highfill and Rogovin co-authored the Mural Manual,
-				works primarily with teenagers. Her Bored of Education in Chicago (1971) and the Celebration of Cultures in Milwaukee (1975) are among the most impressive of the school murals. And
-				these are just a few of the women muralists working on community walls in a way that might be called the Chicago model (others are Justine DeVan, Esther Charbit, Ruth Felton, and
-				Celia Radek). </p>
+				door for a number of other murals in this and similar neighborhoods Yasko, however, is only one of many women muralists who have made important artistic contributions. <persName>Lucy Mahler</persName>'s
+				vivid mural at the Wright Brothers School in New York is one of the earliest murals on a public school building. <persName>Astrid Fuller</persName> with her distinctive combination 
+				<pb n="17"/> of a primitive literalism with surrealist images, has created a series of ambitious underpass murals in the <placeName key="Chicago Park" ref="http://vocab.getty.edu/tgn/2010686">Hyde Park area of Chicago</placeName>. <persName key="Highfill, Holly" ref="http://viaf.org/viaf/49182313/">Holly Highfill</persName>, who painted an
+				anti-war mural in the Loop area of Chicago (1973), has gone on to do several succeeding walls with gang youth. <persName><persName>Marie Burton</persName></persName>, who with Highfill and Rogovin co-authored the <title><title>Mural Manual</title></title>,
+				works primarily with teenagers. Her <title>Bored of Education in Chicago</title> (1971) and the <title>Celebration of Cultures</title> in <placeName key="Milwaukee" ref="http://www.wikidata.org/entity/Q37836">Milwaukee</placeName> (1975) are among the most impressive of the school murals. And
+				these are just a few of the women muralists working on community walls in a way that might be called the Chicago model (others are <persName>Justine DeVan</persName>, <persName>Esther Charbit</persName>, <persName>Ruth Felton</persName>, and
+				<persName>Celia Radek</persName>). </p>
 			<p>In the Chicago model, the artist-leader of a mural team, using community and youth input, designs the wall and directs the painting of it. The community participates as a new class of
 				patrons who help to pay for the mural and are consulted on the design. In spite of the change in patronage, and participation of community people as team members the Chicago model's
 				emphasis on professionalism is fairly close to the mural tradition through the ages. Murals, after all, have rarely been painted by individuals; mostly they are done by a group of
-				assistants working under a master.<note>Fascinating. Seems difficult to avoid non-elitism in this environment as stated in the introduction. </note> </p>
-			<p>This hierarchical process has been challenged by several developments within the mural movement. One is the experimentation with women muralists have come into the movement as or¬
-				ganizers or members of a collective group. The mutual support and shared responsibility the collective offers an individual is often necessary to provide the courage to attempt a first
+				assistants working under a master. </p>
+			<p>This hierarchical process has been challenged by several developments within the mural movement. One is the experimentation with women muralists have come into the movement as organizers or members of a collective group. The mutual support and shared responsibility the collective offers an individual is often necessary to provide the courage to attempt a first
 				mural (and some of the labor power to finish it). Especially in the case of women this factor can be decisive. </p>
-			<p>Within the Latin culture, machismo often reaches rather extreme forms yet this is countered by a strong communal tradition. It is not surprising therefore that in 1974 a grounpof
-				Latin American women muralists--<orgName key="Mujeres Muralistas (Group of muralists)" ref="http://viaf.org/viaf/17163409148900092789/">Mujeres Muralistas</orgName>--was formed in San Francisco. Most of the women were students of recent graduates of the San Francisco Art Institute and connected
-				with the Galeria de La Raza, the center for Chicano artists in the Mission district. Their philosophy was simple and very positive: </p>
-			<quote>Our cuftures, our images are strong. It is important that the atmosphere of the world be plagued with color and Hife. Throughout History there have been very few women who have
+			<p>Within the Latin culture, machismo often reaches rather extreme forms yet this is countered by a strong communal tradition. It is not surprising therefore that in 1974 a grounp of
+				Latin American women muralists--<orgName key="Mujeres Muralistas (Group of muralists)" ref="http://viaf.org/viaf/17163409148900092789/">Mujeres Muralistas</orgName>--was formed in San Francisco. Most of the women were students of recent graduates of the <orgName key="San Francisco Art Institute" ref="http://www.wikidata.org/entity/Q586735">San Francisco Art Institute</orgName> and connected
+				with the <orgName key="Galería de la Raza" ref="http://www.wikidata.org/entity/Q5518465">Galeria de La Raza</orgName>, the center for Chicano artists in the Mission district. Their philosophy was simple and very positive: </p>
+			<quote>Our cultures, our images are strong. It is important that the atmosphere of the world be plagued with color and life. Throughout history there have been very few women who have
 				figured in art. What you see is proof that women, too, can work at this level. That we can put together scaffolding and climb it. We offer you the colors that we make </quote>
 			<pb n="18"/>
 			<pb n="19"/>
-			<p>Their two best-known walls, Latinoamerica and the Paco's Tacos Stand mural were both done in the spring and summer of 1974. They celebrate the beauty and richness of the Latin
-				tradition. For Latinoamerica, the four women comprising the original core of Mujeres Muralistas-Patricia Rodriguez, Consuelo Mendez Castillo, lrene Perez, and Graciela Carrillo de
-				Lopez--worked together to create the design Different parts of the mural are painted by each artist in her individual style; yet the mural succeeds as a unified work because of the
+			<p>Their two best-known walls, <title>Latinoamerica</title> and the <title>Paco's Tacos Stand</title> mural were both done in the spring and summer of 1974. They celebrate the beauty and richness of the Latin
+				tradition. For Latinoamerica, the four women comprising the original core of <orgName key="Mujeres Muralistas" ref="http://www.wikidata.org/entity/Q19630440">Mujeres Muralistas</orgName>-<persName key="Patricia Rodriguez" ref="http://www.wikidata.org/entity/Q24007838">Patricia Rodriguez</persName>, <persName key="Méndez Castillo, Consuelo." ref="http://viaf.org/viaf/33155224423584371184/">Consuelo Mendez Castillo</persName>, <persName>lrene Perez</persName>, and <persName key="Carrillo de López, Graciela" ref="http://viaf.org/viaf/58093996/">Graciela Carrillo de
+				Lopez</persName>--worked together to create the design. Different parts of the mural are painted by each artist in her individual style; yet the mural succeeds as a unified work because of the
 				clean organization, and the distinctively bright, clean color that is characteristic of the group. In the Paco's Tacos mural the unity is more tenuous. The wall divides into two
-				distinctly different halves reflecting the different artistic styles of Consuelo Mendez Castillo and Graciela Carrillo de Lopez. In many ways Mujeres Muralistas was never feally a
+				distinctly different halves reflecting the different artistic styles of Consuelo Mendez Castillo and Graciela Carrillo de Lopez. In many ways Mujeres Muralistas was never really a
 				"collective," but rather a group of women who came together to work on a particular wall mural. An almost instant fame forced them into a prematurely formalized existence as a
 				"collective group," while leaving them little time to resolve differences in political consciousness between members of the group, or cultural differences between Chicana and Latin
 				American women. The probem of individualism was never really tackled, although there was an attempt to make decisions by a consensus of the group. Internal differences caused the
 				group to dissolve formally early in 1976. The women who comprised Mujeres Muralistas are now working as individual muralists. </p>
 			<p>Many mural-painting collectives, including most of those that grew out of the largely white-counterculture and anti-war movements, either start with women who then invite male artists
 				in, or simply include both women and men. Often led by women with roots in Marxism and feminism, these collectives tend to be strongly anti-sexist, anti-imperialist, and to use overtly
-				political images in their artwork. One of these groups was the Peoples Painters of New Jersey, who "muralized" <placeName key="Livingston College" ref="http://www.wikidata.org/entity/Q4261030">Livingston College</placeName> from 1972 to 1974. Modeled after the Ramona Parra Bri¬
-				gades of Allendes Chile, the Peoples Painters were concerned equally with the political effects of their murals and with trying to overcome individualism<note>This seems to be an imperative task when working on a movement so centered on collectiveness. </note> and a sense of personal
-				ego. Their first wall was for the Livingston Women's Center which was very appropriate since the founders of the group--Julia Smith, Kathy Jones, and myself--considered ourselves
+				political images in their artwork. One of these groups was the Peoples Painters of New Jersey, who "muralized" <placeName key="Livingston College" ref="http://www.wikidata.org/entity/Q4261030">Livingston College</placeName> from 1972 to 1974. Modeled after the Ramona Parra Brigades of Allendes Chile, the Peoples Painters were concerned equally with the political effects of their murals and with trying to overcome individualism and a sense of personal
+				ego. Their first wall was for the Livingston Women's Center which was very appropriate since the founders of the group--<persName>Julia Smith</persName>, <persName>Kathy Jones</persName>, and myself--considered ourselves
 				activists in the Womens Liberation Movement. We worked on the design collectively, discussing ideas first and then finding the images. We chose to work in a simple style, using heavy
 				black outlines and flat color so that the women at the Center could help us paint. We also consciously worked over parts of the mural that others had originated to combat the
 				tendency to say at the end of the project, "And this part is mine." While we did not wholly succeed in eliminating our sense of personal ego, we did find that by consciously
 				emphasizing collectivity in our work we could overcome personal insecurities and achieve stronger political and artistic results. We went on to incorporate men into our group and
 				painted eight other murals before agreeing to disperse in 1974, when some of our members graduated and others decided to go on to other things. </p>
-			<p>The <orgName key="Haight Ashbury Muralists" ref="http://viaf.org/viaf/13166060379480322624/">Haight-Ashbury Muralists</orgName> in San Francisco, a collective led by Jane Norling, see themselves as "anti-imperialist cultural workers." Their first mural, Ralnbow People, was
-				painted in 1972 as part of a large anti-war demonstration. A Haight landmark, Ralnbow People was repainted and updated in 1974. Unfty Eye (1973) diagrams the ingredients for creating
+			<p>The <orgName key="Haight Ashbury Muralists" ref="http://viaf.org/viaf/13166060379480322624/">Haight-Ashbury Muralists</orgName> in San Francisco, a collective led by <persName key="Jane Norling" ref="http://www.wikidata.org/entity/Q29024307">Jane Norling</persName>, see themselves as "anti-imperialist cultural workers." Their first mural, <title>Ralnbow People</title>, was
+				painted in 1972 as part of a large anti-war demonstration. A Haight landmark, Ralnbow People was repainted and updated in 1974. Unity Eye (1973) diagrams the ingredients for creating
 				a revolutionary culture in the United States. The mural shows a revolution peopled and led by women, and was painted by an all-female team. Most recently, the Haight-Ashbury
 				Muralists have been working on a 300-foot-long history of the class struggle in San Francisco. </p>
 			<p>The most radical and problematic challenge to tradition has been the development of collective murals in which non-artist members of a community work with an artist-facilitator who
 				heips them to create their own mural. While a strong emphasis on community participation characterizes all community mural projects, this particular emphasis reflects an attempt to
 				create a "people's art" in every sense of the word. Simply providing paint and a wall to teenagers and young adults is not the answer. There must be a direction, a method for working
 				cooperatively, and a technique that makes it possible to bypass the need for years of study of drawing and design. </p>
-			<p>The most complete method, and the model for much related work elsewhere in the nation, was developed by Susan Shapiro-Kjok and the Cityarts staff in <placeName key="New York City" ref="http://www.wikidata.org/entity/Q60">New York City</placeName>. This method begins
+			<p>The most complete method, and the model for much related work elsewhere in the nation, was developed by <persName>Susan Shapiro-Kjok</persName> and the Cityarts staff in <placeName key="New York City" ref="http://www.wikidata.org/entity/Q60">New York City</placeName>. This method begins
 				with a number of concept meetings during which the theme is discussed. In the early Cityarts Workshop murals, scenes were acted out and developed, photographed, and then projected
-				and traced. When the mock-up was complete, it was enlarged by an opaque projector and painted in. Black Women of Africa Today (1971), designed and executed by teenage girls at The
+				and traced. When the mock-up was complete, it was enlarged by an opaque projector and painted in. Black Women of Africa Today (1971), designed and executed by teenage girls at the
 				Smith housing project on the lower East Side, is typical of the early sithouette style. Later murals became more complex as the technique came to include the use of drawings and slides
-				as well as photographs and the opaque projector. The jewish ethnic mural at the Bialystoker Old People's Home is a collage ofimages designed and painted by a group of Jewish teenagers
-				under the direction of Susan Caruso-Green (current director of Cityarts Workshop). </p>
+				as well as photographs and the opaque projector. The jewish ethnic mural at the Bialystoker Old People's Home is a collage of images designed and painted by a group of Jewish teenagers
+				under the direction of <persName>Susan Caruso-Green</persName> (current director of Cityarts Workshop). </p>
 			<pb n="20"/>
-			<p>Two other collective walls were painted in 1974 and 1975by lower East Side women under the direction of <persName key="Tomie Arai" ref="http://www.wikidata.org/entity/Q16729470">Tomie Arai</persName>. The Wal of Respect for Women (1974) epitomizes the non¬
+			<p>Two other collective walls were painted in 1974 and 1975 by Lower East Side women under the direction of Tomie Arai. The <title>Wall of Respect for Women</title> (1974) epitomizes the non¬
 				antagonistic type of feminism portrayed on non-white community walls dealing with the theme of woman. Rather than condemning more traditional womens roles (e.g. mother, telephone
-				operator), this mural celebrates all the roles played by women.<note>Love this</note> The second wall, Women Hold Up Halt the Sky (1975), palnted by many of the same women who worked or the earlier wall, as
+				operator), this mural celebrates all the roles played by women. The second wall, Women Hold Up Halt the Sky (1975), palnted by many of the same women who worked or the earlier wall, as
 				well as some men, portrays women's oppression within the context of the larger social struggle. Although most of the images come from a generalized women's experience, the figures
 				breaking out of oppression are of both sexes. In both walls women are shown performing their traditional jobs and, with few exceptions this is the way women are portrayed in community
 				walls. </p>
 			<p>Some murals about women emphasize the biological factor and almost all include the mother-child theme. Yet these would be considered highly conservative images by the Womens
 				Liberation Movement. The use of such stereotypical images of women is not the result of ignorance on the part of women muralists. In part it reflects the goals of Third World
-				feminism, in which women's rights are seen as one part of the more general social struggle, and great care is taken to keep feminism from appearing to be a divisive force.<note>This is crucial. Mothers or those living the more traditional roles of women can/are feminists too. </note> </p>
+				feminism, in which women's rights are seen as one part of the more general social struggle, and great care is taken to keep feminism from appearing to be a divisive force. </p>
 			<p>Within political organizations like the <orgName key="Puerto Rican Socialist Party" ref="http://www.wikidata.org/entity/Q1163195">Puerto Rican Socialist Party</orgName> (PSP), political education courses discuss the need to overcome machismo and the oppressive role definitions which
 				make it difficult for men and women to work together as companeros. Some of the verses from the song "Quiero decirte" (I Want to Tell You Something), written collectively by Suni Paz,
 				Juana Diaz, and other Puerto Rican sisters in 1972 and often sung at political rallies and community events, state the changes in the male-female relationship for which they are
@@ -2622,8 +3272,8 @@
 				<l>Al hombre le toca ahora: </l>
 				<l>entiende que la mujer </l>
 				<l>sabe pensar y sentir </l>
-				<l>y tiene derechoa ser.*</l>
-				<note>from "Brotando del Silencio" (Breaking Out ofthe Sjlence), songs by Suni Paz, Paredon P-1016, Paredon Records, Box889, Brooklyn, N.V. 11202.</note>
+				<l>y tiene derechoa ser.</l>
+				<note type="scholarNote">from "Brotando del Silencio" (Breaking Out ofthe Sjlence), songs by Suni Paz, Paredon P-1016, Paredon Records, Box889, Brooklyn, N.V. 11202.</note>
 			</lg>
 			<lg>
 				<l>(To the woman I say </l>
@@ -2640,36 +3290,35 @@
 			<p>The mother in Latin culture is seen as the moral leader of the household and the authority in the education of her children. The forced sterilization of women by the U.S. government in
 				Puerto Rico and other Latin American countries (as well as the poor at home) has served to intensify the felt need for women to bear children in order topreserve their race This
 				creates certain differences in attitude about populaton control and the family structure between Third World feminism and the rest of the Vomens Liberation Movement. </p>
-			<p>Overtly feminist murals are found primarlly on VVomen's Center walls within the university world, and in certain selected city neighbor hoods-Haght-Ashbury, for example-where a base of
+			<p>Overtly feminist murals are found primarlly on Women's Center walls within the university world, and in certain selected city neighbor hoods--Haght-Ashbury, for example--where a base of
 				support exists. Most often, the feminist consciousness of women muralists is expressed bythesubstitution of female for male as asymbolic or heroic figure, or even by the mere
-				inclusjon of women as active figures in any mural.</p>
-			<p>The problem of responsibility to the perma<pb n="21"/><pb n="22"/>nent audience, those who have to live with art, isone with whichthecommunity muralist is constantly faced. Theideal is to
-				work constant ly at the cutting edge of issues-neither too fan ahead nor too far behind. This is a continda struggle involving a constant series of difficuft decisjons and has been
-				adirect part of my own fecent experience as a muralist. After severa years of working in a relatively radicalized university setting, ! undertook some murals in a very different
-				environment-a conservative small town in the Adirondack mountains. My problem was how to paint a bicentennial mura that would be accepted by the permanent residents as their history
-				and yet not violate my convictions, orthetruth. justas 1began work in early 1976, the very town authorities who were my sponsors whitewashed a youth mural on ecology 1had directed in
-				1974, which was critical of the towns dumping sewage into the <placeName key="Schroon River" ref="http://www.wikidata.org/entity/Q7432908">Schroon River</placeName> Iconceived my design asacompromise: the ancestors of the present residents are shown as workers in the
+				inclusion of women as active figures in any mural.</p>
+			<p>The problem of responsibility to the perma-<pb n="21"/><pb n="22"/>nent audience, those who have to live with art, isone with whichthecommunity muralist is constantly faced. The ideal is to
+				work constantly at the cutting edge of issues-neither too far ahead nor too far behind. This is a continual struggle involving a constant series of difficult decisions and has been
+				a direct part of my own recent experience as a muralist. After several years of working in a relatively radicalized university setting, I undertook some murals in a very different
+				environment-a conservative small town in the Adirondack mountains. My problem was how to paint a bicentennial mural that would be accepted by the permanent residents as their history
+				and yet not violate my convictions, or the truth. Just as I began work in early 1976, the very town authorities who were my sponsors whitewashed a youth mural on ecology I had directed in
+				1974, which was critical of the town's dumping sewage into the <placeName key="Schroon River" ref="http://www.wikidata.org/entity/Q7432908">Schroon River</placeName> . I conceived my design as a compromise: the ancestors of the present residents are shown as workers in the
 				logging industry, the saw mill, and the textile factories-a working-class history, but one with only positive images. I began painting the wall with great misgivings. It was the
-				reaction of the Wocals, and their enthusiastic hunger for their own history, that made me realize that it is not just minority-group people or urban ghetto residents who have been
-				deprived of their history and their rightto their own art expressjon, but every segmentof Americas working people. </p>
+				reaction of the locals, and their enthusiastic hunger for their own history, that made me realize that it is not just minority-group people or urban ghetto residents who have been
+				deprived of their history and their right to their own art expression, but every segment of Americas working people. </p>
 			<p>Communication between muralists around the nation has increased greatly since 1974. Three major mural conferences have occurred and the exchange of information and techniques has
-				furthered experimentation. Many nuralists who previously worked alone have begun to experiment with collective techniques and vice versa. In 1975, for example, five muralists from the
-				Chicago Mural Group (Cary! asko Mitchell Caton, Celia Radek, justine DeVan, and lucyna Radycki) worked on a coectively designed and painted wall. Prescripton for Cood Heath Care.
-				The muralists were a mixed group-racially, sexually, andin terms of previous mural experience. This was their first collectively designed wall, although they had helped each other to
-				paint on other walls. The ocation at 5/th and Kedzie is near the headquarters of the American Nazi Party in Chicago. Initially, there was some fear that racial attacks might prevent
+				furthered experimentation. Many muralists who previously worked alone have begun to experiment with collective techniques and vice versa. In 1975, for example, five muralists from the
+				Chicago Mural Group (Caryl Yasko, <persName>Mitchell Caton</persName>, <persName>Celia Radek</persName>, <persName>Justine DeVan</persName>, and L<persName>ucyna Radycki</persName>) worked on a coectively designed and painted wall, <title>Prescripton for Good Heath Care</title>.
+				The muralists were a mixed group-racially, sexually, and in terms of previous mural experience. This was their first collectively designed wall, although they had helped each other to
+				paint on other walls. The location at 5th and Kedzie is near the headquarters of the American Nazi Party in Chicago. Initially, there was some fear that racial attacks might prevent
 				the group from working, but there were no disturbances during the time the mural was being painted. Acceptance in this white working-class neighborhood of a racially mixed group of
-				muralists reflects the prestige that murals have achievedin Chicago. </p>
+				muralists reflects the prestige that murals have achieved in Chicago. </p>
 			<p>The continuing attempt at collectivity and away from the individualistic "genius" concept of the artist prevalent in the art world has been one of the major distinctions pioneered by
-				women in the mural movement; it derives at least in heinfuenceofthea part fromt eas." on Movement. The O the wome, structures of the early womens organizations a5 V vell as the direct
-				experience of consciousness-raising groups with the sisterhood and support they provided, became a part of the outlook of a number of the women muralists The changes resulting from
-				their individua experiences with Womens Liberation led them to bring the same egalitarian and collective practices to the mural groups they joined or heped found. </p>
-			<p>While ideas from feminism and Mardsm are mplicitin theattemptto create a peoples art–especially in murals by women-the level of politicization and consciousness among muralsts varies
-				greatly. Most community murallsts, however ifthey were familiar with Maos words atthe Venan forum, would agree that: Intheworldtoday all cufture, all literature and art belong to
-				definite ciasses and are geared to definite political lines. There isin fact no such thing as Art for arts sake, art that stands above classes, art thatis detached from or independ-
-				entofpolitics. </p>
+				women in the mural movement; it derives at least in part from the influence of th Women's Liberation Movement. The non-hierarchical structures of the early women's organizations as well as the direct
+				experience of consciousness-raising groups with the sisterhood and support they provided, became a part of the outlook of a number of the women muralists. The changes resulting from
+				their individual experiences with Women's Liberation led them to bring the same egalitarian and collective practices to the mural groups they joined or helped found. </p>
+			<p>While ideas from feminism and Marxism are implicit in the attempt to create a peoples art–especially in murals by women-the level of politicization and consciousness among muralists varies
+				greatly. Most community muralists, however if they were familiar with Mao's words at the Yenan forum, would agree that:</p> <quote>In the world today all culture, all literature and art belong to
+				definite classes and are geared to definite political lines. There is in fact no such thing as Art for arts sake, art that stands above classes, art that is detached from or independent of politics. </quote>
 			<p>If that is true, one must choose-and they have chosen. </p>
-</div>
+
 		</body>
-			<back><p>EvaCockcroft isa muralist and co-author (with john Weber and Iim Cockcroft) of the forthcoming book, Towards a Peoples Art: The Contemporary Mural Movement (E.P. Dutton) </p></back>
+			<back><p>Eva Cockcroft is a muralist and co-author (with John Weber and <persName key="Cockcroft, Jim" ref="http://viaf.org/viaf/202455277/">Jim Cockcroft</persName>) of the forthcoming book, <title>Towards a Peoples Art: The Contemporary Mural Movement</title> (E.P. Dutton) </p></back>
 	</text>
 </TEI>
