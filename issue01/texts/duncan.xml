@@ -1430,6 +1430,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144557127",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:45:57.127Z",
+	"dcterms:modified": "2023-03-21T18:46:01.096Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144557127#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144557127#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/note[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "4. In Herschel B. Chipp, Theories of Modern Art (Berkeley, 1970), p. 144."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144630643",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:46:30.643Z",
+	"dcterms:modified": "2023-03-21T18:46:34.034Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144630643#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144630643#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/note[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "5. Quoted in Max Kozloff, \"The Authoritarian Personality in Modern Art,\" Artforum\n\t\t\t\t(May, 1974), p. 46. Schiff, op. cit., actually advocates the penis-as-paintbrush\n\t\t\t\tmetaphor."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 	<body>	
@@ -1541,13 +1699,13 @@
 				possess, to dominate, and to be quintessentially male.</p>
 			<quote>I try to paint with my heart and my loins, not bothering with style
 				(Vlaminck).</quote>
-			<note>4. In <persName key="Chipp, Herschel Browning" ref="http://viaf.org/viaf/49276069/">Herschel B. Chipp,</persName> <title key="Chipp, Herschel Browning. | Theories of modern art : a source book by artists and critics" ref="http://viaf.org/viaf/8065151474839900490005/">Theories of Modern Art</title> (Berkeley, 1970), p. 144.</note>
+			<note type="scholarNote">4. In <persName key="Chipp, Herschel Browning" ref="http://viaf.org/viaf/49276069/">Herschel B. Chipp,</persName> <title key="Chipp, Herschel Browning. | Theories of modern art : a source book by artists and critics" ref="http://viaf.org/viaf/8065151474839900490005/">Theories of Modern Art</title> (Berkeley, 1970), p. 144.</note>
 			<quote>Thus I learned to battle the canvas, to come to know it as a being resisting my
 				wish (dream), and to bend it forcibly to this wish. At first it stands there like a
 				pure chaste virgin and then comes the willful brush which first here, then there,
 				gradually conquers it with all the energy peculiar to it, like a European colonist
 				...(Kandinsky).</quote>
-			<note>5. Quoted in <persName key="Max Kozloff" ref="http://www.wikidata.org/entity/Q6794944">Max Kozloff</persName>, "<title>The Authoritarian Personality in Modern Art</title>," Artforum
+			<note type="scholarNote">5. Quoted in <persName key="Max Kozloff" ref="http://www.wikidata.org/entity/Q6794944">Max Kozloff</persName>, "<title>The Authoritarian Personality in Modern Art</title>," Artforum
 				(May, 1974), p. 46. Schiff, op. cit., actually advocates the penis-as-paintbrush
 				metaphor.</note>
 			<p>The kind of nudes that prevail in the modern era do not merely reflect a collective
