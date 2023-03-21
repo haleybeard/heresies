@@ -2890,6 +2890,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230321131202822",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:12:02.822Z",
+	"dcterms:modified": "2023-03-21T17:12:02.822Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230321131202822#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230321131202822#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/orgName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q5518465",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131249105",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:12:49.105Z",
+	"dcterms:modified": "2023-03-21T17:12:49.105Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131249105#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131249105#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q24007838",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2967,13 +3125,13 @@
 				mural (and some of the labor power to finish it). Especially in the case of women this factor can be decisive. </p>
 			<p>Within the Latin culture, machismo often reaches rather extreme forms yet this is countered by a strong communal tradition. It is not surprising therefore that in 1974 a grounp of
 				Latin American women muralists--<orgName key="Mujeres Muralistas (Group of muralists)" ref="http://viaf.org/viaf/17163409148900092789/">Mujeres Muralistas</orgName>--was formed in San Francisco. Most of the women were students of recent graduates of the <orgName key="San Francisco Art Institute" ref="http://www.wikidata.org/entity/Q586735">San Francisco Art Institute</orgName> and connected
-				with the Galeria de La Raza, the center for Chicano artists in the Mission district. Their philosophy was simple and very positive: </p>
-			<quote>Our cuftures, our images are strong. It is important that the atmosphere of the world be plagued with color and life. Throughout history there have been very few women who have
+				with the <orgName key="Galería de la Raza" ref="http://www.wikidata.org/entity/Q5518465">Galeria de La Raza</orgName>, the center for Chicano artists in the Mission district. Their philosophy was simple and very positive: </p>
+			<quote>Our cultures, our images are strong. It is important that the atmosphere of the world be plagued with color and life. Throughout history there have been very few women who have
 				figured in art. What you see is proof that women, too, can work at this level. That we can put together scaffolding and climb it. We offer you the colors that we make </quote>
 			<pb n="18"/>
 			<pb n="19"/>
 			<p>Their two best-known walls, <title>Latinoamerica</title> and the <title>Paco's Tacos Stand</title> mural were both done in the spring and summer of 1974. They celebrate the beauty and richness of the Latin
-				tradition. For Latinoamerica, the four women comprising the original core of <orgName key="Mujeres Muralistas" ref="http://www.wikidata.org/entity/Q19630440">Mujeres Muralistas</orgName>-Patricia Rodriguez, Consuelo Mendez Castillo, lrene Perez, and Graciela Carrillo de
+				tradition. For Latinoamerica, the four women comprising the original core of <orgName key="Mujeres Muralistas" ref="http://www.wikidata.org/entity/Q19630440">Mujeres Muralistas</orgName>-<persName key="Patricia Rodriguez" ref="http://www.wikidata.org/entity/Q24007838">Patricia Rodriguez</persName>, Consuelo Mendez Castillo, lrene Perez, and Graciela Carrillo de
 				Lopez--worked together to create the design Different parts of the mural are painted by each artist in her individual style; yet the mural succeeds as a unified work because of the
 				clean organization, and the distinctively bright, clean color that is characteristic of the group. In the Paco's Tacos mural the unity is more tenuous. The wall divides into two
 				distinctly different halves reflecting the different artistic styles of Consuelo Mendez Castillo and Graciela Carrillo de Lopez. In many ways Mujeres Muralistas was never feally a
