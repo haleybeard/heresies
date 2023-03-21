@@ -3127,6 +3127,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131513007",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T17:15:13.007Z",
+	"dcterms:modified": "2023-03-21T17:15:13.007Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131513007#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230321131513007#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/58093996/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3210,10 +3289,10 @@
 			<pb n="18"/>
 			<pb n="19"/>
 			<p>Their two best-known walls, <title>Latinoamerica</title> and the <title>Paco's Tacos Stand</title> mural were both done in the spring and summer of 1974. They celebrate the beauty and richness of the Latin
-				tradition. For Latinoamerica, the four women comprising the original core of <orgName key="Mujeres Muralistas" ref="http://www.wikidata.org/entity/Q19630440">Mujeres Muralistas</orgName>-<persName key="Patricia Rodriguez" ref="http://www.wikidata.org/entity/Q24007838">Patricia Rodriguez</persName>, <persName key="Méndez Castillo, Consuelo." ref="http://viaf.org/viaf/33155224423584371184/">Consuelo Mendez Castillo</persName>, <persName>lrene Perez</persName>, and Graciela Carrillo de
-				Lopez--worked together to create the design Different parts of the mural are painted by each artist in her individual style; yet the mural succeeds as a unified work because of the
+				tradition. For Latinoamerica, the four women comprising the original core of <orgName key="Mujeres Muralistas" ref="http://www.wikidata.org/entity/Q19630440">Mujeres Muralistas</orgName>-<persName key="Patricia Rodriguez" ref="http://www.wikidata.org/entity/Q24007838">Patricia Rodriguez</persName>, <persName key="Méndez Castillo, Consuelo." ref="http://viaf.org/viaf/33155224423584371184/">Consuelo Mendez Castillo</persName>, <persName>lrene Perez</persName>, and <persName key="Carrillo de López, Graciela" ref="http://viaf.org/viaf/58093996/">Graciela Carrillo de
+				Lopez</persName>--worked together to create the design. Different parts of the mural are painted by each artist in her individual style; yet the mural succeeds as a unified work because of the
 				clean organization, and the distinctively bright, clean color that is characteristic of the group. In the Paco's Tacos mural the unity is more tenuous. The wall divides into two
-				distinctly different halves reflecting the different artistic styles of Consuelo Mendez Castillo and Graciela Carrillo de Lopez. In many ways Mujeres Muralistas was never feally a
+				distinctly different halves reflecting the different artistic styles of Consuelo Mendez Castillo and Graciela Carrillo de Lopez. In many ways Mujeres Muralistas was never really a
 				"collective," but rather a group of women who came together to work on a particular wall mural. An almost instant fame forced them into a prematurely formalized existence as a
 				"collective group," while leaving them little time to resolve differences in political consciousness between members of the group, or cultural differences between Chicana and Latin
 				American women. The probem of individualism was never really tackled, although there was an attempt to make decisions by a consensus of the group. Internal differences caused the
