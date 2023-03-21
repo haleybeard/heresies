@@ -2808,7 +2808,7 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145853094",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-03-21T18:58:53.094Z",
-	"dcterms:modified": "2023-03-21T18:58:56.595Z",
+	"dcterms:modified": "2023-03-21T18:59:36.646Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -2842,6 +2842,85 @@
 		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
 		"rdf:value": "Sherry Ortner, \"Is Female to Male as Nature is to Culture?\"\n\t\t\t\t\tFeminist Studies, 1, No. 2 (Fall, 1972), p. 10"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321145944544",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-21T18:59:44.544Z",
+	"dcterms:modified": "2023-03-21T18:59:44.544Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321145944544#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321145944544#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q2278440",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -3066,7 +3145,7 @@
 			<note type="scholarNote">De Beauvoir, op. cit., p. 179.</note>
 			<p>Pictures of nudes in nature also affirm the supremacy of the male consciousness even
 				while they ostensibly venerate or pay tribute to women as freer or more in harmony
-				with nature than men. From the Bathers of Delacroix to those of <persName key="Pierre-Auguste Renoir" ref="http://www.wikidata.org/entity/Q39931">Renoir</persName> and Picasso
+				with nature than men. From the Bathers of Delacroix to those of Renoir and Picasso
 				nude-in-nature pictures almost always ascribe to women a mode of existence that is
 				categorically different from man's. Woman is seen as more of nature than man, less
 				in opposition to it both physically and mentally. Implicitly, the male is seen as
@@ -3083,8 +3162,7 @@
 				order of being as men is more articulated than ever before. In this context, to
 				cling to ancient notions of women as a race apart from men—as creatures of nature
 				rather than of culture—is to defend blatantly an ideology that is everywhere
-				contested and contradicted by experience. Nevertheless, the majority of nude-in¬
-				nature pictures state just this thesis.</p>
+				contested and contradicted by experience. Nevertheless, the majority of nude-in-nature pictures state just this thesis.</p>
 			<p>In countless 19th- and 20th-century paintings—Romantic, Symbolist or
 				Expressionist—female nudes in outdoor settings are treated as natural inhabitants of
 				the landscape. Although modern artists have characterized it differently, they agree
