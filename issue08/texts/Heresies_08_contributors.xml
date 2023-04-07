@@ -3182,6 +3182,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407131618271",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-07T17:16:18.271Z",
+	"dcterms:modified": "2023-04-07T17:16:18.271Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407131618271#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407131618271#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[14]/ab/rs[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Occupation",
+		"@id": "http://id.lincsproject.ca/occupation/activist",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?person_annotation_20230407131747355",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-07T17:17:47.355Z",
+	"dcterms:modified": "2023-04-07T17:17:47.355Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?person_annotation_20230407131747355#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?person_annotation_20230407131747355#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[15]/ab/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q292180",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407131818013",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-07T17:18:18.013Z",
+	"dcterms:modified": "2023-04-07T17:18:18.013Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407131818013#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407131818013#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[15]/ab/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Occupation",
+		"@id": "http://id.lincsproject.ca/occupation/writer",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -3245,10 +3482,10 @@
 				<div type="contributor">
 					<ab><persName>Katherine Ekau Amoy Hall</persName> is Chinese, Hawaiian and Irish. She spent the last
 						10 years <rs key="developing cartoons" ref="http://id.lincsproject.ca/occupation/visualArtist" type="http://sparql.cwrc.ca/ontology/cwrc#Occupation">developing cartoons</rs> based on her experiences in white America. She
-						is a full-time <rs key="community organizer" ref="http://id.lincsproject.ca/occupation/eventOrganizer">community organizer</rs> and activist.</ab>
+						is a full-time <rs key="community organizer" ref="http://id.lincsproject.ca/occupation/eventOrganizer">community organizer</rs> and <rs key="activist" ref="http://id.lincsproject.ca/occupation/activist" type="http://sparql.cwrc.ca/ontology/cwrc#Occupation">activist</rs>.</ab>
 				</div>
 				<div type="contributor">
-					<ab>Joy Harjo is a writer who lives in Sante Fe, New Mexico. She is of the Creek
+					<ab><persName key="Joy Harjo" ref="http://www.wikidata.org/entity/Q292180">Joy Harjo</persName> is a <rs key="writer" ref="http://id.lincsproject.ca/occupation/writer" type="http://sparql.cwrc.ca/ontology/cwrc#Occupation">writer</rs> who lives in Sante Fe, New Mexico. She is of the Creek
 						tribe of Oklahoma, and teaches creative writing at the Institute of American
 						Indian Arts.</ab>
 				</div>
@@ -3308,7 +3545,7 @@
 					<ab>Ann Page (Setsuko Ann Takayoshi Page) is a third¬ generation
 						Japanese-American. She took the name Ann Page as it was the brand name for
 						the A&amp;P where her mother did her weekly shopping. A photographer, she
-						feels that her Japanese roots are now surfacing in <pb n="126"/> her work.
+						feels that her Japanese roots are now surfacing in her work.
 						She lives on the West Coast with her hus¬ band and daughter.</ab>
 				</div>
 				<div type="contributor">
