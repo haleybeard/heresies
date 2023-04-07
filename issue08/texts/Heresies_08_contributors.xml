@@ -293,10 +293,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?person_annotation_20230407084059680",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?person_annotation_20230407084115912",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-07T12:40:59.680Z",
-	"dcterms:modified": "2023-04-07T12:41:15.912Z",
+	"dcterms:created": "2023-04-07T12:41:15.912Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -307,7 +306,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?person_annotation_20230407084059680#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?person_annotation_20230407084115912#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml",
@@ -321,7 +320,7 @@
 			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?person_annotation_20230407084059680#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?person_annotation_20230407084115912#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[2]/ab/persName"
 		}
@@ -1004,10 +1003,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407085031917",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407085102487",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-07T12:50:31.917Z",
-	"dcterms:modified": "2023-04-07T12:51:02.487Z",
+	"dcterms:created": "2023-04-07T12:51:02.487Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -1018,7 +1016,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407085031917#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407085102487#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml",
@@ -1032,7 +1030,7 @@
 			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407085031917#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?rs_annotation_20230407085102487#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/ab/rs"
 		}
@@ -1604,6 +1602,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?place_annotation_20230407105840052",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-07T14:58:40.052Z",
+	"dcterms:modified": "2023-04-07T14:58:40.052Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?place_annotation_20230407105840052#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?place_annotation_20230407105840052#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[6]/ab/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q60",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?organization_annotation_20230407105857286",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-07T14:58:57.286Z",
+	"dcterms:modified": "2023-04-07T14:58:57.286Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?organization_annotation_20230407105857286#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?organization_annotation_20230407105857286#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[6]/ab/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q1446181",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1629,8 +1785,8 @@
 						<orgName key="Museum of Arts and Sciences" ref="http://www.wikidata.org/entity/Q6940776">Museum of Arts and Sciences, Macon, Georgia</orgName>.</ab>
 				</div>
 				<div type="contributor">
-					<ab><persName key="Cabañas, Suzana" ref="http://viaf.org/viaf/45776720/">Suzana Cabañas</persName>, a poet , lives and works in New York. She is completing a
-						major in Puerto Rican studies at Hunter College.</ab>
+					<ab><persName key="Cabañas, Suzana" ref="http://viaf.org/viaf/45776720/">Suzana Cabañas</persName>, a poet, lives and works in <placeName key="New York City" ref="http://www.wikidata.org/entity/Q60">New York</placeName>. She is completing a
+						major in Puerto Rican studies at <orgName key="Hunter College" ref="http://www.wikidata.org/entity/Q1446181">Hunter College</orgName>.</ab>
 				</div>
 				<div type="contributor">
 					<ab><persName>Myrtha Chabran</persName> is a writer presently working on a novel and an
