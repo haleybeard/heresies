@@ -135,9 +135,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?person_annotation_20230406122353745",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?organization_annotation_20230407082410704",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-06T16:23:53.745Z",
+	"dcterms:created": "2023-04-07T12:24:10.704Z",
+	"dcterms:modified": "2023-04-07T12:24:10.704Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -148,9 +149,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20230406122353745#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?organization_annotation_20230407082410704#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -161,14 +163,14 @@
 			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20230406122353745#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?organization_annotation_20230407082410704#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/listPerson/person[2]/ab/persName"
+			"rdf:value": "TEI/text/body/div[7]/ab/orgName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q115628943",
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q4570802",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -212,10 +214,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "undefined?person_annotation_20230406122931966",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?place_annotation_20230407082440764",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-06T16:29:31.966Z",
-	"dcterms:modified": "2023-04-06T16:29:31.966Z",
+	"dcterms:created": "2023-04-07T12:24:40.764Z",
+	"dcterms:modified": "2023-04-07T12:24:40.764Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -226,9 +228,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20230406122931966#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?place_annotation_20230407082440764#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -239,403 +242,14 @@
 			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20230406122931966#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue08/texts/Heresies_08_contributors.xml?place_annotation_20230407082440764#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/listPerson/person[3]/ab/persName"
+			"rdf:value": "TEI/text/body/div[2]/ab/placeName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q20715407",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "undefined?person_annotation_20230406123356417",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-06T16:33:56.417Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/djakacki",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20230406123356417#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20230406123356417#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/listPerson/person[4]/ab/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q4899487",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "undefined?person_annotation_20230406123418930",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-06T16:34:18.930Z",
-	"dcterms:modified": "2023-04-06T16:34:18.930Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/djakacki",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20230406123418930#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20230406123418930#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/listPerson/person[5]/ab/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/45776720/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "undefined?person_annotation_20230406123457001",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-06T16:34:57.001Z",
-	"dcterms:modified": "2023-04-06T16:34:57.001Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/djakacki",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20230406123457001#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20230406123457001#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/listPerson/person[7]/ab/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q6836968",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "undefined?person_annotation_20230406123534578",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-06T16:35:34.578Z",
-	"dcterms:modified": "2023-04-06T16:35:34.578Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/djakacki",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20230406123534578#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20230406123534578#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/listPerson/person[9]/ab/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q1670154",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "undefined?person_annotation_20230406123551457",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-06T16:35:51.457Z",
-	"dcterms:modified": "2023-04-06T16:35:51.457Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/djakacki",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20230406123551457#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20230406123551457#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/listPerson/person[10]/ab/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q4845086",
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q414",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -651,10 +265,10 @@
 	<text>
 		<body>
 			
-				<head>Notes on Contributors</head>
+				<div><head>Notes on Contributors</head></div>
 
 				<div type="contributor">
-					<ab><persName key="Diana Bellessi" ref="http://www.wikidata.org/entity/Q521986" role="aut">Diana Bellesi</persName> is a poet from Argentina. She has spent years traveling and
+					<ab><persName key="Diana Bellessi" ref="http://www.wikidata.org/entity/Q521986" role="aut">Diana Bellesi</persName> is a poet from <placeName key="Argentina" ref="http://www.wikidata.org/entity/Q414">Argentina</placeName>. She has spent years traveling and
 						talking to workers all across the Americas. She lives on an island on an
 						Argéntinian river.
 				</ab></div>
@@ -678,7 +292,7 @@
 				<div type="contributor">
 					<ab><persName>Myrtha Chabran</persName> is a writer presently working on a novel and an
 						autobiography. She teaches Spanish at the Regional College of the
-						Inter-American University in Guayama, Puerto Rico. She recently spent $1000
+						<orgName key="Interamerican University of Puerto Rico" ref="http://www.wikidata.org/entity/Q4570802">Inter-American University</orgName> in Guayama, Puerto Rico. She recently spent $1000
 						on dentists and periodontists in an effort to save her few teeth.</ab>
 				</div>
 				<div type="contributor">
