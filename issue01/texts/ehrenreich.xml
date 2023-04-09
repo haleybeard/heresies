@@ -741,10 +741,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20230408171500330",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20230408171501900",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-08T21:15:00.330Z",
-	"dcterms:modified": "2023-04-08T21:15:01.900Z",
+	"dcterms:created": "2023-04-08T21:15:01.900Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -755,7 +754,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20230408171500330#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20230408171501900#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
@@ -769,7 +768,7 @@
 			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20230408171500330#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?note_annotation_20230408171501900#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/note"
 		}
@@ -1183,6 +1182,401 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409151710359",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T19:17:10.359Z",
+	"dcterms:modified": "2023-04-09T19:17:10.359Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409151710359#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409151710359#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q2420666",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152018154",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T19:20:18.154Z",
+	"dcterms:modified": "2023-04-09T19:20:18.154Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152018154#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152018154#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[6]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q7264",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152030607",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T19:20:30.607Z",
+	"dcterms:modified": "2023-04-09T19:20:30.607Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152030607#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152030607#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[6]/rs[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q7252",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152326838",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T19:23:26.838Z",
+	"dcterms:modified": "2023-04-09T19:23:26.838Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152326838#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152326838#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[11]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q2914207",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152524401",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T19:25:24.401Z",
+	"dcterms:modified": "2023-04-09T19:25:24.401Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152524401#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152524401#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[6]/rs[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q6206",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1201,7 +1595,7 @@
 				either way, not listened to), etc. If you think about all these things and how they
 				fit together and what has to be changed, and then you look around for some words to
 				hold all these thoughts together in abbreviated form, you'd almost have to come up
-				with something like "socialist feminism." </p>
+				with something like "<rs key="socialist feminism" ref="http://www.wikidata.org/entity/Q2420666">socialist feminism</rs>." </p>
 			<p>A lot of us came to socialist feminism in just that way: we were reaching for a
 				word/term/ phrase that would begin to express all of our concerns, all of our
 				principles in a way that neither "socialist" nor "feminist" seemed to. I have to
@@ -1211,7 +1605,7 @@
 				really socialist internationalist anti-racist anti-heterosexist feminism.</p>
 			<p>The trouble with taking a new label of any kind is that it creates an instant aura of
 				sectarianism. "Socialist feminism" becomes a challenge, a mystery, an issue in and
-				of itself. We have speakers, conferences articles on "socialist feminism"—though we
+				of itself. We have speakers, conferences, articles on "socialist feminism"—though we
 				know perfectly well that either"socialism" or "feminism" is too huge and too
 				inclusive to be a subject for any sensible speech, conference, or article. People,
 				including avowed socialist feminists, ask themselves anxiously, "What is socialist
@@ -1226,7 +1620,7 @@
 				because I want to stick as closely as possible to the interface of the two main
 				traditions we grow out of—socialism and feminism. </p>
 			<p> A logical way to start is to look at socialism and feminism separately. How does a
-				socialist—more precisely a Marxist—look at the world? How does a feminist look at
+				socialist—more precisely a <rs key="Marxist" ref="http://www.wikidata.org/entity/Q12716775">Marxist</rs>—look at the world? How does a <rs key="feminist" ref="http://www.wikidata.org/entity/Q34074720">feminist</rs> look at
 				the world? To begin with, Marxism and feminism have something important in common:
 				they are critical ways of looking at the world. Both rip away popular mythology and
 				"common-sense wisdom“ and force us to look at experience in a new way. Both seek to
@@ -1236,12 +1630,12 @@
 				liberating. There is no way to have a Marxist or a feminist outlook and remain a
 				spectator. To understand the reality laid bare by these analyses is to move into
 				action to change it.</p>
-			<p>Here I am going to restrict myself to what I see as the core insights of Marxism and
-				feminism, and state these as briefly and starkly as possible: Marxism (in 20 words
+			<p>Here I am going to restrict myself to what I see as the core insights of <rs key="Marxism" ref="http://www.wikidata.org/entity/Q7264">Marxism</rs> and
+				<rs key="feminism" ref="http://www.wikidata.org/entity/Q7252">feminism</rs>, and state these as briefly and starkly as possible: Marxism (in 20 words
 				or less) addresses itself to the class dynamics of capitalist society. Every social
 				scientist knows that capitalist societies are characterized by more or less severe,
 				systemic inequality. Marxism understands this inequality to arise from processes
-				which are intrinsic to capitalism as an economic system. A minority of people (the
+				which are intrinsic to <rs key="capitalism" ref="http://www.wikidata.org/entity/Q6206">capitalism</rs> as an economic system. A minority of people (the
 				capitalist class) own all the factories/ energy sources/resources on which everyone else depends in order to live. The great majority (the working class) must, out
 				of sheer necessity work, under conditions set by the capitalists, for the wages the
 				capitalists pay. Since the capitalists make their profits by paying less in wages
@@ -1277,8 +1671,7 @@
 				supremacy. The reward for being "good" ("pretty," submissive) is protection from
 				random male violence and, in some cases, economic security.</p>
 			<p>I hope I have written these capsule summaries of Marxism and feminism in such a way
-				that some similarities of approach show through. Marxism rips away the myths about
-				democracy" and "pluralism" to reveal a system of class rule that rests on forcible
+				that some similarities of approach show through. Marxism rips away the myths about "democracy" and "pluralism" to reveal a system of class rule that rests on forcible
 				exploitation. Feminism cuts through myths about "instinct" and romantic love to
 				expose male rule as a rule of force. Both analyses compel us to look at a
 				fundamental injustice. If either, or both, make you uncomfortable, they were meant
@@ -1288,7 +1681,7 @@
 				thing to do would be just to add them up and call the sum "socialist feminism." In
 				fact, this is probably how most socialist feminists operate most of the time—as a
 				kind of hybrid, pushing feminism in socialist circles, socialism in feminist
-				circles. Practically speaking, Ithink this is a perfectly reasonable way to
+				circles. Practically speaking, I think this is a perfectly reasonable way to
 				operate a lot of the time. One trouble with leaving things like that, though, is
 				that it keeps people wondering "Well, what is she really?" or demanding of us "What
 				is the principal contradiction?" Such questions often stop us in our tracks: It
@@ -1304,7 +1697,7 @@
 			<p> First, what is our outlook as feminists and how is it different from that of other
 				feminists? I think most radical feminists and socialist feminists would agree with
 				my capsule characteriza- tion of feminism as far as it goes. The trouble with
-				radical feminism from a socialist feminist point of view, is that it doesn’t go any
+				<rs key="radical feminism" ref="http://www.wikidata.org/entity/Q2914207">radical feminism</rs> from a socialist feminist point of view, is that it doesn’t go any
 				farther: it remains transfixed by the universality of male supremacy: things have
 				never really changed; all social systems are "patriarchies“; imperialism,
 				militarism and capitalism are all simply expressions of innate male aggressiveness.
@@ -1330,7 +1723,7 @@
 				production went into the factories; individuals broke off from the family to become
 				"free" wage earners. To say that capitalism disrupted the patriarchal organization
 				of production and family life is not, of course, to say that capital- ism abolished
-				male supremacy! But the particu<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_008.jpg"/>lar forms of sex oppression we
+				male supremacy! But the particular<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_008.jpg"/>forms of sex oppression we
 				experience today are, to a significant degree, recent developments. A huge
 				historical discontinuity lies between us and true patriarchy. If we are to
 				understand our experience as women today, we must move beyond the biological
@@ -1343,7 +1736,7 @@
 				trying to bring out something else about our perspective: that there is no way to
 				understand sexism as it acts on our lives—never mind class oppression for a
 				minute—without putting it in the historical context of capitalism. </p>
-			<p>Now let's go on to our outlook as Marxists. Again, I think most socialist feminists
+			<p>Now let'cs go on to our outlook as Marxists. Again, I think most socialist feminists
 				would agree with my capsule summary as far as it goes. And the trouble again is that
 				there are a lot of people (I'll call them "mechanical Marxists") who do not go any
 				further. To these people, the only "real" and important things that go on in
@@ -1372,7 +1765,7 @@
 				unwaged woman (the housewife): is she really a member of the working class? That
 				is, does she really produce surplus value? We say, of course housewives are
 				members of the working class—not because we have some elaborate proof that they
-				really do produce surplus value–but because we under- stand a class as being
+				really do produce surplus value–but because we understand a class as being
 				composed of people, and as having a social existence quite apart from the
 				capitalist-dominated realm of production. When we think of class in this way, then
 				we see that in fact the women who seemed most peripheral the housewives are at the
@@ -1418,10 +1811,9 @@
 					collective dependency on the capitalist class. </item>
 				<item>3. The subjugation of women, in ways characteristic of late capitalist
 					society, has been a key to this process of class atomization. To put it another
-					way: the forces which have atomized working-class life and promoted cultural/
-					material dependency on the capitalist class are the same forces which have
+					way: the forces which have atomized working-class life and promoted cultural/material dependency on the capitalist class are the same forces which have
 					served to perpetuate the subjugation of women. It is women who are most
-					isolated in what has become an in- creasingly privatized family existence (even
+					isolated in what has become an increasingly privatized family existence (even
 					when they work outside the home too). It is, in many instances women's skills
 					(productive skills, healing, midwifery) which have been discredited or banned
 					to make way for commodities. It is, above all, women who are required to be
@@ -1446,7 +1838,7 @@
 				into the same thing. The capsule summaries I gave earlier retain their "ultimate"
 				truth: there are crucial aspects of capitalist domination (such as racial
 				oppression) which a purely feminist perspective simply cannot account for or deal
-				with—without bizarre distor- tions, that is. There are crucial aspects of sex
+				with—without bizarre distortions, that is. There are crucial aspects of sex
 				oppression (such as male violence within the family) into which socialist thought
 				has little insight—again without a lot of stretching and distortion. Hence the need
 				to continue to be socialists and feminists. But there is enough of a synthesis, both
