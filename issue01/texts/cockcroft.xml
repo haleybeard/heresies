@@ -5036,6 +5036,83 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409145617946",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T18:56:17.946Z",
+	"dcterms:modified": "2023-04-09T18:56:17.946Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409145617946#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409145617946#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[22]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -5195,10 +5272,10 @@
 			<p>Overtly feminist murals are found primarlly on Women's Center walls within the university world, and in certain selected city neighbor hoods--Haght-Ashbury, for example--where a base of
 				support exists. Most often, the feminist consciousness of women muralists is expressed bythesubstitution of female for male as asymbolic or heroic figure, or even by the mere
 				inclusion of women as active figures in any mural.</p>
-			<p>The problem of responsibility to the perma-<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_023.jpg"/><pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_024.jpg"/>nent audience, those who have to live with art, isone with whichthecommunity muralist is constantly faced. The ideal is to
-				work constantly at the cutting edge of issues-neither too far ahead nor too far behind. This is a continual struggle involving a constant series of difficult decisions and has been
+			<p>The problem of responsibility to the permanent<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_023.jpg"/><pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_024.jpg"/>audience, those who have to live with art, is one with which the community muralist is constantly faced. The ideal is to
+				work constantly at the cutting edge of issues–neither too far ahead nor too far behind. This is a continual struggle involving a constant series of difficult decisions and has been
 				a direct part of my own recent experience as a muralist. After several years of working in a relatively radicalized university setting, I undertook some murals in a very different
-				environment-a conservative small town in the Adirondack mountains. My problem was how to paint a bicentennial mural that would be accepted by the permanent residents as their history
+				environment–a conservative small town in the Adirondack mountains. My problem was how to paint a bicentennial mural that would be accepted by the permanent residents as their history
 				and yet not violate my convictions, or the truth. Just as I began work in early 1976, the very town authorities who were my sponsors whitewashed a youth mural on ecology I had directed in
 				1974, which was critical of the town's dumping sewage into the <placeName key="Schroon River" ref="http://www.wikidata.org/entity/Q7432908">Schroon River</placeName> . I conceived my design as a compromise: the ancestors of the present residents are shown as workers in the
 				logging industry, the saw mill, and the textile factories-a working-class history, but one with only positive images. I began painting the wall with great misgivings. It was the
