@@ -595,9 +595,89 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409143751885",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T18:37:51.885Z",
+	"dcterms:modified": "2023-04-09T18:37:51.885Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409143751885#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409143751885#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[5]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q6304327",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409143751886",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-04-09T18:37:51.886Z",
+	"dcterms:modified": "2023-04-09T18:37:51.886Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -624,7 +704,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409143751886#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[5]/persName[3]"
+			"rdf:value": "TEI/text/body/div[2]/p[5]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -676,6 +756,7 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409143751886",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-04-09T18:37:51.886Z",
+	"dcterms:modified": "2023-04-09T18:37:51.886Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -702,7 +783,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409143751886#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[5]/persName[5]"
+			"rdf:value": "TEI/text/body/div[2]/p[5]/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -4447,10 +4528,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409145032804",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?date_annotation_20230409145217391",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-09T18:50:32.804Z",
-	"dcterms:modified": "2023-04-09T18:50:32.804Z",
+	"dcterms:created": "2023-04-09T18:52:17.391Z",
+	"dcterms:modified": "2023-04-09T18:52:17.391Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -4461,7 +4542,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409145032804#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?date_annotation_20230409145217391#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
@@ -4475,13 +4556,14 @@
 			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409145032804#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?date_annotation_20230409145217391#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[5]/persName[4]"
+			"rdf:value": "TEI/text/body/div[2]/p[6]/date"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson"
+		"@type": "xsd:date",
+		"rdf:value": "1971/1973"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -4524,10 +4606,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409145058606",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230409145239969",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-09T18:50:58.606Z",
-	"dcterms:modified": "2023-04-09T18:50:58.606Z",
+	"dcterms:created": "2023-04-09T18:52:39.969Z",
+	"dcterms:modified": "2023-04-09T18:52:39.969Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -4538,7 +4620,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409145058606#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230409145239969#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml",
@@ -4552,13 +4634,13 @@
 			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?person_annotation_20230409145058606#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/cockcroft.xml?organization_annotation_20230409145239969#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[5]/persName[6]"
+			"rdf:value": "TEI/text/body/div[2]/p[6]/orgName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson"
+		"@type": "org:Organization"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -4608,14 +4690,14 @@
 				projects, and decorative walls—all within a framework allowing for neighborhood control. Under Seronde's direction, the program emphasized the sociological rather than the
 				decorative aspect of public art. Many impressive walls were painted from 1968 to 1970, especially in the Black communities of <placeName key="Roxbury" ref="http://www.wikidata.org/entity/Q20138">Roxbury</placeName> and South End–including the first women's wall,
 
-				<persName key="Sharon Dunn" ref="http://www.wikidata.org/entity/Q107551786">Sharon Dunn</persName>'s Black Women, painted in 1970. Seronde is only one of many women who <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_017.jpg"/> have made important contributions as organizers and administrators. Judy Baca, a
+				<persName key="Sharon Dunn" ref="http://www.wikidata.org/entity/Q107551786">Sharon Dunn</persName>'s Black Women, painted in 1970. Seronde is only one of many women who <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_017.jpg"/> have made important contributions as organizers and administrators. <persName key="Judy Baca" ref="http://www.wikidata.org/entity/Q6304327">Judy Baca</persName>, a
 				leading Chicana muralist in Los Angeles, obtained City funding for a similar neighborhood-oriented large-scale mural program (Citywide Murals) in 1974. <persName key="Killen, Shelly" ref="http://viaf.org/viaf/45550073/">Shelly Killen</persName> heads a program
 				for murals in prisons in <placeName key="Rhode Island" ref="http://www.wikidata.org/entity/Q1387">Rhode Island</placeName>, which has operated in the correctional institutions there for the past two years. <persName>Sandy Rubin</persName>'s Alternate Graffiti Workshop in <placeName key="Philadelphia" ref="http://dbpedia.org/resource/Philadelphia">Philadephia</placeName>
 				pioneered techniques for developing the artistic potential of graffiti writers; several of her workshop graduates have become muralists in their own right. <persName key="Ruth Asawa" ref="http://www.wikidata.org/entity/Q7382874">Ruth Asawa</persName> and <persName>Nancy Thompson</persName> developed the Alvarado School-Community Program in <placeName key="San Francisco" ref="http://www.wikidata.org/entity/Q62">San Francisco</placeName> which brings community artists into the public schools to enrich the school experience and has heped to
 				open the doors to "Artists in the Schools" programs around the country. In fact, at the present time, the majority of the mural programs throughout the nation are directed by
 				women. </p>
-			<p>The major influx of women artists into the mural movement did not take place until 1971-73 when news about the community walls had become better known outside the actual mural
-				communities. This was also a time of expansion for the Womens Liberation Movement. Many women artists tried mural work, but not all of them became muralists. Community mural work,
+			<p>The major influx of women artists into the mural movement did not take place until <date from="1971" to="1973">1971-73</date> when news about the community walls had become better known outside the actual mural
+				communities. This was also a time of expansion for the <orgName>Womens Liberation Movement</orgName>. Many women artists tried mural work, but not all of them became muralists. Community mural work,
 				although highly rewarding, requires a certain kind of openness and great dedication. It also demands physical labor, community organizing, going to meetings, and an ability to deal
 				with the great variety of people who come up to talk or make comments. However, a number of the women who did become involved in the eanly 1970s now identify themselves as muralists and are recognized for their artistic contributions. </p>
 			<p>The development of <persName>Caryl Yasko</persName> one of the best muralists in the nation and a leader of the <orgName key="Chicago Mural Group" ref="http://viaf.org/viaf/139809031/">Chicago Mural Group</orgName>, illustrates this process. like Green, Yasko was introduced to the mural
