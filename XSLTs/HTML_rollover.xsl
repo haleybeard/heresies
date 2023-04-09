@@ -153,7 +153,7 @@
     </xsl:template>-->
     
     
-    <xsl:template match="tei:title[@ref] | tei:persName[@ref] | tei:placeName[@ref] | tei:orgName[@ref]">
+    <xsl:template match="tei:title[@ref] | tei:persName[@ref] | tei:placeName[@ref] | tei:orgName[@ref] | tei:rs">
         <a xmlns="http://www.w3.org/1999/xhtml">
             <xsl:attribute name="href">
                 <xsl:value-of select="@ref"/>
