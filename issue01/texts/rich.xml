@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
@@ -126,27 +125,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml?person_annotation_20221111152722580",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?title_annotation_20230409154920876",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-11T20:27:22.580Z",
-	"dcterms:modified": "2022-11-11T20:27:22.580Z",
-
+	"dcterms:created": "2023-04-09T19:49:20.876Z",
+	"dcterms:modified": "2023-04-09T19:49:20.876Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-
-		"cwrc:hasName": "maggie smith"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml?person_annotation_20221111152722580#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?title_annotation_20230409154920876#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml",
-
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -154,14 +150,170 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/rich.xml?person_annotation_20221111152722580#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?title_annotation_20230409154920876#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/byline/persName/persName"
-
+			"rdf:value": "TEI/text/back/p/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/9718159521652133070000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?rs_annotation_20230409155806627",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T19:58:06.627Z",
+	"dcterms:modified": "2023-04-09T19:58:06.627Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?rs_annotation_20230409155806627#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?rs_annotation_20230409155806627#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[68]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q7264",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?person_annotation_20230409155928346",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T19:59:28.346Z",
+	"dcterms:modified": "2023-04-09T19:59:28.346Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?person_annotation_20230409155928346#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/rich.xml?person_annotation_20230409155928346#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/byline/persName/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -174,7 +326,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -183,16 +335,16 @@
 		<body>
 			<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_025.jpg"/>
 
-			<head><title>Women and Honor: Some Notes on Lying</title></head>
-			<byline><persName><persName key="Adrienne Rich" ref="http://www.wikidata.org/entity/Q270705">Adrienne Rich</persName></persName></byline>
+			<div><head><title>Women and Honor: Some Notes on Lying</title></head>
+			<byline><persName><persName key="Adrienne Rich" ref="http://www.wikidata.org/entity/Q270705">Adrienne Rich</persName></persName></byline></div>
 
 
 			<div><p>(These notes are concerned with relationships between and among women. When "personal
 				relationship" is referred to I mean a relationship between two women, it will be
 				clear in what follows when I am talking about women's relationships with men.)</p>
-			<p>The old, male idea of honor. A man’s “word" sufficed —to other men — without
+			<p>The old, male idea of honor. A man’s “word" sufficed—to other men—without
 				guarantee.</p>
-			<p>"Our Land Free, Our Men Honest, Our Women Fruitful" — a popular colonial toast in
+			<p>"Our Land Free, Our Men Honest, Our Women Fruitful"—a popular colonial toast in
 				America.</p>
 			<p>Male honor also having something to do with killing: I couid not love thee, Dear, so
 				much / Lov'd I not Honour more (“To Lucasta, On Going to the Wars”). Male honor as
@@ -208,13 +360,13 @@
 				their politics: not that men in high places lie, only that they do so with Such
 				indifference, so endlessly, still expecting to be believed. We are accustomed to the
 				contempt inherent in the political lie.</p>
-			<figure/>
+			
 			<p>To discover that one has been lied to in a personal relationship, however, leads one
 				to feel a little crazy.</p>
-			<figure/>
+			
 			<p>Lying is done with words, and also with silence.</p>
 			<p>The woman who tells lies in her personal relationships may or may not plan or invent
-				her lying. She may not even think of what she is doing in a calculated way </p>
+				her lying. She may not even think of what she is doing in a calculated way.</p>
 			<p> A subject is raised which the liar wishes buried. She has to go downstairs, her
 				parking-meter will have run out. Or there is a telephone call she ought to have made
 				an hour ago.</p>
@@ -227,23 +379,23 @@
 				not with her own.</p>
 			<p>But the liar is concerned with her own feelings.</p>
 			<p>The liar lives in fear of losing control. She cannot even desire a relationship
-				without manipu- lation, since to be vulnerable to another person means for her the
+				without manipulation, since to be vulnerable to another person means for her the
 				loss of control.</p>
-			<p>The liar has many friends, and leads an exisence of great loneliness.</p>
-			<figure/>
+			<p>The liar has many friends, and leads an existence of great loneliness.</p>
+			
 			<p>The liar often suffers from amnesia. Amnesia is the silence of the unconscious.</p>
 			<p>To lie habitually, as a way of life, is to lose contact with the unconscious. it is
 				like taking sleeping pills, which confer sleep but blot out dreaming. The
 				unconscious wants truth. It ceases to speak to those who want something else more
 				than truth.</p>
 			<p>In speaking of lies we come inevitably to the subject of truth. There is nothing
-				simple or easy about this idea. There is no “the truth,” "a truth" — truth is not
+				simple or easy about this idea. There is no “the truth,” "a truth"—truth is not
 				one thing, or even a system. It is an increasing complexity. The pattern of the
 				carpet is a surface. When we look closely or when we become weavers, we learn of the
 				tiny multiple threads unseen in the overall pattern, the knots on the underside of
 				the carpet.</p>
 			<p>This is why the effort to speak honestly is so important, Lies are usually attempts
-				to make <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_026.jpg"/> everything simpler — for the liar — than it really is, or ought
+				to make <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_026.jpg"/> everything simpler—for the liar—than it really is, or ought
 				to be.</p>
 			<p>In lying to others we end up lying to ourselves. We deny the importance of an event,
 				or a person, and thus deprive ourselves of a part of our lives. Or we use one piece
@@ -252,9 +404,9 @@
 			<p>The unconscious wants truth, as the body does. The complexity and fecundity of dreams
 				come from the complexity and fecundity of the unconscious struggling to fulfill that
 				desire. The complexity and fecundity of poetry come from the same struggle.</p>
-			<figure/>
-			<p>An honorabie human relationship — that is, one in which two people have the right to
-				use the word "love” — is a process, delicate, violent often terrifying to both
+			
+			<p>An honorabie human relationship—that is, one in which two people have the right to
+				use the word "love”—is a process, delicate, violent often terrifying to both
 				persons involved, a process of refining the truths they can tell each other.</p>
 			<p>It is important to do this because it breaks down human self-delusion and
 				isolation.</p>
@@ -262,7 +414,7 @@
 				complexity.</p>
 			<p>It is important to do this because we can count on so few people to go that hard way
 				with us.</p>
-			<figure/>
+			
 			<p>I come back to the question of women’s honor. Truthfuiness has not been considered
 				important for women, as long as we have remained physically faithful to a man, or
 				chaste.</p>
@@ -288,7 +440,7 @@
 				truthfulness among women. As we cease to lie with our bodies, as we cease to take on
 				faith what men have said about us, is a truly womanly idea of honor in the
 				making?</p>
-			<figure/>
+			
 			<p>Women have been forced to lie, for survival, to men. How to unlearn this among other
 				women?</p>
 			<p>"Women have always lied to each other." "Women have always whispered the truth to
@@ -301,7 +453,7 @@
 			<p>There is a danger run by all powerless people that we forget we are lying, or that
 				lying becomes a weapon we carry over into relationships with people who do not have
 				power over us.</p>
-			<figure/>
+			
 			<p>I want to reiterate that when we talk about women and honor or women and lying, we
 				speak within the context of male lying, the lies of the powerful, the lie as a false
 				source of power.</p>
@@ -311,7 +463,7 @@
 				experience and our instincts in a culture which validates only male experience. The
 				truth of our bodies and our minds has been mystified to us. We therefore have a
 				primary obligation to each other: not to undermine each other’s sense of <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_027.jpg"/> reality for the sake of expediency; not to gaslight each other.</p>
-			<figure/>
+			
 			<p>Women have often felt insane when cleaving to the truth of our experience. Our future
 				depends on the sanity of each of us and we have a profound stake beyond the personal
 				in the project of describing our reality as candidly and fully as we can to each
@@ -335,7 +487,7 @@
 				silence makes us all to some degree, into liars.</p>
 			<p>When a woman tells the truth she is creating the possibility for more truth around
 				her.</p>
-			<figure/>
+			
 			<p>The liar leads an existence of unutterable loneliness.</p>
 			<p>The liar is afraid.</p>
 			<p>But we are all afraid: without fear we become manic, hubristic, self-destructive.
@@ -359,7 +511,7 @@
 				truth.</p>
 			<p>The liar in her terror wants to fill up the void with anything. Her lies are a denial
 				of her fear; a way of maintaining control.</p>
-			<figure/>
+			
 			<p>Why do we feel slightly crazy when we realize we have been lied to in a
 				relationship?</p>
 			<p>We take so much of the universe on trust. You tell me: "In 1950 I lived on the north
@@ -382,9 +534,9 @@
 				trust. For awhile, we are thrust back onto some bleak, jutting ledge, in a dark
 				pierced by sheets of fire, swept by sheets of rain in a world before kinship, or
 				naming, or tenderness exist; we are brought close to formlessness.</p>
-			<figure/>
+			
 			<p>The liar may resist confrontation, denying that she lied. Or she may use other
-				language: forgetulness privacy, the protection of someone else. Or she may bravely
+				language: forgetfulness privacy, the protection of someone else. Or she may bravely
 				declare herself a coward. This allows her to go on lying, since that is what cowards
 				do. She does not say, I was afraid, since this would open the question of other ways
 				of handling her fear. It wouid open the question of what is actually feared.</p>
@@ -397,13 +549,13 @@
 				from a group depends in very large part on their understanding of honor.</p>
 			<p>Much of what is narrowly termed "politics" seems to rest on a longing for certainty
 				even at the cost of honesty, for an analysis which, once given, need not be
-				re-examined. Such is the dead-endedness — for women — of Marxism in our time.</p>
-			<p>Truthfuiness anywhere means a heightened complexity. But it is a movement into
+				re-examined. Such is the dead-endedness—for women—of <rs key="Marxism" ref="http://www.wikidata.org/entity/Q7264">Marxism</rs> in our time.</p>
+			<p>Truthfulness anywhere means a heightened complexity. But it is a movement into
 				evolution. Women are only beginning to uncover our own truths; many of us would be
 				grateful for some rest in that struggle, would be glad just to lie down with the
 				sherds we have painfully unearthed, and be satisfied with those. Often I feel this
 				like an exhaustion in my own body.</p>
-			<figure/>
+			
 			<p>The politics worth having, the relationships worth having, demand that we delve still
 				deeper.</p>
 			<p>The possibilities that exist between two people, or among a group of people, are a
@@ -425,7 +577,7 @@
 				I feel strong enough to hear your tentative and groping words. That we both know we
 				are trying, ail the time, to extend the possibilities of truth between us.</p>
 			<p>The possibility of life between us.</p>
-			<figure/></div>
+			</div>
 		</body>
 
 		<back>
