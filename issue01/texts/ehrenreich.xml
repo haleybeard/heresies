@@ -1293,10 +1293,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409151850004",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152018154",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-09T19:18:50.004Z",
-	"dcterms:modified": "2023-04-09T19:18:50.004Z",
+	"dcterms:created": "2023-04-09T19:20:18.154Z",
+	"dcterms:modified": "2023-04-09T19:20:18.154Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -1307,7 +1307,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409151850004#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152018154#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
@@ -1321,14 +1321,93 @@
 			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409151850004#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152018154#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[5]/rs"
+			"rdf:value": "TEI/text/body/div[2]/p[6]/rs"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "owl:Thing",
-		"@id": "http://www.wikidata.org/entity/Q12716775",
+		"@id": "http://www.wikidata.org/entity/Q7264",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152030607",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-09T19:20:30.607Z",
+	"dcterms:modified": "2023-04-09T19:20:30.607Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152030607#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ehrenreich.xml?rs_annotation_20230409152030607#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[6]/rs[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q7252",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1393,8 +1472,8 @@
 				liberating. There is no way to have a Marxist or a feminist outlook and remain a
 				spectator. To understand the reality laid bare by these analyses is to move into
 				action to change it.</p>
-			<p>Here I am going to restrict myself to what I see as the core insights of Marxism and
-				feminism, and state these as briefly and starkly as possible: Marxism (in 20 words
+			<p>Here I am going to restrict myself to what I see as the core insights of <rs key="Marxism" ref="http://www.wikidata.org/entity/Q7264">Marxism</rs> and
+				<rs key="feminism" ref="http://www.wikidata.org/entity/Q7252">feminism</rs>, and state these as briefly and starkly as possible: Marxism (in 20 words
 				or less) addresses itself to the class dynamics of capitalist society. Every social
 				scientist knows that capitalist societies are characterized by more or less severe,
 				systemic inequality. Marxism understands this inequality to arise from processes
