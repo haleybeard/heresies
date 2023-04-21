@@ -125,83 +125,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115164850940",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-15T21:48:50.940Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:tagging",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115164850940#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115164850940#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[4]/seg"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "fabio:UncontrolledVocabulary",
-		"dc:format": "text/xml",
-		"rdf:value": "Link "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115164906403",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-15T21:49:06.403Z",
@@ -230,7 +153,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115164906403#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[8]/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[7]/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -307,7 +230,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115164916416#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[10]/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[9]/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -384,7 +307,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115164931553#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[12]/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[11]/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -461,7 +384,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115164946463#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[12]/seg[2]"
+			"rdf:value": "TEI/text/body/div[2]/p[11]/seg[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -538,7 +461,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115164956456#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[12]/seg[3]"
+			"rdf:value": "TEI/text/body/div[2]/p[11]/seg[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -615,7 +538,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165007042#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[13]/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[12]/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -692,7 +615,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165017366#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[16]/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[15]/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -769,7 +692,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165027282#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[18]/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[17]/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -846,7 +769,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165036920#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[19]/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[18]/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -923,7 +846,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165044413#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[19]/seg[2]"
+			"rdf:value": "TEI/text/body/div[2]/p[18]/seg[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1000,7 +923,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165054871#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[22]/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[21]/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -1077,7 +1000,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?note_annotation_20221115165106696#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[22]/quote/note"
+			"rdf:value": "TEI/text/body/div[2]/p[21]/quote/note"
 		}
 	},
 	"oa:hasBody": {
@@ -1154,7 +1077,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?note_annotation_20221115165115662#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[21]/note"
+			"rdf:value": "TEI/text/body/div[2]/p[20]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -1231,7 +1154,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?note_annotation_20221115165129497#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[15]/note"
+			"rdf:value": "TEI/text/body/div[2]/p[14]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -1308,7 +1231,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165145013#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[8]/seg[2]"
+			"rdf:value": "TEI/text/body/div[2]/p[7]/seg[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1385,7 +1308,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?note_annotation_20221115165159270#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[9]/note"
+			"rdf:value": "TEI/text/body/div[2]/p[8]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -1462,7 +1385,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165215454#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[8]/seg[3]"
+			"rdf:value": "TEI/text/body/div[2]/p[7]/seg[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -1539,90 +1462,13 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?note_annotation_20221115165221221#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[8]/note"
+			"rdf:value": "TEI/text/body/div[2]/p[7]/note"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
 		"rdf:value": "Michele Russell, \"Woman and Third World,\"\n\n\t\t\t\t\t\tNew American Movement (June, 1973)."
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?note_annotation_20221115165228519",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-15T21:52:28.519Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?note_annotation_20221115165228519#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?note_annotation_20221115165228519#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[4]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "Actually nothing\n\t\t\t\t\t\tnew; the history of modern art demonstrates a constant longing for the\n\t\t\t\t\t\tprimitive, the simple, the clear, the \"poor,\" the noble naif, etc."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -1742,237 +1588,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165304512",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-15T21:53:04.512Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:tagging",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165304512#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165304512#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[4]/seg[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "fabio:UncontrolledVocabulary",
-		"dc:format": "text/xml",
-		"rdf:value": "art movement"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165310731",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-15T21:53:10.731Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165310731#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165310731#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[4]/orgName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q576913",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165318331",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-15T21:53:18.331Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:tagging",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165318331#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165318331#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[4]/seg[3]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "fabio:UncontrolledVocabulary",
-		"dc:format": "text/xml",
-		"rdf:value": "art movement"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165359051",
 	"type": "oa:Annotation",
 	"dcterms:created": "2022-11-15T21:53:59.051Z",
@@ -2001,7 +1616,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?keyword_annotation_20221115165359051#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[7]/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[6]/seg"
 		}
 	},
 	"oa:hasBody": {
@@ -2078,7 +1693,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?person_annotation_20221115165414546#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[8]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[7]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2155,7 +1770,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?person_annotation_20221115165419117#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[8]/persName[2]"
+			"rdf:value": "TEI/text/body/div[2]/p[7]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -2232,7 +1847,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?person_annotation_20221115165423371#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[9]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[8]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2309,7 +1924,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?person_annotation_20221115165426756#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[9]/persName[2]"
+			"rdf:value": "TEI/text/body/div[2]/p[8]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -2386,7 +2001,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165433651#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[12]/orgName"
+			"rdf:value": "TEI/text/body/div[2]/p[11]/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -2463,7 +2078,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165439462#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[13]/orgName"
+			"rdf:value": "TEI/text/body/div[2]/p[12]/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -2540,7 +2155,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?place_annotation_20221115165442947#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[13]/placeName"
+			"rdf:value": "TEI/text/body/div[2]/p[12]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -2617,7 +2232,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?title_annotation_20221115165451802#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[17]/title"
+			"rdf:value": "TEI/text/body/div[2]/p[16]/title"
 		}
 	},
 	"oa:hasBody": {
@@ -2692,7 +2307,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165455017#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[17]/orgName"
+			"rdf:value": "TEI/text/body/div[2]/p[16]/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -2767,7 +2382,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?person_annotation_20221115165459555#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[17]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[16]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2844,7 +2459,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?person_annotation_20221115165508281#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[19]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[18]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2921,7 +2536,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?person_annotation_20221115165512125#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[20]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[19]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2996,7 +2611,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165518627#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[21]/orgName"
+			"rdf:value": "TEI/text/body/div[2]/p[20]/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -3071,7 +2686,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?person_annotation_20221115165522513#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[22]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[21]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -3153,83 +2768,6 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165551633",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-15T21:55:51.633Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165551633#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/lippard.xml?organization_annotation_20221115165551633#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[4]/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q134147",
-		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -3377,32 +2915,7 @@
 					went, must be good if the bad guys - the rich and the masses- didn't like
 					it.</p>
 
-				<p>In the 1960s the choice of poverty, often excused as anti-consumerism, even
-					infiltrated the esthetics of art. <note type="researchNote">Actually nothing
-						new; the history of modern art demonstrates a constant longing for the
-						primitive, the simple, the clear, the "poor," the noble naif, etc.</note>
-					First there was Pop Art, modeled on kitsch, on advertising and consumerism, and
-					equally successful on its own level. (Women, incidentally, participated little
-					in <orgName key="pop art" ref="http://www.wikidata.org/entity/Q134147">Pop
-						Ar</orgName>t<seg type="keyword"><term><term><term>Link </term></term></term></seg>, partly because of
-					its blatant sexism, sometimes presented as a parody of the image of woman in the
-					media - and partly because the subject matter was often "women's work," ennobled
-
-					and acceptable only when the artists were men.) Then came Process Art<seg type="keyword"><term><term><term>art movement</term></term></term></seg>-a rebellion against the
-
-					"precious object" traditionally desired and bought by the rich. Here another
-					kind of co-optation took place, when temporary piles of dirt, oil, rags and
-					filthy rubber began to grace carpeted living rooms. The Italian branch was even
-					called <orgName key="Arte Povera" ref="http://www.wikidata.org/entity/Q576913">Arte Povera</orgName>. Then came the rise of a third-stream medium called
-					"conceptual art" which offered "anti-objects" in the form of ideas-books or
-					simple xeroxed texts and photographs with no inherent physical or monetary value
-
-					(until they got on the market, that is). Conceptual art<seg type="keyword"><term><term><term>art movement</term></term></term></seg> seemed politically viable because of
-
-					its notion that the use of ordinary, inexpensive, unbulky media would lead to a
-					kind of socialization (or at least democratization) of art as opposed to
-					gigantic canvases and huge chrome sculptures costing five figures and filling
-					the world with more consumer fetishes.</p>
+				
 				<p> Yet the trip from of on canvas to ideas on xerox was, in retrospect, yet another
 					instance of "downward mobility" or middle-class guilt. It was no accident that
 					conceptual art appeared at the height of the social movements of the late 1960s
