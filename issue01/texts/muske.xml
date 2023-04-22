@@ -2158,6 +2158,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164557530",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:45:57.530Z",
+	"dcterms:modified": "2023-04-22T20:45:57.530Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164557530#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164557530#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[15]/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q467961",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -2337,7 +2416,7 @@
 				security threats—in other words, intelligent, outspoken, and funny. Some were
 				"controversial" cases: <persName>Juanita Reedy</persName>, about to have her first child behind bars;
 				<persName key="Ramer, Carole J." ref="http://viaf.org/viaf/63352640/" cert="low">Carole Ramer</persName> who had been busted with <persName key="Abbie Hoffman" ref="http://www.wikidata.org/entity/Q306514">Abbie Hoffman</persName> and who had a lot to say about
-				everything; <persName key="Jensen, Gloria H." ref="http://viaf.org/viaf/43354610/" cert="low">Gloria Jensen</persName>, whose imagination was like a vaudeville show; Assata Shakur/Joanne Chesimard—alleged leader of the <orgName key="Black Liberation Army" ref="http://www.wikidata.org/entity/Q2545743">Black Liberation Army</orgName>, brilliant and
+				everything; <persName key="Jensen, Gloria H." ref="http://viaf.org/viaf/43354610/" cert="low">Gloria Jensen</persName>, whose imagination was like a vaudeville show; <persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Assata Shakur/Joanne Chesimard</persName>—alleged leader of the <orgName key="Black Liberation Army" ref="http://www.wikidata.org/entity/Q2545743">Black Liberation Army</orgName>, brilliant and
 				talented, with a Cool-Hand Luke aura of insouciance, compassion, and tenacity.
 				(Assata was considered so dangerous that the prison required her to have a
 				continual guard-escort.) These women were all good writers. They had learned craft
@@ -2357,12 +2436,12 @@
 				prisoners' writing or the reasons for running workshops in prisons. We would have
 				evidence in writing. Best of all, the women would have the audience they deserved. I
 				began to draft a rough script, a framework for some of the poems.</p>
-			<p>What happened to Juanita Reedy made up everybody's mind about publication. Juanita
+			<p>What happened to <persName>Juanita Reedy</persName> made up everybody's mind about publication. Juanita
 				went to Elmhurst Hospital to have her child and was treated so inhumanely that she
 				refused to let prison doctors touch her upon her return. She wrote a poem about her
 				experience, which she developed into a longer <title>"Birth Journal."</title> She published it in
 				<orgName key="Majority Report" ref="http://www.wikidata.org/entity/Q106091070">Majority Report</orgName>, the feminist journal. In the same issue there was an article about
-				FREE SPACE and a poem by Carole Ramer. The issue began to circulate in the prison.
+				FREE SPACE and a poem by <persName>Carole Ramer</persName>. The issue began to circulate in the prison.
 				Assata, inspired by Juanita, wrote her own "Birth Journal" and sent it to a major
 				magazine. One night in class she read this poem:</p>
 			<lg>
