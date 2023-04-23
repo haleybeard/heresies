@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
@@ -122,704 +121,12 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161015052",
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153118735",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-08T20:10:15.052Z",
+	"dcterms:created": "2023-04-23T19:31:18.735Z",
+	"dcterms:modified": "2023-04-23T19:31:18.735Z",
 	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161015052#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161015052#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "\"An Exhortation to Theodore after His Fall,\" in A Select Library of the Nicene and Post-Nicene Fathers, ed. Philip Schaff et al. (New York, 1889), IX, 103-104."
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161116718",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-08T20:11:16.718Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161116718#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161116718#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "From the Carmen de Mundi contemptu, quoted in Not in Cod’s Image, ed. J. Ofaolain and L. Martines (New York, Harper and Row 1973), p. xlij. St. Odo of Cluny had earlier phrased this with almost identical wording in his Collationes, lib. 2, cap. 9 (in J. P. Migne’s Patrologia Latina (Paris, 1844-82). CXXXIII, 556), while Ancrene iwie (below) directly refers to a similar expression in St. Bernards Meditationes Plissimae de Cognitione Humanae Conditionis, cap. 3 (Migne, op, cit., ClXXXIN 489); The key phrases are \"stercoris saccum” and saccus stercorum” —literally, a bag of shit."
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161218821",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-08T20:12:18.821Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161218821#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161218821#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "The Early English Text Societys Ancrene Riwie, ed. E. j Dobson (London, 1972), pp. 202-203; authois transla tion."
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161326340",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-08T20:13:26.340Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161326340#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161326340#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/note[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "Salimbene, in From St. francis to Dante: Translations from the Chronicle of the Franciscan Salimbene (12211288). End ed., ed. and trans. C.C. Coulton (London, 1907), p. 97. and Tertullian, quoted in G.L. Simons A Hisory of Sex (London, New English Library, 1970). p. 71"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161410067",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-08T20:14:10.067Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161410067#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161410067#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/note[3]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": " From La Cief damor and La Cour daimer in Nina Eptonts ove and the french (London, 1959), pp. 30ff "
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161507467",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-08T20:15:07.467Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161507467#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161507467#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[8]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "For troubadour biographies, 1 have consulted jehan de Nostredame, les Vies des Plus Celebres et Ancien: Poetes Provencaux, ed. Camille Chabaneau (1913; rpt Geneve, 1970—first published in 1575); La Curne de Sainte-Pelaye, Histoire Litteraire des Troubadours (1774 rpt. 3 vols. in 1, Genève, 1967); and Victor Balaguer, los Trovadores, 2nded. (Madrid, 1883). 4 vol."
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161548662",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-08T20:15:48.662Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161548662#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161548662#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[10]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "Jaufre was not the onty fatality of romance. Andrieu of France—eulogized by at least six troubadours —also fell victim to “too much love\" and hed never set eyes on hi lady either. See jehan de Nostredame, op. cit., pp. 166, 180"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161624817",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-08T20:16:24.817Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161624817#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161624817#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[12]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "Plutarch’s Lives, trans. Langhorne (London, Frederick Warne, n.d.). IV, 37"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161706186",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-08T20:17:06.186Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161706186#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?note_annotation_20220908161706186#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "Ovid's Remedia Amoris, line 405; Rolfe Humphries translation in The Art of Love (Bloomington, 1957) p. 193"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?person_annotation_20221109151111401",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-09T20:11:11.401Z",
-	"dcterms:modified": "2022-11-09T20:11:11.401Z",
-	"dcterms:creator": {
+		"@id": "2",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
@@ -828,23 +135,23 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?person_annotation_20221109151111401#Target",
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153118735#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml",
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "3.0.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/ladden.xml?person_annotation_20221109151111401#Selector",
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153118735#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/byline/persName/persName"
+			"rdf:value": "TEI/text/body/div/byline/persName/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -853,11 +160,3411 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118738",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:31:18.738Z",
+	"dcterms:modified": "2023-04-23T19:31:18.738Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118738#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118738#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "\"An Exhortation to Theodore after His Fall,\" in A Select Library of the Nicene and Post-Nicene Fathers, ed. Philip Schaff et al. (New York, 1889), IX, 103-104."
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118739",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:31:18.739Z",
+	"dcterms:modified": "2023-04-23T19:31:18.739Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118739#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118739#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "From the Carmen de Mundi contemptu, quoted in Not in God’s Image, ed. J. Ofaolain and L. Martines (New York, Harper and Row 1973), p. xlij. St. Odo of Cluny had earlier phrased this with almost identical wording in his Collationes, lib. 2, cap. 9 (in J. P. Migne’s Patrologia Latina (Paris, 1844-82). CXXXIII, 556), while Ancrene Riwle (below) directly refers to a similar expression in St. Bernard's Meditationes Plissimae de Cognitione Humanae Conditionis, cap. 3 (Migne, op, cit., ClXXXIN 489); The key phrases are \"stercoris saccum” and saccus stercorum” —literally, a bag of shit."
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118740",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:31:18.740Z",
+	"dcterms:modified": "2023-04-23T19:31:18.740Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118740#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118740#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "The Early English Text Society's Ancrene Riwle, ed. E. J. Dobson (London, 1972), pp. 202-203; author's translation."
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118740",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:31:18.740Z",
+	"dcterms:modified": "2023-04-23T19:31:18.740Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118740#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118740#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Salimbene, in From St. Francis to Dante: Translations from the Chronicle of the Franciscan Salimbene (1221-1288). 2nd ed., ed. and trans. G.G. Coulton (London, 1907), p. 97. and Tertullian, quoted in G.L. Simon's A Hisory of Sex (London, New English Library, 1970). p. 71"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118741",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:31:18.741Z",
+	"dcterms:modified": "2023-04-23T19:31:18.741Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118741#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118741#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/note[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": " From La Clef d'amor and La Cour d'aimer in Nina Epton's Love and the French (London, 1959), pp. 30ff "
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118742",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:31:18.742Z",
+	"dcterms:modified": "2023-04-23T19:31:18.742Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118742#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118742#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[8]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "For troubadour biographies, 1 have consulted Jehan de Nostredame, Les Vies des Plus Celebres et Ancien: Poetes Provencaux, ed. Camille Chabaneau (1913; rpt Geneve, 1970—first published in 1575); La Curne de Sainte-Pelaye, Histoire Litteraire des Troubadours (1774 rpt. 3 vols. in 1, Genève, 1967); and Victor Balaguer, Los Trovadores, 2nded. (Madrid, 1883). 4 vol."
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118742",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:31:18.742Z",
+	"dcterms:modified": "2023-04-23T19:31:18.742Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118742#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118742#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[10]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Jaufre was not the onty fatality of romance. Andrieu of France—eulogized by at least six troubadours —also fell victim to “too much love\" and hed never set eyes on his lady either. See Jehan de Nostredame, op. cit., pp. 166, 180"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118743",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:31:18.743Z",
+	"dcterms:modified": "2023-04-23T19:31:18.743Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118743#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118743#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[12]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Plutarch’s Lives, trans. Langhorne (London, Frederick Warne, n.d.). IV, 37"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118743",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:31:18.743Z",
+	"dcterms:modified": "2023-04-23T19:31:18.743Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118743#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?note_annotation_20230423153118743#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[14]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Ovid's Remedia Amoris, line 405; Rolfe Humphries' translation in The Art of Love (Bloomington, 1957) p. 193"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?organization_annotation_20230423153227793",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:32:27.793Z",
+	"dcterms:modified": "2023-04-23T19:32:27.793Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?organization_annotation_20230423153227793#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?organization_annotation_20230423153227793#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/div/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/LaGuardia_Community_College",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153503042",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:35:03.042Z",
+	"dcterms:modified": "2023-04-23T19:35:03.042Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153503042#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153503042#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q4340",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153745957",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:37:45.957Z",
+	"dcterms:modified": "2023-04-23T19:37:45.957Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153745957#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153745957#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[4]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1774110",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153802425",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:38:02.425Z",
+	"dcterms:modified": "2023-04-23T19:38:02.425Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153802425#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153802425#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[4]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://www.wikidata.org/wiki/Q95795577",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153813503",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:38:13.503Z",
+	"dcterms:modified": "2023-04-23T19:38:13.503Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153813503#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153813503#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[4]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1778218",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153825781",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:38:25.781Z",
+	"dcterms:modified": "2023-04-23T19:38:25.781Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153825781#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153825781#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[4]/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q54834439",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153913337",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:39:13.337Z",
+	"dcterms:modified": "2023-04-23T19:39:13.337Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153913337#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153913337#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[4]/persName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q20922145",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153940991",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:39:40.991Z",
+	"dcterms:modified": "2023-04-23T19:39:40.991Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153940991#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423153940991#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[4]/persName[7]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q2121581",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154007141",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:40:07.141Z",
+	"dcterms:modified": "2023-04-23T19:40:07.141Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154007141#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154007141#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q43706",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154128941",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:41:28.941Z",
+	"dcterms:modified": "2023-04-23T19:41:28.941Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154128941#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154128941#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q3779564",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154201841",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:42:01.841Z",
+	"dcterms:modified": "2023-04-23T19:42:01.841Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154201841#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154201841#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5260",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?place_annotation_20230423154240973",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:42:40.973Z",
+	"dcterms:modified": "2023-04-23T19:42:40.973Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?place_annotation_20230423154240973#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?place_annotation_20230423154240973#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[10]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q3579",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154257573",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:42:57.573Z",
+	"dcterms:modified": "2023-04-23T19:42:57.573Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154257573#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154257573#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[10]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1401",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154320007",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:43:20.007Z",
+	"dcterms:modified": "2023-04-23T19:43:20.007Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154320007#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154320007#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[11]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q665165",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154346948",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:43:46.948Z",
+	"dcterms:modified": "2023-04-23T19:43:46.948Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154346948#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154346948#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q41523",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154444540",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:44:44.540Z",
+	"dcterms:modified": "2023-04-23T19:44:44.540Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154444540#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154444540#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[15]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q728510",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423154623725",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:46:23.725Z",
+	"dcterms:modified": "2023-04-23T19:46:23.725Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423154623725#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423154623725#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/note/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q16152258",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154637089",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:46:37.089Z",
+	"dcterms:modified": "2023-04-23T19:46:47.870Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154637089#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154637089#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q115922",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154811556",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:48:11.556Z",
+	"dcterms:modified": "2023-04-23T19:48:11.556Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154811556#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423154811556#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[2]/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q454553",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423154833779",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:48:33.779Z",
+	"dcterms:modified": "2023-04-23T19:48:33.779Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423154833779#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423154833779#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[2]/note/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q21436484",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423154855690",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:48:55.690Z",
+	"dcterms:modified": "2023-04-23T19:48:55.690Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423154855690#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423154855690#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[2]/note/title[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q548044",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423155144955",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:51:44.955Z",
+	"dcterms:modified": "2023-04-23T19:51:44.955Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423155144955#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423155144955#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/note/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q489442",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155225903",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:52:25.903Z",
+	"dcterms:modified": "2023-04-23T19:52:25.903Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155225903#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155225903#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/187144782706114501587/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155244503",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:52:44.503Z",
+	"dcterms:modified": "2023-04-23T19:52:44.503Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155244503#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155244503#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/note[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q108446705",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155355325",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:53:55.325Z",
+	"dcterms:modified": "2023-04-23T19:53:55.325Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155355325#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155355325#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/note[2]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/95255424/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155412841",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:54:12.841Z",
+	"dcterms:modified": "2023-04-23T19:54:12.841Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155412841#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155412841#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/note[2]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q174929",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155605412",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:56:05.412Z",
+	"dcterms:modified": "2023-04-23T19:56:05.412Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155605412#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155605412#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/note[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q18705131",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155730321",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:57:30.321Z",
+	"dcterms:modified": "2023-04-23T19:57:30.321Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155730321#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155730321#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[8]/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1218411",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155805011",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:58:05.011Z",
+	"dcterms:modified": "2023-04-23T19:58:05.011Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155805011#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155805011#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[8]/note/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1029137",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423155900512",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:59:00.512Z",
+	"dcterms:modified": "2023-04-23T19:59:00.512Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423155900512#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423155900512#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[8]/note/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/516154387331530970006/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155924181",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T19:59:24.181Z",
+	"dcterms:modified": "2023-04-23T19:59:24.181Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155924181#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423155924181#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[8]/note/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q713246",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423160034779",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T20:00:34.779Z",
+	"dcterms:modified": "2023-04-23T20:00:34.779Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423160034779#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423160034779#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[12]/note/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q842337",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423160106979",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T20:01:06.979Z",
+	"dcterms:modified": "2023-04-23T20:01:06.979Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423160106979#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?title_annotation_20230423160106979#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[14]/note/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q1236392",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423160135698",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-23T20:01:35.698Z",
+	"dcterms:modified": "2023-04-23T20:01:35.698Z",
+	"dcterms:creator": {
+		"@id": "2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423160135698#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org/sites/default/files/2023-04/ladden.xml?person_annotation_20230423160135698#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[14]/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q7360825",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://24325189-review-review-174-dy3i8j.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
 	}
 }]]>
         </rdf:Description>
@@ -873,29 +3580,29 @@
 				<p>The attitudes in True Romances (and in most of our pasts)
 				originally shone forth from 12th-century troubadour poetry and even then they were
 				a little tarnished. Chaste, idealistic and upper-ciass, medieval troubadour poetry
-				sup- posedly countered a strong tradition of misog- yny. It also supposedly elevated
+				supposedly countered a strong tradition of misogyny. It also supposedly elevated
 				woman by upholding that same feminine mystique which, for centuries, the Christian
 				fathers had diligently) tried to demolish: “Corporeal beauty is nothing else but
 				phlegm, and blood, and humor, and bile, and the fluid of masticated food.... " said
-				John Chrysostom, a saint, in the 4th century. "When you see a rag with any of
+				<persName key="John Chrysostom" ref="http://www.wikidata.org/entity/Q43706">John Chrysostom</persName>, a saint, in the 4th century. "When you see a rag with any of
 				these things on it, such as phlegm, or spittle, you cannot bear to touch it even
 				with the tips of your fingers. . . . Are you in a flutter of excitement about the
-				storehouses and depositories of these things?" <note type="researchNote">"An Exhortation to Theodore after His Fall," in A Select Library of the Nicene and Post-Nicene Fathers, ed. Philip Schaff et al. (New York, 1889), IX, 103-104.</note></p>
+				storehouses and depositories of these things?" <note type="researchNote">"An Exhortation to Theodore after His Fall," in <title key="Nicene and Post-Nicene Fathers" ref="http://www.wikidata.org/entity/Q16152258" level="m">A Select Library of the Nicene and Post-Nicene Fathers</title>, ed. <persName key="Philip Schaff" ref="http://www.wikidata.org/entity/Q115922" type="real">Philip Schaff</persName> et al. (New York, 1889), IX, 103-104.</note></p>
 			<p>Woman was so many layers of mucous membrane. And writings from 6 and 7 centuries
 				later attest to the muddy strides saints and clerics had taken in the interim: "If
 				her bowels and flesh were cut open, you would see what filth is covered by her white
 				skin. If a fine crimson cloth covered a pile of foul dung, would anyone be foolish
-				enough to love the dung because of it?" <note type="researchNote">From the Carmen de Mundi contemptu, quoted in Not in Cod’s Image, ed. J. Ofaolain and L. Martines (New York, Harper and Row 1973), p. xlij. St. Odo of Cluny had earlier phrased this with almost identical wording in his Collationes, lib. 2, cap. 9 (in J. P. Migne’s Patrologia Latina (Paris, 1844-82). CXXXIII, 556), while Ancrene iwie (below) directly refers to a similar expression in St. Bernards Meditationes Plissimae de Cognitione Humanae Conditionis, cap. 3 (Migne, op, cit., ClXXXIN 489); The key phrases are "stercoris saccum” and saccus stercorum” —literally, a bag of shit.</note> Now, woman was simply so much manure
+				enough to love the dung because of it?" <note type="researchNote">From the Carmen de Mundi contemptu, quoted in <title>Not in God’s Image</title>, ed. J. Ofaolain and L. Martines (New York, Harper and Row 1973), p. xlij. <persName key="Odo of Cluny" ref="http://www.wikidata.org/entity/Q454553">St. Odo of Cluny</persName> had earlier phrased this with almost identical wording in his <title key="Collationes" ref="http://www.wikidata.org/entity/Q21436484">Collationes</title>, lib. 2, cap. 9 (in J. P. Migne’s <title key="Patrologia Latina" ref="http://www.wikidata.org/entity/Q548044" level="m">Patrologia Latina</title> (Paris, 1844-82). CXXXIII, 556), while Ancrene Riwle (below) directly refers to a similar expression in St. Bernard's <title>Meditationes Plissimae de Cognitione Humanae Conditionis</title>, cap. 3 (Migne, op, cit., ClXXXIN 489); The key phrases are "stercoris saccum” and saccus stercorum” —literally, a bag of shit.</note> Now, woman was simply so much manure
 				smattered across the coprophagous pages of Christian doctrine.</p>
 			<p> The wheels of progress kept on turning. A 3th-century work addressed itself
 				specifically to women—three worthy recluses: "What fruit does your flesh yield from
 				all its openings?" began their catechism. “Between the taste of mouth and smell of
-				nose, aren’t there holes like two privy holes? Aren’t you born of foul slime? Arent
-				you worm-food? <note type="researchNote">The Early English Text Societys Ancrene Riwie, ed. E. j Dobson (London, 1972), pp. 202-203; authois transla tion.</note> To the Church, woman was simply full of shit. Yet this was the
+				nose, aren’t there holes like two privy holes? Aren't you born of foul slime? Aren't
+				you worm-food? <note type="researchNote">The Early English Text Society's <title key="Ancrene Wisse" ref="http://www.wikidata.org/entity/Q489442" level="m">Ancrene Riwle</title>, ed. <persName key="Dobson, James E." ref="http://viaf.org/viaf/187144782706114501587/">E. J. Dobson</persName> (London, 1972), pp. 202-203; author's translation.</note> To the Church, woman was simply full of shit. Yet this was the
 				legacy bequeathed to the Middle Ages where the love of woman was a cult—an absolute
 				prerequisite for respectability. And love flourished. Of course, misogyny
 				continued to flourish too. Woman would still be called "a stinking rose" and
-				"glittering mud” and “a temple built over a sewer." <note type="researchNote">Salimbene, in From St. francis to Dante: Translations from the Chronicle of the Franciscan Salimbene (12211288). End ed., ed. and trans. C.C. Coulton (London, 1907), p. 97. and Tertullian, quoted in G.L. Simons A Hisory of Sex (London, New English Library, 1970). p. 71</note> But, as sister to Mary, she was
+				"glittering mud” and “a temple built over a sewer." <note type="researchNote"><persName key="Salimbene" ref="http://www.wikidata.org/entity/Q108446705">Salimbene</persName>, in <title>From St. Francis to Dante: Translations from the Chronicle of the Franciscan Salimbene</title> (1221-1288). 2nd ed., ed. and trans. <persName key="Coulton, G.G. (George Gordon), 1858-1947" ref="http://viaf.org/viaf/95255424/">G.G. Coulton</persName> (London, 1907), p. 97. and <persName key="Tertullian" ref="http://www.wikidata.org/entity/Q174929">Tertullian</persName>, quoted in G.L. Simon's <title level="m">A Hisory of Sex</title> (London, New English Library, 1970). p. 71</note> But, as sister to Mary, she was
 				also the mystical elevator of the masculine soul which, by its nature, gravitated
 				toward perfection. By merely contemplating woman in her golden radiance, man could
 				rise to spiritual heights in a kind of "gilt” by association. For somewhere between
@@ -904,10 +3611,10 @@
 				touching terra firma, surrounded by auras so fragile that they were better left
 				unpenetrated. But these were beautiful, mysterious and promising auras, and
 				scribes feverishly copied down the formulas for keeping them intact: "If you have
-				ugly teeth, dort laugh with your mouth open. " "Practice making pretty speeches. “
-				"Dye your hair; wear false hair if you have lost your own.." <note type="researchNote"> From La Cief damor and La Cour daimer in Nina Eptonts ove and the french (London, 1959), pp. 30ff </note></p>
-			<p> Andreas Capellanus, Jacques D'Amiens Robert le Blois, Garin le Brun, Drouart la
-				Vache, Ermangau and de Fournival —all added their instructions to the heap: Lie.
+				ugly teeth, don't laugh with your mouth open." "Practice making pretty speeches. “
+				"Dye your hair; wear false hair if you have lost your own." <note type="researchNote"> From L<title>a Clef d'amor and La Cour d'aimer</title> in <persName key="Nina Epton" ref="http://www.wikidata.org/entity/Q18705131">Nina Epton</persName>'s <title>Love and the French</title> (London, 1959), pp. 30ff </note></p>
+			<p> <persName key="Andreas Capellanus" ref="http://www.wikidata.org/entity/Q4340">Andreas Capellanus</persName>, <persName key="Jacques D'Amiens" ref="https://www.wikidata.org/wiki/Q95795577">Jacques D'Amiens</persName>, <persName key="Robert de Blois" ref="http://www.wikidata.org/entity/Q1774110">Robert le Blois</persName>, <persName key="Garin lo Brun" ref="http://www.wikidata.org/entity/Q1778218">Garin le Brun</persName>, <persName key="Drouart la Vache" ref="http://www.wikidata.org/entity/Q54834439">Drouart la
+				Vache</persName>, <persName key="Pierre Ermangaud" ref="http://www.wikidata.org/entity/Q20922145">Ermangau</persName> and <persName key="Richard de Fournival" ref="http://www.wikidata.org/entity/Q2121581">de Fournival</persName> —all added their instructions to the heap: Lie.
 				Cheat. Drop names, if you have to. Drop dead, if you have to. Anything.</p>
 			<p> Maintaining the mystique was the important thing, and that meant keeping the
 				distance. It meant the ecstasy was in the wooing while sex lay in the winding down.
@@ -924,15 +3631,15 @@
 				was mounted, period). And man’s desire—well, that often died along with his
 				suffering.</p>
 			<p> It’s natural, then, that the really legendary lovers chose the most distant and
-				unattainable objects they couid conceive of. Guilhem de la Tour, for instance, loved
-				the woman he lived with. <note type="researchNote">For troubadour biographies, 1 have consulted jehan de Nostredame, les Vies des Plus Celebres et Ancien: Poetes Provencaux, ed. Camille Chabaneau (1913; rpt Geneve, 1970—first published in 1575); La Curne de Sainte-Pelaye, Histoire Litteraire des Troubadours (1774 rpt. 3 vols. in 1, Genève, 1967); and Victor Balaguer, los Trovadores, 2nded. (Madrid, 1883). 4 vol.</note>  Now such women were worn on everyday occasions and were
+				unattainable objects they couid conceive of. <persName key="Guilhem de la Tor" ref="http://www.wikidata.org/entity/Q3779564">Guilhem de la Tour</persName>, for instance, loved
+				the woman he lived with. <note type="researchNote">For troubadour biographies, 1 have consulted <persName key="Jean de Nostredame" ref="http://www.wikidata.org/entity/Q1218411">Jehan de Nostredame</persName>, <title>Les Vies des Plus Celebres et Ancien: Poetes Provencaux</title>, ed. <persName key="Camille Chabaneau" ref="http://www.wikidata.org/entity/Q1029137">Camille Chabaneau</persName> (1913; rpt Geneve, 1970—first published in 1575); La Curne de Sainte-Pelaye, <title key="La Curne de Sainte-Palaye, Jean-Baptiste de, 1697-1781. | Histoire littéraire des troubadours" ref="http://viaf.org/viaf/516154387331530970006/">Histoire Litteraire des Troubadours</title> (1774 rpt. 3 vols. in 1, Genève, 1967); and <persName key="Víctor Balaguer i Cirera" ref="http://www.wikidata.org/entity/Q713246">Victor Balaguer</persName>, <title>Los Trovadores</title>, 2nded. (Madrid, 1883). 4 vol.</note>  Now such women were worn on everyday occasions and were
 				inevitably mundane. But Guilhem’s enamorata was unearthly; in fact, she was dead. On
 				the eve of her burial, Guilhem visited her grave and, after ten days of morbid
 				embracing and poignant conversation (she was a good listener), he went home firm in
 				the belief that she would rise from her tomb and come back to him. She didn't. But
 				for years, it was only Beatrix he longed for. She was the perfect lover—mystical
 				ethereal and unobtrusive. It was a passion that rivaled even Jaufre Rudel's.</p>
-			<p> Jaufre Rudel was ingenious. In an age which valued prolonged desire, he contrived a
+			<p> <persName key="Jaufre Rudel" ref="http://www.wikidata.org/entity/Q5260">Jaufre Rudel</persName> was ingenious. In an age which valued prolonged desire, he contrived a
 				wonderful device. He fell in love with the Countess of Tripoli—a woman he had
 				never seen but whose beauty had filled his imagination so enchantingly that
 				southern France became a glorious vantage point. And so it remained for several
@@ -940,12 +3647,12 @@
 				cross the ocean to be near her. </p>
 			<p>Maybe he just got sick. Or maybe, as his biographers prefer to believe, the
 				anticipation of seeing her was too much for his little heart to bear. In any case,
-				as the boat was approaching Tripoli, he apparently expired. But only apparently.
+				as the boat was approaching <placeName key="Tripoli" ref="http://www.wikidata.org/entity/Q3579">Tripoli</placeName>, he apparently expired. But only apparently.
 				For as the countess rushed to his side, her presence revived him and he pronounced
 				himself fulfilled at last and died again in her arms— a self-extinction
 				metaphorically equivalent to orgasm, but which Jaufre seems to have taken much too
-				literally, since Petrarch and other chroniclers affirm that this time he actually
-				did die, and in all probability with his pants on. <note type="researchNote">Jaufre was not the onty fatality of romance. Andrieu of France—eulogized by at least six troubadours —also fell victim to “too much love" and hed never set eyes on hi lady either. See jehan de Nostredame, op. cit., pp. 166, 180</note> </p>
+				literally, since <persName key="Petrarch" ref="http://www.wikidata.org/entity/Q1401">Petrarch</persName> and other chroniclers affirm that this time he actually
+				did die, and in all probability with his pants on. <note type="researchNote">Jaufre was not the onty fatality of romance. Andrieu of France—eulogized by at least six troubadours —also fell victim to “too much love" and hed never set eyes on his lady either. See Jehan de Nostredame, op. cit., pp. 166, 180</note> </p>
 			<p> True, Jaufre was a strange and nearly legendary breed. But while to him sex must
 				have seemed an unspeakable defilement, most were not so theoretical. Even
 				troubadours who constantly reminded women that sex was debasing and honor was all
@@ -953,7 +3660,7 @@
 				twirls it about, observes its color, its clarity, savoring its bouquet and rolling
 				it around on his languishing taste-buds. And though the swallow is only the means to
 				the end, the end is still very definitely in view. Most pleas for chastity were only
-				lip-service. Even Sordello, a troubadour who repeatedly swore he’d rather die than
+				lip-service. Even <persName key="Sordello" ref="http://www.wikidata.org/entity/Q665165">Sordello</persName>, a troubadour who repeatedly swore he’d rather die than
 				see a lady even taint her honor, happened to kidnap a Veronese countess and that
 				didn’t help her honor a bit. Nor did it discredit his poetry. Such scandal was
 				irrelevant. In fact, women were irrelevant. Love was the important thing and the
@@ -962,19 +3669,18 @@
 				fortress, but entrance, they knew should be delayed. The uitimate object was sex;
 				men wanted what they waited for. They just didn’t want it right away. And this
 				largely explains why other men’s wives proved such suitable candidates for
-				adoration. Forbidden, llicit, deliciously dangerous —yet slightly damaged, they
+				adoration. Forbidden, llicit, deliciously dangerous—yet slightly damaged, they
 				promised all the more to be ultimately affordable. They were perfectly fashioned for
 				desire.</p>
-			<p> Desire is a tricky business. In Greece Plutarch had admired Spartan marriages
+			<p> Desire is a tricky business. In Greece <persName key="Plutarch" ref="http://www.wikidata.org/entity/Q41523">Plutarch</persName> had admired Spartan marriages
 				where, for years, man approached his wife in darkness in secret and in haste "so as
-				not to be satiated... there was still place for unextinguished desire." <note type="researchNote">Plutarch’s Lives, trans. Langhorne (London, Frederick Warne, n.d.). IV, 37</note> It was a
+				not to be satiated... there was still place for unextinguished desire." <note type="researchNote"><title key="Parallel Lives" ref="http://www.wikidata.org/entity/Q842337">Plutarch’s Lives,</title> trans. Langhorne (London, Frederick Warne, n.d.). IV, 37</note> It was a
 				useful formula and was later picked up in the Middle Ages when the notion of infre-
 				quent and clandestine meetings was embraced a lot more than the ladies were. The
 				medieval magic of love was uncertainty. Even the romances preserved this ideal.
 				The lady could be snatched away at any moment by a darkening scandal or a jealous
 				husband, or be absorbed into the ethers which spawned her disappearing into the
-				mist on a white palfrey. The knight wanted her like that: distant, pure, mys-
-				terious, virginal —a blonde Mary ascending into <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_046.jpg"/> heaven, looming over the
+				mist on a white palfrey. The knight wanted her like that: distant, pure, mysterious, virginal —a blonde Mary ascending into <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_046.jpg"/> heaven, looming over the
 				castle horizon with only a little soot on her feet suggesting that she didn’t belong
 				there.</p>
 			<p> Never mind that the only pure-white creature was the post-menopausal albino
@@ -984,11 +3690,11 @@
 				it or not—played along.</p>
 			<p> There were advantages, of course. Love became a rare delicacy whereas before it
 				had been something like yesterday’s leftovers. As Ovid's classical formula goes:
-				"Pleasure coming slow is the best”; <note type="researchNote">Ovid's Remedia Amoris, line 405; Rolfe Humphries translation in The Art of Love (Bloomington, 1957) p. 193</note> meaning, the longer the foreplay the better the
+				"Pleasure coming slow is the best”; <note type="researchNote"><title key="Remedia amoris" ref="http://www.wikidata.org/entity/Q1236392">Ovid's Remedia Amoris</title>, line 405; <persName key="Rolfe Humphries" ref="http://www.wikidata.org/entity/Q7360825">Rolfe Humphries</persName>' translation in <title>The Art of Love</title> (Bloomington, 1957) p. 193</note> meaning, the longer the foreplay the better the
 				orgasm; meaning, some courtly couples, when they finally did come, must very nearly
 				have blown their brains out.</p>
 			<p> But some, for sure, were disappointed. Women were dropped, men bumbled like
-				Perceval or —like some knights in the bawdier tales— they'd win their ladies with
+				<persName key="Percival" ref="http://www.wikidata.org/entity/Q728510" type="fictional">Perceval</persName> or—like some knights in the bawdier tales— they'd win their ladies with
 				lots of pomp and peter out before they could even open the package, their worlds
 				ending not with a bang but a whimper. These were particularly grateful for courtly
 				love.</p>
@@ -1003,7 +3709,7 @@
 				in.</p>
 			<p> Love became formalized. The knight waxed and grew pale, and waxed, and waxed, and
 				waxed. It was blissful and aggrandizing anticipation. Too bad if a lady sometimes
-				felt cheat ed—if watching her knight charging and gleaming, she secretly wished
+				felt cheated—if watching her knight charging and gleaming, she secretly wished
 				hed get off his high horse and get down to business. What could the women do? Their
 				iron-clad men performed in the tournaments. Ramming, sweating, thrusting and
 				galloping. . . . Ah, those impervious men in the metal suits.</p>
@@ -1011,10 +3717,10 @@
 		</body>
 			<back>
 				<div><p>Ariene Ladden is a poet,
-				scholar and medievalist who teaches at LaCuardia Community College in New York. She
-				is interested in “the forces motivating culture—especialiy the more absurd ones,"
-				and in this spirit is now working op a cultural history of sex and power. She is
-				afso co-authoring a textbook series on literature and creative writing for
+				scholar and medievalist who teaches at <orgName key="LaGuardia Community College" ref="http://dbpedia.org/resource/LaGuardia_Community_College">LaCuardia Community College</orgName> in New York. She
+				is interested in “the forces motivating culture—especially the more absurd ones,"
+				and in this spirit is now working on a cultural history of sex and power. She is
+				also co-authoring a textbook series on literature and creative writing for
 				children.</p></div>
 </back>
 
