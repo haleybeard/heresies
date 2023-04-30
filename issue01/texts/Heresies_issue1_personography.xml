@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/main/CSS/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+  <text>
+      <body>
+         <head>Heresies Personography</head>
+         <p>Contributors to Heresies, Issue 1: Feminism, Art and Politics</p>
+         <listPerson>
+            <head><hi rend="underscore">Tomie Arai</hi></head>
+            <person>
+               <idno type="URI">If known, replace this text with an available URI from an authority like VIAF, Wikidata, etc. - otherwise remove element.</idno>
+               <persName type="preferred">Arai, Tomie</persName>
+               <persName type="standard">
+                  <name type="forename">Tomie</name>
+                  <name type="surname">Arai</name>
+               </persName>
+               <birth>
+                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1949">1949</date>
+               </birth>
+               <occupation>artist</occupation>
+               <listBibl>
+                  <head>Source of information about person:</head>
+                  <bibl><title>Heresies Issue #1: "Feminism, Art and Politics"</title></bibl>
+               </listBibl>
+            </person>            
+         </listPerson>
+         <listPerson>
+            <head><hi rend="bold">Person Entry</hi></head>
+            <person>
+               <idno type="URI">If known, replace this text with an available URI from an authority like VIAF, Wikidata, etc. - otherwise remove element.</idno>
+               <persName type="preferred">Replace this text with person's name in "preferred" format - Surname, Forename</persName>
+               <persName type="standard">
+                  <name type="forename">Replace this text with person's forename</name>
+                  <name type="middlename">If known, replace this text with person's middlename, birthname, etc. - otherwise remove element.</name>
+                  <name type="surname">Replace this text with person's surname</name>
+                  <genName>Generational name such as, the IIIrd, senior, junior, etc.) - otherwide remove element.</genName>
+                  <roleName>Role, offical title or rank - otherwide remove element.</roleName>
+               </persName>
+               <birth>
+                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1111-11-11">Add Date of Birth if known. Edit tag to add standard date form value with @when attribute.</date>
+               </birth>
+               <birth>
+                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1111-11-11">Add Date of Death if known. Edit tag to add standard date form value with @when attribute.</date>
+               </birth>
+               <sex source="http://sparql.cwrc.ca/ontology/cwrc.html#Gender" value="GenderQueer">If you wish to express the person's gender identity or sexual orientation, we encourage you to look for a term in the LINCS Project's gender vocabulary. Edit tag to include the @source and @value attributes (replacing current values), and replace this text with yours.</sex>
+               <occupation type="http://id.lincsproject.ca/occupation/academic">If known, add one or more occupations in which this person engaged. We encourage you to look for a term in the LINCS Project's occupation vocabulary; edit the tag to include @type (replacing current value), and replace this text with yours.</occupation>
+               <listBibl>
+                  <head>Source of information about person:</head>
+                  <bibl><title source="WorldCat" ref="Resource_URI">Provide title of resource here then edit tag, include the source (e.g., WorldCat), provide a reference for the Resource_URI of the subject, and replace this text with yours.</title>                     
+                  </bibl>
+               </listBibl>
+            </person>            
+         </listPerson>
+         <listPerson>
+            <head><hi rend="bold">Person Entry</hi></head>
+            <person>
+               <idno type="URI">If known, replace this text with an available URI from an authority like VIAF, Wikidata, etc. - otherwise remove element.</idno>
+               <persName type="preferred">Replace this text with person's name in "preferred" format - Surname, Forename</persName>
+               <persName type="standard">
+                  <name type="forename">Replace this text with person's forename</name>
+                  <name type="middlename">If known, replace this text with person's middlename, birthname, etc. - otherwise remove element.</name>
+                  <name type="surname">Replace this text with person's surname</name>
+                  <genName>Generational name such as, the IIIrd, senior, junior, etc.) - otherwide remove element.</genName>
+                  <roleName>Role, offical title or rank - otherwide remove element.</roleName>
+               </persName>
+               <birth>
+                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1111-11-11">Add Date of Birth if known. Edit tag to add standard date form value with @when attribute.</date>
+               </birth>
+               <birth>
+                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1111-11-11">Add Date of Death if known. Edit tag to add standard date form value with @when attribute.</date>
+               </birth>
+               <sex source="http://sparql.cwrc.ca/ontology/cwrc.html#Gender" value="GenderQueer">If you wish to express the person's gender identity or sexual orientation, we encourage you to look for a term in the LINCS Project's gender vocabulary. Edit tag to include the @source and @value attributes (replacing current values), and replace this text with yours.</sex>
+               <occupation type="http://id.lincsproject.ca/occupation/academic">If known, add one or more occupations in which this person engaged. We encourage you to look for a term in the LINCS Project's occupation vocabulary; edit the tag to include @type (replacing current value), and replace this text with yours.</occupation>
+               <listBibl>
+                  <head>Source of information about person:</head>
+                  <bibl><title source="WorldCat" ref="Resource_URI">Provide title of resource here then edit tag, include the source (e.g., WorldCat), provide a reference for the Resource_URI of the subject, and replace this text with yours.</title>                     
+                  </bibl>
+               </listBibl>
+            </person>            
+         </listPerson>
+      </body>
+  </text>
+</TEI>
