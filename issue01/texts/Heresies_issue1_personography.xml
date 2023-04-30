@@ -46,7 +46,7 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430164758780",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-04-30T20:47:58.780Z",
-	"dcterms:modified": "2023-04-30T20:47:58.780Z",
+	"dcterms:modified": "2023-04-30T20:49:14.193Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -77,7 +77,9 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson"
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q104010503",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -97,15 +99,15 @@
             <head><hi rend="underscore">Tomie Arai</hi></head>
             <person>
                <idno type="URI">If known, replace this text with an available URI from an authority like VIAF, Wikidata, etc. - otherwise remove element.</idno>
-               <persName type="preferred">Arai, Tomie</persName>
+               <persName key="Arai, Tomie" ref="http://www.wikidata.org/entity/Q104010503">Arai, Tomie</persName>
                <persName type="standard">
                   <name type="forename">Tomie</name>
                   <name type="surname">Arai</name>
                </persName>
                <birth>
-                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1949">1949</date>
+                  <date cert="high" evidence="internal" instant="unknown" precision="high" source="https://www.w3.org/TR/NOTE-datetime" unit="cm" xml:space="default" when="1949">1949</date>
                </birth>
-               <occupation>artist</occupation>
+               <occupation cert="high" evidence="internal" instant="unknown" ref="http://id.lincsproject.ca/occupation/artist" xml:space="default">artist</occupation>
                <listBibl>
                   <head>Source of information about person:</head>
                   <bibl><title>Heresies Issue #1: "Feminism, Art and Politics"</title></bibl>
