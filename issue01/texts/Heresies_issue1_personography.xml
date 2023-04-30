@@ -120,17 +120,14 @@
                <persName type="preferred">Attie, Dottie</persName>
                <persName type="standard">
                   <name type="forename">Dottie</name>
-                  <name type="middlename">If known, replace this text with person's middlename, birthname, etc. - otherwise remove element.</name>
+                  
                   <name type="surname">Attie</name>
-                  <genName>Generational name such as, the IIIrd, senior, junior, etc.) - otherwide remove element.</genName>
-                  <roleName>Role, offical title or rank - otherwide remove element.</roleName>
+                  
+                  
                </persName>
                <birth>
-                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1111-11-11">Add Date of Birth if known. Edit tag to add standard date form value with @when attribute.</date>
-               </birth>
-               <birth>
-                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1111-11-11">Add Date of Death if known. Edit tag to add standard date form value with @when attribute.</date>
-               </birth>
+                  <date cert="high" evidence="internal" instant="unknown" precision="high" source="https://www.w3.org/TR/NOTE-datetime" unit="cm" xml:space="default" when="1938">1938</date> </birth>
+               
                <sex source="http://sparql.cwrc.ca/ontology/cwrc.html#Gender" value="GenderQueer">If you wish to express the person's gender identity or sexual orientation, we encourage you to look for a term in the LINCS Project's gender vocabulary. Edit tag to include the @source and @value attributes (replacing current values), and replace this text with yours.</sex>
                <occupation type="http://id.lincsproject.ca/occupation/academic">If known, add one or more occupations in which this person engaged. We encourage you to look for a term in the LINCS Project's occupation vocabulary; edit the tag to include @type (replacing current value), and replace this text with yours.</occupation>
                <listBibl>
