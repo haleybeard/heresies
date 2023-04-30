@@ -128,11 +128,11 @@
                <birth>
                   <date cert="high" evidence="internal" instant="unknown" precision="high" source="https://www.w3.org/TR/NOTE-datetime" unit="cm" xml:space="default" when="1938">1938</date> </birth>
                
-               <sex source="http://sparql.cwrc.ca/ontology/cwrc.html#Gender" value="GenderQueer">If you wish to express the person's gender identity or sexual orientation, we encourage you to look for a term in the LINCS Project's gender vocabulary. Edit tag to include the @source and @value attributes (replacing current values), and replace this text with yours.</sex>
-               <occupation type="http://id.lincsproject.ca/occupation/academic">If known, add one or more occupations in which this person engaged. We encourage you to look for a term in the LINCS Project's occupation vocabulary; edit the tag to include @type (replacing current value), and replace this text with yours.</occupation>
+               
+               <occupation cert="high" evidence="internal" instant="unknown" type="http://id.lincsproject.ca/occupation/visualArtist" xml:space="default">painter</occupation>
                <listBibl>
-                  <head>Source of information about person:</head>
-                  <bibl><title source="WorldCat" ref="Resource_URI">Provide title of resource here then edit tag, include the source (e.g., WorldCat), provide a reference for the Resource_URI of the subject, and replace this text with yours.</title>                     
+                  <head>Source of information about:</head>
+                  <bibl><title source="WorldCat" ref="Resource_URI">Heresies Issue #1: "Feminism, Art and Politics".</title>                     
                   </bibl>
                </listBibl>
             </person>            
