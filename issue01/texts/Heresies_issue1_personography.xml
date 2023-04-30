@@ -168,6 +168,241 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?date_annotation_20230430170328175",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-30T21:03:28.175Z",
+	"dcterms:modified": "2023-04-30T21:03:28.175Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?date_annotation_20230430170328175#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?date_annotation_20230430170328175#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listPerson/person/birth/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1949"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?date_annotation_20230430170328175",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-30T21:03:28.175Z",
+	"dcterms:modified": "2023-04-30T21:03:28.175Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?date_annotation_20230430170328175#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?date_annotation_20230430170328175#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listPerson[2]/person/birth/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1938"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430170421571",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-30T21:04:21.571Z",
+	"dcterms:modified": "2023-04-30T21:04:56.226Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430170421571#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430170421571#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listPerson[3]/person/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q6304327",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
       <body>
@@ -210,35 +445,25 @@
                
                <occupation cert="high" evidence="internal" instant="unknown" type="http://id.lincsproject.ca/occupation/visualArtist" xml:space="default">painter</occupation>
                <listBibl>
-                  <head>Source of information about:</head>
-                  <bibl><title>Heresies Issue #1: "Feminism, Art and Politics".</title>                     
-                  </bibl>
+                  <head>Source of information:</head>
+                  <bibl><title>Heresies Issue #1: "Feminism, Art and Politics"</title> </bibl>
                </listBibl>
             </person>            
          </listPerson>
          <listPerson>
-            <head><hi rend="bold">Person Entry</hi></head>
+            <head><hi rend="bold">Baca, Judy</hi></head>
             <person>
                <idno type="URI">If known, replace this text with an available URI from an authority like VIAF, Wikidata, etc. - otherwise remove element.</idno>
-               <persName type="preferred">Replace this text with person's name in "preferred" format - Surname, Forename</persName>
-               <persName type="standard">
-                  <name type="forename">Replace this text with person's forename</name>
-                  <name type="middlename">If known, replace this text with person's middlename, birthname, etc. - otherwise remove element.</name>
-                  <name type="surname">Replace this text with person's surname</name>
-                  <genName>Generational name such as, the IIIrd, senior, junior, etc.) - otherwide remove element.</genName>
-                  <roleName>Role, offical title or rank - otherwide remove element.</roleName>
-               </persName>
+               <persName key="Judy Baca" ref="http://www.wikidata.org/entity/Q6304327">Baca, Judy</persName>
+               
                <birth>
-                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1111-11-11">Add Date of Birth if known. Edit tag to add standard date form value with @when attribute.</date>
-               </birth>
-               <birth>
-                  <date source="https://www.w3.org/TR/NOTE-datetime" when="1111-11-11">Add Date of Death if known. Edit tag to add standard date form value with @when attribute.</date>
-               </birth>
-               <sex source="http://sparql.cwrc.ca/ontology/cwrc.html#Gender" value="GenderQueer">If you wish to express the person's gender identity or sexual orientation, we encourage you to look for a term in the LINCS Project's gender vocabulary. Edit tag to include the @source and @value attributes (replacing current values), and replace this text with yours.</sex>
-               <occupation type="http://id.lincsproject.ca/occupation/academic">If known, add one or more occupations in which this person engaged. We encourage you to look for a term in the LINCS Project's occupation vocabulary; edit the tag to include @type (replacing current value), and replace this text with yours.</occupation>
+                  <date cert="high" evidence="internal" instant="unknown" precision="high" source="https://www.w3.org/TR/NOTE-datetime" unit="cm" xml:space="default" when="1946">1946</date> </birth>
+               
+               
+               <occupation cert="high" evidence="internal" instant="unknown" type="http://id.lincsproject.ca/occupation/visualArtist" xml:space="default">muralist</occupation>
                <listBibl>
-                  <head>Source of information about person:</head>
-                  <bibl><title source="WorldCat" ref="Resource_URI">Provide title of resource here then edit tag, include the source (e.g., WorldCat), provide a reference for the Resource_URI of the subject, and replace this text with yours.</title>                     
+                  <head>Source of information:</head>
+                  <bibl><title source="WorldCat" ref="Resource_URI">Heresies Issue #1: "Feminism, Art and Politics"</title>                     
                   </bibl>
                </listBibl>
             </person>            
