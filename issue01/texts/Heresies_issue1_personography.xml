@@ -43,10 +43,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430164758780",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430164914193",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-04-30T20:47:58.780Z",
-	"dcterms:modified": "2023-04-30T20:49:14.193Z",
+	"dcterms:created": "2023-04-30T20:49:14.193Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -57,7 +56,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430164758780#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430164914193#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml",
@@ -71,7 +70,7 @@
 			"schema:softwareVersion": "3.0.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430164758780#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/Heresies_issue1_personography.xml?person_annotation_20230430164914193#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/listPerson/person/persName"
 		}
@@ -98,7 +97,7 @@
          <listPerson>
             <head><hi rend="underscore">Tomie Arai</hi></head>
             <person>
-               <idno type="URI">If known, replace this text with an available URI from an authority like VIAF, Wikidata, etc. - otherwise remove element.</idno>
+               <idno type="URI">http://www.wikidata.org/entity/Q104010503"</idno>
                <persName key="Arai, Tomie" ref="http://www.wikidata.org/entity/Q104010503">Arai, Tomie</persName>
                <persName type="standard">
                   <name type="forename">Tomie</name>
@@ -109,13 +108,13 @@
                </birth>
                <occupation cert="high" evidence="internal" instant="unknown" ref="http://id.lincsproject.ca/occupation/artist" xml:space="default">artist</occupation>
                <listBibl>
-                  <head>Source of information about person:</head>
+                  <head>Source of information:</head>
                   <bibl><title>Heresies Issue #1: "Feminism, Art and Politics"</title></bibl>
                </listBibl>
             </person>            
          </listPerson>
          <listPerson>
-            <head><hi rend="bold">Person Entry</hi></head>
+            <head><hi rend="bold">Dottie Attie</hi></head>
             <person>
                <idno type="URI">If known, replace this text with an available URI from an authority like VIAF, Wikidata, etc. - otherwise remove element.</idno>
                <persName type="preferred">Replace this text with person's name in "preferred" format - Surname, Forename</persName>
