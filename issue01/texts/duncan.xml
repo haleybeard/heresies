@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -598,7 +597,6 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321143327846",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-03-21T18:33:27.846Z",
-	"dcterms:modified": "2023-03-21T18:33:27.846Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -620,12 +618,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321143327846#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/persName[4]"
+			"rdf:value": "TEI/text/body/p[4]/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -638,7 +636,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -835,7 +833,6 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321143437929",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-03-21T18:34:37.929Z",
-	"dcterms:modified": "2023-03-21T18:34:37.929Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -857,12 +854,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321143437929#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/persName[3]/persName"
+			"rdf:value": "TEI/text/body/p[5]/persName[4]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -875,7 +872,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -914,7 +911,6 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321143446176",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-03-21T18:34:46.176Z",
-	"dcterms:modified": "2023-03-21T18:34:46.176Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -936,12 +932,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321143446176#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/persName[4]/persName"
+			"rdf:value": "TEI/text/body/p[5]/persName[5]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -954,7 +950,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -993,7 +989,6 @@
 	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321143453361",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-03-21T18:34:53.361Z",
-	"dcterms:modified": "2023-03-21T18:34:53.361Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -1015,12 +1010,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?person_annotation_20230321143453361#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/persName[5]/persName"
+			"rdf:value": "TEI/text/body/p[5]/persName[6]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1033,7 +1028,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -1147,10 +1142,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144242492",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144247006",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-03-21T18:42:42.492Z",
-	"dcterms:modified": "2023-03-21T18:42:47.006Z",
+	"dcterms:created": "2023-03-21T18:42:47.006Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -1161,7 +1155,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144242492#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144247006#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
@@ -1172,10 +1166,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144242492#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144247006#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/note"
 		}
@@ -1190,7 +1184,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -1305,10 +1299,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144514745",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144519078",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-03-21T18:45:14.745Z",
-	"dcterms:modified": "2023-03-21T18:45:19.078Z",
+	"dcterms:created": "2023-03-21T18:45:19.078Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -1319,7 +1312,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144514745#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144519078#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
@@ -1330,10 +1323,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144514745#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144519078#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/note[2]"
 		}
@@ -1348,7 +1341,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -1463,10 +1456,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144557127",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144601096",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-03-21T18:45:57.127Z",
-	"dcterms:modified": "2023-03-21T18:46:01.096Z",
+	"dcterms:created": "2023-03-21T18:46:01.096Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -1477,7 +1469,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144557127#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144601096#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
@@ -1488,10 +1480,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144557127#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144601096#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/note[3]"
 		}
@@ -1506,7 +1498,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -1542,10 +1534,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144630643",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144634034",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-03-21T18:46:30.643Z",
-	"dcterms:modified": "2023-03-21T18:46:34.034Z",
+	"dcterms:created": "2023-03-21T18:46:34.034Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -1556,7 +1547,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144630643#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144634034#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
@@ -1567,10 +1558,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144630643#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321144634034#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/note[4]"
 		}
@@ -1585,7 +1576,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -2727,10 +2718,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145828144",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145832561",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-03-21T18:58:28.144Z",
-	"dcterms:modified": "2023-03-21T18:58:32.561Z",
+	"dcterms:created": "2023-03-21T18:58:32.561Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -2741,7 +2731,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145828144#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145832561#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
@@ -2752,10 +2742,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145828144#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145832561#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/note[5]"
 		}
@@ -2770,7 +2760,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -2806,10 +2796,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145853094",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145936646",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-03-21T18:58:53.094Z",
-	"dcterms:modified": "2023-03-21T18:59:36.646Z",
+	"dcterms:created": "2023-03-21T18:59:36.646Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -2820,7 +2809,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145853094#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145936646#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
@@ -2831,10 +2820,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145853094#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321145936646#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[15]/note"
 		}
@@ -2849,7 +2838,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -3122,10 +3111,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321150122196",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321150126628",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-03-21T19:01:22.196Z",
-	"dcterms:modified": "2023-03-21T19:01:26.628Z",
+	"dcterms:created": "2023-03-21T19:01:26.628Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/djakacki",
 		"@type": [
@@ -3136,7 +3124,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321150122196#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321150126628#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml",
@@ -3147,10 +3135,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "3.0.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321150122196#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/duncan.xml?note_annotation_20230321150126628#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/note[6]"
 		}
@@ -3165,7 +3153,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "3.0.1"
 	}
 }]]>
         </rdf:Description>
@@ -3773,7 +3761,7 @@
 				victim. Here, an endangered and helpless heroine—naked, hairless and swooning—is
 				chained to a large, phallic-shaped rock, immediately below which appear the
 				snake-like forms of a dragon. This fantastic but deadly serious statement documents
-				a common case of male castration anxiety. But the artist-hero (he is Ingres-Roger)
+				a common case of male castration anxiety. But the artist-hero (he is <persName>Ingres-Roger</persName>)
 				masters the situation: he conquers the dangerous female genitals. First he
 				desexualizes Angelica—reduces her to an unconscious mass of closed and boneless
 				flesh; then he thrusts his lance into the toothy opening of the serpent—Angelica's
@@ -3787,7 +3775,7 @@
 				covertly, Powers invites the viewer to imagine himself as the potential oriental
 				buyer of a beautiful, naked, humiliated girl who is literally for sale (he specified
 				that she is on the auction block). The narrative content of this sculpture supports
-				the same underlying thesis we saw in the Delacroix: for women, the sexual encounter
+				the same underlying thesis we saw in the <persName>Delacroix</persName>: for women, the sexual encounter
 				must entail pain and subjugation, and that subjugation is a condition of male
 				gratification. But even in paintings where nudes are not literally victims, female
 				allure is treated in terms related to victimization. For Ingres, <persName key="Gustave Courbet" ref="http://www.wikidata.org/entity/Q34618"><persName key="Gustave Courbet" ref="http://www.wikidata.org/entity/Q34618">Courbet</persName></persName>, <persName key="Pierre-Auguste Renoir" ref="http://www.wikidata.org/entity/Q39931"><persName key="Pierre-Auguste Renoir" ref="http://www.wikidata.org/entity/Q39931">Renoir</persName></persName>,
