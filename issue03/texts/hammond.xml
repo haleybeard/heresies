@@ -1,1299 +1,363 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Class Notes</title>
-				<author>Harmony Hammond</author>
-				<respStmt>
-					<persName>Haley Beardsley</persName>
-					<resp>Editor, encoder</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Erica Delsandro</persName>
-					<resp>Investigator, editor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Margaret Hunter</persName>
-					<resp>Editor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Diane Jakacki</persName>
-					<resp>Invesigator, encoder</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Sophie McQuaide</persName>
-					<resp>Editor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Olivia Martin</persName>
-					<resp>Editor, encoder</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Bri Perea</persName>
-					<resp>Editor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Roger Rothman</persName>
-					<resp>Investigator, editor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Kaitlyn Segreti</persName>
-					<resp>Editor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Maggie Smith</persName>
-					<resp>Editor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Maya Wadhwa</persName>
-					<resp>Editor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Ricky Rodriguez</persName>
-					<resp>Editor</resp>
-				</respStmt>
-				<respStmt>
-					<persName>Lucy Wadsworth</persName>
-					<resp>Editor</resp>
-				</respStmt>
-				<funder>Bucknell University Humanities Center</funder>
-				<funder>Bucknell University Office of Undergraduate Research</funder>
-				<funder>The Mellon Foundation</funder>
-				<funder>National Endowment for the Humanities</funder>
-			</titleStmt>
-			<publicationStmt>
-				<distributor>
-					<name>Bucknell University</name>
-					<address>
-						<street>One Dent Drive</street>
-						<settlement>Lewisburg</settlement>
-						<region>Pennsylvania</region>
-						<postCode>17837</postCode>
-					</address>
-				</distributor>
-				<availability>
-					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial
-						4.0 International (CC BY-NC 4.0)</licence>
-					<licence>Heresies journal: © Heresies Collective</licence>
-				</availability>
-			</publicationStmt>
-			<sourceDesc>
-				<biblStruct>
-					<analytic>
-						<title>Heresies Issue #3: Lesbian Art and Artists</title>
-					</analytic>
-					<monogr>
-						<imprint>
-							<publisher>HERESIES: A Feminist Publication on Art and
-								Politics</publisher>
-							<pubPlace>
-								<address>
-									<name>Heresies</name>
-									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
-									<settlement>New York</settlement>
-									<region>New York</region>
-									<postCode>10013</postCode>
-								</address>
-							</pubPlace>
-						</imprint>
-					</monogr>
-				</biblStruct>
-			</sourceDesc>
-		</fileDesc>
-	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182355092",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:23:55.092Z",
-	"dcterms:modified": "2023-02-23T23:23:55.092Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182355092#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182355092#Selector",
-
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/byline/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-
-		"@id": "http://www.wikidata.org/entity/Q5659529",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182437350",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:24:37.350Z",
-	"dcterms:modified": "2023-02-23T23:24:37.350Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182437350#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182437350#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p/note/persName"
-
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-
-		"@id": "http://www.wikidata.org/entity/Q1699735",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182536728",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:25:36.728Z",
-	"dcterms:modified": "2023-02-23T23:25:36.728Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182536728#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182536728#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[3]/persName"
-
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-
-		"@id": "http://www.wikidata.org/entity/Q1699735",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?organization_annotation_20230223182559068",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:25:59.068Z",
-	"dcterms:modified": "2023-02-23T23:25:59.068Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?organization_annotation_20230223182559068#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?organization_annotation_20230223182559068#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[3]/orgName"
-
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-
-		"@id": "http://www.wikidata.org/entity/Q639791",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182618671",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:26:18.671Z",
-	"dcterms:modified": "2023-02-23T23:26:18.671Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182618671#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182618671#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/p[5]/persName"
-
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-
-		"@id": "http://www.wikidata.org/entity/Q242956",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182723665",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:27:23.665Z",
-	"dcterms:modified": "2023-02-23T23:27:23.665Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182723665#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182723665#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[3]/p/persName"
-
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-
-		"@id": "http://www.wikidata.org/entity/Q160534",
-n
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182858575",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:28:58.575Z",
-	"dcterms:modified": "2023-02-23T23:28:58.575Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182858575#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182858575#Selector",
-
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/p[2]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-
-		"@id": "http://www.wikidata.org/entity/Q241732",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182909105",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:29:09.105Z",
-	"dcterms:modified": "2023-02-23T23:29:09.105Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182909105#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182909105#Selector",
-
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/p[2]/persName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-
-		"@id": "http://www.wikidata.org/entity/Q466607",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182938952",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:29:38.952Z",
-	"dcterms:modified": "2023-02-23T23:29:38.952Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182938952#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223182938952#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/p[3]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q115581765",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223183024995",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:30:24.995Z",
-	"dcterms:modified": "2023-02-23T23:30:24.995Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223183024995#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223183024995#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[5]/p[5]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q157309",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223183045100",
-	"type": "oa:Annotation",
-	"dcterms:created": "2023-02-23T23:30:45.100Z",
-	"dcterms:modified": "2023-02-23T23:30:45.100Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/zohanadeer",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "zoha nadeer"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223183045100#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/zohanadeer/heresies/main/issue03/texts/hammond.xml?person_annotation_20230223183045100#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q5659529",
-
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
-	<text>
-		<body>
-			<pb n="34" facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue03/Issue3_images/issue3_036.jpg"/>
-			<head>CLASS NOTES</head>
-
-			<byline><persName key="Harmony Hammond" ref="http://www.wikidata.org/entity/Q5659529">HARMONY HAMMOND</persName></byline>
-
-			<div>
-				<p> Class hierarchies and heterosexuality are patriarchal institutions which divide
-					women, give some women power over others, and destroy our strength. As a lesbian
-					feminist artist, 1 am interested in examining the assumptions of class and
-					heterosexuality in art, and the role of lesbian art as a potential catalyst for
-					social change. This article will focus on the myth of art as classless, and how
-					this myth functions to separate us from the reality of our lives and affects the
-					way in which we see ourselves. Specifically, I want to discuss how we as lesbian
-					artists need to defy this myth by developing class consciousness, and
-					incorporating it in the development of lesbian art and culture.</p>
-			</div>
-
-			<div>
-				<head>THE MYTH</head>
-				<p>Fine art is a reflection of upper class interests, values, tastes, and patterns
-					of thinking. The images found in art reflect and serve the needs of a small
-					group of “corporate-government elite” (upper class white men) who define culture
-					in America and elsewhere if they can profit from it. They found, fund, and run
-					art museums, set standards of taste, and have a vested interest in creating,
-					validating, and supporting art whose form and content justifies and furthers a
-					patriarchal social order.<note>1. The Catalogue Committee of Artists Meeting for
-						Cultural Change, an anti-catalogue, 1977. The catalogue was written as a
-						protest to the Whitney exhibition, "American Art, 1976. I have included a
-						condensed version of a more detailed discussion of “how art is mystified,
-						how art exhibitions influence our views of history, and how collectors such
-						as <persName key="John D. Rockefeller III" ref="http://www.wikidata.org/entity/Q1699735">John D. Rockefeller III</persName> benefit from cultural philanthropy.</note> Jackie
-					St. Joan has defined this social order as:</p>
-				<quote>"...that system—intellectual, political, social, sexual, psychological—which
-					requires in the name of human progress that one group (in the history of the
-					world, rich, white men) controls and exploits the energies of another and in
-					which women are particularly despised. It includes patriarchal institutions
-					(heterosexuality, the nuclear family, private property, etc.) which are the
-					tools of oppression as well as the patriarchal mind-constructs which, like the
-					capitalist mind-constructs, limit even our ability to think beyond what
-						is.<note>2. "A Lesbian Feminist: Jackie St. Joan, an interview, in Big Mama
-						Rag, Jan-Feb, 1977, Vol. 5, no. 1.</note></quote>
-				<p>Rarely does fine art include images of workers, the workplace, or daily survival.
-					Rarely does it depict the experiences of Blacks, Native Americans, women, or
-					lesbians. When these images do appear, they seem outside the experience of those
-					portrayed because they are romanticized or stereotyped, rather than real. For
-					instance, lesbian sexuality is rarely portrayed in visual art and when it is,
-					say in film, lesbians are presented in butch/femme roles, as sick, masochistic,
-					and sadistic, and as though sexuality was the only important thing in their
-					lives. This limited male view hardly relates to my experience as a lesbian. Nor
-					do I feel that my identity as an artist is realistically portrayed. The artist’s
-					life is romanticized as a chosen struggle of economic hardship necessary to
-					produce art rather than as a product of the alienation of artists from
-					society.</p>
-				<p>If art provides a way for us to perceive ourselves and the world around us, it
-					seems necessary that we examine what is validated as art. An excellent example
-					of an attempt to write social history through art was the exhibition “American
-
-					Art,” a collection belonging to <persName key="John D. Rockefeller III" ref="http://www.wikidata.org/entity/Q1699735">John D. Rockefeller III</persName>, which was shown last
-					fall at the <orgName key="Whitney Museum of American Art" ref="http://www.wikidata.org/entity/Q639791">Whitney Museum</orgName> as our Bicentennial survey exhibition of American
-
-					art. This collection contains one work by a woman artist, one work by a Black
-					artist, and no work by Hispanic or Native American artists. The absence of work
-					by women and Third World artists in this and most other collections and
-					exhibitions, denies the experiences of most Americans. Not to see their
-					experiences reflected in culture is to say that they don’t exist. Because art
-					both creates and reflects social realities, their absence becomes a political
-					issue. As the artists writing in an anti-catalogue” state: “Omission is one of
-					the mechanisms by which fine art reinforces the values and beliefs of the
-					powerful and suppresses the experiences of others."<note>3. an
-						anti-catalogue</note></p>
-				<p>Another mechanism reinforcing upper class values is the myth of art as classless
-					and universal. By creating the myth of universal art, those in power teach us to
-					identify with images and the experiences these images represent, which have
-					nothing to do with our own class position. We are told that art, and therefore
-					the artist, is classless, and that our experiences are immaterial and should be
-					ignored.</p>
-				<p>All classes accept this myth, for to question it would be to reveal the
-					oppressive political structures and social institutions underlying patriarchal
-
-					capitalist society. <persName key="Rita Mae Brown" ref="http://www.wikidata.org/entity/Q242956">Rita Mae Brown</persName> writes that “America is a country reluctant
-
-					to recognize class differences. The American myth crystallized is: This is the
-					land of equal opportunity; work hard, stay in line, you’ll get ahead. (Getting
-					ahead always means money.)"<note>4. Brown, Rita Mae, “The Last Straw," Class and
-						Feminism: A Collection of Essays From The Furies, edited by Charlotte Bunch
-						and Nancy Myron, Diana Press, 1974.</note> Identification with this myth of
-					classlessness redirects us from dealing with our own particular oppression as
-					working class, as women, as lesbians, etc. The artists in an anti-catalogue”
-					state:</p>
-				<quote>“The mystification of art depends upon two things—upon our surrendering our
-					capacity to judge and upon unquestioning acceptance of authority in place of the
-					printed word and the authority of scholarly titles and distinctions. The
-					mystification of art takes our passivity for granted. It encourages us to look
-					upon art as if art had no bearing on experience.<note>5. an
-						anti-catalogue.</note></quote>
-				<pb n="35" facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue03/Issue3_images/issue3_037.jpg"/>
-				<p> Accepting the myth is accepting our invisibility and powerlessness. To question
-					cultural attitudes is to question social conditions. Passivity smooths the pain
-					of powerlessness and helps us to survive these conditions. We need to see that
-					behavioral patterns affect who becomes an artist, what artists create, what art
-					is validated as quality, and how art in turn reinforces those patterns.</p>
-			</div>
-
-			<div>
-				<head>HOW I BOUGHT THE MYTH</head>
-				<p>Thinking back to junior high school in the fifties, I see that one reason 1 chose
-					to be an artist was to escape the daily pain of lower middle class life in
-					Hometown—of living in a duplex, taking a bus to school, and wearing
-					hand-me-downs until I got a job at Lerner’s and could buy my own clothes. The
-					guy I went with turned me on to Mulligan, Coleman, Getz, and all that jazz and
-					the beat writers <persName key="Jack Kerouac" ref="http://www.wikidata.org/entity/Q160534">Kerouac</persName>, Ginsberg, and Prevert. They were "artists" and
-					intellectuals, without money (like me), and romanticized. I thumbed my nose and
-					fantasized riding naked down the highway. We fucked. I got a scholar- ship to
-					the Saturday School of the Art Institute of Chicago. I wanted to be a dress
-					designer or fashion illustrator because it sounded “classy” and "sophisticated."
-					If all else failed, I could be an art teacher.</p>
-				<p>In the museum I saw “real" painting and sculpture. I remember sitting in front of
-					the Pollock, the Rothko, and the Still, thinking that I could do those
-					paintings, but not realizing that I was a woman and that it didn’t matter what I
-					did. In the studios I saw art being made by grubby students and I took note that
-					the artist could wear anything, say anything, and didn’t have to socialize. The
-					artist seemed special and not bound by class behavior. I would be an artist.
-					Accepting fine art meant renouncing my class background and stepping out of the
-					lower middle class life of Hometown into the universal world of the muses. Safe
-					and protected at last. Who ever heard of a middle class muse?</p>
-			</div>
-
-			<div>
-				<head>THE MYTH SHATTERED: CLASS IS HOW YOU SEE THE WORLD. ART IS HOW YOU SEE THE
-					WORLD.</head>
-				<p>It has taken me a long time to begin to understand and accept my lower middle
-					class background, and to realize that the art world I entered wasn’t an
-					alternative to middle class society but that women, Blacks, and the poor are
-					also oppressed within the alternate “world of culture. As long as society
-					allowed me to be a starving artist" I did not question my own experiences, or
-					how they affected my work and work attitudes. Acting out a romanticized art life
-					was my option to upward mobility. Heterosexual women get their privilege from
-					the same patriarchal systems that give privilege to middle and upper class
-					women. Coming out as a lesbian with a feminist consciousness forced me to
-					realize what class privilege I did and did not have, and what I would now lose.
-					Even the fact that I first came out to myself through my art and not in bed is
-					in itself a reflection of my class position. As a feminist artist I had learned
-					to use my work as a place to confront fears and other feelings privately in my
-					studio. A woman working as a maid, a waitress, or a seamstress, does not have
-					this option.</p>
-				<p>As a lesbian, however, 1 was forced to confront and give up illusions I had about
-					being accepted and rewarded by the male art world where they treated art
-					seriously. To be public about being a lesbian means that your work may not be
-					taken seriously, or may squeezed into a category of “camp” or erotic art.
-					Because you do not hang out with the right men or the right women (those who
-					hang out with the men) at the right bars, and since the lesbian feminist
-					community doesn’t yet support its visual artists, you are less likely to make
-					your work visible, to have professional dialogue, and to support yourself
-					through your work either directly (sales) or indirectly (teaching). For women,
-					the economic class system is largely determined by their relationship to men.
-					The higher up the man she relates to, the more she benefits from the system. The
-					lesbian, by not relating to men does not benefit economically and has no
-					privilege unless she is independently wealthy. Most of us do not have that kind
-					of support and opportunity, and without support, it is very difficult to
-
-					continue making art. Historically, known lesbian visual artists (<persName key="Rosa Bonheur" ref="http://www.wikidata.org/entity/Q241732">Rosa Bonheur</persName>,
-					<persName key="Romaine Brooks" ref="http://www.wikidata.org/entity/Q466607">Romaine Brooks</persName>, etc.) were wealthy. Only they had the privilege to continue
-
-					making art despite their public lesbian lifestyle.</p>
-				<p>If we examine the relationship of lesbians to the class system, and to
-					patriarchy, we can get an idea of the active role art can play in developing a
-					culture that does not make women powerless and invisible. In “Lesbians and The
-
-					Class Position of Women," <persName key="Margaret Small" ref="http://www.wikidata.org/entity/Q115581765">Margaret Small</persName> writes:</p>
-
-				<quote>...At this point in history, the primary role that lesbians have to play in
-					the development of revolutionary consciousness is ideological. Because lesbians
-					are objectively outside of heterosexual reality, they have potential for <pb n="36" facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue03/Issue3_images/issue3_038.jpg"/> developing an alternative ideology not limited by heterosexuality.
-					Lesbians stand in a different relationship to (the) three conditions that
-					determine the class position of women (production, reproduction, sexuality). The
-					lesbian does not have a domestic base that is defined by the production of new
-					labor power and maintenance of her husband’s labor power. Her relationship is in
-					proletarian terms. The element of slave consciousness integral to
-					heterosexuality is missing.<note>6. Small, Margaret, “Lesbians and the Class
-						Position of Women," Lesbianism and the Women's Movement, edited by Nancy
-						Myron and Charlotte Bunch, Diana Press, 1975.</note></quote>
-				<p>I am interested in how we can do this through art. Developing a class
-					consciousness does not mean that each work of art by a woman would have to
-					directly relate to women of all classes, but rather that the form and content of
-					the work, be it figurative or abstract, would somehow illuminate experience in
-					such a way that it is shared with and includes rather than excludes women from
-					different backgrounds. Instead of presenting one universal experience that is
-					supposed to represent ALL of us yet represents few, art should reflect and give
-					information—facts, emotional response, visual accounting, ways of seeing into
-					and understanding different experiences and feelings. We must acknowledge our
-					differences in order to learn about, support, and work with each other. Thus I
-					feel that to make art as a lesbian with class consciousness has far-reaching
-					creative and political potential for connecting women through work. This means
-					actively rejecting cultural dictates, taking responsibility for our work, and
-					questioning the concept of apolitical art. Art-making is where consciousness is
-					formed.</p>
-			</div>
-			<div>
-				<head>ANALYSIS—REINTEGRATION</head>
-				<p>Ultimately it is a question of the function of art beyond the personal. It is not
-					merely a matter of doing work that doesn’t oppress others, but also of doing
-					work that pushes further towards a redefinition and transformation of culture.
-					For me, coming out as a lesbian has a lot to do with developing a class
-					consciousness, and that consciousness brought to my art raises questions of
-					imagery, permanence, scale, ways of working, and concepts of art education. It
-					raises questions of money and power, who sees my work, and what effect I want it
-					to have on others.</p>
-				<p>This does not mean that we as class conscious lesbian artists must make paintings
-					with recognizable figurative imagery, that we must be downwardly mobile, give up
-					making art for “real political struggle, or involve ourselves in the rhetorical
-					circles of the artistic left. What it does mean is not making or accepting class
-					assumptions about art such as what is allowable as art, who makes it, who sees
-					it, and what its function is to be. By removing esthetic hierarchies and the
-					need to pretend that we all share the same experiences, meaning can become
-					accessible and available.</p>
-				<p>Talk about "bringing art to the people” only reinforces class distinctions. Class
-					consciousness can be reflected through our art by demystifying and deprivatizing
-					the creative process. Presently it is difficult for a working class woman who
-					likes to write, paint, or dance even to consider being a professional artist.
-					When making art as well as owning art ceases to be a privilege, and the
-					art-making process itself is available to women of different classes, races, and
-					geographic backgrounds, we can begin to understand the political potential of
-					creative expression.</p>
-				<p>As lesbians, we need our experience validated culturally. To refuse art that
-					denies our existence and to deny that art is apolitical and universal, is to
-					actively challenge the wealthy few and their supporters who have been defining
-					and controlling social order through the manipulation of fine art. Demanding
-					group and self identity in art is one means of resisting oppression. The
-					art-making process is a tool for making these demands and changes.</p>
-
-				<p>Art is essentially work. <persName key="Simone Weil" ref="http://www.wikidata.org/entity/Q157309">Simone Weil</persName> writes that art is a surplus commodity in
-
-					this culture because it does not have immediate consumption and is not shared
-					and used by the people. That artists are not part of the paid work force further
-					separates the productive from the consumptive classes. The work process (and the
-					purpose of work) have always been external to the worker. Just as she writes
-					that our main task is to discover how it is possible for the work to be free and
-					to integrate it, we must free the art-making process so it is accessible and
-					understandable to everyone. The process should be as available as the
-						product.<note>7. Weil, Simone, First and Last Notebooks, translated by
-						Richard Rees, Oxford University Press, London, 1970, p. 58-61.</note></p>
-				<p>Acknowledging the existence of class structures, and how through art they can
-					affect cultural attitudes is just a beginning—a necessary step one. In the long
-					run, we should not focus merely on the relationship of one class to another, or
-					on the relationship of art and class, but on defining a future classless
-					society. The integration of art into the lives of all people and not just the
-					upper class contributes to that vision. "Revolution presupposes not simply an
-					economic and political transformation but also a technical and cultural
-						one."<note>8. First and Last Notebooks.</note></p>
-			</div>
-		</body>
-		<back>
-
-			<p> <persName key="Harmony Hammond" ref="http://www.wikidata.org/entity/Q5659529">Harmony Hammond</persName> is a painter and sometimes writer who is a member of the Heresies
-
-				collective. She teaches at any university and feminist art program that will have
-				her, and gives workshops and lectures on lesbian artists and feminist artists. </p>
-		</back>
-
-	</text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Joy Through Strength in the Bardo</title>
+            <author>Sally George</author>
+            <respStmt>
+               <persName>Haley Beardsley</persName>
+               <resp>Editor, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Erica Delsandro</persName>
+               <resp>Investigator, editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Margaret Hunter</persName>
+               <resp>Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <resp>Invesigator, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sophie McQuaide</persName>
+               <resp>Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Olivia Martin</persName>
+               <resp>Editor, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bri Perea</persName>
+               <resp>Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Roger Rothman</persName>
+               <resp>Investigator, editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kaitlyn Segreti</persName>
+               <resp>Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maggie Smith</persName>
+               <resp>Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maya Wadhwa</persName>
+               <resp>Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Ricky Rodriguez</persName>
+               <resp>Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Lucy Wadsworth</persName>
+               <resp>Editor</resp>
+            </respStmt>
+            <funder>Bucknell University Humanities Center</funder>
+            <funder>Bucknell University Office of Undergraduate Research</funder>
+            <funder>The Mellon Foundation</funder>
+            <funder>National Endowment for the Humanities</funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Bucknell University</name>
+               <address>
+                  <street>One Dent Drive</street>
+                  <settlement>Lewisburg</settlement>
+                  <region>Pennsylvania</region>
+                  <postCode>17837</postCode>
+               </address>
+            </distributor>
+            <availability>
+               <licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial 4.0
+                  International (CC BY-NC 4.0)</licence>
+               <licence>Heresies journal: © Heresies Collective</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Heresies Issue #3: Lesbian Art and Artists</title>
+               </analytic>
+               <monogr>
+                  <imprint>
+                     <publisher>HERESIES: A Feminist Publication on Art and Politics</publisher>
+                     <pubPlace>
+                        <address>
+                           <name>Heresies</name>
+                           <postBox>P.O. Boxx 766, Canal Street Station</postBox>
+                           <settlement>New York</settlement>
+                           <region>New York</region>
+                           <postCode>10013</postCode>
+                        </address>
+                     </pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="34" facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue03/Issue3_images/issue3_036.jpg"/>
+         <head><title>Class Notes</title></head>
+         <byline>Harmony Hammond</byline>
+         
+         <div>
+            <p> Class hierarchies and heterosexuality are patriarchal institutions which divide
+               women, give some women power over others, and destroy our strength. As a lesbian
+               feminist artist, 1 am interested in examining the assumptions of class and
+               heterosexuality in art, and the role of lesbian art as a potential catalyst for
+               social change. This article will focus on the myth of art as classless, and how
+               this myth functions to separate us from the reality of our lives and affects the
+               way in which we see ourselves. Specifically, I want to discuss how we as lesbian
+               artists need to defy this myth by developing class consciousness, and
+               incorporating it in the development of lesbian art and culture.</p>
+         </div>
+         
+         <div>
+            <head>THE MYTH</head>
+            <p>Fine art is a reflection of upper class interests, values, tastes, and patterns
+               of thinking. The images found in art reflect and serve the needs of a small
+               group of “corporate-government elite” (upper class white men) who define culture
+               in America and elsewhere if they can profit from it. They found, fund, and run
+               art museums, set standards of taste, and have a vested interest in creating,
+               validating, and supporting art whose form and content justifies and furthers a
+               patriarchal social order.<note>1. The Catalogue Committee of Artists Meeting for
+                  Cultural Change, an anti-catalogue, 1977. The catalogue was written as a
+                  protest to the Whitney exhibition, "American Art, 1976. I have included a
+                  condensed version of a more detailed discussion of “how art is mystified,
+                  how art exhibitions influence our views of history, and how collectors such
+                  as <persName key="John D. Rockefeller III" ref="http://www.wikidata.org/entity/Q1699735">John D. Rockefeller III</persName> benefit from cultural philanthropy.</note> Jackie
+               St. Joan has defined this social order as:</p>
+            <quote>"...that system—intellectual, political, social, sexual, psychological—which
+               requires in the name of human progress that one group (in the history of the
+               world, rich, white men) controls and exploits the energies of another and in
+               which women are particularly despised. It includes patriarchal institutions
+               (heterosexuality, the nuclear family, private property, etc.) which are the
+               tools of oppression as well as the patriarchal mind-constructs which, like the
+               capitalist mind-constructs, limit even our ability to think beyond what
+               is.<note>2. "A Lesbian Feminist: Jackie St. Joan, an interview, in Big Mama
+                  Rag, Jan-Feb, 1977, Vol. 5, no. 1.</note></quote>
+            <p>Rarely does fine art include images of workers, the workplace, or daily survival.
+               Rarely does it depict the experiences of Blacks, Native Americans, women, or
+               lesbians. When these images do appear, they seem outside the experience of those
+               portrayed because they are romanticized or stereotyped, rather than real. For
+               instance, lesbian sexuality is rarely portrayed in visual art and when it is,
+               say in film, lesbians are presented in butch/femme roles, as sick, masochistic,
+               and sadistic, and as though sexuality was the only important thing in their
+               lives. This limited male view hardly relates to my experience as a lesbian. Nor
+               do I feel that my identity as an artist is realistically portrayed. The artist’s
+               life is romanticized as a chosen struggle of economic hardship necessary to
+               produce art rather than as a product of the alienation of artists from
+               society.</p>
+            <p>If art provides a way for us to perceive ourselves and the world around us, it
+               seems necessary that we examine what is validated as art. An excellent example
+               of an attempt to write social history through art was the exhibition “American
+               
+               Art,” a collection belonging to <persName key="John D. Rockefeller III" ref="http://www.wikidata.org/entity/Q1699735">John D. Rockefeller III</persName>, which was shown last
+               fall at the <orgName key="Whitney Museum of American Art" ref="http://www.wikidata.org/entity/Q639791">Whitney Museum</orgName> as our Bicentennial survey exhibition of American
+               
+               art. This collection contains one work by a woman artist, one work by a Black
+               artist, and no work by Hispanic or Native American artists. The absence of work
+               by women and Third World artists in this and most other collections and
+               exhibitions, denies the experiences of most Americans. Not to see their
+               experiences reflected in culture is to say that they don’t exist. Because art
+               both creates and reflects social realities, their absence becomes a political
+               issue. As the artists writing in an anti-catalogue” state: “Omission is one of
+               the mechanisms by which fine art reinforces the values and beliefs of the
+               powerful and suppresses the experiences of others."<note>3. an
+                  anti-catalogue</note></p>
+            <p>Another mechanism reinforcing upper class values is the myth of art as classless
+               and universal. By creating the myth of universal art, those in power teach us to
+               identify with images and the experiences these images represent, which have
+               nothing to do with our own class position. We are told that art, and therefore
+               the artist, is classless, and that our experiences are immaterial and should be
+               ignored.</p>
+            <p>All classes accept this myth, for to question it would be to reveal the
+               oppressive political structures and social institutions underlying patriarchal
+               
+               capitalist society. <persName key="Rita Mae Brown" ref="http://www.wikidata.org/entity/Q242956">Rita Mae Brown</persName> writes that “America is a country reluctant
+               
+               to recognize class differences. The American myth crystallized is: This is the
+               land of equal opportunity; work hard, stay in line, you’ll get ahead. (Getting
+               ahead always means money.)"<note>4. Brown, Rita Mae, “The Last Straw," Class and
+                  Feminism: A Collection of Essays From The Furies, edited by Charlotte Bunch
+                  and Nancy Myron, Diana Press, 1974.</note> Identification with this myth of
+               classlessness redirects us from dealing with our own particular oppression as
+               working class, as women, as lesbians, etc. The artists in an anti-catalogue”
+               state:</p>
+            <quote>“The mystification of art depends upon two things—upon our surrendering our
+               capacity to judge and upon unquestioning acceptance of authority in place of the
+               printed word and the authority of scholarly titles and distinctions. The
+               mystification of art takes our passivity for granted. It encourages us to look
+               upon art as if art had no bearing on experience.<note>5. an
+                  anti-catalogue.</note></quote>
+            <pb n="35" facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue03/Issue3_images/issue3_037.jpg"/>
+            <p> Accepting the myth is accepting our invisibility and powerlessness. To question
+               cultural attitudes is to question social conditions. Passivity smooths the pain
+               of powerlessness and helps us to survive these conditions. We need to see that
+               behavioral patterns affect who becomes an artist, what artists create, what art
+               is validated as quality, and how art in turn reinforces those patterns.</p>
+         </div>
+         
+         <div>
+            <head>HOW I BOUGHT THE MYTH</head>
+            <p>Thinking back to junior high school in the fifties, I see that one reason 1 chose
+               to be an artist was to escape the daily pain of lower middle class life in
+               Hometown—of living in a duplex, taking a bus to school, and wearing
+               hand-me-downs until I got a job at Lerner’s and could buy my own clothes. The
+               guy I went with turned me on to Mulligan, Coleman, Getz, and all that jazz and
+               the beat writers <persName key="Jack Kerouac" ref="http://www.wikidata.org/entity/Q160534">Kerouac</persName>, Ginsberg, and Prevert. They were "artists" and
+               intellectuals, without money (like me), and romanticized. I thumbed my nose and
+               fantasized riding naked down the highway. We fucked. I got a scholar- ship to
+               the Saturday School of the Art Institute of Chicago. I wanted to be a dress
+               designer or fashion illustrator because it sounded “classy” and "sophisticated."
+               If all else failed, I could be an art teacher.</p>
+            <p>In the museum I saw “real" painting and sculpture. I remember sitting in front of
+               the Pollock, the Rothko, and the Still, thinking that I could do those
+               paintings, but not realizing that I was a woman and that it didn’t matter what I
+               did. In the studios I saw art being made by grubby students and I took note that
+               the artist could wear anything, say anything, and didn’t have to socialize. The
+               artist seemed special and not bound by class behavior. I would be an artist.
+               Accepting fine art meant renouncing my class background and stepping out of the
+               lower middle class life of Hometown into the universal world of the muses. Safe
+               and protected at last. Who ever heard of a middle class muse?</p>
+         </div>
+         
+         <div>
+            <head>THE MYTH SHATTERED: CLASS IS HOW YOU SEE THE WORLD. ART IS HOW YOU SEE THE
+               WORLD.</head>
+            <p>It has taken me a long time to begin to understand and accept my lower middle
+               class background, and to realize that the art world I entered wasn’t an
+               alternative to middle class society but that women, Blacks, and the poor are
+               also oppressed within the alternate “world of culture. As long as society
+               allowed me to be a starving artist" I did not question my own experiences, or
+               how they affected my work and work attitudes. Acting out a romanticized art life
+               was my option to upward mobility. Heterosexual women get their privilege from
+               the same patriarchal systems that give privilege to middle and upper class
+               women. Coming out as a lesbian with a feminist consciousness forced me to
+               realize what class privilege I did and did not have, and what I would now lose.
+               Even the fact that I first came out to myself through my art and not in bed is
+               in itself a reflection of my class position. As a feminist artist I had learned
+               to use my work as a place to confront fears and other feelings privately in my
+               studio. A woman working as a maid, a waitress, or a seamstress, does not have
+               this option.</p>
+            <p>As a lesbian, however, 1 was forced to confront and give up illusions I had about
+               being accepted and rewarded by the male art world where they treated art
+               seriously. To be public about being a lesbian means that your work may not be
+               taken seriously, or may squeezed into a category of “camp” or erotic art.
+               Because you do not hang out with the right men or the right women (those who
+               hang out with the men) at the right bars, and since the lesbian feminist
+               community doesn’t yet support its visual artists, you are less likely to make
+               your work visible, to have professional dialogue, and to support yourself
+               through your work either directly (sales) or indirectly (teaching). For women,
+               the economic class system is largely determined by their relationship to men.
+               The higher up the man she relates to, the more she benefits from the system. The
+               lesbian, by not relating to men does not benefit economically and has no
+               privilege unless she is independently wealthy. Most of us do not have that kind
+               of support and opportunity, and without support, it is very difficult to
+               
+               continue making art. Historically, known lesbian visual artists (<persName key="Rosa Bonheur" ref="http://www.wikidata.org/entity/Q241732">Rosa Bonheur</persName>,
+               <persName key="Romaine Brooks" ref="http://www.wikidata.org/entity/Q466607">Romaine Brooks</persName>, etc.) were wealthy. Only they had the privilege to continue
+               
+               making art despite their public lesbian lifestyle.</p>
+            <p>If we examine the relationship of lesbians to the class system, and to
+               patriarchy, we can get an idea of the active role art can play in developing a
+               culture that does not make women powerless and invisible. In “Lesbians and The
+               
+               Class Position of Women," <persName key="Margaret Small" ref="http://www.wikidata.org/entity/Q115581765">Margaret Small</persName> writes:</p>
+            
+            <quote>...At this point in history, the primary role that lesbians have to play in
+               the development of revolutionary consciousness is ideological. Because lesbians
+               are objectively outside of heterosexual reality, they have potential for <pb n="36" facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue03/Issue3_images/issue3_038.jpg"/> developing an alternative ideology not limited by heterosexuality.
+               Lesbians stand in a different relationship to (the) three conditions that
+               determine the class position of women (production, reproduction, sexuality). The
+               lesbian does not have a domestic base that is defined by the production of new
+               labor power and maintenance of her husband’s labor power. Her relationship is in
+               proletarian terms. The element of slave consciousness integral to
+               heterosexuality is missing.<note>6. Small, Margaret, “Lesbians and the Class
+                  Position of Women," Lesbianism and the Women's Movement, edited by Nancy
+                  Myron and Charlotte Bunch, Diana Press, 1975.</note></quote>
+            <p>I am interested in how we can do this through art. Developing a class
+               consciousness does not mean that each work of art by a woman would have to
+               directly relate to women of all classes, but rather that the form and content of
+               the work, be it figurative or abstract, would somehow illuminate experience in
+               such a way that it is shared with and includes rather than excludes women from
+               different backgrounds. Instead of presenting one universal experience that is
+               supposed to represent ALL of us yet represents few, art should reflect and give
+               information—facts, emotional response, visual accounting, ways of seeing into
+               and understanding different experiences and feelings. We must acknowledge our
+               differences in order to learn about, support, and work with each other. Thus I
+               feel that to make art as a lesbian with class consciousness has far-reaching
+               creative and political potential for connecting women through work. This means
+               actively rejecting cultural dictates, taking responsibility for our work, and
+               questioning the concept of apolitical art. Art-making is where consciousness is
+               formed.</p>
+         </div>
+         <div>
+            <head>ANALYSIS—REINTEGRATION</head>
+            <p>Ultimately it is a question of the function of art beyond the personal. It is not
+               merely a matter of doing work that doesn’t oppress others, but also of doing
+               work that pushes further towards a redefinition and transformation of culture.
+               For me, coming out as a lesbian has a lot to do with developing a class
+               consciousness, and that consciousness brought to my art raises questions of
+               imagery, permanence, scale, ways of working, and concepts of art education. It
+               raises questions of money and power, who sees my work, and what effect I want it
+               to have on others.</p>
+            <p>This does not mean that we as class conscious lesbian artists must make paintings
+               with recognizable figurative imagery, that we must be downwardly mobile, give up
+               making art for “real political struggle, or involve ourselves in the rhetorical
+               circles of the artistic left. What it does mean is not making or accepting class
+               assumptions about art such as what is allowable as art, who makes it, who sees
+               it, and what its function is to be. By removing esthetic hierarchies and the
+               need to pretend that we all share the same experiences, meaning can become
+               accessible and available.</p>
+            <p>Talk about "bringing art to the people” only reinforces class distinctions. Class
+               consciousness can be reflected through our art by demystifying and deprivatizing
+               the creative process. Presently it is difficult for a working class woman who
+               likes to write, paint, or dance even to consider being a professional artist.
+               When making art as well as owning art ceases to be a privilege, and the
+               art-making process itself is available to women of different classes, races, and
+               geographic backgrounds, we can begin to understand the political potential of
+               creative expression.</p>
+            <p>As lesbians, we need our experience validated culturally. To refuse art that
+               denies our existence and to deny that art is apolitical and universal, is to
+               actively challenge the wealthy few and their supporters who have been defining
+               and controlling social order through the manipulation of fine art. Demanding
+               group and self identity in art is one means of resisting oppression. The
+               art-making process is a tool for making these demands and changes.</p>
+            
+            <p>Art is essentially work. <persName key="Simone Weil" ref="http://www.wikidata.org/entity/Q157309">Simone Weil</persName> writes that art is a surplus commodity in
+               
+               this culture because it does not have immediate consumption and is not shared
+               and used by the people. That artists are not part of the paid work force further
+               separates the productive from the consumptive classes. The work process (and the
+               purpose of work) have always been external to the worker. Just as she writes
+               that our main task is to discover how it is possible for the work to be free and
+               to integrate it, we must free the art-making process so it is accessible and
+               understandable to everyone. The process should be as available as the
+               product.<note>7. Weil, Simone, First and Last Notebooks, translated by
+                  Richard Rees, Oxford University Press, London, 1970, p. 58-61.</note></p>
+            <p>Acknowledging the existence of class structures, and how through art they can
+               affect cultural attitudes is just a beginning—a necessary step one. In the long
+               run, we should not focus merely on the relationship of one class to another, or
+               on the relationship of art and class, but on defining a future classless
+               society. The integration of art into the lives of all people and not just the
+               upper class contributes to that vision. "Revolution presupposes not simply an
+               economic and political transformation but also a technical and cultural
+               one."<note>8. First and Last Notebooks.</note></p>
+         </div>
+      </body>
+     <back>
+        
+        <p> <persName key="Harmony Hammond" ref="http://www.wikidata.org/entity/Q5659529">Harmony Hammond</persName> is a painter and sometimes writer who is a member of the Heresies
+           
+           collective. She teaches at any university and feminist art program that will have
+           her, and gives workshops and lectures on lesbian artists and feminist artists. </p>
+     </back>
+  </text>
 </TEI>
