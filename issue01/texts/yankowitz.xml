@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -92,325 +92,13 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?person_annotation_20221110204744889",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-11T01:47:44.889Z",
-	"dcterms:modified": "2022-11-11T01:47:44.889Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Sophie McQuaide"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?person_annotation_20221110204744889#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?person_annotation_20221110204744889#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/byline/persName/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q19517707",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?person_annotation_20221110205559027",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-11T01:55:59.027Z",
-	"dcterms:modified": "2022-11-11T01:55:59.027Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Sophie McQuaide"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?person_annotation_20221110205559027#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?person_annotation_20221110205559027#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q19517707",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?organization_annotation_20221129160433079",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T21:04:33.079Z",
-	"dcterms:modified": "2022-11-29T21:04:33.079Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Sophie McQuaide"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?organization_annotation_20221129160433079#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?organization_annotation_20221129160433079#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q1431868",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?organization_annotation_20221129160528691",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T21:05:28.691Z",
-	"dcterms:modified": "2022-11-29T21:05:28.691Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Sophie McQuaide"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?organization_annotation_20221129160528691#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sophiemcquaide/heresies/main/issue01/texts/yankowitz.xml?organization_annotation_20221129160528691#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/orgName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "https://en.wikipedia.org/wiki/Women%27s_Interart_Center",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
-			<pb n="54"/>
+			<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_056.jpg"/>
 
-			<head><title>ABCS</title></head>
-			<byline><persName><persName key="Susan Yankowitz" ref="http://www.wikidata.org/entity/Q19517707">Susan Yankowitz</persName></persName></byline>
+			<div><head><title>ABCS</title></head>
+			<byline><persName><persName key="Susan Yankowitz" ref="http://www.wikidata.org/entity/Q19517707">Susan Yankowitz</persName></persName></byline></div>
 
 			<div type="letter" n="a">
 				<head>AN APPLE</head>
@@ -487,7 +175,7 @@
 					dry with sleep and anxiety; she could have suffocated during that nighttime
 					shift. There is no escaping the fact now: she must escape! But how? She wags her
 					head a few times to float the foot free as she ponders the ins and outs. The
-					nearest exit is the rear. Can she deliver herself through there? MM is <pb n="55"/> notoriously tight-assed. She experiments, jamming her foot in the
+					nearest exit is the rear. Can she deliver herself through there? MM is <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_057.jpg"/> notoriously tight-assed. She experiments, jamming her foot in the
 					door; MM jumps. Assured of the flexibility of that aperture, she glances upward
 					to the other hole, further away but far less foul. Keeping her foot wedged in
 					the crack she sticks a finger up his throat; MM gags. Both routes are open to
@@ -580,7 +268,7 @@
 				<p>Everything is mute. The silence is its own question.</p>
 			</div>
 
-			<pb n="56"/>
+			<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_058.jpg"/>
 
 			<div type="letter" n="o">
 				<head>OSCILLATIONS</head>
@@ -676,7 +364,7 @@
 					She sets him straight at once. "My real name's Claire. Can I take a shower?"</p>
 			</div>
 
-			<pb n="57"/>
+			<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_059.jpg"/>
 			<div type="letter" n="x">
 				<head>x =</head>
 				<p>Claire, not Olympia then. He looks at her in this new light as he scrubs her
@@ -717,11 +405,11 @@
 		</body>
 
 		<back>
-			<p><persName key="Susan Yankowitz" ref="http://www.wikidata.org/entity/Q19517707">Susan Yankowitz</persName>'s first novel, <title>Silent Witness</title>, was published by <orgName key="Alfred A. Knopf" ref="http://www.wikidata.org/entity/Q1431868">Knopf</orgName>
+			<div><p><persName key="Susan Yankowitz" ref="http://www.wikidata.org/entity/Q19517707">Susan Yankowitz</persName>'s first novel, <title>Silent Witness</title>, was published by <orgName key="Alfred A. Knopf" ref="http://www.wikidata.org/entity/Q1431868">Knopf</orgName>
 				in May. Her play, <title>Still Life</title>, will be produced in January at the
 				<orgName key="Women's Interarts Theatre" ref="https://en.wikipedia.org/wiki/Women%27s_Interart_Center">Women's Interarts Theatre</orgName>, and her published plays incude <title>Slaughterhouse
 					Play</title>,<title>Terminal</title>, <title>Boxes</title>, and <title>The
-					Prison Game</title>, among others.</p>
+					Prison Game</title>, among others.</p></div>
 		</back>
 
 	</text>

@@ -7,22 +7,19 @@
 
  <!-- This exports the .xml type -->
     <xsl:output method="xml" encoding="utf-8" indent="yes"/>
-<<<<<<<< HEAD:XSLTs/TK2TEI.xsl
-========
+
 <!--     <xsl:strip-space elements="*"/>-->
->>>>>>>> 05ba5a56587d2b51fa26040785397156406454c5:XSLTs/XML2TEI.xsl
+
 
 <!-- This adds the TEI All schema -->
     <xsl:template match="/">
         <xsl:processing-instruction name="xml-model"> 
             href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" 
-<<<<<<<< HEAD:XSLTs/TK2TEI.xsl
+
 href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"? 
-========
-        href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"
->>>>>>>> 05ba5a56587d2b51fa26040785397156406454c5:XSLTs/XML2TEI.xsl
         </xsl:processing-instruction>
         <xsl:apply-templates/>
     </xsl:template>

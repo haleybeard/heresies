@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -93,20 +92,10 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				xmlns:fabio="https://purl.org/spar/fabio#"
-				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-				xmlns:org="http://www.w3.org/ns/org#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+		
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -136,23 +125,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111153631947",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20230423150227065",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-11T20:36:31.947Z",
-	"dcterms:modified": "2022-11-11T20:36:31.947Z",
+	"dcterms:created": "2023-04-23T19:02:27.065Z",
+	"dcterms:modified": "2023-04-23T19:02:27.065Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "maggie smith"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111153631947#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20230423150227065#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -160,12 +150,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111153631947#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20230423150227065#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/persName[2]"
+			"rdf:value": "TEI/text/body/div/note/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -178,12 +168,14 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.7.3"
 	},
 	"cwrc:hasCertainty": "cwrc:low"
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -213,23 +205,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111154008964",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20230423150227065",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-11T20:40:08.964Z",
-	"dcterms:modified": "2022-11-11T20:40:08.964Z",
+	"dcterms:created": "2023-04-23T19:02:27.065Z",
+	"dcterms:modified": "2023-04-23T19:02:27.065Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "maggie smith"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111154008964#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20230423150227065#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -237,12 +230,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20221111154008964#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml?person_annotation_20230423150227065#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/persName[18]"
+			"rdf:value": "TEI/text/body/div/note/persName[18]"
 		}
 	},
 	"oa:hasBody": {
@@ -255,11 +248,13 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -289,23 +284,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?note_annotation_20221111154023316",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml?note_annotation_20230423150227068",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-11T20:40:23.316Z",
-	"dcterms:modified": "2022-11-11T20:40:23.316Z",
+	"dcterms:created": "2023-04-23T19:02:27.068Z",
+	"dcterms:modified": "2023-04-23T19:02:27.068Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "maggie smith"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?note_annotation_20221111154023316#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml?note_annotation_20230423150227068#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -313,43 +309,41 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.2.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/msmith426/heresies/main/issue01/texts/mujer_peruana.xml?note_annotation_20221111154023316#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/mujer_peruana.xml?note_annotation_20230423150227068#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/note"
+			"rdf:value": "TEI/text/body/div/note"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
 		"dc:format": "text/plain",
-		"rdf:value": ""
+		"rdf:value": "Excerpts (slightly rearranged) from the booklet of this name distributed by\n\t\t\t\t\"Accion para la Liberacion de la Mujer Peruana,\" April 15, 1975, Lima, Peru. This\n\t\t\t\ttext was taken from the first half of the booklet; the second half deals with a\n\t\t\t\tspecific program for practical revolutionary work. The following are listed as the\n\t\t\t\tgroup's coordinators and \"honorary members“: \n\t\t\t\tCristina Portocarrero Rey, Ana Maria\n\t\t\t\t\tPortugal, Amor Arguedas, Dorelly\n\t\t\t\t\tCastafieda, Beatriz Ramos, Lucia\n\t\t\t\t\tParra, Margot Loayza, Edith\n\t\t\t\t\tAlva, Carmela Bravo, Dora\n\t\t\t\t\tPonce, Flor Herrera, Leo\n\t\t\t\t\tArteaga,\n\t\t\t\tDiana Arteaga, Dora Guerrero,\n\t\t\t\t\tBertha Vargas, Inés Pratt,\n\t\t\t\t\tAdela Montesinos, Estela Luna\n\t\t\t\tLôpez."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.2.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
-				</rdf:Description>
-			</rdf:RDF></xenoData>
-	</teiHeader>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 
 	<text>
 		<body>
-			<pb n="99"/>
+			<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_101.jpg"/>
 
-			<head><title>Who Are We? What Do We Want? What Do We Do?</title></head>
-			<head>Excerpts (slightly rearranged) from the booklet of this name distributed by
+			<div><head><title>Who Are We? What Do We Want? What Do We Do?</title></head>
+			<note>Excerpts (slightly rearranged) from the booklet of this name distributed by
 				"Accion para la Liberacion de la Mujer Peruana," April 15, 1975, Lima, Peru. This
 				text was taken from the first half of the booklet; the second half deals with a
 				specific program for practical revolutionary work. The following are listed as the
-				group's coordinators and "honorary members“:<note/>
-				<persName>Cristina Portocarrero Rey</persName>, <persName key="Portugal, Ana Maria"
-					ref="http://viaf.org/viaf/6428160667863803560007/" cert="low">Ana Maria
+				group's coordinators and "honorary members“: 
+				<persName>Cristina Portocarrero Rey</persName>, <persName key="Portugal, Ana Maria" ref="http://viaf.org/viaf/6428160667863803560007/" cert="low">Ana Maria
 					Portugal</persName>, <persName>Amor Arguedas</persName>, <persName>Dorelly
 					Castafieda</persName>, <persName>Beatriz Ramos</persName>, <persName>Lucia
 					Parra</persName>, <persName>Margot Loayza</persName>, <persName>Edith
@@ -358,12 +352,11 @@
 					Arteaga,</persName>
 				<persName>Diana Arteaga</persName>, <persName>Dora Guerrero</persName>,
 					<persName>Bertha Vargas</persName>, <persName>Inés Pratt</persName>,
-					<persName>Adela Montesinos</persName>, <persName key="Estela Luna López"
-					ref="http://www.wikidata.org/entity/Q107596196">Estela Luna
-				Lôpez</persName>.</head>
-			<byline><orgName>Accion para la Liberacion de la Mujer Peruana</orgName></byline>
+					<persName>Adela Montesinos</persName>, <persName key="Estela Luna López" ref="http://www.wikidata.org/entity/Q107596196">Estela Luna
+				Lôpez</persName>.</note>
+			<byline><orgName>Accion para la Liberacion de la Mujer Peruana</orgName></byline></div>
 
-			<p> We are a group of women who have organized to study, work and fight for our
+			<div><p> We are a group of women who have organized to study, work and fight for our
 				liberation, and especially to work with and for our sisters who suffer a double
 				oppression: in being women and in belonging to a social sector which has been
 				historically dominated and exploited. </p>
@@ -430,7 +423,7 @@
 				secondary roles, condemning us to live as marginal beings passively supporting and
 				"servicing" men.</p>
 			<p>From reformist paternalism which perpetually treats us as legal minors, because it
-				reduces <pb n="100"/> everything to the creation or amplification of protectionary
+				reduces <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_102.jpg"/> everything to the creation or amplification of protectionary
 				laws that are pretexts to mask our real situation of dependence on men and
 				second-class citizenship.</p>
 			<p>From all kinds of ideological pressure, expressed in the terror most of us feel about
@@ -458,7 +451,7 @@
 				and motherhood as woman's only aim and destiny.</p>
 			<p>And finally, against all threats to the liberation front whose ultimate goal is the
 				Monolithic Unity of Revolutionary Women, and of those men who integrally support the
-				cause of our liberation.</p>
+				cause of our liberation.</p></div>
 
 		</body>
 	</text>

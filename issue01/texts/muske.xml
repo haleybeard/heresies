@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
 		<fileDesc>
 			<titleStmt>
 				<title>The Art of Not Bowing: Writing by Women in Prison</title>
@@ -125,10 +128,12 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221020101910819",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519949",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-20T14:19:10.819Z",
+	"dcterms:created": "2023-04-22T20:35:19.949Z",
+	"dcterms:modified": "2023-04-22T20:35:19.949Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
@@ -137,10 +142,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221020101910819#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519949#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -148,12 +153,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221020101910819#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519949#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/byline/persName"
+			"rdf:value": "TEI/text/body/div/byline/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -166,7 +171,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -202,10 +207,12 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?title_annotation_20221020101954172",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519950",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-20T14:19:54.172Z",
+	"dcterms:created": "2023-04-22T20:35:19.950Z",
+	"dcterms:modified": "2023-04-22T20:35:19.950Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
@@ -214,10 +221,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?title_annotation_20221020101954172#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519950#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -225,791 +232,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?title_annotation_20221020101954172#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519950#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "http://viaf.org/viaf/198145541783196601418/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221020105326153",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-10-20T14:53:26.153Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221020105326153#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221020105326153#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/note/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q467961",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129151144521",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:11:44.521Z",
-	"dcterms:modified": "2022-11-29T20:11:44.521Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129151144521#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129151144521#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/note/persName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q467961",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129151240614",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:12:40.614Z",
-	"dcterms:modified": "2022-11-29T20:12:40.614Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129151240614#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129151240614#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://en.wikipedia.org/wiki/New_York_Women%27s_House_of_Detention",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129151251182",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:12:51.182Z",
-	"dcterms:modified": "2022-11-29T20:12:51.182Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129151251182#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129151251182#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/placeName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://viaf.org/viaf/315527979/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?title_annotation_20221129151334047",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:13:34.047Z",
-	"dcterms:modified": "2022-11-29T20:13:34.047Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?title_annotation_20221129151334047#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?title_annotation_20221129151334047#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "http://www.wikidata.org/entity/Q876158",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129151840447",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:18:40.447Z",
-	"dcterms:modified": "2022-11-29T20:18:40.447Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129151840447#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129151840447#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q11299",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129152125177",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:21:25.177Z",
-	"dcterms:modified": "2022-11-29T20:21:25.177Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129152125177#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129152125177#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://en.wikipedia.org/wiki/LaGuardia_Airport",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129152143455",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:21:43.455Z",
-	"dcterms:modified": "2022-11-29T20:21:43.455Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129152143455#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?place_annotation_20221129152143455#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/lg[4]/l[3]/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q109858",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152204139",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:22:04.139Z",
-	"dcterms:modified": "2022-11-29T20:22:04.139Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152204139#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152204139#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/persName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/6074160486121805180007/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152234941",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:22:34.941Z",
-	"dcterms:modified": "2022-11-29T20:22:34.941Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152234941#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152234941#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[6]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[6]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1022,7 +250,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -1058,23 +286,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129152538153",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:25:38.153Z",
-	"dcterms:modified": "2022-11-29T20:25:38.153Z",
+	"dcterms:created": "2023-04-22T20:35:19.951Z",
+	"dcterms:modified": "2023-04-22T20:35:19.951Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129152538153#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1082,17 +311,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129152538153#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[11]/orgName"
+			"rdf:value": "TEI/text/body/div[2]/p[6]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q1967116",
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/6074160486121805180007/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1100,7 +329,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -1136,23 +365,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152740674",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:27:40.674Z",
-	"dcterms:modified": "2022-11-29T20:27:40.674Z",
+	"dcterms:created": "2023-04-22T20:35:19.951Z",
+	"dcterms:modified": "2023-04-22T20:35:19.951Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152740674#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1160,12 +390,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129152740674#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[12]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[12]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1178,7 +408,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -1214,23 +444,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153430782",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:34:30.782Z",
-	"dcterms:modified": "2022-11-29T20:34:30.782Z",
+	"dcterms:created": "2023-04-22T20:35:19.951Z",
+	"dcterms:modified": "2023-04-22T20:35:19.951Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153430782#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1238,246 +469,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153430782#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[13]/persName[4]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q463319",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153439194",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:34:39.194Z",
-	"dcterms:modified": "2022-11-29T20:34:39.194Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153439194#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153439194#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[13]/persName[3]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q17411190",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153447243",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:34:47.243Z",
-	"dcterms:modified": "2022-11-29T20:34:47.243Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153447243#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153447243#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[13]/persName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q5219218",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153458854",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:34:58.854Z",
-	"dcterms:modified": "2022-11-29T20:34:58.854Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153458854#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153458854#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[13]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[13]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -1490,7 +487,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -1526,23 +523,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?keyword_annotation_20221129153614895",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:36:14.895Z",
-	"dcterms:modified": "2022-11-29T20:36:14.895Z",
+	"dcterms:created": "2023-04-22T20:35:19.951Z",
+	"dcterms:modified": "2023-04-22T20:35:19.951Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
-	"oa:motivatedBy": "oa:tagging",
+	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?keyword_annotation_20221129153614895#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1550,25 +548,25 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?keyword_annotation_20221129153614895#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519951#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/seg"
+			"rdf:value": "TEI/text/body/div[2]/p[13]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "fabio:UncontrolledVocabulary",
-		"dc:format": "text/xml",
-		"rdf:value": "art style"
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5219218",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -1604,23 +602,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153717312",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:37:17.312Z",
-	"dcterms:modified": "2022-11-29T20:37:17.312Z",
+	"dcterms:created": "2023-04-22T20:35:19.952Z",
+	"dcterms:modified": "2023-04-22T20:35:19.952Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153717312#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1628,12 +627,170 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153717312#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/persName[2]"
+			"rdf:value": "TEI/text/body/div[2]/p[13]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q17411190",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.952Z",
+	"dcterms:modified": "2023-04-22T20:35:19.952Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[13]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q463319",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.952Z",
+	"dcterms:modified": "2023-04-22T20:35:19.952Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[15]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1646,7 +803,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	},
 	"cwrc:hasCertainty": "cwrc:low"
 }]]>
@@ -1683,23 +840,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153732478",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:37:32.478Z",
-	"dcterms:modified": "2022-11-29T20:37:32.478Z",
+	"dcterms:created": "2023-04-22T20:35:19.952Z",
+	"dcterms:modified": "2023-04-22T20:35:19.952Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153732478#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1707,12 +865,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153732478#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519952#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/persName[3]"
+			"rdf:value": "TEI/text/body/div[2]/p[15]/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -1725,7 +883,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -1761,23 +919,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153750613",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519953",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:37:50.613Z",
-	"dcterms:modified": "2022-11-29T20:37:50.613Z",
+	"dcterms:created": "2023-04-22T20:35:19.953Z",
+	"dcterms:modified": "2023-04-22T20:35:19.953Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153750613#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519953#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1785,12 +944,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153750613#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519953#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/persName[4]"
+			"rdf:value": "TEI/text/body/div[2]/p[15]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -1803,7 +962,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	},
 	"cwrc:hasCertainty": "cwrc:low"
 }]]>
@@ -1840,23 +999,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153800294",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519953",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:38:00.294Z",
-	"dcterms:modified": "2022-11-29T20:38:00.294Z",
+	"dcterms:created": "2023-04-22T20:35:19.953Z",
+	"dcterms:modified": "2023-04-22T20:35:19.953Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153800294#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519953#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -1864,246 +1024,12 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129153800294#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422163519953#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/persName[5]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q467961",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129153811958",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:38:11.958Z",
-	"dcterms:modified": "2022-11-29T20:38:11.958Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129153811958#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129153811958#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[14]/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q2545743",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129154020032",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:40:20.032Z",
-	"dcterms:modified": "2022-11-29T20:40:20.032Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129154020032#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129154020032#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[16]/orgName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q106091070",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129154202821",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:42:02.821Z",
-	"dcterms:modified": "2022-11-29T20:42:02.821Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129154202821#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129154202821#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[19]/persName"
+			"rdf:value": "TEI/text/body/div[2]/p[20]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -2116,7 +1042,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -2152,23 +1078,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129154221848",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519956",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:42:21.848Z",
-	"dcterms:modified": "2022-11-29T20:42:21.848Z",
+	"dcterms:created": "2023-04-22T20:35:19.956Z",
+	"dcterms:modified": "2023-04-22T20:35:19.956Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129154221848#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519956#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2176,12 +1103,644 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?organization_annotation_20221129154221848#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519956#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[20]/orgName[2]"
+			"rdf:value": "TEI/text/body/div[2]/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://en.wikipedia.org/wiki/New_York_Women%27s_House_of_Detention",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.957Z",
+	"dcterms:modified": "2023-04-22T20:35:19.957Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/315527979/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.957Z",
+	"dcterms:modified": "2023-04-22T20:35:19.957Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q11299",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.957Z",
+	"dcterms:modified": "2023-04-22T20:35:19.957Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://en.wikipedia.org/wiki/LaGuardia_Airport",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.957Z",
+	"dcterms:modified": "2023-04-22T20:35:19.957Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?place_annotation_20230422163519957#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/lg[4]/l[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q109858",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519957",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.957Z",
+	"dcterms:modified": "2023-04-22T20:35:19.957Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519957#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519957#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[11]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q1967116",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519958",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.958Z",
+	"dcterms:modified": "2023-04-22T20:35:19.958Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519958#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519958#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[15]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q2545743",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519958",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.958Z",
+	"dcterms:modified": "2023-04-22T20:35:19.958Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519958#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519958#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[17]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q106091070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519958",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:35:19.958Z",
+	"dcterms:modified": "2023-04-22T20:35:19.958Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519958#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?organization_annotation_20230422163519958#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[21]/orgName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -2194,7 +1753,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
@@ -2230,23 +1789,24 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129154347000",
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?title_annotation_20230422163519958",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:43:47.000Z",
-	"dcterms:modified": "2022-11-29T20:43:47.000Z",
+	"dcterms:created": "2023-04-22T20:35:19.958Z",
+	"dcterms:modified": "2023-04-22T20:35:19.958Z",
 	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
 		"@type": [
 			"cwrc:NaturalPerson",
 			"schema:Person"
 		],
-		"cwrc:hasName": "Maya Wadhwa"
+		"cwrc:hasName": "Diane Jakacki"
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129154347000#Target",
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?title_annotation_20230422163519958#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -2254,95 +1814,17 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
+			"schema:softwareVersion": "2.7.3"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?person_annotation_20221129154347000#Selector",
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?title_annotation_20230422163519958#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q5044485",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?title_annotation_20221129154504563",
-	"type": "oa:Annotation",
-	"dcterms:created": "2022-11-29T20:45:04.563Z",
-	"dcterms:modified": "2022-11-29T20:45:04.563Z",
-	"dcterms:creator": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Maya Wadhwa"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?title_annotation_20221129154504563#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Mayawadhwa/heresies/main/issue01/texts/muske.xml?title_annotation_20221129154504563#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/back/p/title"
+			"rdf:value": "TEI/text/body/div[2]/p/title"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "bf:Title",
-		"@id": "https://www.goodreads.com/book/show/1222376.Camouflage",
+		"@id": "http://viaf.org/viaf/198145541783196601418/",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2350,21 +1832,424 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.0"
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?date_annotation_20230422163814431",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:38:14.431Z",
+	"dcterms:modified": "2023-04-22T20:38:14.431Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?date_annotation_20230422163814431#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?date_annotation_20230422163814431#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[3]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1973-07-26"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164015554",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:40:15.554Z",
+	"dcterms:modified": "2023-04-22T20:40:15.554Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164015554#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164015554#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[11]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164521815",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:45:21.815Z",
+	"dcterms:modified": "2023-04-22T20:45:21.815Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164521815#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164521815#Selector",
+			"@type": "oa:RangeSelector",
+			"oa:hasStartSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/div[2]/lg/l[3]/persName"
+			},
+			"oa:hasEndSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/div[2]/lg/l[3]/persName[2]"
+			},
+			"oa:refinedBy": {
+				"@type": "oa:TextPositionSelector",
+				"oa:start": 0,
+				"oa:end": 16
+			}
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q467961",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164557530",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:45:57.530Z",
+	"dcterms:modified": "2023-04-22T20:45:57.530Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164557530#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?person_annotation_20230422164557530#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[15]/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q467961",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?date_annotation_20230422164823945",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-04-22T20:48:23.945Z",
+	"dcterms:modified": "2023-04-22T20:48:23.945Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/djakacki",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Diane Jakacki"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?date_annotation_20230422164823945#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.7.3"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/djakacki/heresies/main/issue01/texts/muske.xml?date_annotation_20230422164823945#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[22]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1975-11-26"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.7.3"
 	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<pb n="30"/>
-			<head><title>The Art of Not Bowing: Writing by Women in Prison</title></head>
-			<byline><persName key="Carol Muske-Dukes" ref="http://www.wikidata.org/entity/Q5044485" role="aut">Carol Muske</persName></byline>
-			<lg>
+			<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_032.jpg"/>
+			<div><head><title>The Art of Not Bowing: Writing by Women in Prison</title></head>
+			<byline><persName key="Carol Muske-Dukes" ref="http://www.wikidata.org/entity/Q5044485" role="aut">Carol Muske</persName></byline></div>
+			<div><lg>
 				<l>Who the hell am l anyway</l>
 				<l>Not to bow?</l>
+				<l>(<persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Assata Shakur</persName>/<persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Joanne Chesimard</persName>)</l>
 			</lg>
-			<note>(<persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Assata Shakur</persName>/<persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Joanne Chesimard</persName>) </note>
 
 			<p>In July 1973 I wrote an article for <title key="Village voice (Greenwich Village, New York, N.Y.)" ref="http://viaf.org/viaf/198145541783196601418/">The Village Voice</title> about a hunger strike then
 				taking place at the <placeName key="Women's House of Detention (New York City Correctional Institution for Women," ref="https://en.wikipedia.org/wiki/New_York_Women%27s_House_of_Detention">Women's House of Detention (New York City Correctional
@@ -2381,7 +2266,7 @@
 				library, an end to massive and lax prescription of "diagnostic" medication, decent
 				food, and limitation of solitary confinement to three days. At the Women's House,
 				where an old adage ran "all riots end at mealtime," this was pretty heady stuff.</p>
-			<p>The article in <title key="Village Voice" ref="http://www.wikidata.org/entity/Q876158">The Village Voice</title> (July 26, 1973) was supposed to get the world (or at
+			<p>The article in <title key="Village Voice" ref="http://www.wikidata.org/entity/Q876158">The Village Voice</title> (<date when="1973-07-26">July 26, 1973</date>) was supposed to get the world (or at
 				least <placeName key="Manhattan" ref="http://www.wikidata.org/entity/Q11299">Manhattan</placeName>) listening and to familiarize people with a woman’s situation in
 				prison: <quote>incarceration for women is a somewhat different experience than it is
 					for men. Male prisoners are expected to be political in one form or another,
@@ -2419,7 +2304,7 @@
 				(Millie had been a "hearts and flowers" verse writer: her poems were filled with
 				giggly sunsets“): </p>
 			<lg>
-				<head>Fly Me, l'm Mildred</head>
+				<head><title>Fly Me, l'm Mildred</title></head>
 				<l>Finger my earring as I lean low</l>
 				<l>over your bomber cocktail</l>
 				<l>I've been known</l>
@@ -2430,7 +2315,7 @@
 				<l>when you fly me, honey,</l>
 				<l>l'm Mildred.</l>
 			</lg>
-			<pb n="31"/>
+			<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_033.jpg"/>
 			<lg>
 				<head><title>Personally</title></head>
 				<l> So you spoke to me in silence</l>
@@ -2476,7 +2361,7 @@
 				(Although many C.O.'s were, in fact, gay, the atmosphere reflected the warden's
 				artificial notion of femininity.</p>
 			<p>After this incident, I was informed that the poem had been confiscated and that
-				Elizabeth Powell had been placed in solitary confinement pending a hearing by the
+				<persName>Elizabeth Powell</persName> had been placed in solitary confinement pending a hearing by the
 				disciplinary board. I was told that I would be allowed to continue the poetry class
 				for the time being, but that if another incident like this took place, I would be
 				asked to leave the prison. The warden sincerely hoped that I had "learned a
@@ -2513,7 +2398,7 @@
 				come back to work with us, taught poetry and library skills. Each teacher learned to
 				cope in his or her own way with the trials of trying to run a writing class in a
 				prison. Each class was like a hypothetical leap: it would take place 1) IF the
-				officer in <pb n="32"/> the housing area remembered to announce it; 2) IF the women
+				officer in <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_034.jpg"/> the housing area remembered to announce it; 2) IF the women
 				were there and not a) in court b) in solitary c) in another part of the prison d)
 				watching television e) sleeping and/or drugged f) transferred to another floor g)
 				trans- ferred to another prison h) out on bail (good news); 3) IF the officer on
@@ -2525,16 +2410,15 @@
 				student work: poets <persName key="Mae Jackson" ref="http://www.wikidata.org/entity/Q87410543">Mae Jackson</persName>, <persName key="Daniela Gioseffi" ref="http://www.wikidata.org/entity/Q5219218">Daniela Gioseffi</persName>, <persName key="Daniel Halper" ref="http://www.wikidata.org/entity/Q17411190">Daniel Halper</persName>n, <persName key="Audre Lorde" ref="http://www.wikidata.org/entity/Q463319">Audre Lorde</persName>. For
 				a long time, everyone learned. Information was taken in, absorbed—classes were spent
 				writing and rewriting, letting off steam.</p>
-			Almost four years later, most of the women from the old class had been transferred or
+			<p>Almost four years later, most of the women from the old class had been transferred or
 				freed (detention women often spend two years waiting for trial), but emphasis was
-				still placed on getting along." We all stressed writing as craft.<seg type="keyword"><term>art style</term></seg> Classes were run
-				as any outside workshop would be, except no one ever published anything.
+				still placed on getting along." We all stressed writing as craft. Classes were run
+				as any outside workshop would be, except no one ever published anything.</p>
 			<p>The poetry class at this time was full of women who were considered potential
 				security threats—in other words, intelligent, outspoken, and funny. Some were
 				"controversial" cases: <persName>Juanita Reedy</persName>, about to have her first child behind bars;
 				<persName key="Ramer, Carole J." ref="http://viaf.org/viaf/63352640/" cert="low">Carole Ramer</persName> who had been busted with <persName key="Abbie Hoffman" ref="http://www.wikidata.org/entity/Q306514">Abbie Hoffman</persName> and who had a lot to say about
-				everything; <persName key="Jensen, Gloria H." ref="http://viaf.org/viaf/43354610/" cert="low">Gloria Jensen</persName>, whose imagination was like a vaudeville show; <persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Assata
-				Shakur</persName>/Joanne Chesimard—alleged leader of the <orgName key="Black Liberation Army" ref="http://www.wikidata.org/entity/Q2545743">Black Liberation Army</orgName>, brilliant and
+				everything; <persName key="Jensen, Gloria H." ref="http://viaf.org/viaf/43354610/" cert="low">Gloria Jensen</persName>, whose imagination was like a vaudeville show; <persName key="Assata Shakur" ref="http://www.wikidata.org/entity/Q467961">Assata Shakur/Joanne Chesimard</persName>—alleged leader of the <orgName key="Black Liberation Army" ref="http://www.wikidata.org/entity/Q2545743">Black Liberation Army</orgName>, brilliant and
 				talented, with a Cool-Hand Luke aura of insouciance, compassion, and tenacity.
 				(Assata was considered so dangerous that the prison required her to have a
 				continual guard-escort.) These women were all good writers. They had learned craft
@@ -2554,12 +2438,12 @@
 				prisoners' writing or the reasons for running workshops in prisons. We would have
 				evidence in writing. Best of all, the women would have the audience they deserved. I
 				began to draft a rough script, a framework for some of the poems.</p>
-			<p>What happened to Juanita Reedy made up everybody's mind about publication. Juanita
+			<p>What happened to <persName>Juanita Reedy</persName> made up everybody's mind about publication. Juanita
 				went to Elmhurst Hospital to have her child and was treated so inhumanely that she
 				refused to let prison doctors touch her upon her return. She wrote a poem about her
 				experience, which she developed into a longer <title>"Birth Journal."</title> She published it in
 				<orgName key="Majority Report" ref="http://www.wikidata.org/entity/Q106091070">Majority Report</orgName>, the feminist journal. In the same issue there was an article about
-				FREE SPACE and a poem by Carole Ramer. The issue began to circulate in the prison.
+				FREE SPACE and a poem by <persName>Carole Ramer</persName>. The issue began to circulate in the prison.
 				Assata, inspired by Juanita, wrote her own "Birth Journal" and sent it to a major
 				magazine. One night in class she read this poem:</p>
 			<lg>
@@ -2606,7 +2490,7 @@
 				<l> That you were in my arms </l>
 				<l> Not me in yours</l>
 			</lg>
-			<pb n="33"/>
+			<pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_035.jpg"/>
 			<lg>
 				<l>And if it comes to it</l>
 				<l> To save face </l>
@@ -2671,11 +2555,11 @@
 				<l>But now that l'm hip momma </l>
 				<l> Come, fuck me.</l>
 			</lg>
-			<p>(@ Assata Shakur/Joanne Chesimard) </p>
+			<p>(@ <persName>Assata Shakur/Joanne Chesimard</persName>) </p>
 			<p>Some of Assata’s poems were accepted for publication in, a literary magazine. Poets
 				&amp; Writers gave us a grant to do an anthology of students' writing which Gail and
 				I compiled. We published it through the <orgName>Print Center in Brooklyn</orgName> and called it
-				Songs from a Free Space: Writings by Women in Prison. The anthology was sold in New
+				<title level="a">Songs from a Free Space: Writings by Women in Prison</title>. The anthology was sold in New
 				York bookstores and distributed to the women in the classes.</p>
 			<p>It contained some of the best work done in the classes. By now I had handed over a
 				rough script to the poetry class and an idea about doing some kind of theater piece.
@@ -2698,7 +2582,7 @@
 				of her arrest and life in prison. The warden stopped me in the hall one day and told
 				me that she knew we were collaborating on a book with Assata and Juanita. She told
 				me she hadn’t forgotten the Elizabeth Powell case.</p>
-			<p>On November 26, 1975, Gail was preparing to leave home to go to her fiction class
+			<p>On <date when="1975-11-26">November 26, 1975</date>, Gail was preparing to leave home to go to her fiction class
 				(filled with new students) when the phone rang. It was Deputy Freeman, the WHD
 				Program Director, who advised her not to come to class: the program had been
 				cancelled. We were not allowed to do anything after that except to pick up our books
@@ -2711,7 +2595,7 @@
 				to put these reasons in writing for us. It is clear that the writing classes were
 				taken seriously only when the women wrote seriously about their lives and published
 				those writings. Poetry is safe, women are safe until they begin to make sense and
-				communicate. Still, ART <pb n="34"/> recognizes the possibilities of
+				communicate. Still, ART <pb facs="https://raw.githubusercontent.com/BucknellDSC/heresies/main/issue01/images/01_036.jpg"/> recognizes the possibilities of
 				self-expression, perhaps the walls crack a little. Perhaps. Words can, indeed, turn
 				them around, but sometimes having all the right words is small change. "Before
 				despairing, speak of it," said a woman one day in class. Even when writing of
@@ -2754,18 +2638,29 @@
 				<l> Just the habits and fast money waiting </l>
 			</lg>
 			<lg>
-				<l>The kids in the street The kids in strangers' homes The kids in our bellies The
-					kids we are inside And the lies we tell ourselves To go on living LISTEN No one
-					got over on you tonight No one lied here tonight We told the truth And the truth
-					is what you see before your eyes Ladies Before you forget, ladies, Till the
-					"next time" My best.</l>
-			</lg>
+				<l>The kids in the street</l> 
+				<l>The kids in strangers' homes</l> 
+				<l>The kids in our bellies</l> 
+				<l>The kids we are inside</l> 
+				<l/><l>And the lies we tell ourselves</l> 
+				<l>To go on living</l> 
+				</lg>
+				<lg>
+					<l>LISTEN</l> 
+					<l>No one got over on you tonight</l> 
+					<l>No one lied here tonight</l><l/> 
+					<l>We told the truth</l> 
+					<l>And the truth is what you see before</l><l>your eyes</l><l/> 
+					<l>Ladies</l> 
+					<l>Before you forget, ladies,</l> 
+					<l>Till the "next time" My best.</l>
+			</lg></div>
 		</body>
 		<back>
-			<p><persName key="Carol Muske-Dukes" ref="http://www.wikidata.org/entity/Q5044485">Carol Muske</persName> is a New York poet and assistant editor of Anteus. Her book, <title key="Camouflage" ref="https://www.goodreads.com/book/show/1222376.Camouflage">Camouflage</title>,
+			<div><p><persName key="Carol Muske-Dukes" ref="http://www.wikidata.org/entity/Q5044485">Carol Muske</persName> is a New York poet and assistant editor of Anteus. Her book, <title>Camouflage</title>,
 				was published in 1975 (University of Pittsburgh Press). She directs the prison
 				program Art Without Walls/Free Space at Bedford Hills Correctional Facility for
-				Women.</p>
+				Women.</p></div>
 		</back>
 	</text>
 </TEI>
